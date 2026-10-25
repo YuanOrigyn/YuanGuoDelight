@@ -55,6 +55,53 @@ Yuan来是果把 *Fruits Delight（果园乐事）* 的主要内容搬到了现�
 > **PapersDelight 是硬依赖**：缺少它时插件会拒绝启动，并在控制台输出错误。
 > 厨锅、砧板、液罐这些方块都属于 PapersDelight，本包的对应配方也需要它才能加载。
 
+## 🧱 CraftEngine 默认资源前提
+
+CraftEngine 首次启动会在 `plugins/CraftEngine/resources/` 下生成三个自带资源包，本内容包依赖它们：
+
+| 资源包 | 作用 | 说明 |
+| --- | --- | --- |
+| `default_templates` | 方块状态、掉落表、音效、挖掘等级等模板 | **不能删除**，本包的 `pack.yml` 大量引用 |
+| `default_assets` | 默认方块、物品、贴图、创造模式分类 | 不建议删除，默认地物仍在引用其中的方块 |
+| `default_feature_populator` | 默认地物生成 | 可保持 `enable: false` 关闭，但不要只删 yml |
+
+### 共享状态池
+
+`sugar_cane`、`tripwire`、`note_block` 这类**视觉状态组由所有内容包共用**，容量固定。以 `sugar_cane` 为例，它只有 15 个槽位：
+
+| 占用方 | 槽位 |
+| --- | --- |
+| 农夫乐事内容包 | 6 |
+| `default_assets` | 7 |
+| 本内容包（菠萝、野生菠萝） | 2 |
+
+合计正好 15，**没有任何余量**。只要再装一个用到 `sugar_cane` 的内容包，后来加载的包就会在控制台报：
+
+```text
+视觉状态组"sugar_cane"已达到"15"个槽位的最大容量
+```
+
+如果你服务器上的默认资源被精简过，请确认它**没有留下指向已删方块的引用**，否则还会出现 `无效的已配置的地物` 之类的报错。
+
+### 精简默认资源时的注意事项
+
+1. **不要只删 yml**：删除 `default_assets/configuration/blocks/*.yml` 后，必须同步清理这些地方对同一 ID 的引用：
+   - `default_assets/configuration/categories.yml`
+   - `default_assets/configuration/langs/*.yml`
+   - `default_feature_populator/subpacks/*/configuration/features.yml`
+   - `default_templates/configuration/templates/tool_levels.yml`
+2. **删完清缓存**：删除 `plugins/CraftEngine/cache/`，否则旧的分配记录仍会让状态池显示已满。
+3. **保留 `default_templates`**：它是模板定义，不是可选项，删掉后本包的方块状态会整体加载失败。
+
+### 排查“已达到最大容量”
+
+1. 确认 `default_templates` 完整存在。
+2. 在所有内容包中搜索 `auto_state: sugar_cane`，统计总占用；超过 15 就会报错。
+3. 删除 `plugins/CraftEngine/cache/` 后重启服务器，让 CE 重新分配状态。
+
+> 本内容包已经刻意避开 `sugar_cane`：除菠萝的两个成熟阶段外，所有细长模型都从
+> `lower_tripwire` / `note_block` 取状态，避免和其他内容包争抢。
+
 ## 🚀 安装
 
 1. 把 **CraftEngine** 放进 `plugins/`，启动一次服务器让它生成目录结构。
