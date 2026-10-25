@@ -254,7 +254,7 @@ public final class Blocks {
                 bushOverrides.put("sounds", blockSounds("azalea"));
                 PLANTS.put(Gen.id(name + "_bush"), Gen.map(
                         "loot", Gen.map("pools", Gen.list(
-                                bushBlockPool(name + "_bush"),
+                                bushBlockPool("yuanguo:" + name + "_bush"),
                                 fruitPool(name, 4))),
                         "settings", Gen.map(
                                 "template", Gen.list("default:hardness/none"),

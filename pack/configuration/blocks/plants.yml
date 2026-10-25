@@ -1108,7 +1108,7 @@ blocks:
             age: 1
         entries:
         - type: item
-          item: blueberry_bush
+          item: yuanguo:blueberry_bush
       - rolls: 1
         conditions:
         - type: survives_explosion
