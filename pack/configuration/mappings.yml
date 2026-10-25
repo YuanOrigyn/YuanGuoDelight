@@ -67,11 +67,6 @@ block_state_mappings:
   piglin_head[powered=true,rotation=14]: piglin_head[powered=false,rotation=14]
   piglin_head[powered=true,rotation=15]: piglin_head[powered=false,rotation=15]
 
-  #   sea pickles (0.1875..0.8125 x 0..0.375) -> the pudding bowl
-  #   A pickle only reaches pickles=2..4 by natural growth, and it must be waterlogged while it
-  #   does; the dry variants are therefore unreachable.
-  sea_pickle[pickles=2,waterlogged=false]: sea_pickle[pickles=2,waterlogged=true]
-
   #### YuanGuoDelight - plant collision shapes ####
   # CraftEngine derives a custom block's collision box from its *visual* vanilla state and there is
   # no per-block collision setting. The states below are declared so the bush/tree/pineapple blocks
