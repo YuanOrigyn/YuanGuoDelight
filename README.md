@@ -183,23 +183,50 @@ YuanGuoDelight-1.0.0.jar            构建产物（未随仓库提交）
 
 ## 🔨 构建
 
+需要 **JDK 21+**。仓库自带 Gradle Wrapper，克隆后直接构建：
+
+```powershell
+.\gradlew.bat clean jar
+```
+
+产物在 `build/libs/YuanGuoDelight-1.0.0.jar`。
+
+也可以不装 Gradle，用纯 JDK 脚本构建：
+
 ```powershell
 powershell -ExecutionPolicy Bypass -File build.ps1
 ```
 
-`build.ps1` 直接用 JDK 的 `javac` 编译、`jar` 打包，所有依赖都从 `libs/` 读取，可完全离线构建。
-脚本会校验每个依赖是否存在，编译失败时打印输出目录下的 `compile.log`。
+`build.ps1` 会自动寻找 JDK（`JAVA_HOME` → `C:\Program Files\Java` → `PATH`），
+并用 JDK 自带的 `javac` / `jar` 编译打包。
 
-输出目录默认是 `build/`；如果该目录不可写，脚本会自动改用 `build-local/`，也可以用环境变量指定：
+两种方式都会把所有依赖从公开 Maven 仓库下载到本地缓存，**首次构建需要联网**：
+
+- Paper：`repo.papermc.io`
+- CraftEngine：`repo.momirealms.net`
+- PapersDelight API：`mvn.hezhongkj.top`
+- Adventure / Guava 等：Maven Central
+
+`build.ps1` 的依赖缓存在 `libs/`（该目录已加入 `.gitignore`），下载完成后可离线重复构建。
+可以用 `YGD_LIBS` 指定其他缓存目录：
+
+```powershell
+$env:YGD_LIBS = "D:\temp\ygd-libs"
+powershell -ExecutionPolicy Bypass -File build.ps1
+```
+
+输出目录默认是 `build/`；如果该目录不可写，脚本会自动改用 `build-local/`，也可以用 `YGD_BUILD` 指定：
 
 ```powershell
 $env:YGD_BUILD = "D:\temp\ygd-build"
 powershell -ExecutionPolicy Bypass -File build.ps1
 ```
 
-`build.gradle.kts` 提供了等价的 Gradle 配置，但本机 Gradle 因 `native-platform.dll`
-无法启动，实际发布请使用 `build.ps1`。
+编译失败时，`build.ps1` 会打印输出目录下的 `compile.log`。
 
+> 两种构建都会把整个 `pack/` 打成 `pack.zip` 放在 jar 根目录。插件启动时由
+> `PackInstaller` 解压到 `plugins/CraftEngine/resources/YuanGuoDelight/`，
+> 所以下载源码自行构建的 jar 同样会自动释放内容包，不需要手动复制 `pack/`。
 ## 🧪 从源码重新生成内容包
 
 内容包由 `work/gen` 中的生成器从模组数据生成，再打包进 jar。
