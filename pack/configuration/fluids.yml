@@ -1,0 +1,202 @@
+# Generated from the Fruits Delight mod by the YuanGuoDelight build script.
+# Registers one jam fluid per fruit with NyanaFluid, the fluid library Farmer's Delight 1.2.4 uses.
+# The jam bottle is declared as the "bottle" container, so a jug recognises it natively.
+nyana-fluid:fluids:
+  yuanguo:apple_jam:
+    display_name: '<!i><lang:fluid.yuanguo.apple_jam>'
+    color: '#C3833D'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:apple_jelly'
+    bottle: 'yuanguo:apple_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:blueberry_jam:
+    display_name: '<!i><lang:fluid.yuanguo.blueberry_jam>'
+    color: '#5A32BF'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:blueberry_jelly'
+    bottle: 'yuanguo:blueberry_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:glowberry_jam:
+    display_name: '<!i><lang:fluid.yuanguo.glowberry_jam>'
+    color: '#FAAB16'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:glowberry_jelly'
+    bottle: 'yuanguo:glowberry_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:hamimelon_jam:
+    display_name: '<!i><lang:fluid.yuanguo.hamimelon_jam>'
+    color: '#FFC14E'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:hamimelon_jelly'
+    bottle: 'yuanguo:hamimelon_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:melon_jam:
+    display_name: '<!i><lang:fluid.yuanguo.melon_jam>'
+    color: '#C83627'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:melon_jelly'
+    bottle: 'yuanguo:melon_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:hawberry_jam:
+    display_name: '<!i><lang:fluid.yuanguo.hawberry_jam>'
+    color: '#BF1D1D'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:hawberry_jelly'
+    bottle: 'yuanguo:hawberry_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:lychee_jam:
+    display_name: '<!i><lang:fluid.yuanguo.lychee_jam>'
+    color: '#FFF2FC'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:lychee_jelly'
+    bottle: 'yuanguo:lychee_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:mango_jam:
+    display_name: '<!i><lang:fluid.yuanguo.mango_jam>'
+    color: '#FFB229'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:mango_jelly'
+    bottle: 'yuanguo:mango_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:orange_jam:
+    display_name: '<!i><lang:fluid.yuanguo.orange_jam>'
+    color: '#F7970F'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:orange_jelly'
+    bottle: 'yuanguo:orange_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:peach_jam:
+    display_name: '<!i><lang:fluid.yuanguo.peach_jam>'
+    color: '#E78264'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:peach_jelly'
+    bottle: 'yuanguo:peach_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:pear_jam:
+    display_name: '<!i><lang:fluid.yuanguo.pear_jam>'
+    color: '#BECB32'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:pear_jelly'
+    bottle: 'yuanguo:pear_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:persimmon_jam:
+    display_name: '<!i><lang:fluid.yuanguo.persimmon_jam>'
+    color: '#E15F1E'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:persimmon_jelly'
+    bottle: 'yuanguo:persimmon_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:pineapple_jam:
+    display_name: '<!i><lang:fluid.yuanguo.pineapple_jam>'
+    color: '#FDDC28'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:pineapple_jelly'
+    bottle: 'yuanguo:pineapple_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:lemon_jam:
+    display_name: '<!i><lang:fluid.yuanguo.lemon_jam>'
+    color: '#FFE47A'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:lemon_jelly'
+    bottle: 'yuanguo:lemon_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:cranberry_jam:
+    display_name: '<!i><lang:fluid.yuanguo.cranberry_jam>'
+    color: '#CF2626'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:cranberry_jelly'
+    bottle: 'yuanguo:cranberry_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:mangosteen_jam:
+    display_name: '<!i><lang:fluid.yuanguo.mangosteen_jam>'
+    color: '#FBECD6'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:mangosteen_jelly'
+    bottle: 'yuanguo:mangosteen_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:sweetberry_jam:
+    display_name: '<!i><lang:fluid.yuanguo.sweetberry_jam>'
+    color: '#C41A4F'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:sweetberry_jelly'
+    bottle: 'yuanguo:sweetberry_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:chorus_jam:
+    display_name: '<!i><lang:fluid.yuanguo.chorus_jam>'
+    color: '#D0A9D7'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:chorus_jelly'
+    bottle: 'yuanguo:chorus_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:bayberry_jam:
+    display_name: '<!i><lang:fluid.yuanguo.bayberry_jam>'
+    color: '#541135'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:bayberry_jelly'
+    bottle: 'yuanguo:bayberry_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:kiwi_jam:
+    display_name: '<!i><lang:fluid.yuanguo.kiwi_jam>'
+    color: '#89D90D'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:kiwi_jelly'
+    bottle: 'yuanguo:kiwi_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:fig_jam:
+    display_name: '<!i><lang:fluid.yuanguo.fig_jam>'
+    color: '#E08517'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:fig_jelly'
+    bottle: 'yuanguo:fig_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'
+  yuanguo:durian_jam:
+    display_name: '<!i><lang:fluid.yuanguo.durian_jam>'
+    color: '#EDD955'
+    texture: 'minecraft:block/water_still'
+    display_item: 'yuanguo:durian_jelly'
+    bottle: 'yuanguo:durian_jelly'
+    sounds:
+      fill: 'minecraft:item.bottle.fill'
+      empty: 'minecraft:item.bottle.empty'

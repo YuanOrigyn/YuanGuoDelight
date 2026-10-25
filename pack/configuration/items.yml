@@ -1,0 +1,5315 @@
+# Generated from the Fruits Delight mod by the YuanGuoDelight build script.
+items:
+  yuanguo:blueberry:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.blueberry>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/blueberry
+    behavior:
+      type: block_item
+      block: yuanguo:blueberry_bush
+    settings:
+      tags:
+      - c:berries
+      - c:fruits
+      - c:fruits/blueberry
+  yuanguo:blueberry_bush:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.blueberry_bush>
+    model: yuanguo:item/blueberry_bush
+    behavior:
+      type: block_item
+      block: yuanguo:blueberry_bush
+  yuanguo:hamimelon:
+    material: apple
+    data:
+      item_name: <!i><lang:block.yuanguo.hamimelon>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/hamimelon
+    behavior:
+      type: block_item
+      block: yuanguo:hamimelon
+  yuanguo:hawberry:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.hawberry>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/hawberry
+    settings:
+      tags:
+      - c:fruits
+      - c:fruits/hawberry
+  yuanguo:lychee:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.lychee>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/lychee
+    settings:
+      tags:
+      - c:fruits
+      - c:fruits/lychee
+  yuanguo:mango:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.mango>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.3
+    model: yuanguo:item/mango
+    settings:
+      tags:
+      - c:fruits
+      - c:fruits/mango
+  yuanguo:orange:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.orange>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.3
+    model: yuanguo:item/orange
+    settings:
+      tags:
+      - c:fruits
+      - c:fruits/orange
+  yuanguo:peach:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.peach>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.3
+    model: yuanguo:item/peach
+    settings:
+      tags:
+      - c:fruits
+      - c:fruits/peach
+  yuanguo:pear:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.pear>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.3
+    model: yuanguo:item/pear
+    settings:
+      tags:
+      - c:fruits
+      - c:fruits/pear
+  yuanguo:persimmon:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.persimmon>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.3
+    model: yuanguo:item/persimmon
+    settings:
+      tags:
+      - c:fruits
+      - c:fruits/persimmon
+  yuanguo:pineapple:
+    material: apple
+    data:
+      item_name: <!i><lang:block.yuanguo.pineapple>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/pineapple
+    behavior:
+      type: block_item
+      block: yuanguo:pineapple
+    settings:
+      tags:
+      - c:fruits
+      - c:fruits/pineapple
+  yuanguo:lemon:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.lemon>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.3
+    model: yuanguo:item/lemon
+    settings:
+      tags:
+      - c:fruits
+      - c:fruits/lemon
+  yuanguo:cranberry:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.cranberry>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/cranberry
+    behavior:
+      type: block_item
+      block: yuanguo:cranberry_bush
+    settings:
+      tags:
+      - c:berries
+      - c:fruits
+      - c:fruits/cranberry
+  yuanguo:mangosteen:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.mangosteen>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.3
+    model: yuanguo:item/mangosteen
+    settings:
+      tags:
+      - c:fruits
+      - c:fruits/mangosteen
+  yuanguo:bayberry:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.bayberry>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/bayberry
+    settings:
+      tags:
+      - c:fruits
+      - c:fruits/bayberry
+  yuanguo:kiwi:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.kiwi>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/kiwi
+    settings:
+      tags:
+      - c:fruits
+      - c:fruits/kiwi
+  yuanguo:fig:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.fig>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.3
+    model: yuanguo:item/fig
+    settings:
+      tags:
+      - c:fruits
+      - c:fruits/fig
+  yuanguo:durian:
+    material: apple
+    data:
+      item_name: <!i><lang:block.yuanguo.durian>
+    model: yuanguo:item/durian
+    behavior:
+      type: block_item
+      block: yuanguo:durian
+  # Not obtainable: gives the hanging durian its own item so Jade shows the real
+  # block name instead of the borrowed vanilla block's name. Not listed in any tab.
+  yuanguo:hanging_durian:
+    material: apple
+    data:
+      item_name: <!i><lang:block.yuanguo.hanging_durian>
+    model: yuanguo:item/durian
+    behavior:
+      type: block_item
+      block: yuanguo:hanging_durian
+  yuanguo:hamimelon_seeds:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:item.yuanguo.hamimelon_seeds>
+    model: yuanguo:item/hamimelon_seeds
+    behavior:
+    - type: block_item
+      block: yuanguo:hamimelon_stem
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+  yuanguo:attached_hamimelon_stem:
+    material: melon_seeds
+    data:
+      item_name: <!i><lang:item.yuanguo.attached_hamimelon_stem>
+    model: yuanguo:item/attached_hamimelon_stem
+    behavior:
+    - type: block_item
+      block: yuanguo:attached_hamimelon_stem
+  yuanguo:lemon_seeds:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:item.yuanguo.lemon_seeds>
+    model: yuanguo:item/lemon_seeds
+    behavior:
+    - type: block_item
+      block: yuanguo:lemon_tree
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+  yuanguo:pineapple_sapling:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:item.yuanguo.pineapple_sapling>
+    model: yuanguo:item/pineapple_sapling
+    behavior:
+    - type: block_item
+      block: yuanguo:pineapple
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+  yuanguo:pear_sapling:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:block.yuanguo.pear_sapling>
+    model: yuanguo:item/pear_sapling
+    behavior:
+    - type: block_item
+      block: yuanguo:pear_sapling
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+      - minecraft:saplings
+  yuanguo:hawberry_sapling:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:block.yuanguo.hawberry_sapling>
+    model: yuanguo:item/hawberry_sapling
+    behavior:
+    - type: block_item
+      block: yuanguo:hawberry_sapling
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+      - minecraft:saplings
+  yuanguo:lychee_sapling:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:block.yuanguo.lychee_sapling>
+    model: yuanguo:item/lychee_sapling
+    behavior:
+    - type: block_item
+      block: yuanguo:lychee_sapling
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+      - minecraft:saplings
+  yuanguo:mango_sapling:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:block.yuanguo.mango_sapling>
+    model: yuanguo:item/mango_sapling
+    behavior:
+    - type: block_item
+      block: yuanguo:mango_sapling
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+      - minecraft:saplings
+  yuanguo:persimmon_sapling:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:block.yuanguo.persimmon_sapling>
+    model: yuanguo:item/persimmon_sapling
+    behavior:
+    - type: block_item
+      block: yuanguo:persimmon_sapling
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+      - minecraft:saplings
+  yuanguo:peach_sapling:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:block.yuanguo.peach_sapling>
+    model: yuanguo:item/peach_sapling
+    behavior:
+    - type: block_item
+      block: yuanguo:peach_sapling
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+      - minecraft:saplings
+  yuanguo:orange_sapling:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:block.yuanguo.orange_sapling>
+    model: yuanguo:item/orange_sapling
+    behavior:
+    - type: block_item
+      block: yuanguo:orange_sapling
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+      - minecraft:saplings
+  yuanguo:apple_sapling:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:block.yuanguo.apple_sapling>
+    model: yuanguo:item/apple_sapling
+    behavior:
+    - type: block_item
+      block: yuanguo:apple_sapling
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+      - minecraft:saplings
+  yuanguo:mangosteen_sapling:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:block.yuanguo.mangosteen_sapling>
+    model: yuanguo:item/mangosteen_sapling
+    behavior:
+    - type: block_item
+      block: yuanguo:mangosteen_sapling
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+      - minecraft:saplings
+  yuanguo:bayberry_sapling:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:block.yuanguo.bayberry_sapling>
+    model: yuanguo:item/bayberry_sapling
+    behavior:
+    - type: block_item
+      block: yuanguo:bayberry_sapling
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+      - minecraft:saplings
+  yuanguo:kiwi_sapling:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:block.yuanguo.kiwi_sapling>
+    model: yuanguo:item/kiwi_sapling
+    behavior:
+    - type: block_item
+      block: yuanguo:kiwi_sapling
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+      - minecraft:saplings
+  yuanguo:fig_sapling:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:block.yuanguo.fig_sapling>
+    model: yuanguo:item/fig_sapling
+    behavior:
+    - type: block_item
+      block: yuanguo:fig_sapling
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+      - minecraft:saplings
+  yuanguo:durian_sapling:
+    material: cocoa_beans
+    data:
+      item_name: <!i><lang:block.yuanguo.durian_sapling>
+    model: yuanguo:item/durian_sapling
+    behavior:
+    - type: block_item
+      block: yuanguo:durian_sapling
+    - type: compostable_item
+      chance: 0.3
+    settings:
+      compost_probability: 0.3
+      tags:
+      - minecraft:villager_plantable_seeds
+      - minecraft:saplings
+  yuanguo:blueberry_custard:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.blueberry_custard>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.night_vision>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.brightening>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 6
+          saturation: 0.5
+    model: yuanguo:item/blueberry_custard
+  yuanguo:blueberry_muffin:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.blueberry_muffin>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.night_vision>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.brightening>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 5
+          saturation: 0.4
+    model: yuanguo:item/blueberry_muffin
+  yuanguo:cranberry_muffin:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.cranberry_muffin>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.shrinking>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 5
+          saturation: 0.4
+    model: yuanguo:item/cranberry_muffin
+  yuanguo:fig_pudding_slice:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.fig_pudding_slice>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.digesting>':'0:40'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.4
+          can_always_eat: true
+    model: yuanguo:item/fig_pudding_slice
+  yuanguo:hamimelon_popsicle:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.hamimelon_popsicle>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.health_boost>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.4
+          can_always_eat: true
+    model: yuanguo:item/hamimelon_popsicle
+  yuanguo:kiwi_popsicle:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.kiwi_popsicle>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.cycling>':'0:02'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.4
+          can_always_eat: true
+    model: yuanguo:item/kiwi_popsicle
+  yuanguo:hamimelon_shaved_ice:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.hamimelon_shaved_ice>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.health_boost>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.2
+          can_always_eat: true
+    model: yuanguo:item/hamimelon_shaved_ice
+    settings:
+      tags:
+      - yuanguo:juice
+  yuanguo:hawberry_roll:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.hawberry_roll>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.appetizing>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.4
+          can_always_eat: true
+    model: yuanguo:item/hawberry_roll
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:hawberry_sheet:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.hawberry_sheet>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.appetizing>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/hawberry_sheet
+  yuanguo:hawberry_stick:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.hawberry_stick>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.appetizing>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.4
+          can_always_eat: true
+    model: yuanguo:item/hawberry_stick
+  yuanguo:orange_slice:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.orange_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/orange_slice
+  yuanguo:lemon_slice:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.lemon_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/lemon_slice
+  yuanguo:durian_flesh:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.durian_flesh>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/durian_flesh
+  yuanguo:baked_pear:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.baked_pear>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.lozenge>':'0:05'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/baked_pear
+  yuanguo:baked_durian:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.baked_durian>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.alienating>':'0:10'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.suspicious_smell>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/baked_durian
+  yuanguo:pineapple_pie:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.pineapple_pie>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.speed>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.sweetening>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 5
+          saturation: 0.4
+    model: yuanguo:item/pineapple_pie
+  yuanguo:durian_pie:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.durian_pie>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.alienating>':'0:40'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.suspicious_smell>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 5
+          saturation: 0.4
+    model: yuanguo:item/durian_pie
+  yuanguo:lemon_tart:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.lemon_tart>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.haste>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.refreshing>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 5
+          saturation: 0.4
+    model: yuanguo:item/lemon_tart
+  yuanguo:fig_tart:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.fig_tart>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.digesting>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 5
+          saturation: 0.4
+    model: yuanguo:item/fig_tart
+  yuanguo:mango_milkshake:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.mango_milkshake>
+      lore:
+      - <!i><blue><lang:potion.withAmplifier:'<lang:effect.minecraft.strength>':'<lang:potion.potency.2>'> (0:10)</blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.rage_aura>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.2
+          can_always_eat: true
+    model: yuanguo:item/mango_milkshake
+    settings:
+      tags:
+      - yuanguo:juice
+  yuanguo:mango_salad:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.mango_salad>
+      lore:
+      - <!i><blue><lang:potion.withAmplifier:'<lang:effect.minecraft.strength>':'<lang:potion.potency.2>'> (0:30)</blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.rage_aura>':'0:30'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.6
+    model: yuanguo:item/mango_salad
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:dried_persimmon:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.dried_persimmon>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/dried_persimmon
+  yuanguo:persimmon_cookie:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.persimmon_cookie>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/persimmon_cookie
+  yuanguo:lemon_cookie:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.lemon_cookie>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.haste>':'0:05'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.refreshing>':'0:05'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/lemon_cookie
+  yuanguo:cranberry_cookie:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.cranberry_cookie>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.shrinking>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/cranberry_cookie
+  yuanguo:bayberry_cookie:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.bayberry_cookie>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/bayberry_cookie
+  yuanguo:pear_with_rock_sugar:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.pear_with_rock_sugar>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.farmersdelight.nourishment>':'1:00'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.lozenge>':'0:30'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.6
+    model: yuanguo:item/pear_with_rock_sugar
+    events:
+    - 'on': consume
+      functions:
+      - type: papersdelight:nourishment_effect
+        duration: 1200
+  yuanguo:orange_chicken:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.orange_chicken>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.farmersdelight.nourishment>':'3:00'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.regeneration>':'0:40'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.recovering>':'0:40'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+    model: yuanguo:item/orange_chicken
+    events:
+    - 'on': consume
+      functions:
+      - type: papersdelight:nourishment_effect
+        duration: 3600
+  yuanguo:fig_chicken_stew:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.fig_chicken_stew>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.farmersdelight.nourishment>':'3:00'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.digesting>':'2:40'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+    model: yuanguo:item/fig_chicken_stew
+    events:
+    - 'on': consume
+      functions:
+      - type: papersdelight:nourishment_effect
+        duration: 3600
+  yuanguo:orange_marinated_pork:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.orange_marinated_pork>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.farmersdelight.nourishment>':'3:00'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.regeneration>':'0:40'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.recovering>':'0:40'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+    model: yuanguo:item/orange_marinated_pork
+    events:
+    - 'on': consume
+      functions:
+      - type: papersdelight:nourishment_effect
+        duration: 3600
+  yuanguo:bowl_of_pineapple_fried_rice:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.bowl_of_pineapple_fried_rice>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.farmersdelight.nourishment>':'5:00'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.speed>':'0:40'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.sweetening>':'0:40'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 14
+          saturation: 0.8
+    model: yuanguo:item/bowl_of_pineapple_fried_rice
+    behavior:
+      type: block_item
+      block: yuanguo:pineapple_fried_rice
+    events:
+    - 'on': consume
+      functions:
+      - type: papersdelight:nourishment_effect
+        duration: 6000
+  yuanguo:pineapple_marinated_pork:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.pineapple_marinated_pork>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.farmersdelight.nourishment>':'3:00'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.speed>':'0:40'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.sweetening>':'0:40'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+    model: yuanguo:item/pineapple_marinated_pork
+    events:
+    - 'on': consume
+      functions:
+      - type: papersdelight:nourishment_effect
+        duration: 3600
+  yuanguo:lychee_chicken:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.lychee_chicken>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.farmersdelight.nourishment>':'3:00'></blue>
+      - <!i><blue><lang:potion.withAmplifier:'<lang:effect.minecraft.strength>':'<lang:potion.potency.2>'> (0:20)</blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+    model: yuanguo:item/lychee_chicken
+    events:
+    - 'on': consume
+      functions:
+      - type: papersdelight:nourishment_effect
+        duration: 3600
+  yuanguo:hamimelon_juice:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.hamimelon_juice>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.health_boost>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.2
+          can_always_eat: true
+    model: yuanguo:item/hamimelon_juice
+    settings:
+      tags:
+      - yuanguo:juice
+  yuanguo:hawberry_tea:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.hawberry_tea>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.appetizing>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.2
+          can_always_eat: true
+    model: yuanguo:item/hawberry_tea
+    settings:
+      tags:
+      - yuanguo:juice
+  yuanguo:orange_juice:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.orange_juice>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.regeneration>':'0:10'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.recovering>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.2
+          can_always_eat: true
+    model: yuanguo:item/orange_juice
+    settings:
+      tags:
+      - yuanguo:juice
+  yuanguo:lemon_juice:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.lemon_juice>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.haste>':'0:10'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.refreshing>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.2
+          can_always_eat: true
+    model: yuanguo:item/lemon_juice
+    settings:
+      tags:
+      - yuanguo:juice
+  yuanguo:pear_juice:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.pear_juice>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.lozenge>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.2
+          can_always_eat: true
+    model: yuanguo:item/pear_juice
+    settings:
+      tags:
+      - yuanguo:juice
+  yuanguo:mango_tea:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.mango_tea>
+      lore:
+      - <!i><blue><lang:potion.withAmplifier:'<lang:effect.minecraft.strength>':'<lang:potion.potency.2>'> (0:10)</blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.rage_aura>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.2
+          can_always_eat: true
+    model: yuanguo:item/mango_tea
+    settings:
+      tags:
+      - yuanguo:juice
+  yuanguo:peach_tea:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.peach_tea>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.heal_aura>':'0:05'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.2
+          can_always_eat: true
+    model: yuanguo:item/peach_tea
+    settings:
+      tags:
+      - yuanguo:juice
+  yuanguo:lychee_cherry_tea:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.lychee_cherry_tea>
+      lore:
+      - <!i><blue><lang:potion.withAmplifier:'<lang:effect.minecraft.strength>':'<lang:potion.potency.2>'> (0:05)</blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.2
+          can_always_eat: true
+    model: yuanguo:item/lychee_cherry_tea
+    settings:
+      tags:
+      - yuanguo:juice
+  yuanguo:mangosteen_tea:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.mangosteen_tea>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.2
+          can_always_eat: true
+    model: yuanguo:item/mangosteen_tea
+    settings:
+      tags:
+      - yuanguo:juice
+  yuanguo:bayberry_soup:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.bayberry_soup>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.2
+          can_always_eat: true
+    model: yuanguo:item/bayberry_soup
+    settings:
+      tags:
+      - yuanguo:juice
+  yuanguo:kiwi_juice:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.kiwi_juice>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.cycling>':'0:02'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.2
+          can_always_eat: true
+    model: yuanguo:item/kiwi_juice
+    settings:
+      tags:
+      - yuanguo:juice
+  yuanguo:bellini_cocktail:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.bellini_cocktail>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.heal_aura>':'0:05'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.2
+          can_always_eat: true
+    model: yuanguo:item/bellini_cocktail
+    settings:
+      tags:
+      - yuanguo:juice
+  yuanguo:apple_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.apple_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.absorption>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/apple_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:apple_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:apple_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.apple_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.absorption>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/apple_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:blueberry_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.blueberry_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.night_vision>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.brightening>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/blueberry_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:blueberry_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:blueberry_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.blueberry_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.night_vision>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.brightening>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/blueberry_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:glowberry_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.glowberry_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.glowing>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/glowberry_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:glowberry_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:glowberry_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.glowberry_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.glowing>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/glowberry_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:hamimelon_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.hamimelon_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.health_boost>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/hamimelon_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:hamimelon_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:hamimelon_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.hamimelon_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.health_boost>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/hamimelon_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:melon_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.melon_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.regeneration>':'0:40'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/melon_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:melon_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:melon_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.melon_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.regeneration>':'0:40'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/melon_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:hawberry_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.hawberry_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.appetizing>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/hawberry_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:hawberry_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:hawberry_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.hawberry_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.appetizing>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/hawberry_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:lychee_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.lychee_jelly>
+      lore:
+      - <!i><blue><lang:potion.withAmplifier:'<lang:effect.minecraft.strength>':'<lang:potion.potency.2>'> (0:10)</blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/lychee_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:lychee_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:lychee_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.lychee_jello>
+      lore:
+      - <!i><blue><lang:potion.withAmplifier:'<lang:effect.minecraft.strength>':'<lang:potion.potency.2>'> (0:10)</blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/lychee_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:mango_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.mango_jelly>
+      lore:
+      - <!i><blue><lang:potion.withAmplifier:'<lang:effect.minecraft.strength>':'<lang:potion.potency.2>'> (0:20)</blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.rage_aura>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/mango_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:mango_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:mango_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.mango_jello>
+      lore:
+      - <!i><blue><lang:potion.withAmplifier:'<lang:effect.minecraft.strength>':'<lang:potion.potency.2>'> (0:20)</blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.rage_aura>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/mango_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:orange_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.orange_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.regeneration>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.recovering>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/orange_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:orange_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:orange_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.orange_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.regeneration>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.recovering>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/orange_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:peach_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.peach_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.heal_aura>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/peach_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:peach_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:peach_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.peach_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.heal_aura>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/peach_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:pear_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.pear_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.lozenge>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/pear_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:pear_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:pear_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.pear_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.lozenge>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/pear_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:persimmon_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.persimmon_jelly>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/persimmon_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:persimmon_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:persimmon_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.persimmon_jello>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/persimmon_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:pineapple_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.pineapple_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.speed>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.sweetening>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/pineapple_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:pineapple_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:pineapple_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.pineapple_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.speed>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.sweetening>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/pineapple_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:lemon_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.lemon_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.haste>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.refreshing>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/lemon_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:lemon_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:lemon_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.lemon_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.haste>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.refreshing>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/lemon_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:cranberry_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.cranberry_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.shrinking>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/cranberry_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:cranberry_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:cranberry_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.cranberry_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.shrinking>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/cranberry_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:mangosteen_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.mangosteen_jelly>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/mangosteen_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:mangosteen_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:mangosteen_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.mangosteen_jello>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/mangosteen_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:sweetberry_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.sweetberry_jelly>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/sweetberry_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:sweetberry_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:sweetberry_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.sweetberry_jello>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/sweetberry_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:chorus_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.chorus_jelly>
+      lore:
+      - <!i><blue><lang:effect.yuanguo.chorus></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/chorus_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:chorus_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:chorus_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.chorus_jello>
+      lore:
+      - <!i><blue><lang:effect.yuanguo.chorus></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/chorus_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:bayberry_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.bayberry_jelly>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/bayberry_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:bayberry_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:bayberry_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.bayberry_jello>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/bayberry_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:kiwi_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.kiwi_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.cycling>':'0:04'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/kiwi_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:kiwi_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:kiwi_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.kiwi_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.cycling>':'0:04'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/kiwi_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:fig_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.fig_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.digesting>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/fig_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:fig_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:fig_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.fig_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.digesting>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/fig_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:durian_jelly:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:block.yuanguo.durian_jelly>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.alienating>':'0:40'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.suspicious_smell>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.3
+    model: yuanguo:item/durian_jelly
+    behavior:
+      type: yuanguo:sneak_place_block_item
+      block: yuanguo:durian_jelly
+    settings:
+      tags:
+      - yuanguo:jelly
+      - c:jams
+  yuanguo:durian_jello:
+    material: honey_bottle
+    data:
+      item_name: <!i><lang:item.yuanguo.durian_jello>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.alienating>':'0:40'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.suspicious_smell>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/durian_jello
+    settings:
+      tags:
+      - yuanguo:jello
+  yuanguo:hamimelon_slice:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.hamimelon_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/hamimelon_slice
+  yuanguo:pineapple_slice:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.pineapple_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.3
+          can_always_eat: true
+    model: yuanguo:item/pineapple_slice
+  yuanguo:apple_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.apple_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.absorption>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_apple
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:blueberry_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.blueberry_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.night_vision>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.brightening>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_blueberry
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:glowberry_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.glowberry_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.glowing>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_glowberry
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:hamimelon_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.hamimelon_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.health_boost>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_hamimelon
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:melon_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.melon_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.regeneration>':'0:40'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_melon
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:hawberry_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.hawberry_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.appetizing>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_hawberry
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:lychee_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.lychee_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withAmplifier:'<lang:effect.minecraft.strength>':'<lang:potion.potency.2>'> (0:10)</blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_lychee
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:mango_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.mango_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withAmplifier:'<lang:effect.minecraft.strength>':'<lang:potion.potency.2>'> (0:20)</blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.rage_aura>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_mango
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:orange_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.orange_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.regeneration>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.recovering>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_orange
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:peach_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.peach_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.heal_aura>':'0:10'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_peach
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:pear_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.pear_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.lozenge>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_pear
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:persimmon_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.persimmon_jelly_bread>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_persimmon
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:pineapple_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.pineapple_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.speed>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.sweetening>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_pineapple
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:lemon_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.lemon_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.minecraft.haste>':'0:20'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.refreshing>':'0:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_lemon
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:cranberry_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.cranberry_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.shrinking>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_cranberry
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:mangosteen_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.mangosteen_jelly_bread>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_mangosteen
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:sweetberry_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.sweetberry_jelly_bread>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_sweetberry
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:chorus_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.chorus_jelly_bread>
+      lore:
+      - <!i><blue><lang:effect.yuanguo.chorus></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_chorus
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:bayberry_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.bayberry_jelly_bread>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_bayberry
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:kiwi_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.kiwi_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.cycling>':'0:04'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_kiwi
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:fig_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.fig_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.digesting>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_fig
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:durian_jelly_bread:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.durian_jelly_bread>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.alienating>':'0:40'></blue>
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.yuanguo.suspicious_smell>':'1:20'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.5
+    model: yuanguo:item/jelly_bread_durian
+    settings:
+      tags:
+      - yuanguo:allow_jelly
+  yuanguo:durian_shell:
+    material: apple
+    data:
+      item_name: <!i><lang:item.yuanguo.durian_shell>
+      $$>=1.20.5:
+        food:
+          nutrition: 0
+          saturation: 0.0
+    model: yuanguo:item/durian_shell
+  yuanguo:durian_helmet:
+    material: leather_helmet
+    data:
+      item_name: <!i><lang:item.yuanguo.durian_helmet>
+      $$>=1.21.2:
+        equippable:
+          slot: head
+    model:
+      type: minecraft:select
+      property: minecraft:display_context
+      cases:
+      - when:
+        - head
+        model:
+          type: minecraft:model
+          path: yuanguo:item/durian_helmet_base
+      fallback:
+        type: minecraft:model
+        path: yuanguo:item/durian_helmet
+  yuanguo:fig_pudding:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.fig_pudding>
+    model: yuanguo:item/fig_pudding
+    behavior:
+      type: block_item
+      block: yuanguo:fig_pudding
+  yuanguo:mangosteen_cake:
+    material: apple
+    data:
+      item_name: <!i><lang:block.yuanguo.mangosteen_cake>
+      lore:
+      - <!i><blue><lang:potion.withDuration:'<lang:effect.farmersdelight.nourishment>':'1:00'></blue>
+      $$>=1.20.5:
+        food:
+          nutrition: 9
+          saturation: 0.6
+    model: yuanguo:item/mangosteen_cake
+    behavior:
+      type: block_item
+      block: yuanguo:mangosteen_cake
+    events:
+    - 'on': consume
+      functions:
+      - type: papersdelight:nourishment_effect
+        duration: 1200
+  yuanguo:pineapple_fried_rice:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.pineapple_fried_rice>
+    model: yuanguo:item/pineapple_fried_rice
+    behavior:
+      type: block_item
+      block: yuanguo:pineapple_fried_rice
+  yuanguo:wild_pineapple:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.wild_pineapple>
+    model: yuanguo:item/wild_pineapple
+    behavior:
+      type: block_item
+      block: yuanguo:wild_pineapple
+  yuanguo:pear_leaves:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.pear_leaves>
+    model: yuanguo:item/pear_leaves
+    behavior:
+      type: block_item
+      block: yuanguo:pear_leaves
+    settings:
+      tags:
+      - minecraft:leaves
+  yuanguo:potted_pear_sapling:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_pear_sapling>
+    model: yuanguo:block/potted_pear_sapling
+    behavior:
+      type: block_item
+      block: yuanguo:potted_pear_sapling
+  yuanguo:hawberry_leaves:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.hawberry_leaves>
+    model: yuanguo:item/hawberry_leaves
+    behavior:
+      type: block_item
+      block: yuanguo:hawberry_leaves
+    settings:
+      tags:
+      - minecraft:leaves
+  yuanguo:potted_hawberry_sapling:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_hawberry_sapling>
+    model: yuanguo:block/potted_hawberry_sapling
+    behavior:
+      type: block_item
+      block: yuanguo:potted_hawberry_sapling
+  yuanguo:lychee_leaves:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.lychee_leaves>
+    model: yuanguo:item/lychee_leaves
+    behavior:
+      type: block_item
+      block: yuanguo:lychee_leaves
+    settings:
+      tags:
+      - minecraft:leaves
+  yuanguo:potted_lychee_sapling:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_lychee_sapling>
+    model: yuanguo:block/potted_lychee_sapling
+    behavior:
+      type: block_item
+      block: yuanguo:potted_lychee_sapling
+  yuanguo:mango_leaves:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.mango_leaves>
+    model: yuanguo:item/mango_leaves
+    behavior:
+      type: block_item
+      block: yuanguo:mango_leaves
+    settings:
+      tags:
+      - minecraft:leaves
+  yuanguo:potted_mango_sapling:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_mango_sapling>
+    model: yuanguo:block/potted_mango_sapling
+    behavior:
+      type: block_item
+      block: yuanguo:potted_mango_sapling
+  yuanguo:persimmon_leaves:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.persimmon_leaves>
+    model: yuanguo:item/persimmon_leaves
+    behavior:
+      type: block_item
+      block: yuanguo:persimmon_leaves
+    settings:
+      tags:
+      - minecraft:leaves
+  yuanguo:potted_persimmon_sapling:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_persimmon_sapling>
+    model: yuanguo:block/potted_persimmon_sapling
+    behavior:
+      type: block_item
+      block: yuanguo:potted_persimmon_sapling
+  yuanguo:peach_leaves:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.peach_leaves>
+    model: yuanguo:item/peach_leaves
+    behavior:
+      type: block_item
+      block: yuanguo:peach_leaves
+    settings:
+      tags:
+      - minecraft:leaves
+  yuanguo:potted_peach_sapling:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_peach_sapling>
+    model: yuanguo:block/potted_peach_sapling
+    behavior:
+      type: block_item
+      block: yuanguo:potted_peach_sapling
+  yuanguo:orange_leaves:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.orange_leaves>
+    model: yuanguo:item/orange_leaves
+    behavior:
+      type: block_item
+      block: yuanguo:orange_leaves
+    settings:
+      tags:
+      - minecraft:leaves
+  yuanguo:potted_orange_sapling:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_orange_sapling>
+    model: yuanguo:block/potted_orange_sapling
+    behavior:
+      type: block_item
+      block: yuanguo:potted_orange_sapling
+  yuanguo:apple_leaves:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.apple_leaves>
+    model: yuanguo:item/apple_leaves
+    behavior:
+      type: block_item
+      block: yuanguo:apple_leaves
+    settings:
+      tags:
+      - minecraft:leaves
+  yuanguo:potted_apple_sapling:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_apple_sapling>
+    model: yuanguo:block/potted_apple_sapling
+    behavior:
+      type: block_item
+      block: yuanguo:potted_apple_sapling
+  yuanguo:mangosteen_leaves:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.mangosteen_leaves>
+    model: yuanguo:item/mangosteen_leaves
+    behavior:
+      type: block_item
+      block: yuanguo:mangosteen_leaves
+    settings:
+      tags:
+      - minecraft:leaves
+  yuanguo:potted_mangosteen_sapling:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_mangosteen_sapling>
+    model: yuanguo:block/potted_mangosteen_sapling
+    behavior:
+      type: block_item
+      block: yuanguo:potted_mangosteen_sapling
+  yuanguo:bayberry_leaves:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.bayberry_leaves>
+    model: yuanguo:item/bayberry_leaves
+    behavior:
+      type: block_item
+      block: yuanguo:bayberry_leaves
+    settings:
+      tags:
+      - minecraft:leaves
+  yuanguo:potted_bayberry_sapling:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_bayberry_sapling>
+    model: yuanguo:block/potted_bayberry_sapling
+    behavior:
+      type: block_item
+      block: yuanguo:potted_bayberry_sapling
+  yuanguo:kiwi_leaves:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.kiwi_leaves>
+    model: yuanguo:item/kiwi_leaves
+    behavior:
+      type: block_item
+      block: yuanguo:kiwi_leaves
+    settings:
+      tags:
+      - minecraft:leaves
+  yuanguo:potted_kiwi_sapling:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_kiwi_sapling>
+    model: yuanguo:block/potted_kiwi_sapling
+    behavior:
+      type: block_item
+      block: yuanguo:potted_kiwi_sapling
+  yuanguo:fig_leaves:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.fig_leaves>
+    model: yuanguo:item/fig_leaves
+    behavior:
+      type: block_item
+      block: yuanguo:fig_leaves
+    settings:
+      tags:
+      - minecraft:leaves
+  yuanguo:potted_fig_sapling:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_fig_sapling>
+    model: yuanguo:block/potted_fig_sapling
+    behavior:
+      type: block_item
+      block: yuanguo:potted_fig_sapling
+  yuanguo:durian_leaves:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.durian_leaves>
+    model: yuanguo:item/durian_leaves
+    behavior:
+      type: block_item
+      block: yuanguo:durian_leaves
+    settings:
+      tags:
+      - minecraft:leaves
+  yuanguo:potted_durian_sapling:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_durian_sapling>
+    model: yuanguo:block/potted_durian_sapling
+    behavior:
+      type: block_item
+      block: yuanguo:potted_durian_sapling
+  yuanguo:pear_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.pear_crate>
+    model: yuanguo:item/pear_crate
+    behavior:
+      type: block_item
+      block: yuanguo:pear_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:hawberry_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.hawberry_crate>
+    model: yuanguo:item/hawberry_crate
+    behavior:
+      type: block_item
+      block: yuanguo:hawberry_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:lychee_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.lychee_crate>
+    model: yuanguo:item/lychee_crate
+    behavior:
+      type: block_item
+      block: yuanguo:lychee_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:mango_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.mango_crate>
+    model: yuanguo:item/mango_crate
+    behavior:
+      type: block_item
+      block: yuanguo:mango_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:persimmon_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.persimmon_crate>
+    model: yuanguo:item/persimmon_crate
+    behavior:
+      type: block_item
+      block: yuanguo:persimmon_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:peach_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.peach_crate>
+    model: yuanguo:item/peach_crate
+    behavior:
+      type: block_item
+      block: yuanguo:peach_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:orange_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.orange_crate>
+    model: yuanguo:item/orange_crate
+    behavior:
+      type: block_item
+      block: yuanguo:orange_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:apple_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.apple_crate>
+    model: yuanguo:item/apple_crate
+    behavior:
+      type: block_item
+      block: yuanguo:apple_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:mangosteen_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.mangosteen_crate>
+    model: yuanguo:item/mangosteen_crate
+    behavior:
+      type: block_item
+      block: yuanguo:mangosteen_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:bayberry_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.bayberry_crate>
+    model: yuanguo:item/bayberry_crate
+    behavior:
+      type: block_item
+      block: yuanguo:bayberry_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:kiwi_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.kiwi_crate>
+    model: yuanguo:item/kiwi_crate
+    behavior:
+      type: block_item
+      block: yuanguo:kiwi_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:fig_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.fig_crate>
+    model: yuanguo:item/fig_crate
+    behavior:
+      type: block_item
+      block: yuanguo:fig_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:blueberry_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.blueberry_crate>
+    model: yuanguo:item/blueberry_crate
+    behavior:
+      type: block_item
+      block: yuanguo:blueberry_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:lemon_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.lemon_crate>
+    model: yuanguo:item/lemon_crate
+    behavior:
+      type: block_item
+      block: yuanguo:lemon_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:cranberry_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.cranberry_crate>
+    model: yuanguo:item/cranberry_crate
+    behavior:
+      type: block_item
+      block: yuanguo:cranberry_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:pineapple_crate:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.pineapple_crate>
+    model: yuanguo:item/pineapple_crate
+    behavior:
+      type: block_item
+      block: yuanguo:pineapple_crate
+    settings:
+      tags:
+      - c:storage_blocks
+  yuanguo:apple_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.apple_jelly_block>
+    model: yuanguo:item/apple_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:apple_jelly_block
+  yuanguo:apple_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.apple_jello_block>
+    model: yuanguo:item/apple_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:apple_jello_block
+  yuanguo:blueberry_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.blueberry_jelly_block>
+    model: yuanguo:item/blueberry_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:blueberry_jelly_block
+  yuanguo:blueberry_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.blueberry_jello_block>
+    model: yuanguo:item/blueberry_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:blueberry_jello_block
+  yuanguo:glowberry_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.glowberry_jelly_block>
+    model: yuanguo:item/glowberry_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:glowberry_jelly_block
+  yuanguo:glowberry_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.glowberry_jello_block>
+    model: yuanguo:item/glowberry_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:glowberry_jello_block
+  yuanguo:hamimelon_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.hamimelon_jelly_block>
+    model: yuanguo:item/hamimelon_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:hamimelon_jelly_block
+  yuanguo:hamimelon_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.hamimelon_jello_block>
+    model: yuanguo:item/hamimelon_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:hamimelon_jello_block
+  yuanguo:melon_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.melon_jelly_block>
+    model: yuanguo:item/melon_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:melon_jelly_block
+  yuanguo:melon_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.melon_jello_block>
+    model: yuanguo:item/melon_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:melon_jello_block
+  yuanguo:hawberry_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.hawberry_jelly_block>
+    model: yuanguo:item/hawberry_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:hawberry_jelly_block
+  yuanguo:hawberry_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.hawberry_jello_block>
+    model: yuanguo:item/hawberry_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:hawberry_jello_block
+  yuanguo:lychee_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.lychee_jelly_block>
+    model: yuanguo:item/lychee_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:lychee_jelly_block
+  yuanguo:lychee_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.lychee_jello_block>
+    model: yuanguo:item/lychee_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:lychee_jello_block
+  yuanguo:mango_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.mango_jelly_block>
+    model: yuanguo:item/mango_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:mango_jelly_block
+  yuanguo:mango_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.mango_jello_block>
+    model: yuanguo:item/mango_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:mango_jello_block
+  yuanguo:orange_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.orange_jelly_block>
+    model: yuanguo:item/orange_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:orange_jelly_block
+  yuanguo:orange_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.orange_jello_block>
+    model: yuanguo:item/orange_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:orange_jello_block
+  yuanguo:peach_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.peach_jelly_block>
+    model: yuanguo:item/peach_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:peach_jelly_block
+  yuanguo:peach_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.peach_jello_block>
+    model: yuanguo:item/peach_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:peach_jello_block
+  yuanguo:pear_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.pear_jelly_block>
+    model: yuanguo:item/pear_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:pear_jelly_block
+  yuanguo:pear_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.pear_jello_block>
+    model: yuanguo:item/pear_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:pear_jello_block
+  yuanguo:persimmon_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.persimmon_jelly_block>
+    model: yuanguo:item/persimmon_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:persimmon_jelly_block
+  yuanguo:persimmon_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.persimmon_jello_block>
+    model: yuanguo:item/persimmon_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:persimmon_jello_block
+  yuanguo:pineapple_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.pineapple_jelly_block>
+    model: yuanguo:item/pineapple_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:pineapple_jelly_block
+  yuanguo:pineapple_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.pineapple_jello_block>
+    model: yuanguo:item/pineapple_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:pineapple_jello_block
+  yuanguo:lemon_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.lemon_jelly_block>
+    model: yuanguo:item/lemon_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:lemon_jelly_block
+  yuanguo:lemon_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.lemon_jello_block>
+    model: yuanguo:item/lemon_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:lemon_jello_block
+  yuanguo:cranberry_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.cranberry_jelly_block>
+    model: yuanguo:item/cranberry_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:cranberry_jelly_block
+  yuanguo:cranberry_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.cranberry_jello_block>
+    model: yuanguo:item/cranberry_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:cranberry_jello_block
+  yuanguo:mangosteen_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.mangosteen_jelly_block>
+    model: yuanguo:item/mangosteen_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:mangosteen_jelly_block
+  yuanguo:mangosteen_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.mangosteen_jello_block>
+    model: yuanguo:item/mangosteen_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:mangosteen_jello_block
+  yuanguo:sweetberry_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.sweetberry_jelly_block>
+    model: yuanguo:item/sweetberry_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:sweetberry_jelly_block
+  yuanguo:sweetberry_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.sweetberry_jello_block>
+    model: yuanguo:item/sweetberry_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:sweetberry_jello_block
+  yuanguo:chorus_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.chorus_jelly_block>
+    model: yuanguo:item/chorus_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:chorus_jelly_block
+  yuanguo:chorus_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.chorus_jello_block>
+    model: yuanguo:item/chorus_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:chorus_jello_block
+  yuanguo:bayberry_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.bayberry_jelly_block>
+    model: yuanguo:item/bayberry_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:bayberry_jelly_block
+  yuanguo:bayberry_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.bayberry_jello_block>
+    model: yuanguo:item/bayberry_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:bayberry_jello_block
+  yuanguo:kiwi_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.kiwi_jelly_block>
+    model: yuanguo:item/kiwi_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:kiwi_jelly_block
+  yuanguo:kiwi_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.kiwi_jello_block>
+    model: yuanguo:item/kiwi_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:kiwi_jello_block
+  yuanguo:fig_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.fig_jelly_block>
+    model: yuanguo:item/fig_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:fig_jelly_block
+  yuanguo:fig_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.fig_jello_block>
+    model: yuanguo:item/fig_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:fig_jello_block
+  yuanguo:durian_jelly_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.durian_jelly_block>
+    model: yuanguo:item/durian_jelly_block
+    behavior:
+      type: block_item
+      block: yuanguo:durian_jelly_block
+  yuanguo:durian_jello_block:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.durian_jello_block>
+    model: yuanguo:item/durian_jello_block
+    behavior:
+      type: block_item
+      block: yuanguo:durian_jello_block
+  yuanguo:entity_renderer/apple_jelly:
+    model: yuanguo:block/apple_jelly
+  yuanguo:entity_renderer/blueberry_jelly:
+    model: yuanguo:block/blueberry_jelly
+  yuanguo:entity_renderer/glowberry_jelly:
+    model: yuanguo:block/glowberry_jelly
+  yuanguo:entity_renderer/hamimelon_jelly:
+    model: yuanguo:block/hamimelon_jelly
+  yuanguo:entity_renderer/melon_jelly:
+    model: yuanguo:block/melon_jelly
+  yuanguo:entity_renderer/hawberry_jelly:
+    model: yuanguo:block/hawberry_jelly
+  yuanguo:entity_renderer/lychee_jelly:
+    model: yuanguo:block/lychee_jelly
+  yuanguo:entity_renderer/mango_jelly:
+    model: yuanguo:block/mango_jelly
+  yuanguo:entity_renderer/orange_jelly:
+    model: yuanguo:block/orange_jelly
+  yuanguo:entity_renderer/peach_jelly:
+    model: yuanguo:block/peach_jelly
+  yuanguo:entity_renderer/pear_jelly:
+    model: yuanguo:block/pear_jelly
+  yuanguo:entity_renderer/persimmon_jelly:
+    model: yuanguo:block/persimmon_jelly
+  yuanguo:entity_renderer/pineapple_jelly:
+    model: yuanguo:block/pineapple_jelly
+  yuanguo:entity_renderer/lemon_jelly:
+    model: yuanguo:block/lemon_jelly
+  yuanguo:entity_renderer/cranberry_jelly:
+    model: yuanguo:block/cranberry_jelly
+  yuanguo:entity_renderer/mangosteen_jelly:
+    model: yuanguo:block/mangosteen_jelly
+  yuanguo:entity_renderer/sweetberry_jelly:
+    model: yuanguo:block/sweetberry_jelly
+  yuanguo:entity_renderer/chorus_jelly:
+    model: yuanguo:block/chorus_jelly
+  yuanguo:entity_renderer/bayberry_jelly:
+    model: yuanguo:block/bayberry_jelly
+  yuanguo:entity_renderer/kiwi_jelly:
+    model: yuanguo:block/kiwi_jelly
+  yuanguo:entity_renderer/fig_jelly:
+    model: yuanguo:block/fig_jelly
+  yuanguo:entity_renderer/durian_jelly:
+    model: yuanguo:block/durian_jelly
+  yuanguo:entity_renderer/fig_pudding_0:
+    model: yuanguo:block/fig_pudding_0
+  yuanguo:entity_renderer/fig_pudding_1:
+    model: yuanguo:block/fig_pudding_1
+  yuanguo:entity_renderer/fig_pudding_2:
+    model: yuanguo:block/fig_pudding_2
+  yuanguo:entity_renderer/fig_pudding_3:
+    model: yuanguo:block/fig_pudding_3
+  yuanguo:entity_renderer/mangosteen_cake_0:
+    model: yuanguo:block/mangosteen_cake_0
+  yuanguo:entity_renderer/mangosteen_cake_1:
+    model: yuanguo:block/mangosteen_cake_1
+  yuanguo:entity_renderer/mangosteen_cake_2:
+    model: yuanguo:block/mangosteen_cake_2
+  yuanguo:entity_renderer/mangosteen_cake_3:
+    model: yuanguo:block/mangosteen_cake_3
+  yuanguo:entity_renderer/pineapple_fried_rice:
+    model: yuanguo:block/pineapple_fried_rice
+  yuanguo:entity_renderer/pineapple_fried_rice_1:
+    model: yuanguo:block/pineapple_fried_rice_1
+  yuanguo:entity_renderer/pineapple_fried_rice_2:
+    model: yuanguo:block/pineapple_fried_rice_2
+  yuanguo:entity_renderer/pineapple_fried_rice_3:
+    model: yuanguo:block/pineapple_fried_rice_3
+  yuanguo:entity_renderer/pineapple_fried_rice_4:
+    model: yuanguo:block/pineapple_fried_rice_4
+  yuanguo:entity_renderer/potted_pear:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_pear_sapling>
+    model: yuanguo:block/potted_pear_plant
+  yuanguo:entity_renderer/potted_hawberry:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_hawberry_sapling>
+    model: yuanguo:block/potted_hawberry_plant
+  yuanguo:entity_renderer/potted_lychee:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_lychee_sapling>
+    model: yuanguo:block/potted_lychee_plant
+  yuanguo:entity_renderer/potted_mango:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_mango_sapling>
+    model: yuanguo:block/potted_mango_plant
+  yuanguo:entity_renderer/potted_persimmon:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_persimmon_sapling>
+    model: yuanguo:block/potted_persimmon_plant
+  yuanguo:entity_renderer/potted_peach:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_peach_sapling>
+    model: yuanguo:block/potted_peach_plant
+  yuanguo:entity_renderer/potted_orange:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_orange_sapling>
+    model: yuanguo:block/potted_orange_plant
+  yuanguo:entity_renderer/potted_apple:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_apple_sapling>
+    model: yuanguo:block/potted_apple_plant
+  yuanguo:entity_renderer/potted_mangosteen:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_mangosteen_sapling>
+    model: yuanguo:block/potted_mangosteen_plant
+  yuanguo:entity_renderer/potted_bayberry:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_bayberry_sapling>
+    model: yuanguo:block/potted_bayberry_plant
+  yuanguo:entity_renderer/potted_kiwi:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_kiwi_sapling>
+    model: yuanguo:block/potted_kiwi_plant
+  yuanguo:entity_renderer/potted_fig:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_fig_sapling>
+    model: yuanguo:block/potted_fig_plant
+  yuanguo:entity_renderer/potted_durian:
+    material: paper
+    data:
+      item_name: <!i><lang:block.yuanguo.potted_durian_sapling>
+    model: yuanguo:block/potted_durian_plant
+  yuanguo:dummy_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.minecraft.water_cauldron>
+    model: yuanguo:item/dummy_cauldron
+  yuanguo:lemonade_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.lemonade_cauldron>
+    model: yuanguo:item/lemonade_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:lemonade_cauldron
+  yuanguo:apple_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.apple_cauldron>
+    model: yuanguo:item/apple_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:apple_cauldron
+  yuanguo:blueberry_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.blueberry_cauldron>
+    model: yuanguo:item/blueberry_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:blueberry_cauldron
+  yuanguo:glowberry_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.glowberry_cauldron>
+    model: yuanguo:item/glowberry_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:glowberry_cauldron
+  yuanguo:hamimelon_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.hamimelon_cauldron>
+    model: yuanguo:item/hamimelon_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:hamimelon_cauldron
+  yuanguo:melon_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.melon_cauldron>
+    model: yuanguo:item/melon_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:melon_cauldron
+  yuanguo:hawberry_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.hawberry_cauldron>
+    model: yuanguo:item/hawberry_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:hawberry_cauldron
+  yuanguo:lychee_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.lychee_cauldron>
+    model: yuanguo:item/lychee_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:lychee_cauldron
+  yuanguo:mango_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.mango_cauldron>
+    model: yuanguo:item/mango_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:mango_cauldron
+  yuanguo:orange_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.orange_cauldron>
+    model: yuanguo:item/orange_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:orange_cauldron
+  yuanguo:peach_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.peach_cauldron>
+    model: yuanguo:item/peach_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:peach_cauldron
+  yuanguo:pear_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.pear_cauldron>
+    model: yuanguo:item/pear_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:pear_cauldron
+  yuanguo:persimmon_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.persimmon_cauldron>
+    model: yuanguo:item/persimmon_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:persimmon_cauldron
+  yuanguo:pineapple_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.pineapple_cauldron>
+    model: yuanguo:item/pineapple_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:pineapple_cauldron
+  yuanguo:lemon_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.lemon_cauldron>
+    model: yuanguo:item/lemon_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:lemon_cauldron
+  yuanguo:cranberry_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.cranberry_cauldron>
+    model: yuanguo:item/cranberry_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:cranberry_cauldron
+  yuanguo:mangosteen_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.mangosteen_cauldron>
+    model: yuanguo:item/mangosteen_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:mangosteen_cauldron
+  yuanguo:sweetberry_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.sweetberry_cauldron>
+    model: yuanguo:item/sweetberry_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:sweetberry_cauldron
+  yuanguo:chorus_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.chorus_cauldron>
+    model: yuanguo:item/chorus_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:chorus_cauldron
+  yuanguo:bayberry_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.bayberry_cauldron>
+    model: yuanguo:item/bayberry_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:bayberry_cauldron
+  yuanguo:kiwi_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.kiwi_cauldron>
+    model: yuanguo:item/kiwi_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:kiwi_cauldron
+  yuanguo:fig_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.fig_cauldron>
+    model: yuanguo:item/fig_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:fig_cauldron
+  yuanguo:durian_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:block.yuanguo.durian_cauldron>
+    model: yuanguo:item/durian_cauldron
+    behavior:
+      type: block_item
+      block: yuanguo:durian_cauldron
+  yuanguo:entity_renderer/lemonade_cauldron:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemonade_cauldron>
+    model: yuanguo:block/lemonade_cauldron_liquid
+  yuanguo:entity_renderer/apple_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_cauldron>
+    model: yuanguo:block/apple_cauldron_liquid_1
+  yuanguo:entity_renderer/apple_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_cauldron>
+    model: yuanguo:block/apple_cauldron_liquid_2
+  yuanguo:entity_renderer/apple_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_cauldron>
+    model: yuanguo:block/apple_cauldron_liquid_3
+  yuanguo:entity_renderer/apple_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_cauldron>
+    model: yuanguo:block/apple_cauldron_liquid_4
+  yuanguo:entity_renderer/apple_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_cauldron>
+    model: yuanguo:block/apple_cauldron_liquid_5
+  yuanguo:entity_renderer/apple_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_cauldron>
+    model: yuanguo:block/apple_cauldron_liquid_6
+  yuanguo:entity_renderer/apple_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_cauldron>
+    model: yuanguo:block/apple_cauldron_liquid_7
+  yuanguo:entity_renderer/apple_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_cauldron>
+    model: yuanguo:block/apple_cauldron_liquid_8
+  yuanguo:entity_renderer/apple_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_cauldron>
+    model: yuanguo:block/apple_cauldron_liquid_9
+  yuanguo:entity_renderer/apple_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_cauldron>
+    model: yuanguo:block/apple_cauldron_liquid_10
+  yuanguo:entity_renderer/apple_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_cauldron>
+    model: yuanguo:block/apple_cauldron_liquid_11
+  yuanguo:entity_renderer/apple_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_cauldron>
+    model: yuanguo:block/apple_cauldron_liquid_12
+  yuanguo:entity_renderer/apple_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_jelly_cauldron>
+    model: yuanguo:block/apple_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/apple_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_jelly_cauldron>
+    model: yuanguo:block/apple_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/apple_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_jelly_cauldron>
+    model: yuanguo:block/apple_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/apple_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_jello_cauldron>
+    model: yuanguo:block/apple_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/apple_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_jello_cauldron>
+    model: yuanguo:block/apple_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/apple_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.apple_jello_cauldron>
+    model: yuanguo:block/apple_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/blueberry_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_cauldron>
+    model: yuanguo:block/blueberry_cauldron_liquid_1
+  yuanguo:entity_renderer/blueberry_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_cauldron>
+    model: yuanguo:block/blueberry_cauldron_liquid_2
+  yuanguo:entity_renderer/blueberry_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_cauldron>
+    model: yuanguo:block/blueberry_cauldron_liquid_3
+  yuanguo:entity_renderer/blueberry_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_cauldron>
+    model: yuanguo:block/blueberry_cauldron_liquid_4
+  yuanguo:entity_renderer/blueberry_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_cauldron>
+    model: yuanguo:block/blueberry_cauldron_liquid_5
+  yuanguo:entity_renderer/blueberry_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_cauldron>
+    model: yuanguo:block/blueberry_cauldron_liquid_6
+  yuanguo:entity_renderer/blueberry_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_cauldron>
+    model: yuanguo:block/blueberry_cauldron_liquid_7
+  yuanguo:entity_renderer/blueberry_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_cauldron>
+    model: yuanguo:block/blueberry_cauldron_liquid_8
+  yuanguo:entity_renderer/blueberry_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_cauldron>
+    model: yuanguo:block/blueberry_cauldron_liquid_9
+  yuanguo:entity_renderer/blueberry_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_cauldron>
+    model: yuanguo:block/blueberry_cauldron_liquid_10
+  yuanguo:entity_renderer/blueberry_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_cauldron>
+    model: yuanguo:block/blueberry_cauldron_liquid_11
+  yuanguo:entity_renderer/blueberry_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_cauldron>
+    model: yuanguo:block/blueberry_cauldron_liquid_12
+  yuanguo:entity_renderer/blueberry_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_jelly_cauldron>
+    model: yuanguo:block/blueberry_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/blueberry_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_jelly_cauldron>
+    model: yuanguo:block/blueberry_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/blueberry_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_jelly_cauldron>
+    model: yuanguo:block/blueberry_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/blueberry_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_jello_cauldron>
+    model: yuanguo:block/blueberry_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/blueberry_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_jello_cauldron>
+    model: yuanguo:block/blueberry_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/blueberry_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.blueberry_jello_cauldron>
+    model: yuanguo:block/blueberry_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/glowberry_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_cauldron>
+    model: yuanguo:block/glowberry_cauldron_liquid_1
+  yuanguo:entity_renderer/glowberry_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_cauldron>
+    model: yuanguo:block/glowberry_cauldron_liquid_2
+  yuanguo:entity_renderer/glowberry_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_cauldron>
+    model: yuanguo:block/glowberry_cauldron_liquid_3
+  yuanguo:entity_renderer/glowberry_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_cauldron>
+    model: yuanguo:block/glowberry_cauldron_liquid_4
+  yuanguo:entity_renderer/glowberry_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_cauldron>
+    model: yuanguo:block/glowberry_cauldron_liquid_5
+  yuanguo:entity_renderer/glowberry_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_cauldron>
+    model: yuanguo:block/glowberry_cauldron_liquid_6
+  yuanguo:entity_renderer/glowberry_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_cauldron>
+    model: yuanguo:block/glowberry_cauldron_liquid_7
+  yuanguo:entity_renderer/glowberry_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_cauldron>
+    model: yuanguo:block/glowberry_cauldron_liquid_8
+  yuanguo:entity_renderer/glowberry_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_cauldron>
+    model: yuanguo:block/glowberry_cauldron_liquid_9
+  yuanguo:entity_renderer/glowberry_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_cauldron>
+    model: yuanguo:block/glowberry_cauldron_liquid_10
+  yuanguo:entity_renderer/glowberry_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_cauldron>
+    model: yuanguo:block/glowberry_cauldron_liquid_11
+  yuanguo:entity_renderer/glowberry_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_cauldron>
+    model: yuanguo:block/glowberry_cauldron_liquid_12
+  yuanguo:entity_renderer/glowberry_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_jelly_cauldron>
+    model: yuanguo:block/glowberry_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/glowberry_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_jelly_cauldron>
+    model: yuanguo:block/glowberry_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/glowberry_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_jelly_cauldron>
+    model: yuanguo:block/glowberry_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/glowberry_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_jello_cauldron>
+    model: yuanguo:block/glowberry_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/glowberry_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_jello_cauldron>
+    model: yuanguo:block/glowberry_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/glowberry_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.glowberry_jello_cauldron>
+    model: yuanguo:block/glowberry_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/hamimelon_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_liquid_1
+  yuanguo:entity_renderer/hamimelon_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_liquid_2
+  yuanguo:entity_renderer/hamimelon_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_liquid_3
+  yuanguo:entity_renderer/hamimelon_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_liquid_4
+  yuanguo:entity_renderer/hamimelon_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_liquid_5
+  yuanguo:entity_renderer/hamimelon_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_liquid_6
+  yuanguo:entity_renderer/hamimelon_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_liquid_7
+  yuanguo:entity_renderer/hamimelon_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_liquid_8
+  yuanguo:entity_renderer/hamimelon_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_liquid_9
+  yuanguo:entity_renderer/hamimelon_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_liquid_10
+  yuanguo:entity_renderer/hamimelon_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_liquid_11
+  yuanguo:entity_renderer/hamimelon_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_liquid_12
+  yuanguo:entity_renderer/hamimelon_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_jelly_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/hamimelon_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_jelly_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/hamimelon_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_jelly_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/hamimelon_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_jello_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/hamimelon_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_jello_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/hamimelon_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hamimelon_jello_cauldron>
+    model: yuanguo:block/hamimelon_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/melon_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_cauldron>
+    model: yuanguo:block/melon_cauldron_liquid_1
+  yuanguo:entity_renderer/melon_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_cauldron>
+    model: yuanguo:block/melon_cauldron_liquid_2
+  yuanguo:entity_renderer/melon_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_cauldron>
+    model: yuanguo:block/melon_cauldron_liquid_3
+  yuanguo:entity_renderer/melon_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_cauldron>
+    model: yuanguo:block/melon_cauldron_liquid_4
+  yuanguo:entity_renderer/melon_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_cauldron>
+    model: yuanguo:block/melon_cauldron_liquid_5
+  yuanguo:entity_renderer/melon_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_cauldron>
+    model: yuanguo:block/melon_cauldron_liquid_6
+  yuanguo:entity_renderer/melon_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_cauldron>
+    model: yuanguo:block/melon_cauldron_liquid_7
+  yuanguo:entity_renderer/melon_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_cauldron>
+    model: yuanguo:block/melon_cauldron_liquid_8
+  yuanguo:entity_renderer/melon_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_cauldron>
+    model: yuanguo:block/melon_cauldron_liquid_9
+  yuanguo:entity_renderer/melon_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_cauldron>
+    model: yuanguo:block/melon_cauldron_liquid_10
+  yuanguo:entity_renderer/melon_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_cauldron>
+    model: yuanguo:block/melon_cauldron_liquid_11
+  yuanguo:entity_renderer/melon_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_cauldron>
+    model: yuanguo:block/melon_cauldron_liquid_12
+  yuanguo:entity_renderer/melon_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_jelly_cauldron>
+    model: yuanguo:block/melon_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/melon_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_jelly_cauldron>
+    model: yuanguo:block/melon_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/melon_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_jelly_cauldron>
+    model: yuanguo:block/melon_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/melon_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_jello_cauldron>
+    model: yuanguo:block/melon_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/melon_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_jello_cauldron>
+    model: yuanguo:block/melon_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/melon_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.melon_jello_cauldron>
+    model: yuanguo:block/melon_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/hawberry_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_cauldron>
+    model: yuanguo:block/hawberry_cauldron_liquid_1
+  yuanguo:entity_renderer/hawberry_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_cauldron>
+    model: yuanguo:block/hawberry_cauldron_liquid_2
+  yuanguo:entity_renderer/hawberry_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_cauldron>
+    model: yuanguo:block/hawberry_cauldron_liquid_3
+  yuanguo:entity_renderer/hawberry_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_cauldron>
+    model: yuanguo:block/hawberry_cauldron_liquid_4
+  yuanguo:entity_renderer/hawberry_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_cauldron>
+    model: yuanguo:block/hawberry_cauldron_liquid_5
+  yuanguo:entity_renderer/hawberry_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_cauldron>
+    model: yuanguo:block/hawberry_cauldron_liquid_6
+  yuanguo:entity_renderer/hawberry_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_cauldron>
+    model: yuanguo:block/hawberry_cauldron_liquid_7
+  yuanguo:entity_renderer/hawberry_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_cauldron>
+    model: yuanguo:block/hawberry_cauldron_liquid_8
+  yuanguo:entity_renderer/hawberry_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_cauldron>
+    model: yuanguo:block/hawberry_cauldron_liquid_9
+  yuanguo:entity_renderer/hawberry_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_cauldron>
+    model: yuanguo:block/hawberry_cauldron_liquid_10
+  yuanguo:entity_renderer/hawberry_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_cauldron>
+    model: yuanguo:block/hawberry_cauldron_liquid_11
+  yuanguo:entity_renderer/hawberry_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_cauldron>
+    model: yuanguo:block/hawberry_cauldron_liquid_12
+  yuanguo:entity_renderer/hawberry_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_jelly_cauldron>
+    model: yuanguo:block/hawberry_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/hawberry_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_jelly_cauldron>
+    model: yuanguo:block/hawberry_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/hawberry_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_jelly_cauldron>
+    model: yuanguo:block/hawberry_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/hawberry_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_jello_cauldron>
+    model: yuanguo:block/hawberry_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/hawberry_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_jello_cauldron>
+    model: yuanguo:block/hawberry_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/hawberry_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.hawberry_jello_cauldron>
+    model: yuanguo:block/hawberry_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/lychee_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_cauldron>
+    model: yuanguo:block/lychee_cauldron_liquid_1
+  yuanguo:entity_renderer/lychee_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_cauldron>
+    model: yuanguo:block/lychee_cauldron_liquid_2
+  yuanguo:entity_renderer/lychee_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_cauldron>
+    model: yuanguo:block/lychee_cauldron_liquid_3
+  yuanguo:entity_renderer/lychee_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_cauldron>
+    model: yuanguo:block/lychee_cauldron_liquid_4
+  yuanguo:entity_renderer/lychee_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_cauldron>
+    model: yuanguo:block/lychee_cauldron_liquid_5
+  yuanguo:entity_renderer/lychee_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_cauldron>
+    model: yuanguo:block/lychee_cauldron_liquid_6
+  yuanguo:entity_renderer/lychee_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_cauldron>
+    model: yuanguo:block/lychee_cauldron_liquid_7
+  yuanguo:entity_renderer/lychee_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_cauldron>
+    model: yuanguo:block/lychee_cauldron_liquid_8
+  yuanguo:entity_renderer/lychee_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_cauldron>
+    model: yuanguo:block/lychee_cauldron_liquid_9
+  yuanguo:entity_renderer/lychee_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_cauldron>
+    model: yuanguo:block/lychee_cauldron_liquid_10
+  yuanguo:entity_renderer/lychee_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_cauldron>
+    model: yuanguo:block/lychee_cauldron_liquid_11
+  yuanguo:entity_renderer/lychee_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_cauldron>
+    model: yuanguo:block/lychee_cauldron_liquid_12
+  yuanguo:entity_renderer/lychee_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_jelly_cauldron>
+    model: yuanguo:block/lychee_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/lychee_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_jelly_cauldron>
+    model: yuanguo:block/lychee_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/lychee_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_jelly_cauldron>
+    model: yuanguo:block/lychee_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/lychee_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_jello_cauldron>
+    model: yuanguo:block/lychee_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/lychee_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_jello_cauldron>
+    model: yuanguo:block/lychee_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/lychee_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lychee_jello_cauldron>
+    model: yuanguo:block/lychee_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/mango_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_cauldron>
+    model: yuanguo:block/mango_cauldron_liquid_1
+  yuanguo:entity_renderer/mango_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_cauldron>
+    model: yuanguo:block/mango_cauldron_liquid_2
+  yuanguo:entity_renderer/mango_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_cauldron>
+    model: yuanguo:block/mango_cauldron_liquid_3
+  yuanguo:entity_renderer/mango_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_cauldron>
+    model: yuanguo:block/mango_cauldron_liquid_4
+  yuanguo:entity_renderer/mango_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_cauldron>
+    model: yuanguo:block/mango_cauldron_liquid_5
+  yuanguo:entity_renderer/mango_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_cauldron>
+    model: yuanguo:block/mango_cauldron_liquid_6
+  yuanguo:entity_renderer/mango_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_cauldron>
+    model: yuanguo:block/mango_cauldron_liquid_7
+  yuanguo:entity_renderer/mango_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_cauldron>
+    model: yuanguo:block/mango_cauldron_liquid_8
+  yuanguo:entity_renderer/mango_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_cauldron>
+    model: yuanguo:block/mango_cauldron_liquid_9
+  yuanguo:entity_renderer/mango_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_cauldron>
+    model: yuanguo:block/mango_cauldron_liquid_10
+  yuanguo:entity_renderer/mango_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_cauldron>
+    model: yuanguo:block/mango_cauldron_liquid_11
+  yuanguo:entity_renderer/mango_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_cauldron>
+    model: yuanguo:block/mango_cauldron_liquid_12
+  yuanguo:entity_renderer/mango_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_jelly_cauldron>
+    model: yuanguo:block/mango_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/mango_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_jelly_cauldron>
+    model: yuanguo:block/mango_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/mango_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_jelly_cauldron>
+    model: yuanguo:block/mango_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/mango_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_jello_cauldron>
+    model: yuanguo:block/mango_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/mango_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_jello_cauldron>
+    model: yuanguo:block/mango_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/mango_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mango_jello_cauldron>
+    model: yuanguo:block/mango_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/orange_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_cauldron>
+    model: yuanguo:block/orange_cauldron_liquid_1
+  yuanguo:entity_renderer/orange_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_cauldron>
+    model: yuanguo:block/orange_cauldron_liquid_2
+  yuanguo:entity_renderer/orange_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_cauldron>
+    model: yuanguo:block/orange_cauldron_liquid_3
+  yuanguo:entity_renderer/orange_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_cauldron>
+    model: yuanguo:block/orange_cauldron_liquid_4
+  yuanguo:entity_renderer/orange_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_cauldron>
+    model: yuanguo:block/orange_cauldron_liquid_5
+  yuanguo:entity_renderer/orange_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_cauldron>
+    model: yuanguo:block/orange_cauldron_liquid_6
+  yuanguo:entity_renderer/orange_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_cauldron>
+    model: yuanguo:block/orange_cauldron_liquid_7
+  yuanguo:entity_renderer/orange_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_cauldron>
+    model: yuanguo:block/orange_cauldron_liquid_8
+  yuanguo:entity_renderer/orange_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_cauldron>
+    model: yuanguo:block/orange_cauldron_liquid_9
+  yuanguo:entity_renderer/orange_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_cauldron>
+    model: yuanguo:block/orange_cauldron_liquid_10
+  yuanguo:entity_renderer/orange_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_cauldron>
+    model: yuanguo:block/orange_cauldron_liquid_11
+  yuanguo:entity_renderer/orange_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_cauldron>
+    model: yuanguo:block/orange_cauldron_liquid_12
+  yuanguo:entity_renderer/orange_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_jelly_cauldron>
+    model: yuanguo:block/orange_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/orange_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_jelly_cauldron>
+    model: yuanguo:block/orange_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/orange_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_jelly_cauldron>
+    model: yuanguo:block/orange_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/orange_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_jello_cauldron>
+    model: yuanguo:block/orange_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/orange_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_jello_cauldron>
+    model: yuanguo:block/orange_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/orange_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.orange_jello_cauldron>
+    model: yuanguo:block/orange_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/peach_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_cauldron>
+    model: yuanguo:block/peach_cauldron_liquid_1
+  yuanguo:entity_renderer/peach_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_cauldron>
+    model: yuanguo:block/peach_cauldron_liquid_2
+  yuanguo:entity_renderer/peach_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_cauldron>
+    model: yuanguo:block/peach_cauldron_liquid_3
+  yuanguo:entity_renderer/peach_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_cauldron>
+    model: yuanguo:block/peach_cauldron_liquid_4
+  yuanguo:entity_renderer/peach_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_cauldron>
+    model: yuanguo:block/peach_cauldron_liquid_5
+  yuanguo:entity_renderer/peach_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_cauldron>
+    model: yuanguo:block/peach_cauldron_liquid_6
+  yuanguo:entity_renderer/peach_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_cauldron>
+    model: yuanguo:block/peach_cauldron_liquid_7
+  yuanguo:entity_renderer/peach_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_cauldron>
+    model: yuanguo:block/peach_cauldron_liquid_8
+  yuanguo:entity_renderer/peach_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_cauldron>
+    model: yuanguo:block/peach_cauldron_liquid_9
+  yuanguo:entity_renderer/peach_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_cauldron>
+    model: yuanguo:block/peach_cauldron_liquid_10
+  yuanguo:entity_renderer/peach_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_cauldron>
+    model: yuanguo:block/peach_cauldron_liquid_11
+  yuanguo:entity_renderer/peach_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_cauldron>
+    model: yuanguo:block/peach_cauldron_liquid_12
+  yuanguo:entity_renderer/peach_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_jelly_cauldron>
+    model: yuanguo:block/peach_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/peach_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_jelly_cauldron>
+    model: yuanguo:block/peach_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/peach_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_jelly_cauldron>
+    model: yuanguo:block/peach_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/peach_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_jello_cauldron>
+    model: yuanguo:block/peach_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/peach_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_jello_cauldron>
+    model: yuanguo:block/peach_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/peach_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.peach_jello_cauldron>
+    model: yuanguo:block/peach_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/pear_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_cauldron>
+    model: yuanguo:block/pear_cauldron_liquid_1
+  yuanguo:entity_renderer/pear_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_cauldron>
+    model: yuanguo:block/pear_cauldron_liquid_2
+  yuanguo:entity_renderer/pear_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_cauldron>
+    model: yuanguo:block/pear_cauldron_liquid_3
+  yuanguo:entity_renderer/pear_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_cauldron>
+    model: yuanguo:block/pear_cauldron_liquid_4
+  yuanguo:entity_renderer/pear_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_cauldron>
+    model: yuanguo:block/pear_cauldron_liquid_5
+  yuanguo:entity_renderer/pear_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_cauldron>
+    model: yuanguo:block/pear_cauldron_liquid_6
+  yuanguo:entity_renderer/pear_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_cauldron>
+    model: yuanguo:block/pear_cauldron_liquid_7
+  yuanguo:entity_renderer/pear_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_cauldron>
+    model: yuanguo:block/pear_cauldron_liquid_8
+  yuanguo:entity_renderer/pear_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_cauldron>
+    model: yuanguo:block/pear_cauldron_liquid_9
+  yuanguo:entity_renderer/pear_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_cauldron>
+    model: yuanguo:block/pear_cauldron_liquid_10
+  yuanguo:entity_renderer/pear_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_cauldron>
+    model: yuanguo:block/pear_cauldron_liquid_11
+  yuanguo:entity_renderer/pear_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_cauldron>
+    model: yuanguo:block/pear_cauldron_liquid_12
+  yuanguo:entity_renderer/pear_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_jelly_cauldron>
+    model: yuanguo:block/pear_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/pear_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_jelly_cauldron>
+    model: yuanguo:block/pear_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/pear_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_jelly_cauldron>
+    model: yuanguo:block/pear_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/pear_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_jello_cauldron>
+    model: yuanguo:block/pear_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/pear_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_jello_cauldron>
+    model: yuanguo:block/pear_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/pear_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pear_jello_cauldron>
+    model: yuanguo:block/pear_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/persimmon_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_cauldron>
+    model: yuanguo:block/persimmon_cauldron_liquid_1
+  yuanguo:entity_renderer/persimmon_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_cauldron>
+    model: yuanguo:block/persimmon_cauldron_liquid_2
+  yuanguo:entity_renderer/persimmon_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_cauldron>
+    model: yuanguo:block/persimmon_cauldron_liquid_3
+  yuanguo:entity_renderer/persimmon_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_cauldron>
+    model: yuanguo:block/persimmon_cauldron_liquid_4
+  yuanguo:entity_renderer/persimmon_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_cauldron>
+    model: yuanguo:block/persimmon_cauldron_liquid_5
+  yuanguo:entity_renderer/persimmon_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_cauldron>
+    model: yuanguo:block/persimmon_cauldron_liquid_6
+  yuanguo:entity_renderer/persimmon_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_cauldron>
+    model: yuanguo:block/persimmon_cauldron_liquid_7
+  yuanguo:entity_renderer/persimmon_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_cauldron>
+    model: yuanguo:block/persimmon_cauldron_liquid_8
+  yuanguo:entity_renderer/persimmon_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_cauldron>
+    model: yuanguo:block/persimmon_cauldron_liquid_9
+  yuanguo:entity_renderer/persimmon_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_cauldron>
+    model: yuanguo:block/persimmon_cauldron_liquid_10
+  yuanguo:entity_renderer/persimmon_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_cauldron>
+    model: yuanguo:block/persimmon_cauldron_liquid_11
+  yuanguo:entity_renderer/persimmon_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_cauldron>
+    model: yuanguo:block/persimmon_cauldron_liquid_12
+  yuanguo:entity_renderer/persimmon_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_jelly_cauldron>
+    model: yuanguo:block/persimmon_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/persimmon_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_jelly_cauldron>
+    model: yuanguo:block/persimmon_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/persimmon_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_jelly_cauldron>
+    model: yuanguo:block/persimmon_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/persimmon_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_jello_cauldron>
+    model: yuanguo:block/persimmon_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/persimmon_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_jello_cauldron>
+    model: yuanguo:block/persimmon_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/persimmon_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.persimmon_jello_cauldron>
+    model: yuanguo:block/persimmon_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/pineapple_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_cauldron>
+    model: yuanguo:block/pineapple_cauldron_liquid_1
+  yuanguo:entity_renderer/pineapple_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_cauldron>
+    model: yuanguo:block/pineapple_cauldron_liquid_2
+  yuanguo:entity_renderer/pineapple_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_cauldron>
+    model: yuanguo:block/pineapple_cauldron_liquid_3
+  yuanguo:entity_renderer/pineapple_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_cauldron>
+    model: yuanguo:block/pineapple_cauldron_liquid_4
+  yuanguo:entity_renderer/pineapple_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_cauldron>
+    model: yuanguo:block/pineapple_cauldron_liquid_5
+  yuanguo:entity_renderer/pineapple_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_cauldron>
+    model: yuanguo:block/pineapple_cauldron_liquid_6
+  yuanguo:entity_renderer/pineapple_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_cauldron>
+    model: yuanguo:block/pineapple_cauldron_liquid_7
+  yuanguo:entity_renderer/pineapple_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_cauldron>
+    model: yuanguo:block/pineapple_cauldron_liquid_8
+  yuanguo:entity_renderer/pineapple_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_cauldron>
+    model: yuanguo:block/pineapple_cauldron_liquid_9
+  yuanguo:entity_renderer/pineapple_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_cauldron>
+    model: yuanguo:block/pineapple_cauldron_liquid_10
+  yuanguo:entity_renderer/pineapple_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_cauldron>
+    model: yuanguo:block/pineapple_cauldron_liquid_11
+  yuanguo:entity_renderer/pineapple_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_cauldron>
+    model: yuanguo:block/pineapple_cauldron_liquid_12
+  yuanguo:entity_renderer/pineapple_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_jelly_cauldron>
+    model: yuanguo:block/pineapple_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/pineapple_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_jelly_cauldron>
+    model: yuanguo:block/pineapple_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/pineapple_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_jelly_cauldron>
+    model: yuanguo:block/pineapple_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/pineapple_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_jello_cauldron>
+    model: yuanguo:block/pineapple_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/pineapple_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_jello_cauldron>
+    model: yuanguo:block/pineapple_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/pineapple_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.pineapple_jello_cauldron>
+    model: yuanguo:block/pineapple_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/lemon_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_cauldron>
+    model: yuanguo:block/lemon_cauldron_liquid_1
+  yuanguo:entity_renderer/lemon_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_cauldron>
+    model: yuanguo:block/lemon_cauldron_liquid_2
+  yuanguo:entity_renderer/lemon_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_cauldron>
+    model: yuanguo:block/lemon_cauldron_liquid_3
+  yuanguo:entity_renderer/lemon_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_cauldron>
+    model: yuanguo:block/lemon_cauldron_liquid_4
+  yuanguo:entity_renderer/lemon_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_cauldron>
+    model: yuanguo:block/lemon_cauldron_liquid_5
+  yuanguo:entity_renderer/lemon_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_cauldron>
+    model: yuanguo:block/lemon_cauldron_liquid_6
+  yuanguo:entity_renderer/lemon_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_cauldron>
+    model: yuanguo:block/lemon_cauldron_liquid_7
+  yuanguo:entity_renderer/lemon_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_cauldron>
+    model: yuanguo:block/lemon_cauldron_liquid_8
+  yuanguo:entity_renderer/lemon_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_cauldron>
+    model: yuanguo:block/lemon_cauldron_liquid_9
+  yuanguo:entity_renderer/lemon_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_cauldron>
+    model: yuanguo:block/lemon_cauldron_liquid_10
+  yuanguo:entity_renderer/lemon_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_cauldron>
+    model: yuanguo:block/lemon_cauldron_liquid_11
+  yuanguo:entity_renderer/lemon_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_cauldron>
+    model: yuanguo:block/lemon_cauldron_liquid_12
+  yuanguo:entity_renderer/lemon_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_jelly_cauldron>
+    model: yuanguo:block/lemon_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/lemon_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_jelly_cauldron>
+    model: yuanguo:block/lemon_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/lemon_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_jelly_cauldron>
+    model: yuanguo:block/lemon_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/lemon_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_jello_cauldron>
+    model: yuanguo:block/lemon_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/lemon_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_jello_cauldron>
+    model: yuanguo:block/lemon_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/lemon_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.lemon_jello_cauldron>
+    model: yuanguo:block/lemon_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/cranberry_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_cauldron>
+    model: yuanguo:block/cranberry_cauldron_liquid_1
+  yuanguo:entity_renderer/cranberry_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_cauldron>
+    model: yuanguo:block/cranberry_cauldron_liquid_2
+  yuanguo:entity_renderer/cranberry_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_cauldron>
+    model: yuanguo:block/cranberry_cauldron_liquid_3
+  yuanguo:entity_renderer/cranberry_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_cauldron>
+    model: yuanguo:block/cranberry_cauldron_liquid_4
+  yuanguo:entity_renderer/cranberry_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_cauldron>
+    model: yuanguo:block/cranberry_cauldron_liquid_5
+  yuanguo:entity_renderer/cranberry_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_cauldron>
+    model: yuanguo:block/cranberry_cauldron_liquid_6
+  yuanguo:entity_renderer/cranberry_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_cauldron>
+    model: yuanguo:block/cranberry_cauldron_liquid_7
+  yuanguo:entity_renderer/cranberry_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_cauldron>
+    model: yuanguo:block/cranberry_cauldron_liquid_8
+  yuanguo:entity_renderer/cranberry_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_cauldron>
+    model: yuanguo:block/cranberry_cauldron_liquid_9
+  yuanguo:entity_renderer/cranberry_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_cauldron>
+    model: yuanguo:block/cranberry_cauldron_liquid_10
+  yuanguo:entity_renderer/cranberry_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_cauldron>
+    model: yuanguo:block/cranberry_cauldron_liquid_11
+  yuanguo:entity_renderer/cranberry_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_cauldron>
+    model: yuanguo:block/cranberry_cauldron_liquid_12
+  yuanguo:entity_renderer/cranberry_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_jelly_cauldron>
+    model: yuanguo:block/cranberry_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/cranberry_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_jelly_cauldron>
+    model: yuanguo:block/cranberry_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/cranberry_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_jelly_cauldron>
+    model: yuanguo:block/cranberry_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/cranberry_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_jello_cauldron>
+    model: yuanguo:block/cranberry_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/cranberry_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_jello_cauldron>
+    model: yuanguo:block/cranberry_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/cranberry_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.cranberry_jello_cauldron>
+    model: yuanguo:block/cranberry_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/mangosteen_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_liquid_1
+  yuanguo:entity_renderer/mangosteen_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_liquid_2
+  yuanguo:entity_renderer/mangosteen_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_liquid_3
+  yuanguo:entity_renderer/mangosteen_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_liquid_4
+  yuanguo:entity_renderer/mangosteen_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_liquid_5
+  yuanguo:entity_renderer/mangosteen_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_liquid_6
+  yuanguo:entity_renderer/mangosteen_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_liquid_7
+  yuanguo:entity_renderer/mangosteen_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_liquid_8
+  yuanguo:entity_renderer/mangosteen_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_liquid_9
+  yuanguo:entity_renderer/mangosteen_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_liquid_10
+  yuanguo:entity_renderer/mangosteen_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_liquid_11
+  yuanguo:entity_renderer/mangosteen_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_liquid_12
+  yuanguo:entity_renderer/mangosteen_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_jelly_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/mangosteen_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_jelly_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/mangosteen_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_jelly_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/mangosteen_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_jello_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/mangosteen_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_jello_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/mangosteen_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.mangosteen_jello_cauldron>
+    model: yuanguo:block/mangosteen_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/sweetberry_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_liquid_1
+  yuanguo:entity_renderer/sweetberry_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_liquid_2
+  yuanguo:entity_renderer/sweetberry_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_liquid_3
+  yuanguo:entity_renderer/sweetberry_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_liquid_4
+  yuanguo:entity_renderer/sweetberry_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_liquid_5
+  yuanguo:entity_renderer/sweetberry_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_liquid_6
+  yuanguo:entity_renderer/sweetberry_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_liquid_7
+  yuanguo:entity_renderer/sweetberry_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_liquid_8
+  yuanguo:entity_renderer/sweetberry_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_liquid_9
+  yuanguo:entity_renderer/sweetberry_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_liquid_10
+  yuanguo:entity_renderer/sweetberry_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_liquid_11
+  yuanguo:entity_renderer/sweetberry_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_liquid_12
+  yuanguo:entity_renderer/sweetberry_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_jelly_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/sweetberry_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_jelly_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/sweetberry_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_jelly_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/sweetberry_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_jello_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/sweetberry_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_jello_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/sweetberry_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.sweetberry_jello_cauldron>
+    model: yuanguo:block/sweetberry_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/chorus_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_cauldron>
+    model: yuanguo:block/chorus_cauldron_liquid_1
+  yuanguo:entity_renderer/chorus_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_cauldron>
+    model: yuanguo:block/chorus_cauldron_liquid_2
+  yuanguo:entity_renderer/chorus_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_cauldron>
+    model: yuanguo:block/chorus_cauldron_liquid_3
+  yuanguo:entity_renderer/chorus_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_cauldron>
+    model: yuanguo:block/chorus_cauldron_liquid_4
+  yuanguo:entity_renderer/chorus_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_cauldron>
+    model: yuanguo:block/chorus_cauldron_liquid_5
+  yuanguo:entity_renderer/chorus_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_cauldron>
+    model: yuanguo:block/chorus_cauldron_liquid_6
+  yuanguo:entity_renderer/chorus_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_cauldron>
+    model: yuanguo:block/chorus_cauldron_liquid_7
+  yuanguo:entity_renderer/chorus_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_cauldron>
+    model: yuanguo:block/chorus_cauldron_liquid_8
+  yuanguo:entity_renderer/chorus_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_cauldron>
+    model: yuanguo:block/chorus_cauldron_liquid_9
+  yuanguo:entity_renderer/chorus_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_cauldron>
+    model: yuanguo:block/chorus_cauldron_liquid_10
+  yuanguo:entity_renderer/chorus_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_cauldron>
+    model: yuanguo:block/chorus_cauldron_liquid_11
+  yuanguo:entity_renderer/chorus_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_cauldron>
+    model: yuanguo:block/chorus_cauldron_liquid_12
+  yuanguo:entity_renderer/chorus_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_jelly_cauldron>
+    model: yuanguo:block/chorus_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/chorus_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_jelly_cauldron>
+    model: yuanguo:block/chorus_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/chorus_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_jelly_cauldron>
+    model: yuanguo:block/chorus_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/chorus_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_jello_cauldron>
+    model: yuanguo:block/chorus_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/chorus_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_jello_cauldron>
+    model: yuanguo:block/chorus_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/chorus_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.chorus_jello_cauldron>
+    model: yuanguo:block/chorus_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/bayberry_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_cauldron>
+    model: yuanguo:block/bayberry_cauldron_liquid_1
+  yuanguo:entity_renderer/bayberry_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_cauldron>
+    model: yuanguo:block/bayberry_cauldron_liquid_2
+  yuanguo:entity_renderer/bayberry_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_cauldron>
+    model: yuanguo:block/bayberry_cauldron_liquid_3
+  yuanguo:entity_renderer/bayberry_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_cauldron>
+    model: yuanguo:block/bayberry_cauldron_liquid_4
+  yuanguo:entity_renderer/bayberry_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_cauldron>
+    model: yuanguo:block/bayberry_cauldron_liquid_5
+  yuanguo:entity_renderer/bayberry_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_cauldron>
+    model: yuanguo:block/bayberry_cauldron_liquid_6
+  yuanguo:entity_renderer/bayberry_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_cauldron>
+    model: yuanguo:block/bayberry_cauldron_liquid_7
+  yuanguo:entity_renderer/bayberry_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_cauldron>
+    model: yuanguo:block/bayberry_cauldron_liquid_8
+  yuanguo:entity_renderer/bayberry_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_cauldron>
+    model: yuanguo:block/bayberry_cauldron_liquid_9
+  yuanguo:entity_renderer/bayberry_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_cauldron>
+    model: yuanguo:block/bayberry_cauldron_liquid_10
+  yuanguo:entity_renderer/bayberry_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_cauldron>
+    model: yuanguo:block/bayberry_cauldron_liquid_11
+  yuanguo:entity_renderer/bayberry_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_cauldron>
+    model: yuanguo:block/bayberry_cauldron_liquid_12
+  yuanguo:entity_renderer/bayberry_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_jelly_cauldron>
+    model: yuanguo:block/bayberry_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/bayberry_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_jelly_cauldron>
+    model: yuanguo:block/bayberry_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/bayberry_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_jelly_cauldron>
+    model: yuanguo:block/bayberry_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/bayberry_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_jello_cauldron>
+    model: yuanguo:block/bayberry_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/bayberry_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_jello_cauldron>
+    model: yuanguo:block/bayberry_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/bayberry_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.bayberry_jello_cauldron>
+    model: yuanguo:block/bayberry_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/kiwi_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_cauldron>
+    model: yuanguo:block/kiwi_cauldron_liquid_1
+  yuanguo:entity_renderer/kiwi_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_cauldron>
+    model: yuanguo:block/kiwi_cauldron_liquid_2
+  yuanguo:entity_renderer/kiwi_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_cauldron>
+    model: yuanguo:block/kiwi_cauldron_liquid_3
+  yuanguo:entity_renderer/kiwi_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_cauldron>
+    model: yuanguo:block/kiwi_cauldron_liquid_4
+  yuanguo:entity_renderer/kiwi_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_cauldron>
+    model: yuanguo:block/kiwi_cauldron_liquid_5
+  yuanguo:entity_renderer/kiwi_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_cauldron>
+    model: yuanguo:block/kiwi_cauldron_liquid_6
+  yuanguo:entity_renderer/kiwi_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_cauldron>
+    model: yuanguo:block/kiwi_cauldron_liquid_7
+  yuanguo:entity_renderer/kiwi_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_cauldron>
+    model: yuanguo:block/kiwi_cauldron_liquid_8
+  yuanguo:entity_renderer/kiwi_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_cauldron>
+    model: yuanguo:block/kiwi_cauldron_liquid_9
+  yuanguo:entity_renderer/kiwi_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_cauldron>
+    model: yuanguo:block/kiwi_cauldron_liquid_10
+  yuanguo:entity_renderer/kiwi_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_cauldron>
+    model: yuanguo:block/kiwi_cauldron_liquid_11
+  yuanguo:entity_renderer/kiwi_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_cauldron>
+    model: yuanguo:block/kiwi_cauldron_liquid_12
+  yuanguo:entity_renderer/kiwi_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_jelly_cauldron>
+    model: yuanguo:block/kiwi_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/kiwi_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_jelly_cauldron>
+    model: yuanguo:block/kiwi_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/kiwi_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_jelly_cauldron>
+    model: yuanguo:block/kiwi_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/kiwi_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_jello_cauldron>
+    model: yuanguo:block/kiwi_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/kiwi_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_jello_cauldron>
+    model: yuanguo:block/kiwi_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/kiwi_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.kiwi_jello_cauldron>
+    model: yuanguo:block/kiwi_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/fig_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_cauldron>
+    model: yuanguo:block/fig_cauldron_liquid_1
+  yuanguo:entity_renderer/fig_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_cauldron>
+    model: yuanguo:block/fig_cauldron_liquid_2
+  yuanguo:entity_renderer/fig_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_cauldron>
+    model: yuanguo:block/fig_cauldron_liquid_3
+  yuanguo:entity_renderer/fig_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_cauldron>
+    model: yuanguo:block/fig_cauldron_liquid_4
+  yuanguo:entity_renderer/fig_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_cauldron>
+    model: yuanguo:block/fig_cauldron_liquid_5
+  yuanguo:entity_renderer/fig_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_cauldron>
+    model: yuanguo:block/fig_cauldron_liquid_6
+  yuanguo:entity_renderer/fig_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_cauldron>
+    model: yuanguo:block/fig_cauldron_liquid_7
+  yuanguo:entity_renderer/fig_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_cauldron>
+    model: yuanguo:block/fig_cauldron_liquid_8
+  yuanguo:entity_renderer/fig_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_cauldron>
+    model: yuanguo:block/fig_cauldron_liquid_9
+  yuanguo:entity_renderer/fig_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_cauldron>
+    model: yuanguo:block/fig_cauldron_liquid_10
+  yuanguo:entity_renderer/fig_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_cauldron>
+    model: yuanguo:block/fig_cauldron_liquid_11
+  yuanguo:entity_renderer/fig_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_cauldron>
+    model: yuanguo:block/fig_cauldron_liquid_12
+  yuanguo:entity_renderer/fig_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_jelly_cauldron>
+    model: yuanguo:block/fig_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/fig_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_jelly_cauldron>
+    model: yuanguo:block/fig_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/fig_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_jelly_cauldron>
+    model: yuanguo:block/fig_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/fig_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_jello_cauldron>
+    model: yuanguo:block/fig_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/fig_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_jello_cauldron>
+    model: yuanguo:block/fig_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/fig_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.fig_jello_cauldron>
+    model: yuanguo:block/fig_cauldron_jello_liquid_3
+  yuanguo:entity_renderer/durian_cauldron_juice_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_cauldron>
+    model: yuanguo:block/durian_cauldron_liquid_1
+  yuanguo:entity_renderer/durian_cauldron_juice_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_cauldron>
+    model: yuanguo:block/durian_cauldron_liquid_2
+  yuanguo:entity_renderer/durian_cauldron_juice_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_cauldron>
+    model: yuanguo:block/durian_cauldron_liquid_3
+  yuanguo:entity_renderer/durian_cauldron_juice_4:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_cauldron>
+    model: yuanguo:block/durian_cauldron_liquid_4
+  yuanguo:entity_renderer/durian_cauldron_juice_5:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_cauldron>
+    model: yuanguo:block/durian_cauldron_liquid_5
+  yuanguo:entity_renderer/durian_cauldron_juice_6:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_cauldron>
+    model: yuanguo:block/durian_cauldron_liquid_6
+  yuanguo:entity_renderer/durian_cauldron_juice_7:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_cauldron>
+    model: yuanguo:block/durian_cauldron_liquid_7
+  yuanguo:entity_renderer/durian_cauldron_juice_8:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_cauldron>
+    model: yuanguo:block/durian_cauldron_liquid_8
+  yuanguo:entity_renderer/durian_cauldron_juice_9:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_cauldron>
+    model: yuanguo:block/durian_cauldron_liquid_9
+  yuanguo:entity_renderer/durian_cauldron_juice_10:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_cauldron>
+    model: yuanguo:block/durian_cauldron_liquid_10
+  yuanguo:entity_renderer/durian_cauldron_juice_11:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_cauldron>
+    model: yuanguo:block/durian_cauldron_liquid_11
+  yuanguo:entity_renderer/durian_cauldron_juice_12:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_cauldron>
+    model: yuanguo:block/durian_cauldron_liquid_12
+  yuanguo:entity_renderer/durian_cauldron_jelly_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_jelly_cauldron>
+    model: yuanguo:block/durian_cauldron_jelly_liquid_1
+  yuanguo:entity_renderer/durian_cauldron_jelly_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_jelly_cauldron>
+    model: yuanguo:block/durian_cauldron_jelly_liquid_2
+  yuanguo:entity_renderer/durian_cauldron_jelly_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_jelly_cauldron>
+    model: yuanguo:block/durian_cauldron_jelly_liquid_3
+  yuanguo:entity_renderer/durian_cauldron_jello_1:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_jello_cauldron>
+    model: yuanguo:block/durian_cauldron_jello_liquid_1
+  yuanguo:entity_renderer/durian_cauldron_jello_2:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_jello_cauldron>
+    model: yuanguo:block/durian_cauldron_jello_liquid_2
+  yuanguo:entity_renderer/durian_cauldron_jello_3:
+    material: cauldron
+    data:
+      item_name: <!i><lang:liquid.yuanguo.durian_jello_cauldron>
+    model: yuanguo:block/durian_cauldron_jello_liquid_3

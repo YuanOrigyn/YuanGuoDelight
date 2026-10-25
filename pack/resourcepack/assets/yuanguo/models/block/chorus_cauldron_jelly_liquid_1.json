@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "yuanguo:block/jelly_chorus",
+    "content": "yuanguo:block/jelly_chorus"
+  },
+  "elements": [
+    {
+      "from": [2, 4, 2],
+      "to": [14, 9, 14],
+      "faces": {
+        "up": { "texture": "#content" }
+      }
+    }
+  ]
+}

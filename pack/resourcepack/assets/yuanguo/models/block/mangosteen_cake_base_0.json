@@ -1,0 +1,109 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "block/block",
+  "textures": {
+	"1": "#cake",
+	"2": "#base",
+	"tray_bottom": "yuanguo:block/tray_bottom",
+	"particle": "#cake"
+  },
+  "elements": [
+	{
+	  "from": [
+		1,
+		0,
+		1
+	  ],
+	  "to": [
+		15,
+		2,
+		15
+	  ],
+	  "faces": {
+		"north": {
+		  "uv": [
+			1,
+			11,
+			15,
+			13
+		  ],
+		  "texture": "#tray_bottom"
+		},
+		"east": {
+		  "uv": [
+			1,
+			11,
+			15,
+			13
+		  ],
+		  "texture": "#tray_bottom"
+		},
+		"south": {
+		  "uv": [
+			1,
+			11,
+			15,
+			13
+		  ],
+		  "texture": "#tray_bottom"
+		},
+		"west": {
+		  "uv": [
+			1,
+			11,
+			15,
+			13
+		  ],
+		  "texture": "#tray_bottom"
+		},
+		"up": {
+		  "uv": [
+			15,
+			15,
+			1,
+			1
+		  ],
+		  "texture": "#2"
+		},
+		"down": {
+		  "uv": [
+			1,
+			1,
+			15,
+			15
+		  ],
+		  "texture": "#tray_bottom",
+		  "cullface": "down"
+		}
+	  }
+	}
+  ],
+  "groups": [
+	{
+	  "name": "plate",
+	  "origin": [
+		8,
+		8,
+		8
+	  ],
+	  "color": 0,
+	  "children": [
+		0
+	  ]
+	},
+	{
+	  "name": "group",
+	  "origin": [
+		0,
+		0,
+		0
+	  ],
+	  "color": 0,
+	  "children": [
+		1,
+		2,
+		3
+	  ]
+	}
+  ]
+}

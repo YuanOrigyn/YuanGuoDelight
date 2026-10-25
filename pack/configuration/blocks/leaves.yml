@@ -1,0 +1,1101 @@
+# Generated from the Fruits Delight mod by the YuanGuoDelight build script.
+blocks:
+  yuanguo:pear_leaves:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:pear_leaves
+            conditions:
+            - type: any_of
+              terms:
+              - type: match_item
+                id: minecraft:shears
+              - type: enchantment
+                predicate: minecraft:silk_touch>=1
+          - type: item
+            item: yuanguo:pear
+            conditions:
+            - type: match_block_property
+              properties:
+                type: fruits
+            functions:
+            - type: apply_bonus
+              enchantment: minecraft:fortune
+              formula:
+                type: binomial_with_bonus_count
+                extra: 1
+                probability: 0.5
+          - type: item
+            item: yuanguo:pear_sapling
+            conditions:
+            - type: table_bonus
+              enchantment: minecraft:fortune
+              chances:
+              - 0.05
+              - 0.0625
+              - 0.083333333
+              - 0.1
+    settings:
+      template:
+      - default:settings/leaves
+      overrides:
+        item: yuanguo:pear_leaves
+        map_color: plant
+    behavior:
+    - type: yuanguo:seasonal_fruit_leaves
+      season: SPRING
+      fruit: yuanguo:pear
+      sapling: yuanguo:pear_sapling
+      fruit_min: 1
+      fruit_max: 2
+      ripen_chance: 0.3
+      synchronized: true
+      fruit_chance: 0.3
+    states:
+      properties:
+        type:
+          type: string
+          values:
+          - leaves
+          - flowers
+          - fruits
+          default: leaves
+      appearances:
+        leaves:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/pear_leaves
+        flowers:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/pear_flowers
+        fruits:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/pear_fruits
+      variants:
+        type=leaves:
+          appearance: leaves
+        type=flowers:
+          appearance: flowers
+        type=fruits:
+          appearance: fruits
+  yuanguo:hawberry_leaves:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:hawberry_leaves
+            conditions:
+            - type: any_of
+              terms:
+              - type: match_item
+                id: minecraft:shears
+              - type: enchantment
+                predicate: minecraft:silk_touch>=1
+          - type: item
+            item: yuanguo:hawberry
+            conditions:
+            - type: match_block_property
+              properties:
+                type: fruits
+            functions:
+            - type: apply_bonus
+              enchantment: minecraft:fortune
+              formula:
+                type: binomial_with_bonus_count
+                extra: 1
+                probability: 0.5
+          - type: item
+            item: yuanguo:hawberry_sapling
+            conditions:
+            - type: table_bonus
+              enchantment: minecraft:fortune
+              chances:
+              - 0.05
+              - 0.0625
+              - 0.083333333
+              - 0.1
+    settings:
+      template:
+      - default:settings/leaves
+      overrides:
+        item: yuanguo:hawberry_leaves
+        map_color: plant
+    behavior:
+    - type: yuanguo:seasonal_fruit_leaves
+      season: WINTER
+      fruit: yuanguo:hawberry
+      sapling: yuanguo:hawberry_sapling
+      fruit_min: 1
+      fruit_max: 2
+      ripen_chance: 0.3
+      synchronized: true
+      fruit_chance: 0.3
+    states:
+      properties:
+        type:
+          type: string
+          values:
+          - leaves
+          - flowers
+          - fruits
+          default: leaves
+      appearances:
+        leaves:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/hawberry_leaves
+        flowers:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/hawberry_flowers
+        fruits:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/hawberry_fruits
+      variants:
+        type=leaves:
+          appearance: leaves
+        type=flowers:
+          appearance: flowers
+        type=fruits:
+          appearance: fruits
+  yuanguo:lychee_leaves:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:lychee_leaves
+            conditions:
+            - type: any_of
+              terms:
+              - type: match_item
+                id: minecraft:shears
+              - type: enchantment
+                predicate: minecraft:silk_touch>=1
+          - type: item
+            item: yuanguo:lychee
+            conditions:
+            - type: match_block_property
+              properties:
+                type: fruits
+            functions:
+            - type: apply_bonus
+              enchantment: minecraft:fortune
+              formula:
+                type: binomial_with_bonus_count
+                extra: 1
+                probability: 0.5
+          - type: item
+            item: yuanguo:lychee_sapling
+            conditions:
+            - type: table_bonus
+              enchantment: minecraft:fortune
+              chances:
+              - 0.05
+              - 0.0625
+              - 0.083333333
+              - 0.1
+    settings:
+      template:
+      - default:settings/leaves
+      overrides:
+        item: yuanguo:lychee_leaves
+        map_color: plant
+    behavior:
+    - type: yuanguo:seasonal_fruit_leaves
+      season: SUMMER
+      fruit: yuanguo:lychee
+      sapling: yuanguo:lychee_sapling
+      fruit_min: 1
+      fruit_max: 2
+      ripen_chance: 0.3
+      synchronized: true
+      fruit_chance: 0.3
+    states:
+      properties:
+        type:
+          type: string
+          values:
+          - leaves
+          - flowers
+          - fruits
+          default: leaves
+      appearances:
+        leaves:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/lychee_leaves
+        flowers:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/lychee_flowers
+        fruits:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/lychee_fruits
+      variants:
+        type=leaves:
+          appearance: leaves
+        type=flowers:
+          appearance: flowers
+        type=fruits:
+          appearance: fruits
+  yuanguo:mango_leaves:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:mango_leaves
+            conditions:
+            - type: any_of
+              terms:
+              - type: match_item
+                id: minecraft:shears
+              - type: enchantment
+                predicate: minecraft:silk_touch>=1
+          - type: item
+            item: yuanguo:mango
+            conditions:
+            - type: match_block_property
+              properties:
+                type: fruits
+            functions:
+            - type: apply_bonus
+              enchantment: minecraft:fortune
+              formula:
+                type: binomial_with_bonus_count
+                extra: 1
+                probability: 0.5
+          - type: item
+            item: yuanguo:mango_sapling
+            conditions:
+            - type: table_bonus
+              enchantment: minecraft:fortune
+              chances:
+              - 0.05
+              - 0.0625
+              - 0.083333333
+              - 0.1
+    settings:
+      template:
+      - default:settings/leaves
+      overrides:
+        item: yuanguo:mango_leaves
+        map_color: plant
+    behavior:
+    - type: yuanguo:seasonal_fruit_leaves
+      season: SUMMER
+      fruit: yuanguo:mango
+      sapling: yuanguo:mango_sapling
+      fruit_min: 1
+      fruit_max: 2
+      ripen_chance: 0.3
+      synchronized: true
+      fruit_chance: 0.3
+    states:
+      properties:
+        type:
+          type: string
+          values:
+          - leaves
+          - flowers
+          - fruits
+          default: leaves
+      appearances:
+        leaves:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/mango_leaves
+        flowers:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/mango_flowers
+        fruits:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/mango_fruits
+      variants:
+        type=leaves:
+          appearance: leaves
+        type=flowers:
+          appearance: flowers
+        type=fruits:
+          appearance: fruits
+  yuanguo:persimmon_leaves:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:persimmon_leaves
+            conditions:
+            - type: any_of
+              terms:
+              - type: match_item
+                id: minecraft:shears
+              - type: enchantment
+                predicate: minecraft:silk_touch>=1
+          - type: item
+            item: yuanguo:persimmon
+            conditions:
+            - type: match_block_property
+              properties:
+                type: fruits
+            functions:
+            - type: apply_bonus
+              enchantment: minecraft:fortune
+              formula:
+                type: binomial_with_bonus_count
+                extra: 1
+                probability: 0.5
+          - type: item
+            item: yuanguo:persimmon_sapling
+            conditions:
+            - type: table_bonus
+              enchantment: minecraft:fortune
+              chances:
+              - 0.05
+              - 0.0625
+              - 0.083333333
+              - 0.1
+    settings:
+      template:
+      - default:settings/leaves
+      overrides:
+        item: yuanguo:persimmon_leaves
+        map_color: plant
+    behavior:
+    - type: yuanguo:seasonal_fruit_leaves
+      season: WINTER
+      fruit: yuanguo:persimmon
+      sapling: yuanguo:persimmon_sapling
+      fruit_min: 1
+      fruit_max: 2
+      ripen_chance: 0.3
+      synchronized: true
+      fruit_chance: 0.3
+    states:
+      properties:
+        type:
+          type: string
+          values:
+          - leaves
+          - flowers
+          - fruits
+          default: leaves
+      appearances:
+        leaves:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/persimmon_leaves
+        flowers:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/persimmon_flowers
+        fruits:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/persimmon_fruits
+      variants:
+        type=leaves:
+          appearance: leaves
+        type=flowers:
+          appearance: flowers
+        type=fruits:
+          appearance: fruits
+  yuanguo:peach_leaves:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:peach_leaves
+            conditions:
+            - type: any_of
+              terms:
+              - type: match_item
+                id: minecraft:shears
+              - type: enchantment
+                predicate: minecraft:silk_touch>=1
+          - type: item
+            item: yuanguo:peach
+            conditions:
+            - type: match_block_property
+              properties:
+                type: fruits
+            functions:
+            - type: apply_bonus
+              enchantment: minecraft:fortune
+              formula:
+                type: binomial_with_bonus_count
+                extra: 1
+                probability: 0.5
+          - type: item
+            item: yuanguo:peach_sapling
+            conditions:
+            - type: table_bonus
+              enchantment: minecraft:fortune
+              chances:
+              - 0.05
+              - 0.0625
+              - 0.083333333
+              - 0.1
+    settings:
+      template:
+      - default:settings/leaves
+      overrides:
+        item: yuanguo:peach_leaves
+        map_color: plant
+    behavior:
+    - type: yuanguo:seasonal_fruit_leaves
+      season: SPRING
+      fruit: yuanguo:peach
+      sapling: yuanguo:peach_sapling
+      fruit_min: 1
+      fruit_max: 2
+      bloom_chance: 0.1
+      ripen_chance: 0.1
+      synchronized: true
+      fruit_chance: 0.3
+    states:
+      properties:
+        type:
+          type: string
+          values:
+          - leaves
+          - flowers
+          - fruits
+          default: leaves
+      appearances:
+        leaves:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/peach_leaves
+        flowers:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/peach_flowers
+        fruits:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/peach_fruits
+      variants:
+        type=leaves:
+          appearance: leaves
+        type=flowers:
+          appearance: flowers
+        type=fruits:
+          appearance: fruits
+  yuanguo:orange_leaves:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:orange_leaves
+            conditions:
+            - type: any_of
+              terms:
+              - type: match_item
+                id: minecraft:shears
+              - type: enchantment
+                predicate: minecraft:silk_touch>=1
+          - type: item
+            item: yuanguo:orange
+            conditions:
+            - type: match_block_property
+              properties:
+                type: fruits
+            functions:
+            - type: apply_bonus
+              enchantment: minecraft:fortune
+              formula:
+                type: binomial_with_bonus_count
+                extra: 1
+                probability: 0.5
+          - type: item
+            item: yuanguo:orange_sapling
+            conditions:
+            - type: table_bonus
+              enchantment: minecraft:fortune
+              chances:
+              - 0.05
+              - 0.0625
+              - 0.083333333
+              - 0.1
+    settings:
+      template:
+      - default:settings/leaves
+      overrides:
+        item: yuanguo:orange_leaves
+        map_color: plant
+    behavior:
+    - type: yuanguo:seasonal_fruit_leaves
+      season: FALL
+      fruit: yuanguo:orange
+      sapling: yuanguo:orange_sapling
+      fruit_min: 1
+      fruit_max: 2
+      ripen_chance: 0.3
+      synchronized: true
+      fruit_chance: 0.3
+    states:
+      properties:
+        type:
+          type: string
+          values:
+          - leaves
+          - flowers
+          - fruits
+          default: leaves
+      appearances:
+        leaves:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/orange_leaves
+        flowers:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/orange_flowers
+        fruits:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/orange_fruits
+      variants:
+        type=leaves:
+          appearance: leaves
+        type=flowers:
+          appearance: flowers
+        type=fruits:
+          appearance: fruits
+  yuanguo:apple_leaves:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:apple_leaves
+            conditions:
+            - type: any_of
+              terms:
+              - type: match_item
+                id: minecraft:shears
+              - type: enchantment
+                predicate: minecraft:silk_touch>=1
+          - type: item
+            item: minecraft:apple
+            conditions:
+            - type: match_block_property
+              properties:
+                type: fruits
+            functions:
+            - type: apply_bonus
+              enchantment: minecraft:fortune
+              formula:
+                type: binomial_with_bonus_count
+                extra: 1
+                probability: 0.5
+          - type: item
+            item: yuanguo:apple_sapling
+            conditions:
+            - type: table_bonus
+              enchantment: minecraft:fortune
+              chances:
+              - 0.05
+              - 0.0625
+              - 0.083333333
+              - 0.1
+    settings:
+      template:
+      - default:settings/leaves
+      overrides:
+        item: yuanguo:apple_leaves
+        map_color: plant
+    behavior:
+    - type: yuanguo:seasonal_fruit_leaves
+      season: FALL
+      fruit: minecraft:apple
+      sapling: yuanguo:apple_sapling
+      fruit_min: 1
+      fruit_max: 2
+      ripen_chance: 0.3
+      synchronized: true
+      fruit_chance: 0.3
+    states:
+      properties:
+        type:
+          type: string
+          values:
+          - leaves
+          - flowers
+          - fruits
+          default: leaves
+      appearances:
+        leaves:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/apple_leaves
+        flowers:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/apple_flowers
+        fruits:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/apple_fruits
+      variants:
+        type=leaves:
+          appearance: leaves
+        type=flowers:
+          appearance: flowers
+        type=fruits:
+          appearance: fruits
+  yuanguo:mangosteen_leaves:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:mangosteen_leaves
+            conditions:
+            - type: any_of
+              terms:
+              - type: match_item
+                id: minecraft:shears
+              - type: enchantment
+                predicate: minecraft:silk_touch>=1
+          - type: item
+            item: yuanguo:mangosteen
+            conditions:
+            - type: match_block_property
+              properties:
+                type: fruits
+            functions:
+            - type: apply_bonus
+              enchantment: minecraft:fortune
+              formula:
+                type: binomial_with_bonus_count
+                extra: 1
+                probability: 0.5
+          - type: item
+            item: yuanguo:mangosteen_sapling
+            conditions:
+            - type: table_bonus
+              enchantment: minecraft:fortune
+              chances:
+              - 0.05
+              - 0.0625
+              - 0.083333333
+              - 0.1
+    settings:
+      template:
+      - default:settings/leaves
+      overrides:
+        item: yuanguo:mangosteen_leaves
+        map_color: plant
+    behavior:
+    - type: yuanguo:seasonal_fruit_leaves
+      season: SUMMER
+      fruit: yuanguo:mangosteen
+      sapling: yuanguo:mangosteen_sapling
+      fruit_min: 1
+      fruit_max: 2
+      ripen_chance: 0.3
+      synchronized: true
+      fruit_chance: 0.3
+    states:
+      properties:
+        type:
+          type: string
+          values:
+          - leaves
+          - flowers
+          - fruits
+          default: leaves
+      appearances:
+        leaves:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/mangosteen_leaves
+        flowers:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/mangosteen_flowers
+        fruits:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/mangosteen_fruits
+      variants:
+        type=leaves:
+          appearance: leaves
+        type=flowers:
+          appearance: flowers
+        type=fruits:
+          appearance: fruits
+  yuanguo:bayberry_leaves:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:bayberry_leaves
+            conditions:
+            - type: any_of
+              terms:
+              - type: match_item
+                id: minecraft:shears
+              - type: enchantment
+                predicate: minecraft:silk_touch>=1
+          - type: item
+            item: yuanguo:bayberry
+            conditions:
+            - type: match_block_property
+              properties:
+                type: fruits
+            functions:
+            - type: apply_bonus
+              enchantment: minecraft:fortune
+              formula:
+                type: binomial_with_bonus_count
+                extra: 1
+                probability: 0.5
+          - type: item
+            item: yuanguo:bayberry_sapling
+            conditions:
+            - type: table_bonus
+              enchantment: minecraft:fortune
+              chances:
+              - 0.05
+              - 0.0625
+              - 0.083333333
+              - 0.1
+    settings:
+      template:
+      - default:settings/leaves
+      overrides:
+        item: yuanguo:bayberry_leaves
+        map_color: plant
+    behavior:
+    - type: yuanguo:seasonal_fruit_leaves
+      season: SUMMER
+      fruit: yuanguo:bayberry
+      sapling: yuanguo:bayberry_sapling
+      fruit_min: 1
+      fruit_max: 2
+      ripen_chance: 0.3
+      synchronized: true
+      fruit_chance: 0.3
+    states:
+      properties:
+        type:
+          type: string
+          values:
+          - leaves
+          - flowers
+          - fruits
+          default: leaves
+      appearances:
+        leaves:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/bayberry_leaves
+        flowers:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/bayberry_flowers
+        fruits:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/bayberry_fruits
+      variants:
+        type=leaves:
+          appearance: leaves
+        type=flowers:
+          appearance: flowers
+        type=fruits:
+          appearance: fruits
+  yuanguo:kiwi_leaves:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:kiwi_leaves
+            conditions:
+            - type: any_of
+              terms:
+              - type: match_item
+                id: minecraft:shears
+              - type: enchantment
+                predicate: minecraft:silk_touch>=1
+          - type: item
+            item: yuanguo:kiwi
+            conditions:
+            - type: match_block_property
+              properties:
+                type: fruits
+            functions:
+            - type: apply_bonus
+              enchantment: minecraft:fortune
+              formula:
+                type: binomial_with_bonus_count
+                extra: 1
+                probability: 0.5
+          - type: item
+            item: yuanguo:kiwi_sapling
+            conditions:
+            - type: table_bonus
+              enchantment: minecraft:fortune
+              chances:
+              - 0.05
+              - 0.0625
+              - 0.083333333
+              - 0.1
+    settings:
+      template:
+      - default:settings/leaves
+      overrides:
+        item: yuanguo:kiwi_leaves
+        map_color: plant
+    behavior:
+    - type: yuanguo:seasonal_fruit_leaves
+      season: FALL
+      fruit: yuanguo:kiwi
+      sapling: yuanguo:kiwi_sapling
+      fruit_min: 1
+      fruit_max: 2
+      ripen_chance: 0.3
+      synchronized: true
+      fruit_chance: 0.3
+    states:
+      properties:
+        type:
+          type: string
+          values:
+          - leaves
+          - flowers
+          - fruits
+          default: leaves
+      appearances:
+        leaves:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/kiwi_leaves
+        flowers:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/kiwi_flowers
+        fruits:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/kiwi_fruits
+      variants:
+        type=leaves:
+          appearance: leaves
+        type=flowers:
+          appearance: flowers
+        type=fruits:
+          appearance: fruits
+  yuanguo:fig_leaves:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:fig_leaves
+            conditions:
+            - type: any_of
+              terms:
+              - type: match_item
+                id: minecraft:shears
+              - type: enchantment
+                predicate: minecraft:silk_touch>=1
+          - type: item
+            item: yuanguo:fig
+            conditions:
+            - type: match_block_property
+              properties:
+                type: fruits
+            functions:
+            - type: apply_bonus
+              enchantment: minecraft:fortune
+              formula:
+                type: binomial_with_bonus_count
+                extra: 1
+                probability: 0.5
+          - type: item
+            item: yuanguo:fig_sapling
+            conditions:
+            - type: table_bonus
+              enchantment: minecraft:fortune
+              chances:
+              - 0.05
+              - 0.0625
+              - 0.083333333
+              - 0.1
+    settings:
+      template:
+      - default:settings/leaves
+      overrides:
+        item: yuanguo:fig_leaves
+        map_color: plant
+    behavior:
+    - type: yuanguo:seasonal_fruit_leaves
+      season: FALL
+      fruit: yuanguo:fig
+      sapling: yuanguo:fig_sapling
+      fruit_min: 1
+      fruit_max: 2
+      ripen_chance: 0.3
+      synchronized: true
+      fruit_chance: 0.3
+    states:
+      properties:
+        type:
+          type: string
+          values:
+          - leaves
+          - flowers
+          - fruits
+          default: leaves
+      appearances:
+        leaves:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/fig_leaves
+        flowers:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/fig_flowers
+        fruits:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/fig_fruits
+      variants:
+        type=leaves:
+          appearance: leaves
+        type=flowers:
+          appearance: flowers
+        type=fruits:
+          appearance: fruits
+  yuanguo:durian_leaves:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:durian_leaves
+            conditions:
+            - type: any_of
+              terms:
+              - type: match_item
+                id: minecraft:shears
+              - type: enchantment
+                predicate: minecraft:silk_touch>=1
+          - type: item
+            item: yuanguo:durian_sapling
+            conditions:
+            - type: table_bonus
+              enchantment: minecraft:fortune
+              chances:
+              - 0.05
+              - 0.0625
+              - 0.083333333
+              - 0.1
+    settings:
+      template:
+      - default:settings/leaves
+      overrides:
+        item: yuanguo:durian_leaves
+        map_color: plant
+    behavior:
+    - type: yuanguo:seasonal_fruit_leaves
+      season: SUMMER
+      fruit: yuanguo:durian
+      sapling: yuanguo:durian_sapling
+      fruit_min: 1
+      fruit_max: 2
+      bloom_chance: 0.1
+      fruit_below: true
+      hanging_block: yuanguo:hanging_durian
+    states:
+      properties:
+        type:
+          type: string
+          values:
+          - leaves
+          - budding
+          default: leaves
+      appearances:
+        leaves:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/durian_leaves
+        budding:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/durian_leaves
+      variants:
+        type=leaves:
+          appearance: leaves
+        type=budding:
+          appearance: budding

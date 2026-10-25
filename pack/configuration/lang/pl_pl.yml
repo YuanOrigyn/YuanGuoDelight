@@ -1,0 +1,500 @@
+# Generated from the Fruits Delight mod by the YuanGuoDelight build script.
+lang#items:
+  pl_pl:
+    item.yuanguo.apple_jello: Galaretka jabłkowa
+    item.yuanguo.baked_durian: Pieczony durian
+    item.yuanguo.baked_pear: Pieczona gruszka
+    item.yuanguo.bayberry: Woskownica
+    item.yuanguo.bayberry_cookie: Ciastko z woskownicy
+    item.yuanguo.bayberry_jello: Galaretka z woskownicy
+    item.yuanguo.bayberry_soup: Zupa z woskownicy
+    item.yuanguo.bellini_cocktail: Bellini
+    item.yuanguo.blueberry: Borówka
+    item.yuanguo.blueberry_custard: Budyń borówkowy
+    item.yuanguo.blueberry_jello: Galaretka borówkowa
+    item.yuanguo.blueberry_muffin: Muffin z borówkami
+    item.yuanguo.bowl_of_pineapple_fried_rice: Miska smażonego ryżu z ananasem
+    item.yuanguo.chorus_jello: Galaretka refrenusowa
+    item.yuanguo.cranberry: Żurawina
+    item.yuanguo.cranberry_cookie: Ciastko z żurawiną
+    item.yuanguo.cranberry_jello: Galaretka żurawinowa
+    item.yuanguo.cranberry_muffin: Muffin z żurawiną
+    item.yuanguo.dried_persimmon: Suszona persymona
+    item.yuanguo.dummy_cauldron: Kocioł wody
+    item.yuanguo.durian_flesh: Miąższ duriana
+    item.yuanguo.durian_helmet: Hełm z duriana
+    item.yuanguo.durian_jello: Galaretka z duriana
+    item.yuanguo.durian_pie: Placek z duriana
+    item.yuanguo.durian_sapling: Nasiono duriana
+    item.yuanguo.durian_shell: Łupina duriana
+    item.yuanguo.fig: Figa
+    item.yuanguo.fig_chicken_stew: Potrawka figowa z kurczaka
+    item.yuanguo.fig_jello: Galaretka figowa
+    item.yuanguo.fig_pudding_slice: Kawałek puddingu figowego
+    item.yuanguo.fig_tart: Tarta figowa
+    item.yuanguo.glowberry_jello: Galaretka ze świecących jagód
+    item.yuanguo.hamimelon_jello: Galaretka z melona Hami
+    item.yuanguo.hamimelon_juice: Sok z melona Hami
+    item.yuanguo.hamimelon_popsicle: Lody na patyku z melona Hami
+    item.yuanguo.hamimelon_seeds: Nasiona melona Hami
+    item.yuanguo.hamimelon_shaved_ice: Granita z melona Hami
+    item.yuanguo.hamimelon_slice: Kawałek melona Hami
+    item.yuanguo.hawberry: Głóg
+    item.yuanguo.hawberry_jello: Galaretka głogowa
+    item.yuanguo.hawberry_roll: Głogowy rulon z dżemem
+    item.yuanguo.hawberry_sheet: Głogowa skóra cukiernicza
+    item.yuanguo.hawberry_stick: Głóg na patyku
+    item.yuanguo.hawberry_tea: Herbata z głogiem
+    item.yuanguo.jelly_bread: Kanapka z dżemem
+    item.yuanguo.apple_jelly_bread: Dżem jabłkowy Bread
+    item.yuanguo.blueberry_jelly_bread: Dżem borówkowy Bread
+    item.yuanguo.glowberry_jelly_bread: Dżem ze świecących jagód Bread
+    item.yuanguo.hamimelon_jelly_bread: Dżem z melona Hami Bread
+    item.yuanguo.melon_jelly_bread: Dżem arbuzowy Bread
+    item.yuanguo.hawberry_jelly_bread: Dżem głogowy Bread
+    item.yuanguo.lychee_jelly_bread: Dżem z liczi Bread
+    item.yuanguo.mango_jelly_bread: Dżem z mango Bread
+    item.yuanguo.orange_jelly_bread: Dżem pomarańczowy Bread
+    item.yuanguo.peach_jelly_bread: Dżem brzoskwiniowy Bread
+    item.yuanguo.pear_jelly_bread: Dżem gruszkowy Bread
+    item.yuanguo.persimmon_jelly_bread: Dżem z persymony Bread
+    item.yuanguo.pineapple_jelly_bread: Dżem ananasowy Bread
+    item.yuanguo.lemon_jelly_bread: Dżem cytrynowy Bread
+    item.yuanguo.cranberry_jelly_bread: Dżem żurawinowy Bread
+    item.yuanguo.mangosteen_jelly_bread: Dżem mangostanowy Bread
+    item.yuanguo.sweetberry_jelly_bread: Dżem ze słodkich jagód Bread
+    item.yuanguo.chorus_jelly_bread: Dżem refrenusowy Bread
+    item.yuanguo.bayberry_jelly_bread: Dżem z woskownicy Bread
+    item.yuanguo.kiwi_jelly_bread: Dżem z kiwi Bread
+    item.yuanguo.fig_jelly_bread: Dżem figowy Bread
+    item.yuanguo.durian_jelly_bread: Dżem z duriana Bread
+    item.yuanguo.kiwi: Kiwi
+    item.yuanguo.kiwi_jello: Galaretka z kiwi
+    item.yuanguo.kiwi_juice: Sok z kiwi
+    item.yuanguo.kiwi_popsicle: Lody na patyku z kiwi
+    item.yuanguo.lemon: Cytryna
+    item.yuanguo.lemon_cookie: Ciastko cytrynowe
+    item.yuanguo.lemon_jello: Galaretka cytrynowa
+    item.yuanguo.lemon_juice: Sok z cytryny
+    item.yuanguo.lemon_seeds: Nasiona cytryny
+    item.yuanguo.lemon_slice: Plasterek cytryny
+    item.yuanguo.lemon_tart: Tarta cytrynowa
+    item.yuanguo.lychee: Liczi
+    item.yuanguo.lychee_cherry_tea: Herbata z liczi i wiśnią
+    item.yuanguo.lychee_chicken: Kurczak z liczi
+    item.yuanguo.lychee_jello: Galaretka z liczi
+    item.yuanguo.mango: Mango
+    item.yuanguo.mango_jello: Galaretka z mango
+    item.yuanguo.mango_milkshake: Koktail z mango
+    item.yuanguo.mango_salad: Sałatka z mango
+    item.yuanguo.mango_tea: Herbata z mango
+    item.yuanguo.mangosteen: Mangostan
+    item.yuanguo.mangosteen_jello: Galaretka mangostanowa
+    item.yuanguo.mangosteen_tea: Herbata z mangostanem
+    item.yuanguo.melon_jello: Galaretka arbuzowa
+    item.yuanguo.orange: Pomarańcza
+    item.yuanguo.orange_chicken: Kurczak z pomarańczą
+    item.yuanguo.orange_jello: Galaretka pomarańczowa
+    item.yuanguo.orange_juice: Sok pomarańczowy
+    item.yuanguo.orange_marinated_pork: Schab w marynacie pomarańczowej
+    item.yuanguo.orange_slice: Cząstka pomarańczy
+    item.yuanguo.peach: Brzoskwinia
+    item.yuanguo.peach_jello: Galaretka brzoskwiniowa
+    item.yuanguo.peach_tea: Herbata z brzoskwinią
+    item.yuanguo.pear: Gruszka
+    item.yuanguo.pear_jello: Galaretka gruszkowa
+    item.yuanguo.pear_juice: Sok gruszkowy
+    item.yuanguo.pear_with_rock_sugar: Gruszka z gruboziarnistym cukrem
+    item.yuanguo.persimmon: Persymona
+    item.yuanguo.persimmon_cookie: Ciastko z persymony
+    item.yuanguo.persimmon_jello: Galaretka z persymony
+    item.yuanguo.pineapple: Ananas
+    item.yuanguo.pineapple_jello: Galaretka ananasowa
+    item.yuanguo.pineapple_marinated_pork: Schab marynowany w ananasie
+    item.yuanguo.pineapple_pie: Placek ananasowy
+    item.yuanguo.pineapple_sapling: Sadzonka ananasa
+    item.yuanguo.pineapple_slice: Cząstka ananasa
+    item.yuanguo.sweetberry_jello: Galaretka ze słodkich jagód
+lang#blocks:
+  pl_pl:
+    block.yuanguo.apple_cauldron: Kocioł wywaru z jabłek
+    liquid.yuanguo.apple_cauldron: Kocioł wywaru z jabłek
+    block.yuanguo.apple_crate: Skrzynka jabłek
+    block.yuanguo.apple_jello_block: Blok galaretki jabłkowej
+    block.yuanguo.apple_jello_cauldron: Kocioł galaretki jabłkowej
+    liquid.yuanguo.apple_jello_cauldron: Kocioł galaretki jabłkowej
+    block.yuanguo.apple_jelly: Dżem jabłkowy
+    block.yuanguo.apple_jelly_block: Blok dżemu jabłkowego
+    block.yuanguo.apple_jelly_cauldron: Kocioł dżemu jabłkowego
+    liquid.yuanguo.apple_jelly_cauldron: Kocioł dżemu jabłkowego
+    block.yuanguo.apple_leaves: Liście jabłoni
+    block.yuanguo.apple_sapling: Sadzonka jabłoni
+    block.yuanguo.attached_hamimelon_stem: Przyczepiona łodyga melona Hami
+    block.yuanguo.bayberry_cauldron: Kocioł wywaru z woskownicy
+    liquid.yuanguo.bayberry_cauldron: Kocioł wywaru z woskownicy
+    block.yuanguo.bayberry_crate: Skrzynka woskownicy
+    block.yuanguo.bayberry_jello_block: Blok galaretki z woskownicy
+    block.yuanguo.bayberry_jello_cauldron: Kocioł galaretki z woskownicy
+    liquid.yuanguo.bayberry_jello_cauldron: Kocioł galaretki z woskownicy
+    block.yuanguo.bayberry_jelly: Dżem z woskownicy
+    block.yuanguo.bayberry_jelly_block: Blok dżemu z woskownicy
+    block.yuanguo.bayberry_jelly_cauldron: Kocioł dżemu z woskownicy
+    liquid.yuanguo.bayberry_jelly_cauldron: Kocioł dżemu z woskownicy
+    block.yuanguo.bayberry_leaves: Liście woskownicy
+    block.yuanguo.bayberry_sapling: Sadzonka woskownicy
+    block.yuanguo.blueberry_bush: Krzew borówki
+    block.yuanguo.blueberry_cauldron: Kocioł wywaru z borówek
+    liquid.yuanguo.blueberry_cauldron: Kocioł wywaru z borówek
+    block.yuanguo.blueberry_crate: Skrzynka borówek
+    block.yuanguo.blueberry_jello_block: Blok galaretki borówkowej
+    block.yuanguo.blueberry_jello_cauldron: Kocioł galaretki borówkowej
+    liquid.yuanguo.blueberry_jello_cauldron: Kocioł galaretki borówkowej
+    block.yuanguo.blueberry_jelly: Dżem borówkowy
+    block.yuanguo.blueberry_jelly_block: Blok dżemu borówkowego
+    block.yuanguo.blueberry_jelly_cauldron: Kocioł dżemu borówkowego
+    liquid.yuanguo.blueberry_jelly_cauldron: Kocioł dżemu borówkowego
+    block.yuanguo.chorus_cauldron: Kocioł wywaru z refrenusu
+    liquid.yuanguo.chorus_cauldron: Kocioł wywaru z refrenusu
+    block.yuanguo.chorus_jello_block: Blok galaretki refrenusowej
+    block.yuanguo.chorus_jello_cauldron: Kocioł galaretki refrenusowej
+    liquid.yuanguo.chorus_jello_cauldron: Kocioł galaretki refrenusowej
+    block.yuanguo.chorus_jelly: Dżem refrenusowy
+    block.yuanguo.chorus_jelly_block: Blok dżemu refrenusowego
+    block.yuanguo.chorus_jelly_cauldron: Kocioł dżemu refrenusowego
+    liquid.yuanguo.chorus_jelly_cauldron: Kocioł dżemu refrenusowego
+    block.yuanguo.cranberry_bush: Krzew żurawiny
+    block.yuanguo.cranberry_cauldron: Kocioł wywaru z żurawiny
+    liquid.yuanguo.cranberry_cauldron: Kocioł wywaru z żurawiny
+    block.yuanguo.cranberry_crate: Skrzynka żurawiny
+    block.yuanguo.cranberry_jello_block: Blok galaretki żurawinowej
+    block.yuanguo.cranberry_jello_cauldron: Kocioł galaretki żurawinowej
+    liquid.yuanguo.cranberry_jello_cauldron: Kocioł galaretki żurawinowej
+    block.yuanguo.cranberry_jelly: Dżem żurawinowy
+    block.yuanguo.cranberry_jelly_block: Blok dżemu żurawinowego
+    block.yuanguo.cranberry_jelly_cauldron: Kocioł dżemu żurawinowego
+    liquid.yuanguo.cranberry_jelly_cauldron: Kocioł dżemu żurawinowego
+    block.yuanguo.durian: Durian
+    block.yuanguo.hanging_durian: Durian
+    block.yuanguo.durian_cauldron: Kocioł wywaru z duriana
+    liquid.yuanguo.durian_cauldron: Kocioł wywaru z duriana
+    block.yuanguo.durian_jello_block: Blok galaretki z duriana
+    block.yuanguo.durian_jello_cauldron: Kocioł galaretki z duriana
+    liquid.yuanguo.durian_jello_cauldron: Kocioł galaretki z duriana
+    block.yuanguo.durian_jelly: Dżem z duriana
+    block.yuanguo.durian_jelly_block: Blok dżemu z duriana
+    block.yuanguo.durian_jelly_cauldron: Blok dżemu z duriana
+    liquid.yuanguo.durian_jelly_cauldron: Blok dżemu z duriana
+    block.yuanguo.durian_leaves: Liście duriana
+    block.yuanguo.durian_sapling: Sadzonka duriana
+    block.yuanguo.fig_cauldron: Kocioł wywaru z fig
+    liquid.yuanguo.fig_cauldron: Kocioł wywaru z fig
+    block.yuanguo.fig_crate: Skrzynka fig
+    block.yuanguo.fig_jello_block: Blok galaretki figowej
+    block.yuanguo.fig_jello_cauldron: Kocioł galaretki figowej
+    liquid.yuanguo.fig_jello_cauldron: Kocioł galaretki figowej
+    block.yuanguo.fig_jelly: Dżem figowy
+    block.yuanguo.fig_jelly_block: Blok dżemu figowego
+    block.yuanguo.fig_jelly_cauldron: Kocioł dżemu figowego
+    liquid.yuanguo.fig_jelly_cauldron: Kocioł dżemu figowego
+    block.yuanguo.fig_leaves: Liście figowca
+    block.yuanguo.fig_pudding: Pudding figowy
+    block.yuanguo.fig_sapling: Sadzonka figowca
+    block.yuanguo.glowberry_cauldron: Kocioł wywaru ze świecących jagód
+    liquid.yuanguo.glowberry_cauldron: Kocioł wywaru ze świecących jagód
+    block.yuanguo.glowberry_jello_block: Blok galaretki ze świecących jagód
+    block.yuanguo.glowberry_jello_cauldron: Kocioł galaretki ze świecących jagód
+    liquid.yuanguo.glowberry_jello_cauldron: Kocioł galaretki ze świecących jagód
+    block.yuanguo.glowberry_jelly: Dżem ze świecących jagód
+    block.yuanguo.glowberry_jelly_block: Blok dżemu ze świecących jagód
+    block.yuanguo.glowberry_jelly_cauldron: Kocioł dżemu ze świecących jagód
+    liquid.yuanguo.glowberry_jelly_cauldron: Kocioł dżemu ze świecących jagód
+    block.yuanguo.hamimelon: Melon Hami
+    block.yuanguo.hamimelon_cauldron: Kocioł wywaru z melona Hami
+    liquid.yuanguo.hamimelon_cauldron: Kocioł wywaru z melona Hami
+    block.yuanguo.hamimelon_jello_block: Blok galaretki z melona Hami
+    block.yuanguo.hamimelon_jello_cauldron: Kocioł galaretki z melona Hami
+    liquid.yuanguo.hamimelon_jello_cauldron: Kocioł galaretki z melona Hami
+    block.yuanguo.hamimelon_jelly: Dżem z melona Hami
+    block.yuanguo.hamimelon_jelly_block: Blok dżemu z melona Hami
+    block.yuanguo.hamimelon_jelly_cauldron: Kocioł dżemu z melona Hami
+    liquid.yuanguo.hamimelon_jelly_cauldron: Kocioł dżemu z melona Hami
+    block.yuanguo.hamimelon_stem: Łodyga melona Hami
+    block.yuanguo.hawberry_cauldron: Kocioł wywaru z głogu
+    liquid.yuanguo.hawberry_cauldron: Kocioł wywaru z głogu
+    block.yuanguo.hawberry_crate: Skrzynka głogu
+    block.yuanguo.hawberry_jello_block: Blok galaretki głogowej
+    block.yuanguo.hawberry_jello_cauldron: Kocioł galaretki głogowej
+    liquid.yuanguo.hawberry_jello_cauldron: Kocioł galaretki głogowej
+    block.yuanguo.hawberry_jelly: Dżem głogowy
+    block.yuanguo.hawberry_jelly_block: Blok dżemu głogowego
+    block.yuanguo.hawberry_jelly_cauldron: Kocioł dżemu głogowego
+    liquid.yuanguo.hawberry_jelly_cauldron: Kocioł dżemu głogowego
+    block.yuanguo.hawberry_leaves: Liście głogu
+    block.yuanguo.hawberry_sapling: Sadzonka głogu
+    block.yuanguo.kiwi_cauldron: Kocioł wywaru z kiwi
+    liquid.yuanguo.kiwi_cauldron: Kocioł wywaru z kiwi
+    block.yuanguo.kiwi_crate: Skrzynka kiwi
+    block.yuanguo.kiwi_jello_block: Blok galaretki z kiwi
+    block.yuanguo.kiwi_jello_cauldron: Kocioł galaretki z kiwi
+    liquid.yuanguo.kiwi_jello_cauldron: Kocioł galaretki z kiwi
+    block.yuanguo.kiwi_jelly: Dżem z kiwi
+    block.yuanguo.kiwi_jelly_block: Blok dżemu z kiwi
+    block.yuanguo.kiwi_jelly_cauldron: Kocioł dżemu z kiwi
+    liquid.yuanguo.kiwi_jelly_cauldron: Kocioł dżemu z kiwi
+    block.yuanguo.kiwi_leaves: Liście kiwi
+    block.yuanguo.kiwi_sapling: Sadzonka kiwi
+    block.yuanguo.lemon_cauldron: Kocioł wywaru z cytryn
+    liquid.yuanguo.lemon_cauldron: Kocioł wywaru z cytryn
+    block.yuanguo.lemon_crate: Skrzynka cytryn
+    block.yuanguo.lemon_jello_block: Blok galaretki cytrynowej
+    block.yuanguo.lemon_jello_cauldron: Kocioł galaretki cytrynowej
+    liquid.yuanguo.lemon_jello_cauldron: Kocioł galaretki cytrynowej
+    block.yuanguo.lemon_jelly: Dżem cytrynowy
+    block.yuanguo.lemon_jelly_block: Blok dżemu cytrynowego
+    block.yuanguo.lemon_jelly_cauldron: Kocioł dżemu cytrynowego
+    liquid.yuanguo.lemon_jelly_cauldron: Kocioł dżemu cytrynowego
+    block.yuanguo.lemon_tree: Drzewo cytryny
+    block.yuanguo.lemonade_cauldron: Kocioł lemoniady
+    liquid.yuanguo.lemonade_cauldron: Kocioł lemoniady
+    block.yuanguo.lychee_cauldron: Kocioł wywaru z liczi
+    liquid.yuanguo.lychee_cauldron: Kocioł wywaru z liczi
+    block.yuanguo.lychee_crate: Skrzynka liczi
+    block.yuanguo.lychee_jello_block: Blok galaretki z liczi
+    block.yuanguo.lychee_jello_cauldron: Kocioł galaretki z liczi
+    liquid.yuanguo.lychee_jello_cauldron: Kocioł galaretki z liczi
+    block.yuanguo.lychee_jelly: Dżem z liczi
+    block.yuanguo.lychee_jelly_block: Blok dżemu z liczi
+    block.yuanguo.lychee_jelly_cauldron: Kocioł dżemu z liczi
+    liquid.yuanguo.lychee_jelly_cauldron: Kocioł dżemu z liczi
+    block.yuanguo.lychee_leaves: Liście liczi
+    block.yuanguo.lychee_sapling: Sadzonka liczi
+    block.yuanguo.mango_cauldron: Kocioł wywaru z mango
+    liquid.yuanguo.mango_cauldron: Kocioł wywaru z mango
+    block.yuanguo.mango_crate: Skrzynka mango
+    block.yuanguo.mango_jello_block: Blok galaretki z mango
+    block.yuanguo.mango_jello_cauldron: Kocioł galaretki z mango
+    liquid.yuanguo.mango_jello_cauldron: Kocioł galaretki z mango
+    block.yuanguo.mango_jelly: Dżem z mango
+    block.yuanguo.mango_jelly_block: Blok dżemu z mango
+    block.yuanguo.mango_jelly_cauldron: Kocioł dżemu z mango
+    liquid.yuanguo.mango_jelly_cauldron: Kocioł dżemu z mango
+    block.yuanguo.mango_leaves: Liście mango
+    block.yuanguo.mango_sapling: Sadzonka mango
+    block.yuanguo.mangosteen_cake: Ciasto mangostanowe
+    block.yuanguo.mangosteen_cauldron: Kocioł wywaru z mangostanu
+    liquid.yuanguo.mangosteen_cauldron: Kocioł wywaru z mangostanu
+    block.yuanguo.mangosteen_crate: Skrzynka mangostanu
+    block.yuanguo.mangosteen_jello_block: Blok galaretki mangostanowej
+    block.yuanguo.mangosteen_jello_cauldron: Kocioł galaretki mangostanowej
+    liquid.yuanguo.mangosteen_jello_cauldron: Kocioł galaretki mangostanowej
+    block.yuanguo.mangosteen_jelly: Dżem mangostanowy
+    block.yuanguo.mangosteen_jelly_block: Blok dżemu mangostanowego
+    block.yuanguo.mangosteen_jelly_cauldron: Kocioł dżemu mangostanowego
+    liquid.yuanguo.mangosteen_jelly_cauldron: Kocioł dżemu mangostanowego
+    block.yuanguo.mangosteen_leaves: Liście mangostanu
+    block.yuanguo.mangosteen_sapling: Sadzonka mangostanu
+    block.yuanguo.melon_cauldron: Kocioł wywaru z arbuza
+    liquid.yuanguo.melon_cauldron: Kocioł wywaru z arbuza
+    block.yuanguo.melon_jello_block: Blok galaretki arbuzowej
+    block.yuanguo.melon_jello_cauldron: Kocioł galaretki arbuzowej
+    liquid.yuanguo.melon_jello_cauldron: Kocioł galaretki arbuzowej
+    block.yuanguo.melon_jelly: Dżem arbuzowy
+    block.yuanguo.melon_jelly_block: Blok arbuzowy
+    block.yuanguo.melon_jelly_cauldron: Kocioł dżemu arbuzowego
+    liquid.yuanguo.melon_jelly_cauldron: Kocioł dżemu arbuzowego
+    block.yuanguo.orange_cauldron: Kocioł wywaru z pomarańczy
+    liquid.yuanguo.orange_cauldron: Kocioł wywaru z pomarańczy
+    block.yuanguo.orange_crate: Skrzynka pomarańczy
+    block.yuanguo.orange_jello_block: Blok galaretki pomarańczowej
+    block.yuanguo.orange_jello_cauldron: Kocioł galaretki pomarańczowej
+    liquid.yuanguo.orange_jello_cauldron: Kocioł galaretki pomarańczowej
+    block.yuanguo.orange_jelly: Dżem pomarańczowy
+    block.yuanguo.orange_jelly_block: Blok dżemu pomarańczowego
+    block.yuanguo.orange_jelly_cauldron: Kocioł dżemu pomarańczowego
+    liquid.yuanguo.orange_jelly_cauldron: Kocioł dżemu pomarańczowego
+    block.yuanguo.orange_leaves: Liście pomarańczy
+    block.yuanguo.orange_sapling: Sadzonka pomarańczy
+    block.yuanguo.peach_cauldron: Kocioł wywaru z brzoskwiń
+    liquid.yuanguo.peach_cauldron: Kocioł wywaru z brzoskwiń
+    block.yuanguo.peach_crate: Skrzynka brzoskwiń
+    block.yuanguo.peach_jello_block: Blok galaretki brzoskwiniowej
+    block.yuanguo.peach_jello_cauldron: Kocioł galaretki brzoskwiniowej
+    liquid.yuanguo.peach_jello_cauldron: Kocioł galaretki brzoskwiniowej
+    block.yuanguo.peach_jelly: Dżem brzoskwiniowy
+    block.yuanguo.peach_jelly_block: Blok dżemu brzoskwiniowego
+    block.yuanguo.peach_jelly_cauldron: Kocioł dżemu brzoskwiniowego
+    liquid.yuanguo.peach_jelly_cauldron: Kocioł dżemu brzoskwiniowego
+    block.yuanguo.peach_leaves: Liście brzoskwini
+    block.yuanguo.peach_sapling: Sadzonka brzoskwini
+    block.yuanguo.pear_cauldron: Kocioł wywaru z gruszek
+    liquid.yuanguo.pear_cauldron: Kocioł wywaru z gruszek
+    block.yuanguo.pear_crate: Skrzynka z gruszek
+    block.yuanguo.pear_jello_block: Blok galaretki gruszkowej
+    block.yuanguo.pear_jello_cauldron: Kocioł galaretki gruszkowej
+    liquid.yuanguo.pear_jello_cauldron: Kocioł galaretki gruszkowej
+    block.yuanguo.pear_jelly: Dżem gruszkowy
+    block.yuanguo.pear_jelly_block: Blok dżemu gruszkowego
+    block.yuanguo.pear_jelly_cauldron: Kocioł dżemu gruszkowego
+    liquid.yuanguo.pear_jelly_cauldron: Kocioł dżemu gruszkowego
+    block.yuanguo.pear_leaves: Liście gruszy
+    block.yuanguo.pear_sapling: Sadzonka gruszy
+    block.yuanguo.persimmon_cauldron: Kocioł wywaru z persymony
+    liquid.yuanguo.persimmon_cauldron: Kocioł wywaru z persymony
+    block.yuanguo.persimmon_crate: Skrzynka persymon
+    block.yuanguo.persimmon_jello_block: Blok galaretki z persymony
+    block.yuanguo.persimmon_jello_cauldron: Kocioł galaretki z persymony
+    liquid.yuanguo.persimmon_jello_cauldron: Kocioł galaretki z persymony
+    block.yuanguo.persimmon_jelly: Dżem z persymony
+    block.yuanguo.persimmon_jelly_block: Blok dżemu z persymony
+    block.yuanguo.persimmon_jelly_cauldron: Kocioł dżemu z persymony
+    liquid.yuanguo.persimmon_jelly_cauldron: Kocioł dżemu z persymony
+    block.yuanguo.persimmon_leaves: Liście persymony
+    block.yuanguo.persimmon_sapling: Sadzonka persymony
+    block.yuanguo.pineapple: Ananas
+    block.yuanguo.pineapple_cauldron: Kocioł wywaru z ananasa
+    liquid.yuanguo.pineapple_cauldron: Kocioł wywaru z ananasa
+    block.yuanguo.pineapple_crate: Skrzynka ananasów
+    block.yuanguo.pineapple_fried_rice: Smażony ryż z ananasem
+    block.yuanguo.pineapple_jello_block: Blok galaretki ananasowej
+    block.yuanguo.pineapple_jello_cauldron: Kocioł galaretki ananasowej
+    liquid.yuanguo.pineapple_jello_cauldron: Kocioł galaretki ananasowej
+    block.yuanguo.pineapple_jelly: Dżem ananasowy
+    block.yuanguo.pineapple_jelly_block: Blok dżemu ananasowego
+    block.yuanguo.pineapple_jelly_cauldron: Kocioł dżemu ananasowego
+    liquid.yuanguo.pineapple_jelly_cauldron: Kocioł dżemu ananasowego
+    block.yuanguo.potted_apple_sapling: Sadzonka jabłoni w doniczce
+    block.yuanguo.potted_bayberry_sapling: Sadzonka woskownicy w doniczce
+    block.yuanguo.potted_durian_sapling: Sadzonka duriana w doniczce
+    block.yuanguo.potted_fig_sapling: Sadzonka figowca w doniczce
+    block.yuanguo.potted_hawberry_sapling: Sadzonka głogu w doniczce
+    block.yuanguo.potted_kiwi_sapling: Sadzonka kiwi w doniczce
+    block.yuanguo.potted_lychee_sapling: Sadzonka liczi w doniczce
+    block.yuanguo.potted_mango_sapling: Sadzonka mango w doniczce
+    block.yuanguo.potted_mangosteen_sapling: Sadzonka mangostanu w doniczce
+    block.yuanguo.potted_orange_sapling: Sadzonka pomarańczy w doniczce
+    block.yuanguo.potted_peach_sapling: Sadzonka brzoskwini w doniczce
+    block.yuanguo.potted_pear_sapling: Sadzonka gruszy w doniczce
+    block.yuanguo.potted_persimmon_sapling: Sadzonka persymony w doniczce
+    block.yuanguo.sweetberry_cauldron: Kocioł wywaru ze słodkich jagód
+    liquid.yuanguo.sweetberry_cauldron: Kocioł wywaru ze słodkich jagód
+    block.yuanguo.sweetberry_jello_block: Blok galaretki ze słodkich jagód
+    block.yuanguo.sweetberry_jello_cauldron: Kocioł galaretki ze słodkich jagód
+    liquid.yuanguo.sweetberry_jello_cauldron: Kocioł galaretki ze słodkich jagód
+    block.yuanguo.sweetberry_jelly: Dżem ze słodkich jagód
+    block.yuanguo.sweetberry_jelly_block: Blok dżemu ze słodkich jagód
+    block.yuanguo.sweetberry_jelly_cauldron: Kocioł dżemu ze słodkich jagód
+    liquid.yuanguo.sweetberry_jelly_cauldron: Kocioł dżemu ze słodkich jagód
+    block.yuanguo.wild_pineapple: Dziki ananas
+lang#others:
+  pl_pl:
+    effect.yuanguo.alienating: Łoszkliwy smród
+    effect.yuanguo.alienating.description: Brzydzisz i osłabiasz byty w pobliżu.
+    effect.yuanguo.appetizing: Nakręcony apetyt
+    effect.yuanguo.appetizing.description: Jedz i pij, nawet gdy jesteś w pełni najedzony.
+    effect.yuanguo.brightening: Oświecenie
+    effect.yuanguo.brightening.description: Uodparnia Cię na ślepotę i ciemność.
+    effect.yuanguo.chorus: Refrenus
+    effect.yuanguo.chorus.description: Losowo Cię teleportuje
+    effect.yuanguo.cycling: Wyciek doświadczenia
+    effect.yuanguo.cycling.description: Co sekundę upuszcza jeden poziom doświadczenia pod postacią kulek
+    effect.yuanguo.digesting: Trawienie
+    effect.yuanguo.digesting.description: Nadmiar jedzenia zmienia się w nasycenie.
+    effect.yuanguo.disgusted: Odraza
+    effect.yuanguo.disgusted.description: Byt z tym efektem nie będzie się rozmnażał.
+    effect.yuanguo.heal_aura: Uzdrawiająca aura
+    effect.yuanguo.heal_aura.description: Leczy byty wokół Ciebie.
+    effect.yuanguo.lozenge: Żarłoczność
+    effect.yuanguo.lozenge.description: Jedz i pij szybciej.
+    effect.yuanguo.rage_aura: Rozwścieczająca aura
+    effect.yuanguo.rage_aura.description: Byty wokół Ciebie będą wobec Ciebie agresywne.
+    effect.yuanguo.recovering: Odtrutka
+    effect.yuanguo.recovering.description: Uodparnia na trucizny i obumieranie.
+    effect.yuanguo.refreshing: Odświeżenie
+    effect.yuanguo.refreshing.description: Uodparnia na zmęczenie.
+    effect.yuanguo.shrinking: Zmniejsznenie
+    effect.yuanguo.shrinking.description: Skradając się możesz wejść do otworów o wysokości 1 bloku.
+    effect.yuanguo.suspicious_smell: Wyczulony węch
+    effect.yuanguo.suspicious_smell.description: Widzisz efekty podejrzanych potrawek i odnajdujesz podejrzany piasek z łatwością.
+    effect.yuanguo.sweetening: Słodycz
+    effect.yuanguo.sweetening.description: Uodparnia na spowolnienie.
+    fluid.yuanguo.apple_jam: Dżem jabłkowy
+    fluid.yuanguo.apple_jello: Roztopiona galaretka jabłkowa
+    fluid.yuanguo.bayberry_jam: Dżem z woskowicy
+    fluid.yuanguo.bayberry_jello: Roztopiona galaretka z woskownicy
+    fluid.yuanguo.bayberry_soup: Zupa z woskownicy
+    fluid.yuanguo.bellini_cocktail: Bellini
+    fluid.yuanguo.blueberry_jam: Dżem borówkowy
+    fluid.yuanguo.blueberry_jello: Roztopiona galaretka borówkowa
+    fluid.yuanguo.chorus_jam: Dżem refrenusowy
+    fluid.yuanguo.chorus_jello: Roztopiona galaretka borówkowa
+    fluid.yuanguo.cranberry_jam: Dżem żurawinowy
+    fluid.yuanguo.cranberry_jello: Roztopiona galaretka z żurawiny
+    fluid.yuanguo.durian_jam: Dżem z duriana
+    fluid.yuanguo.durian_jello: Roztopiona galaretka z duriana
+    fluid.yuanguo.fig_jam: Dżem figowy
+    fluid.yuanguo.fig_jello: Roztopiona galaretka figowa
+    fluid.yuanguo.glowberry_jam: Dżem ze świecących jagód
+    fluid.yuanguo.glowberry_jello: Roztopiona galaretka ze świecących jagód
+    fluid.yuanguo.hamimelon_jam: Dżem z melona Hami
+    fluid.yuanguo.hamimelon_jello: Roztopiona galaretka z melona Hami
+    fluid.yuanguo.hamimelon_juice: Sok z melona Hami
+    fluid.yuanguo.hawberry_jam: Dżem głogowy
+    fluid.yuanguo.hawberry_jello: Roztopiona galaretka głogowa
+    fluid.yuanguo.hawberry_tea: Herbata z głogiem
+    fluid.yuanguo.kiwi_jam: Dżem z kiwi
+    fluid.yuanguo.kiwi_jello: Roztopiona galaretka z kiwi
+    fluid.yuanguo.kiwi_juice: Sok z kiwi
+    fluid.yuanguo.lemon_jam: Dżem cytrynowy
+    fluid.yuanguo.lemon_jello: Roztopiona galaretka cytrynowa
+    fluid.yuanguo.lemon_juice: Sok z cytryny
+    fluid.yuanguo.lychee_cherry_tea: Herbata z liczi i wiśnią
+    fluid.yuanguo.lychee_jam: Dżem z liczi
+    fluid.yuanguo.lychee_jello: Roztopiona galaretka z liczi
+    fluid.yuanguo.mango_jam: Dżem z mango
+    fluid.yuanguo.mango_jello: Roztopiona galaretka z mango
+    fluid.yuanguo.mango_tea: Mango Tea
+    fluid.yuanguo.mangosteen_jam: Dżem mangostanowy
+    fluid.yuanguo.mangosteen_jello: Roztopiona galaretka mangostanowa
+    fluid.yuanguo.mangosteen_tea: Herbata z mangostanem
+    fluid.yuanguo.melon_jam: Dżem arbuzowy
+    fluid.yuanguo.melon_jello: Roztopiona galaretka arbuzowa
+    fluid.yuanguo.orange_jam: Dżem pomarańczowy
+    fluid.yuanguo.orange_jello: Roztopiona galaretka pomarańczowa
+    fluid.yuanguo.orange_juice: Sok pomarańczowy
+    fluid.yuanguo.peach_jam: Dżem brzoskwiniowy
+    fluid.yuanguo.peach_jello: Roztopiona galaretka brzoskwiniowa
+    fluid.yuanguo.peach_tea: Herbata z brzoskwinią
+    fluid.yuanguo.pear_jam: Dżem gruszkowy
+    fluid.yuanguo.pear_jello: Roztopiona galaretka gruszkowa
+    fluid.yuanguo.pear_juice: Sok gruszkowy
+    fluid.yuanguo.persimmon_jam: Dżem z persymony
+    fluid.yuanguo.persimmon_jello: Roztopiona galaretka z persymony
+    fluid.yuanguo.pineapple_jam: Dżem z ananasa
+    fluid.yuanguo.pineapple_jello: Roztopiona galaretka ananasowa
+    fluid.yuanguo.sweetberry_jam: Dżem ze słodkich jagód
+    fluid.yuanguo.sweetberry_jello: Roztopiona galaretka ze słodkich jagód
+    yuanguo.jei.cauldron: Kliknij na kocioł
+    yuanguo.jei.cauldron_heat: Kliknij na rozgrzany kocioł
+    yuanguo.tooltip.allow_jelly: Nakłada efekt z użytego dżemu
+    yuanguo.tooltip.chance: '%1$s z %2$s%% szansą'
+    yuanguo.tooltip.durian_seed: Nakarm tym niuchacza, żeby zachęcić go do niuchania
+    yuanguo.tooltip.jello_block: Śliski, przykleja się do innych klejących bloków, oraz do podobnych bloków dżemu i galaretki
+    yuanguo.tooltip.jelly_block: Klejący, lecz nie klei się do innych klejących bloków
+    yuanguo.tooltip.jelly_content: 'Zawiera:'
+    yuanguo.tooltip.place: Kliknij prawym przyciskiem myszy z shiftem, żeby postawić
+    itemGroup.yuanguo: Fruits Delight
+    category.yuanguo.fruits: Fruits
+    category.yuanguo.jam_blocks: Jam Blocks
+    category.yuanguo.feast: Feast
+    category.yuanguo.jellies: Jams & Jellies
+    category.yuanguo.foods: Foods
+    category.yuanguo.equipment: Equipment
+    category.yuanguo.crates: Crates
+    category.yuanguo.cauldrons: Cauldrons
+    category.yuanguo.crops: Seeds & Saplings
+    category.yuanguo.leaves: Fruit Leaves
+    category.yuanguo.drinks: Drinks
+    category.yuanguo.potted: Potted Plants
+    effect.farmersdelight.nourishment: Nourishment
+    potion.potency.2: II
+    block.minecraft.water_cauldron: Water Cauldron

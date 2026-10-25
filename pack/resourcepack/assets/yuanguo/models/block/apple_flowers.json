@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "yuanguo:block/apple_flowers"
+  }
+}

@@ -1,0 +1,33 @@
+# ---- build output ----
+build/
+build-local/
+out/
+*.class
+*.log
+
+# ---- local dependencies (not redistributable) ----
+libs/
+libs2663/
+
+# ---- upstream sources kept locally for reference ----
+reference/
+
+# ---- IDE / OS ----
+.idea/
+*.iml
+.vscode/
+.gradle/
+Thumbs.db
+.DS_Store
+
+# ---- local tooling ----
+.codex-patch.diff
+run/
+
+# ---- produced jar ----
+/YuanGuoDelight-*.jar
+
+# ---- unpacked upstream mod / vanilla assets (regenerate locally) ----
+work/gen/mod-1.1.3/
+work/vanilla-water/
+work/gen/cauldron-assets-next/

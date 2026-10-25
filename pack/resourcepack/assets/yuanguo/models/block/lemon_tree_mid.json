@@ -1,0 +1,9 @@
+{
+  "parent": "yuanguo:block/tall_bush_mid",
+  "textures": {
+    "lower": "yuanguo:block/lemon_tree_lower",
+    "top": "yuanguo:block/lemon_tree_top",
+    "trunk": "yuanguo:block/lemon_tree_small_trunk",
+    "upper": "yuanguo:block/lemon_tree_upper"
+  }
+}

@@ -1,0 +1,1987 @@
+# Generated from the Fruits Delight mod by the YuanGuoDelight build script.
+recipes:
+  yuanguo:apple_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: minecraft:apple
+    result:
+      id: yuanguo:apple_crate
+      count: 1
+  yuanguo:apple_from_apple_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:apple_crate
+    result:
+      id: minecraft:apple
+      count: 9
+  yuanguo:apple_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:apple_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:apple_jello
+      count: 8
+  yuanguo:apple_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:apple_jello
+    - yuanguo:apple_jello
+    - yuanguo:apple_jello
+    - yuanguo:apple_jello
+    - yuanguo:apple_jello
+    - yuanguo:apple_jello
+    - yuanguo:apple_jello
+    - yuanguo:apple_jello
+    result:
+      id: yuanguo:apple_jello_block
+      count: 1
+  yuanguo:apple_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:apple_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:apple_jelly
+      count: 8
+  yuanguo:apple_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:apple_jelly
+    - yuanguo:apple_jelly
+    - yuanguo:apple_jelly
+    - yuanguo:apple_jelly
+    - yuanguo:apple_jelly
+    - yuanguo:apple_jelly
+    - yuanguo:apple_jelly
+    - yuanguo:apple_jelly
+    result:
+      id: yuanguo:apple_jelly_block
+      count: 1
+  yuanguo:bayberry_cookie:
+    type: shaped
+    pattern:
+    - ABA
+    ingredients:
+      A: minecraft:wheat
+      B: '#c:fruits/bayberry'
+    result:
+      id: yuanguo:bayberry_cookie
+      count: 8
+  yuanguo:bayberry_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:bayberry
+    result:
+      id: yuanguo:bayberry_crate
+      count: 1
+  yuanguo:bayberry_from_bayberry_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:bayberry_crate
+    result:
+      id: yuanguo:bayberry
+      count: 9
+  yuanguo:bayberry_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:bayberry_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:bayberry_jello
+      count: 8
+  yuanguo:bayberry_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:bayberry_jello
+    - yuanguo:bayberry_jello
+    - yuanguo:bayberry_jello
+    - yuanguo:bayberry_jello
+    - yuanguo:bayberry_jello
+    - yuanguo:bayberry_jello
+    - yuanguo:bayberry_jello
+    - yuanguo:bayberry_jello
+    result:
+      id: yuanguo:bayberry_jello_block
+      count: 1
+  yuanguo:bayberry_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:bayberry_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:bayberry_jelly
+      count: 8
+  yuanguo:bayberry_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:bayberry_jelly
+    - yuanguo:bayberry_jelly
+    - yuanguo:bayberry_jelly
+    - yuanguo:bayberry_jelly
+    - yuanguo:bayberry_jelly
+    - yuanguo:bayberry_jelly
+    - yuanguo:bayberry_jelly
+    - yuanguo:bayberry_jelly
+    result:
+      id: yuanguo:bayberry_jelly_block
+      count: 1
+  yuanguo:blueberry_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:blueberry
+    result:
+      id: yuanguo:blueberry_crate
+      count: 1
+  yuanguo:blueberry_from_blueberry_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:blueberry_crate
+    result:
+      id: yuanguo:blueberry
+      count: 9
+  yuanguo:blueberry_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:blueberry_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:blueberry_jello
+      count: 8
+  yuanguo:blueberry_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:blueberry_jello
+    - yuanguo:blueberry_jello
+    - yuanguo:blueberry_jello
+    - yuanguo:blueberry_jello
+    - yuanguo:blueberry_jello
+    - yuanguo:blueberry_jello
+    - yuanguo:blueberry_jello
+    - yuanguo:blueberry_jello
+    result:
+      id: yuanguo:blueberry_jello_block
+      count: 1
+  yuanguo:blueberry_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:blueberry_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:blueberry_jelly
+      count: 8
+  yuanguo:blueberry_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:blueberry_jelly
+    - yuanguo:blueberry_jelly
+    - yuanguo:blueberry_jelly
+    - yuanguo:blueberry_jelly
+    - yuanguo:blueberry_jelly
+    - yuanguo:blueberry_jelly
+    - yuanguo:blueberry_jelly
+    - yuanguo:blueberry_jelly
+    result:
+      id: yuanguo:blueberry_jelly_block
+      count: 1
+  yuanguo:chorus_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:chorus_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:chorus_jello
+      count: 8
+  yuanguo:chorus_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:chorus_jello
+    - yuanguo:chorus_jello
+    - yuanguo:chorus_jello
+    - yuanguo:chorus_jello
+    - yuanguo:chorus_jello
+    - yuanguo:chorus_jello
+    - yuanguo:chorus_jello
+    - yuanguo:chorus_jello
+    result:
+      id: yuanguo:chorus_jello_block
+      count: 1
+  yuanguo:chorus_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:chorus_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:chorus_jelly
+      count: 8
+  yuanguo:chorus_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:chorus_jelly
+    - yuanguo:chorus_jelly
+    - yuanguo:chorus_jelly
+    - yuanguo:chorus_jelly
+    - yuanguo:chorus_jelly
+    - yuanguo:chorus_jelly
+    - yuanguo:chorus_jelly
+    - yuanguo:chorus_jelly
+    result:
+      id: yuanguo:chorus_jelly_block
+      count: 1
+  yuanguo:cranberry_cookie:
+    type: shaped
+    pattern:
+    - ABA
+    ingredients:
+      A: minecraft:wheat
+      B: '#c:fruits/cranberry'
+    result:
+      id: yuanguo:cranberry_cookie
+      count: 8
+  yuanguo:cranberry_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:cranberry
+    result:
+      id: yuanguo:cranberry_crate
+      count: 1
+  yuanguo:cranberry_from_cranberry_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:cranberry_crate
+    result:
+      id: yuanguo:cranberry
+      count: 9
+  yuanguo:cranberry_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:cranberry_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:cranberry_jello
+      count: 8
+  yuanguo:cranberry_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:cranberry_jello
+    - yuanguo:cranberry_jello
+    - yuanguo:cranberry_jello
+    - yuanguo:cranberry_jello
+    - yuanguo:cranberry_jello
+    - yuanguo:cranberry_jello
+    - yuanguo:cranberry_jello
+    - yuanguo:cranberry_jello
+    result:
+      id: yuanguo:cranberry_jello_block
+      count: 1
+  yuanguo:cranberry_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:cranberry_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:cranberry_jelly
+      count: 8
+  yuanguo:cranberry_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:cranberry_jelly
+    - yuanguo:cranberry_jelly
+    - yuanguo:cranberry_jelly
+    - yuanguo:cranberry_jelly
+    - yuanguo:cranberry_jelly
+    - yuanguo:cranberry_jelly
+    - yuanguo:cranberry_jelly
+    - yuanguo:cranberry_jelly
+    result:
+      id: yuanguo:cranberry_jelly_block
+      count: 1
+  yuanguo:durian_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:durian_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:durian_jello
+      count: 8
+  yuanguo:durian_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:durian_jello
+    - yuanguo:durian_jello
+    - yuanguo:durian_jello
+    - yuanguo:durian_jello
+    - yuanguo:durian_jello
+    - yuanguo:durian_jello
+    - yuanguo:durian_jello
+    - yuanguo:durian_jello
+    result:
+      id: yuanguo:durian_jello_block
+      count: 1
+  yuanguo:durian_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:durian_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:durian_jelly
+      count: 8
+  yuanguo:durian_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:durian_jelly
+    - yuanguo:durian_jelly
+    - yuanguo:durian_jelly
+    - yuanguo:durian_jelly
+    - yuanguo:durian_jelly
+    - yuanguo:durian_jelly
+    - yuanguo:durian_jelly
+    - yuanguo:durian_jelly
+    result:
+      id: yuanguo:durian_jelly_block
+      count: 1
+  yuanguo:durian_lower_to_bowl:
+    type: shapeless
+    ingredients:
+    - yuanguo:durian_helmet
+    result:
+      id: minecraft:bowl
+      count: 1
+  yuanguo:durian_upper_to_bowl:
+    type: shapeless
+    ingredients:
+    - yuanguo:durian_shell
+    result:
+      id: minecraft:bowl
+      count: 1
+  yuanguo:fig_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:fig
+    result:
+      id: yuanguo:fig_crate
+      count: 1
+  yuanguo:fig_from_fig_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:fig_crate
+    result:
+      id: yuanguo:fig
+      count: 9
+  yuanguo:fig_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:fig_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:fig_jello
+      count: 8
+  yuanguo:fig_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:fig_jello
+    - yuanguo:fig_jello
+    - yuanguo:fig_jello
+    - yuanguo:fig_jello
+    - yuanguo:fig_jello
+    - yuanguo:fig_jello
+    - yuanguo:fig_jello
+    - yuanguo:fig_jello
+    result:
+      id: yuanguo:fig_jello_block
+      count: 1
+  yuanguo:fig_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:fig_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:fig_jelly
+      count: 8
+  yuanguo:fig_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:fig_jelly
+    - yuanguo:fig_jelly
+    - yuanguo:fig_jelly
+    - yuanguo:fig_jelly
+    - yuanguo:fig_jelly
+    - yuanguo:fig_jelly
+    - yuanguo:fig_jelly
+    - yuanguo:fig_jelly
+    result:
+      id: yuanguo:fig_jelly_block
+      count: 1
+  yuanguo:fig_pudding:
+    type: shaped
+    pattern:
+    - MSM
+    - EJE
+    - FDF
+    ingredients:
+      D:
+        items:
+        - farmersdelight:wheat_dough
+      E:
+        items:
+        - minecraft:egg
+        - minecraft:brown_egg
+        - minecraft:blue_egg
+      F: '#c:fruits/fig'
+      J: yuanguo:orange_jelly
+      M:
+        items:
+        - minecraft:milk_bucket
+        - farmersdelight:milk_bottle
+      S: minecraft:sweet_berries
+    result:
+      id: yuanguo:fig_pudding
+      count: 1
+  yuanguo:fig_pudding_from_slice:
+    type: shaped
+    pattern:
+    - FF
+    - FF
+    ingredients:
+      F: yuanguo:fig_pudding_slice
+    result:
+      id: yuanguo:fig_pudding
+      count: 1
+  yuanguo:glowberry_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:glowberry_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:glowberry_jello
+      count: 8
+  yuanguo:glowberry_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:glowberry_jello
+    - yuanguo:glowberry_jello
+    - yuanguo:glowberry_jello
+    - yuanguo:glowberry_jello
+    - yuanguo:glowberry_jello
+    - yuanguo:glowberry_jello
+    - yuanguo:glowberry_jello
+    - yuanguo:glowberry_jello
+    result:
+      id: yuanguo:glowberry_jello_block
+      count: 1
+  yuanguo:glowberry_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:glowberry_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:glowberry_jelly
+      count: 8
+  yuanguo:glowberry_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:glowberry_jelly
+    - yuanguo:glowberry_jelly
+    - yuanguo:glowberry_jelly
+    - yuanguo:glowberry_jelly
+    - yuanguo:glowberry_jelly
+    - yuanguo:glowberry_jelly
+    - yuanguo:glowberry_jelly
+    - yuanguo:glowberry_jelly
+    result:
+      id: yuanguo:glowberry_jelly_block
+      count: 1
+  yuanguo:hamimelon:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:hamimelon_slice
+    result:
+      id: yuanguo:hamimelon
+      count: 1
+  yuanguo:hamimelon_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:hamimelon_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:hamimelon_jello
+      count: 8
+  yuanguo:hamimelon_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:hamimelon_jello
+    - yuanguo:hamimelon_jello
+    - yuanguo:hamimelon_jello
+    - yuanguo:hamimelon_jello
+    - yuanguo:hamimelon_jello
+    - yuanguo:hamimelon_jello
+    - yuanguo:hamimelon_jello
+    - yuanguo:hamimelon_jello
+    result:
+      id: yuanguo:hamimelon_jello_block
+      count: 1
+  yuanguo:hamimelon_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:hamimelon_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:hamimelon_jelly
+      count: 8
+  yuanguo:hamimelon_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:hamimelon_jelly
+    - yuanguo:hamimelon_jelly
+    - yuanguo:hamimelon_jelly
+    - yuanguo:hamimelon_jelly
+    - yuanguo:hamimelon_jelly
+    - yuanguo:hamimelon_jelly
+    - yuanguo:hamimelon_jelly
+    - yuanguo:hamimelon_jelly
+    result:
+      id: yuanguo:hamimelon_jelly_block
+      count: 1
+  yuanguo:hamimelon_juice:
+    type: shapeless
+    ingredients:
+    - minecraft:glass_bottle
+    - yuanguo:hamimelon_slice
+    - yuanguo:hamimelon_slice
+    - yuanguo:hamimelon_slice
+    - yuanguo:hamimelon_slice
+    result:
+      id: yuanguo:hamimelon_juice
+      count: 1
+  yuanguo:hamimelon_popsicle:
+    type: shaped
+    pattern:
+    - ' MM'
+    - IMM
+    - 'SI '
+    ingredients:
+      I: minecraft:ice
+      M: yuanguo:hamimelon_slice
+      S: minecraft:stick
+    result:
+      id: yuanguo:hamimelon_popsicle
+      count: 1
+  yuanguo:hamimelon_seeds:
+    type: shapeless
+    ingredients:
+    - yuanguo:hamimelon_slice
+    result:
+      id: yuanguo:hamimelon_seeds
+      count: 1
+  yuanguo:hamimelon_shaved_ice:
+    type: shapeless
+    ingredients:
+    - minecraft:glass_bottle
+    - yuanguo:hamimelon_slice
+    - yuanguo:hamimelon_slice
+    - items:
+      - minecraft:milk_bucket
+      - farmersdelight:milk_bottle
+    - minecraft:sugar
+    - minecraft:ice
+    result:
+      id: yuanguo:hamimelon_shaved_ice
+      count: 1
+  yuanguo:hawberry_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:hawberry
+    result:
+      id: yuanguo:hawberry_crate
+      count: 1
+  yuanguo:hawberry_from_hawberry_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:hawberry_crate
+    result:
+      id: yuanguo:hawberry
+      count: 9
+  yuanguo:hawberry_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:hawberry_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:hawberry_jello
+      count: 8
+  yuanguo:hawberry_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:hawberry_jello
+    - yuanguo:hawberry_jello
+    - yuanguo:hawberry_jello
+    - yuanguo:hawberry_jello
+    - yuanguo:hawberry_jello
+    - yuanguo:hawberry_jello
+    - yuanguo:hawberry_jello
+    - yuanguo:hawberry_jello
+    result:
+      id: yuanguo:hawberry_jello_block
+      count: 1
+  yuanguo:hawberry_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:hawberry_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:hawberry_jelly
+      count: 8
+  yuanguo:hawberry_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:hawberry_jelly
+    - yuanguo:hawberry_jelly
+    - yuanguo:hawberry_jelly
+    - yuanguo:hawberry_jelly
+    - yuanguo:hawberry_jelly
+    - yuanguo:hawberry_jelly
+    - yuanguo:hawberry_jelly
+    - yuanguo:hawberry_jelly
+    result:
+      id: yuanguo:hawberry_jelly_block
+      count: 1
+  yuanguo:hawberry_roll:
+    type: shapeless
+    ingredients:
+    - yuanguo:hawberry_sheet
+    - '#yuanguo:jelly'
+    result:
+      id: yuanguo:hawberry_roll
+      count: 1
+  yuanguo:hawberry_sheet:
+    type: shapeless
+    ingredients:
+    - '#c:fruits/hawberry'
+    - '#c:fruits/hawberry'
+    - '#c:fruits/hawberry'
+    - minecraft:sugar
+    result:
+      id: yuanguo:hawberry_sheet
+      count: 1
+  yuanguo:hawberry_stick:
+    type: shapeless
+    ingredients:
+    - '#c:fruits/hawberry'
+    - '#c:fruits/hawberry'
+    - '#c:fruits/hawberry'
+    - minecraft:stick
+    - minecraft:sugar
+    - minecraft:sugar
+    result:
+      id: yuanguo:hawberry_stick
+      count: 1
+  yuanguo:apple_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:apple_jelly
+    result:
+      id: yuanguo:apple_jelly_bread
+      count: 1
+  yuanguo:blueberry_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:blueberry_jelly
+    result:
+      id: yuanguo:blueberry_jelly_bread
+      count: 1
+  yuanguo:glowberry_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:glowberry_jelly
+    result:
+      id: yuanguo:glowberry_jelly_bread
+      count: 1
+  yuanguo:hamimelon_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:hamimelon_jelly
+    result:
+      id: yuanguo:hamimelon_jelly_bread
+      count: 1
+  yuanguo:melon_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:melon_jelly
+    result:
+      id: yuanguo:melon_jelly_bread
+      count: 1
+  yuanguo:hawberry_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:hawberry_jelly
+    result:
+      id: yuanguo:hawberry_jelly_bread
+      count: 1
+  yuanguo:lychee_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:lychee_jelly
+    result:
+      id: yuanguo:lychee_jelly_bread
+      count: 1
+  yuanguo:mango_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:mango_jelly
+    result:
+      id: yuanguo:mango_jelly_bread
+      count: 1
+  yuanguo:orange_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:orange_jelly
+    result:
+      id: yuanguo:orange_jelly_bread
+      count: 1
+  yuanguo:peach_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:peach_jelly
+    result:
+      id: yuanguo:peach_jelly_bread
+      count: 1
+  yuanguo:pear_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:pear_jelly
+    result:
+      id: yuanguo:pear_jelly_bread
+      count: 1
+  yuanguo:persimmon_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:persimmon_jelly
+    result:
+      id: yuanguo:persimmon_jelly_bread
+      count: 1
+  yuanguo:pineapple_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:pineapple_jelly
+    result:
+      id: yuanguo:pineapple_jelly_bread
+      count: 1
+  yuanguo:lemon_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:lemon_jelly
+    result:
+      id: yuanguo:lemon_jelly_bread
+      count: 1
+  yuanguo:cranberry_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:cranberry_jelly
+    result:
+      id: yuanguo:cranberry_jelly_bread
+      count: 1
+  yuanguo:mangosteen_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:mangosteen_jelly
+    result:
+      id: yuanguo:mangosteen_jelly_bread
+      count: 1
+  yuanguo:sweetberry_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:sweetberry_jelly
+    result:
+      id: yuanguo:sweetberry_jelly_bread
+      count: 1
+  yuanguo:chorus_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:chorus_jelly
+    result:
+      id: yuanguo:chorus_jelly_bread
+      count: 1
+  yuanguo:bayberry_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:bayberry_jelly
+    result:
+      id: yuanguo:bayberry_jelly_bread
+      count: 1
+  yuanguo:kiwi_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:kiwi_jelly
+    result:
+      id: yuanguo:kiwi_jelly_bread
+      count: 1
+  yuanguo:fig_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:fig_jelly
+    result:
+      id: yuanguo:fig_jelly_bread
+      count: 1
+  yuanguo:durian_jelly_bread:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - yuanguo:durian_jelly
+    result:
+      id: yuanguo:durian_jelly_bread
+      count: 1
+  yuanguo:kiwi_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:kiwi
+    result:
+      id: yuanguo:kiwi_crate
+      count: 1
+  yuanguo:kiwi_from_kiwi_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:kiwi_crate
+    result:
+      id: yuanguo:kiwi
+      count: 9
+  yuanguo:kiwi_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:kiwi_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:kiwi_jello
+      count: 8
+  yuanguo:kiwi_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:kiwi_jello
+    - yuanguo:kiwi_jello
+    - yuanguo:kiwi_jello
+    - yuanguo:kiwi_jello
+    - yuanguo:kiwi_jello
+    - yuanguo:kiwi_jello
+    - yuanguo:kiwi_jello
+    - yuanguo:kiwi_jello
+    result:
+      id: yuanguo:kiwi_jello_block
+      count: 1
+  yuanguo:kiwi_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:kiwi_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:kiwi_jelly
+      count: 8
+  yuanguo:kiwi_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:kiwi_jelly
+    - yuanguo:kiwi_jelly
+    - yuanguo:kiwi_jelly
+    - yuanguo:kiwi_jelly
+    - yuanguo:kiwi_jelly
+    - yuanguo:kiwi_jelly
+    - yuanguo:kiwi_jelly
+    - yuanguo:kiwi_jelly
+    result:
+      id: yuanguo:kiwi_jelly_block
+      count: 1
+  yuanguo:kiwi_juice:
+    type: shapeless
+    ingredients:
+    - minecraft:glass_bottle
+    - '#c:fruits/kiwi'
+    - '#c:fruits/kiwi'
+    result:
+      id: yuanguo:kiwi_juice
+      count: 1
+  yuanguo:kiwi_popsicle:
+    type: shaped
+    pattern:
+    - ' MM'
+    - IMM
+    - 'SI '
+    ingredients:
+      I: minecraft:ice
+      M: '#c:fruits/kiwi'
+      S: minecraft:stick
+    result:
+      id: yuanguo:kiwi_popsicle
+      count: 1
+  yuanguo:lemon_cookie:
+    type: shaped
+    pattern:
+    - ' C '
+    - ABA
+    ingredients:
+      A: minecraft:wheat
+      B: '#c:fruits/lemon'
+      C:
+        items:
+        - minecraft:milk_bucket
+        - farmersdelight:milk_bottle
+    result:
+      id: yuanguo:lemon_cookie
+      count: 8
+  yuanguo:lemon_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:lemon
+    result:
+      id: yuanguo:lemon_crate
+      count: 1
+  yuanguo:lemon_from_lemon_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:lemon_crate
+    result:
+      id: yuanguo:lemon
+      count: 9
+  yuanguo:lemon_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:lemon_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:lemon_jello
+      count: 8
+  yuanguo:lemon_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:lemon_jello
+    - yuanguo:lemon_jello
+    - yuanguo:lemon_jello
+    - yuanguo:lemon_jello
+    - yuanguo:lemon_jello
+    - yuanguo:lemon_jello
+    - yuanguo:lemon_jello
+    - yuanguo:lemon_jello
+    result:
+      id: yuanguo:lemon_jello_block
+      count: 1
+  yuanguo:lemon_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:lemon_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:lemon_jelly
+      count: 8
+  yuanguo:lemon_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:lemon_jelly
+    - yuanguo:lemon_jelly
+    - yuanguo:lemon_jelly
+    - yuanguo:lemon_jelly
+    - yuanguo:lemon_jelly
+    - yuanguo:lemon_jelly
+    - yuanguo:lemon_jelly
+    - yuanguo:lemon_jelly
+    result:
+      id: yuanguo:lemon_jelly_block
+      count: 1
+  yuanguo:lemon_juice:
+    type: shapeless
+    ingredients:
+    - minecraft:sugar
+    - '#c:fruits/lemon'
+    - '#c:fruits/lemon'
+    result:
+      id: yuanguo:lemon_juice
+      count: 1
+  yuanguo:lemon_seeds:
+    type: shapeless
+    ingredients:
+    - yuanguo:lemon
+    result:
+      id: yuanguo:lemon_seeds
+      count: 1
+  yuanguo:lychee_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:lychee
+    result:
+      id: yuanguo:lychee_crate
+      count: 1
+  yuanguo:lychee_from_lychee_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:lychee_crate
+    result:
+      id: yuanguo:lychee
+      count: 9
+  yuanguo:lychee_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:lychee_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:lychee_jello
+      count: 8
+  yuanguo:lychee_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:lychee_jello
+    - yuanguo:lychee_jello
+    - yuanguo:lychee_jello
+    - yuanguo:lychee_jello
+    - yuanguo:lychee_jello
+    - yuanguo:lychee_jello
+    - yuanguo:lychee_jello
+    - yuanguo:lychee_jello
+    result:
+      id: yuanguo:lychee_jello_block
+      count: 1
+  yuanguo:lychee_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:lychee_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:lychee_jelly
+      count: 8
+  yuanguo:lychee_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:lychee_jelly
+    - yuanguo:lychee_jelly
+    - yuanguo:lychee_jelly
+    - yuanguo:lychee_jelly
+    - yuanguo:lychee_jelly
+    - yuanguo:lychee_jelly
+    - yuanguo:lychee_jelly
+    - yuanguo:lychee_jelly
+    result:
+      id: yuanguo:lychee_jelly_block
+      count: 1
+  yuanguo:mangosteen_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:mangosteen
+    result:
+      id: yuanguo:mangosteen_crate
+      count: 1
+  yuanguo:mangosteen_from_mangosteen_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:mangosteen_crate
+    result:
+      id: yuanguo:mangosteen
+      count: 9
+  yuanguo:mangosteen_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:mangosteen_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:mangosteen_jello
+      count: 8
+  yuanguo:mangosteen_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:mangosteen_jello
+    - yuanguo:mangosteen_jello
+    - yuanguo:mangosteen_jello
+    - yuanguo:mangosteen_jello
+    - yuanguo:mangosteen_jello
+    - yuanguo:mangosteen_jello
+    - yuanguo:mangosteen_jello
+    - yuanguo:mangosteen_jello
+    result:
+      id: yuanguo:mangosteen_jello_block
+      count: 1
+  yuanguo:mangosteen_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:mangosteen_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:mangosteen_jelly
+      count: 8
+  yuanguo:mangosteen_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:mangosteen_jelly
+    - yuanguo:mangosteen_jelly
+    - yuanguo:mangosteen_jelly
+    - yuanguo:mangosteen_jelly
+    - yuanguo:mangosteen_jelly
+    - yuanguo:mangosteen_jelly
+    - yuanguo:mangosteen_jelly
+    - yuanguo:mangosteen_jelly
+    result:
+      id: yuanguo:mangosteen_jelly_block
+      count: 1
+  yuanguo:mango_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:mango
+    result:
+      id: yuanguo:mango_crate
+      count: 1
+  yuanguo:mango_from_mango_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:mango_crate
+    result:
+      id: yuanguo:mango
+      count: 9
+  yuanguo:mango_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:mango_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:mango_jello
+      count: 8
+  yuanguo:mango_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:mango_jello
+    - yuanguo:mango_jello
+    - yuanguo:mango_jello
+    - yuanguo:mango_jello
+    - yuanguo:mango_jello
+    - yuanguo:mango_jello
+    - yuanguo:mango_jello
+    - yuanguo:mango_jello
+    result:
+      id: yuanguo:mango_jello_block
+      count: 1
+  yuanguo:mango_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:mango_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:mango_jelly
+      count: 8
+  yuanguo:mango_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:mango_jelly
+    - yuanguo:mango_jelly
+    - yuanguo:mango_jelly
+    - yuanguo:mango_jelly
+    - yuanguo:mango_jelly
+    - yuanguo:mango_jelly
+    - yuanguo:mango_jelly
+    - yuanguo:mango_jelly
+    result:
+      id: yuanguo:mango_jelly_block
+      count: 1
+  yuanguo:mango_salad:
+    type: shapeless
+    ingredients:
+    - minecraft:bowl
+    - '#c:fruits/mango'
+    - '#yuanguo:jelly'
+    result:
+      id: yuanguo:mango_salad
+      count: 1
+  yuanguo:melon_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:melon_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:melon_jello
+      count: 8
+  yuanguo:melon_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:melon_jello
+    - yuanguo:melon_jello
+    - yuanguo:melon_jello
+    - yuanguo:melon_jello
+    - yuanguo:melon_jello
+    - yuanguo:melon_jello
+    - yuanguo:melon_jello
+    - yuanguo:melon_jello
+    result:
+      id: yuanguo:melon_jello_block
+      count: 1
+  yuanguo:melon_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:melon_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:melon_jelly
+      count: 8
+  yuanguo:melon_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:melon_jelly
+    - yuanguo:melon_jelly
+    - yuanguo:melon_jelly
+    - yuanguo:melon_jelly
+    - yuanguo:melon_jelly
+    - yuanguo:melon_jelly
+    - yuanguo:melon_jelly
+    - yuanguo:melon_jelly
+    result:
+      id: yuanguo:melon_jelly_block
+      count: 1
+  yuanguo:orange_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:orange
+    result:
+      id: yuanguo:orange_crate
+      count: 1
+  yuanguo:orange_from_orange_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:orange_crate
+    result:
+      id: yuanguo:orange
+      count: 9
+  yuanguo:orange_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:orange_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:orange_jello
+      count: 8
+  yuanguo:orange_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:orange_jello
+    - yuanguo:orange_jello
+    - yuanguo:orange_jello
+    - yuanguo:orange_jello
+    - yuanguo:orange_jello
+    - yuanguo:orange_jello
+    - yuanguo:orange_jello
+    - yuanguo:orange_jello
+    result:
+      id: yuanguo:orange_jello_block
+      count: 1
+  yuanguo:orange_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:orange_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:orange_jelly
+      count: 8
+  yuanguo:orange_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:orange_jelly
+    - yuanguo:orange_jelly
+    - yuanguo:orange_jelly
+    - yuanguo:orange_jelly
+    - yuanguo:orange_jelly
+    - yuanguo:orange_jelly
+    - yuanguo:orange_jelly
+    - yuanguo:orange_jelly
+    result:
+      id: yuanguo:orange_jelly_block
+      count: 1
+  yuanguo:orange_juice:
+    type: shapeless
+    ingredients:
+    - minecraft:sugar
+    - '#c:fruits/orange'
+    - '#c:fruits/orange'
+    result:
+      id: yuanguo:orange_juice
+      count: 1
+  yuanguo:peach_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:peach
+    result:
+      id: yuanguo:peach_crate
+      count: 1
+  yuanguo:peach_from_peach_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:peach_crate
+    result:
+      id: yuanguo:peach
+      count: 9
+  yuanguo:peach_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:peach_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:peach_jello
+      count: 8
+  yuanguo:peach_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:peach_jello
+    - yuanguo:peach_jello
+    - yuanguo:peach_jello
+    - yuanguo:peach_jello
+    - yuanguo:peach_jello
+    - yuanguo:peach_jello
+    - yuanguo:peach_jello
+    - yuanguo:peach_jello
+    result:
+      id: yuanguo:peach_jello_block
+      count: 1
+  yuanguo:peach_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:peach_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:peach_jelly
+      count: 8
+  yuanguo:peach_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:peach_jelly
+    - yuanguo:peach_jelly
+    - yuanguo:peach_jelly
+    - yuanguo:peach_jelly
+    - yuanguo:peach_jelly
+    - yuanguo:peach_jelly
+    - yuanguo:peach_jelly
+    - yuanguo:peach_jelly
+    result:
+      id: yuanguo:peach_jelly_block
+      count: 1
+  yuanguo:pear_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:pear
+    result:
+      id: yuanguo:pear_crate
+      count: 1
+  yuanguo:pear_from_pear_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:pear_crate
+    result:
+      id: yuanguo:pear
+      count: 9
+  yuanguo:pear_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:pear_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:pear_jello
+      count: 8
+  yuanguo:pear_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:pear_jello
+    - yuanguo:pear_jello
+    - yuanguo:pear_jello
+    - yuanguo:pear_jello
+    - yuanguo:pear_jello
+    - yuanguo:pear_jello
+    - yuanguo:pear_jello
+    - yuanguo:pear_jello
+    result:
+      id: yuanguo:pear_jello_block
+      count: 1
+  yuanguo:pear_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:pear_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:pear_jelly
+      count: 8
+  yuanguo:pear_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:pear_jelly
+    - yuanguo:pear_jelly
+    - yuanguo:pear_jelly
+    - yuanguo:pear_jelly
+    - yuanguo:pear_jelly
+    - yuanguo:pear_jelly
+    - yuanguo:pear_jelly
+    - yuanguo:pear_jelly
+    result:
+      id: yuanguo:pear_jelly_block
+      count: 1
+  yuanguo:pear_juice:
+    type: shapeless
+    ingredients:
+    - minecraft:sugar
+    - '#c:fruits/pear'
+    - '#c:fruits/pear'
+    result:
+      id: yuanguo:pear_juice
+      count: 1
+  yuanguo:persimmon_cookie:
+    type: shaped
+    pattern:
+    - ABA
+    ingredients:
+      A: minecraft:wheat
+      B: yuanguo:dried_persimmon
+    result:
+      id: yuanguo:persimmon_cookie
+      count: 8
+  yuanguo:persimmon_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:persimmon
+    result:
+      id: yuanguo:persimmon_crate
+      count: 1
+  yuanguo:persimmon_from_persimmon_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:persimmon_crate
+    result:
+      id: yuanguo:persimmon
+      count: 9
+  yuanguo:persimmon_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:persimmon_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:persimmon_jello
+      count: 8
+  yuanguo:persimmon_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:persimmon_jello
+    - yuanguo:persimmon_jello
+    - yuanguo:persimmon_jello
+    - yuanguo:persimmon_jello
+    - yuanguo:persimmon_jello
+    - yuanguo:persimmon_jello
+    - yuanguo:persimmon_jello
+    - yuanguo:persimmon_jello
+    result:
+      id: yuanguo:persimmon_jello_block
+      count: 1
+  yuanguo:persimmon_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:persimmon_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:persimmon_jelly
+      count: 8
+  yuanguo:persimmon_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:persimmon_jelly
+    - yuanguo:persimmon_jelly
+    - yuanguo:persimmon_jelly
+    - yuanguo:persimmon_jelly
+    - yuanguo:persimmon_jelly
+    - yuanguo:persimmon_jelly
+    - yuanguo:persimmon_jelly
+    - yuanguo:persimmon_jelly
+    result:
+      id: yuanguo:persimmon_jelly_block
+      count: 1
+  yuanguo:pineapple_crate:
+    type: shaped
+    pattern:
+    - XXX
+    - XXX
+    - XXX
+    ingredients:
+      X: yuanguo:pineapple
+    result:
+      id: yuanguo:pineapple_crate
+      count: 1
+  yuanguo:pineapple_from_pineapple_crate:
+    type: shapeless
+    ingredients:
+    - yuanguo:pineapple_crate
+    result:
+      id: yuanguo:pineapple
+      count: 9
+  yuanguo:pineapple_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:pineapple_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:pineapple_jello
+      count: 8
+  yuanguo:pineapple_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:pineapple_jello
+    - yuanguo:pineapple_jello
+    - yuanguo:pineapple_jello
+    - yuanguo:pineapple_jello
+    - yuanguo:pineapple_jello
+    - yuanguo:pineapple_jello
+    - yuanguo:pineapple_jello
+    - yuanguo:pineapple_jello
+    result:
+      id: yuanguo:pineapple_jello_block
+      count: 1
+  yuanguo:pineapple_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:pineapple_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:pineapple_jelly
+      count: 8
+  yuanguo:pineapple_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:pineapple_jelly
+    - yuanguo:pineapple_jelly
+    - yuanguo:pineapple_jelly
+    - yuanguo:pineapple_jelly
+    - yuanguo:pineapple_jelly
+    - yuanguo:pineapple_jelly
+    - yuanguo:pineapple_jelly
+    - yuanguo:pineapple_jelly
+    result:
+      id: yuanguo:pineapple_jelly_block
+      count: 1
+  yuanguo:sweetberry_jello:
+    type: shapeless
+    ingredients:
+    - yuanguo:sweetberry_jello_block
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    - minecraft:bowl
+    result:
+      id: yuanguo:sweetberry_jello
+      count: 8
+  yuanguo:sweetberry_jello_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:sweetberry_jello
+    - yuanguo:sweetberry_jello
+    - yuanguo:sweetberry_jello
+    - yuanguo:sweetberry_jello
+    - yuanguo:sweetberry_jello
+    - yuanguo:sweetberry_jello
+    - yuanguo:sweetberry_jello
+    - yuanguo:sweetberry_jello
+    result:
+      id: yuanguo:sweetberry_jello_block
+      count: 1
+  yuanguo:sweetberry_jelly:
+    type: shapeless
+    ingredients:
+    - yuanguo:sweetberry_jelly_block
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: yuanguo:sweetberry_jelly
+      count: 8
+  yuanguo:sweetberry_jelly_block:
+    type: shapeless
+    ingredients:
+    - yuanguo:sweetberry_jelly
+    - yuanguo:sweetberry_jelly
+    - yuanguo:sweetberry_jelly
+    - yuanguo:sweetberry_jelly
+    - yuanguo:sweetberry_jelly
+    - yuanguo:sweetberry_jelly
+    - yuanguo:sweetberry_jelly
+    - yuanguo:sweetberry_jelly
+    result:
+      id: yuanguo:sweetberry_jelly_block
+      count: 1

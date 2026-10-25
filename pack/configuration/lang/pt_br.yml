@@ -1,0 +1,500 @@
+# Generated from the Fruits Delight mod by the YuanGuoDelight build script.
+lang#items:
+  pt_br:
+    item.yuanguo.apple_jello: Gelatina de maçã
+    item.yuanguo.baked_durian: Durián assado
+    item.yuanguo.baked_pear: Pera assada
+    item.yuanguo.bayberry: Morango chinês
+    item.yuanguo.bayberry_cookie: Bolacha de morango chineses
+    item.yuanguo.bayberry_jello: Gelatina de morango chineses
+    item.yuanguo.bayberry_soup: Sopa de morango chineses
+    item.yuanguo.bellini_cocktail: Bellini
+    item.yuanguo.blueberry: Mirtilo
+    item.yuanguo.blueberry_custard: Custard de mirtilos
+    item.yuanguo.blueberry_jello: Gelatina de mirtilos
+    item.yuanguo.blueberry_muffin: Muffin de mirtilos
+    item.yuanguo.bowl_of_pineapple_fried_rice: Malga de arroz frito com abacaxi
+    item.yuanguo.chorus_jello: Gelatina de coro
+    item.yuanguo.cranberry: Oxicoco
+    item.yuanguo.cranberry_cookie: Bolacha com oxicocos
+    item.yuanguo.cranberry_jello: Gelatina de oxicocos
+    item.yuanguo.cranberry_muffin: Muffin de oxicocos
+    item.yuanguo.dried_persimmon: Caqui seco
+    item.yuanguo.dummy_cauldron: Caldeirão de água
+    item.yuanguo.durian_flesh: Pulpa de durião
+    item.yuanguo.durian_helmet: Capacete de durião
+    item.yuanguo.durian_jello: Gelatina de durião
+    item.yuanguo.durian_pie: Torta de durião
+    item.yuanguo.durian_sapling: Semente de durião
+    item.yuanguo.durian_shell: Casca de durião
+    item.yuanguo.fig: Figo
+    item.yuanguo.fig_chicken_stew: Esopado de frango com figo
+    item.yuanguo.fig_jello: Gelatina de figo
+    item.yuanguo.fig_pudding_slice: Fatia de pudim de figo
+    item.yuanguo.fig_tart: Torta de figo
+    item.yuanguo.glowberry_jello: Gelatina de bagas brilhantes
+    item.yuanguo.hamimelon_jello: Gelatina de melão hami
+    item.yuanguo.hamimelon_juice: Suco de melão hami
+    item.yuanguo.hamimelon_popsicle: Picolé de melão hami
+    item.yuanguo.hamimelon_seeds: Sementes de melão hami
+    item.yuanguo.hamimelon_shaved_ice: Raspa de melão hami
+    item.yuanguo.hamimelon_slice: Fatia de melão hami
+    item.yuanguo.hawberry: Mirtilo
+    item.yuanguo.hawberry_jello: Gelatina de mirtilo
+    item.yuanguo.hawberry_roll: Rolo de mirtilo com geleia
+    item.yuanguo.hawberry_sheet: Folha de confeitaria de mirtilo
+    item.yuanguo.hawberry_stick: Espeto de mirtilos
+    item.yuanguo.hawberry_tea: Chá de mirtilos
+    item.yuanguo.jelly_bread: Pão com geleia
+    item.yuanguo.apple_jelly_bread: Geleia de maçã Bread
+    item.yuanguo.blueberry_jelly_bread: Geleia de mirtilo Bread
+    item.yuanguo.glowberry_jelly_bread: Geleia de baga brilhante Bread
+    item.yuanguo.hamimelon_jelly_bread: Geleia de melão hami Bread
+    item.yuanguo.melon_jelly_bread: Geleia de melancia Bread
+    item.yuanguo.hawberry_jelly_bread: Geleia de mirtilo Bread
+    item.yuanguo.lychee_jelly_bread: Geleia de lichia Bread
+    item.yuanguo.mango_jelly_bread: Geleia de manga Bread
+    item.yuanguo.orange_jelly_bread: Geleia de laranja Bread
+    item.yuanguo.peach_jelly_bread: Geleia de pêssego Bread
+    item.yuanguo.pear_jelly_bread: Geleia de pera Bread
+    item.yuanguo.persimmon_jelly_bread: Geleia de caqui Bread
+    item.yuanguo.pineapple_jelly_bread: Geleia de abacaxi Bread
+    item.yuanguo.lemon_jelly_bread: Geleia de limão Bread
+    item.yuanguo.cranberry_jelly_bread: Geleia de oxicoco Bread
+    item.yuanguo.mangosteen_jelly_bread: Geleia de mangostão Bread
+    item.yuanguo.sweetberry_jelly_bread: Geleia de baga Bread
+    item.yuanguo.chorus_jelly_bread: Geleia de coro Bread
+    item.yuanguo.bayberry_jelly_bread: Geleia de morango chinês Bread
+    item.yuanguo.kiwi_jelly_bread: Geleia de kiwi Bread
+    item.yuanguo.fig_jelly_bread: Geleia de figo Bread
+    item.yuanguo.durian_jelly_bread: Geleia de durião Bread
+    item.yuanguo.kiwi: Kiwi
+    item.yuanguo.kiwi_jello: Gelatina de kiwi
+    item.yuanguo.kiwi_juice: Suco de kiwi
+    item.yuanguo.kiwi_popsicle: Picolé de kiwi
+    item.yuanguo.lemon: Limão
+    item.yuanguo.lemon_cookie: Bolacha de limão
+    item.yuanguo.lemon_jello: Gelatina de limão
+    item.yuanguo.lemon_juice: Suco de limão
+    item.yuanguo.lemon_seeds: Sementes de limão
+    item.yuanguo.lemon_slice: Fatia de limão
+    item.yuanguo.lemon_tart: Torta de limão
+    item.yuanguo.lychee: Lichia
+    item.yuanguo.lychee_cherry_tea: Chá de lichia e cerejeira
+    item.yuanguo.lychee_chicken: Frango com lichia
+    item.yuanguo.lychee_jello: Gelatina de lichia
+    item.yuanguo.mango: Manga
+    item.yuanguo.mango_jello: Gelatina de manga
+    item.yuanguo.mango_milkshake: Milk-shake de manga
+    item.yuanguo.mango_salad: Salada de manga
+    item.yuanguo.mango_tea: Chá de manga
+    item.yuanguo.mangosteen: Mangostão
+    item.yuanguo.mangosteen_jello: Gelatina de mangostão
+    item.yuanguo.mangosteen_tea: Chá de mangostão
+    item.yuanguo.melon_jello: Gelatina de melancia
+    item.yuanguo.orange: Laranja
+    item.yuanguo.orange_chicken: Frango com laranja
+    item.yuanguo.orange_jello: Gelatina de laranja
+    item.yuanguo.orange_juice: Suco de laranja
+    item.yuanguo.orange_marinated_pork: Costeleta de porco marinada com laranja
+    item.yuanguo.orange_slice: Fatia de laranja
+    item.yuanguo.peach: Pêssego
+    item.yuanguo.peach_jello: Gelatina de pêssego
+    item.yuanguo.peach_tea: Chá de pêssego
+    item.yuanguo.pear: Pera
+    item.yuanguo.pear_jello: Gelatina de pera
+    item.yuanguo.pear_juice: Suco de pera
+    item.yuanguo.pear_with_rock_sugar: Pera com açúcar de rocha
+    item.yuanguo.persimmon: Caqui
+    item.yuanguo.persimmon_cookie: Bolacha de caqui
+    item.yuanguo.persimmon_jello: Gelatina de caqui
+    item.yuanguo.pineapple: Abacaxi
+    item.yuanguo.pineapple_jello: Gelatina de abacaxi
+    item.yuanguo.pineapple_marinated_pork: Costeleta de porco marinada com abacaxi
+    item.yuanguo.pineapple_pie: Bolo de abacaxi
+    item.yuanguo.pineapple_sapling: Muda de abacaxi
+    item.yuanguo.pineapple_slice: Fatia de abacaxi
+    item.yuanguo.sweetberry_jello: Gelatina de bagas
+lang#blocks:
+  pt_br:
+    block.yuanguo.apple_cauldron: Caldeirão de maçãs cozidas
+    liquid.yuanguo.apple_cauldron: Caldeirão de maçãs cozidas
+    block.yuanguo.apple_crate: Caixote de maçãs
+    block.yuanguo.apple_jello_block: Bloco de gelatina de maçã
+    block.yuanguo.apple_jello_cauldron: Caldeirão de gelatina de maçã
+    liquid.yuanguo.apple_jello_cauldron: Caldeirão de gelatina de maçã
+    block.yuanguo.apple_jelly: Geleia de maçã
+    block.yuanguo.apple_jelly_block: Bloco geleia de maçã
+    block.yuanguo.apple_jelly_cauldron: Caldeirão de geleia de maçã
+    liquid.yuanguo.apple_jelly_cauldron: Caldeirão de geleia de maçã
+    block.yuanguo.apple_leaves: Folhas de macieira
+    block.yuanguo.apple_sapling: Muda de macieira
+    block.yuanguo.attached_hamimelon_stem: Caule de melão Tami
+    block.yuanguo.bayberry_cauldron: Caldeirão de morangos chineses cozidos
+    liquid.yuanguo.bayberry_cauldron: Caldeirão de morangos chineses cozidos
+    block.yuanguo.bayberry_crate: Caixote de morango chineses
+    block.yuanguo.bayberry_jello_block: Bloco de gelatina de morango chinês
+    block.yuanguo.bayberry_jello_cauldron: Bloco de gelatina de morango chinês
+    liquid.yuanguo.bayberry_jello_cauldron: Bloco de gelatina de morango chinês
+    block.yuanguo.bayberry_jelly: Geleia de morango chinês
+    block.yuanguo.bayberry_jelly_block: Bloco de geleia de morango chinês
+    block.yuanguo.bayberry_jelly_cauldron: Caldeirão de geleia de morango chinês
+    liquid.yuanguo.bayberry_jelly_cauldron: Caldeirão de geleia de morango chinês
+    block.yuanguo.bayberry_leaves: Folhas de morango chinês
+    block.yuanguo.bayberry_sapling: Muda de morango chinês
+    block.yuanguo.blueberry_bush: Arbusto de mirtilo
+    block.yuanguo.blueberry_cauldron: Caldeirão de mirtilos cozidos
+    liquid.yuanguo.blueberry_cauldron: Caldeirão de mirtilos cozidos
+    block.yuanguo.blueberry_crate: Caixote de mirtilos
+    block.yuanguo.blueberry_jello_block: Bloco de gelatina de mirtilo
+    block.yuanguo.blueberry_jello_cauldron: Bloco de gelatina de mirtilo
+    liquid.yuanguo.blueberry_jello_cauldron: Bloco de gelatina de mirtilo
+    block.yuanguo.blueberry_jelly: Geleia de mirtilo
+    block.yuanguo.blueberry_jelly_block: Bloco de geleia de mirtilo
+    block.yuanguo.blueberry_jelly_cauldron: Caldeirão de geleia de mirtilo
+    liquid.yuanguo.blueberry_jelly_cauldron: Caldeirão de geleia de mirtilo
+    block.yuanguo.chorus_cauldron: Caldeirão de coro cozido
+    liquid.yuanguo.chorus_cauldron: Caldeirão de coro cozido
+    block.yuanguo.chorus_jello_block: Bloco de gelatina de coro
+    block.yuanguo.chorus_jello_cauldron: Bloco de gelatina de coro
+    liquid.yuanguo.chorus_jello_cauldron: Bloco de gelatina de coro
+    block.yuanguo.chorus_jelly: Geleia de coro
+    block.yuanguo.chorus_jelly_block: Bloco de geleia de coro
+    block.yuanguo.chorus_jelly_cauldron: Caldeirão de geleia de coro
+    liquid.yuanguo.chorus_jelly_cauldron: Caldeirão de geleia de coro
+    block.yuanguo.cranberry_bush: Arbusto de oxicoco
+    block.yuanguo.cranberry_cauldron: Caldeirão de oxicocos cozidas
+    liquid.yuanguo.cranberry_cauldron: Caldeirão de oxicocos cozidas
+    block.yuanguo.cranberry_crate: Caixote de oxicocos
+    block.yuanguo.cranberry_jello_block: Bloco de gelatina de oxicoco
+    block.yuanguo.cranberry_jello_cauldron: Bloco de gelatina de oxicoco
+    liquid.yuanguo.cranberry_jello_cauldron: Bloco de gelatina de oxicoco
+    block.yuanguo.cranberry_jelly: Geleia de oxicoco
+    block.yuanguo.cranberry_jelly_block: Bloco de geleia de oxicoco
+    block.yuanguo.cranberry_jelly_cauldron: Caldeirão de geleia de oxicoco
+    liquid.yuanguo.cranberry_jelly_cauldron: Caldeirão de geleia de oxicoco
+    block.yuanguo.durian: Durião
+    block.yuanguo.hanging_durian: Durian
+    block.yuanguo.durian_cauldron: Caldeirão de duriões cozidos
+    liquid.yuanguo.durian_cauldron: Caldeirão de duriões cozidos
+    block.yuanguo.durian_jello_block: Bloco de gelatina de durião
+    block.yuanguo.durian_jello_cauldron: Bloco de gelatina de durião
+    liquid.yuanguo.durian_jello_cauldron: Bloco de gelatina de durião
+    block.yuanguo.durian_jelly: Geleia de durião
+    block.yuanguo.durian_jelly_block: Bloco de geleia de durião
+    block.yuanguo.durian_jelly_cauldron: Caldeirão de geleia de durião
+    liquid.yuanguo.durian_jelly_cauldron: Caldeirão de geleia de durião
+    block.yuanguo.durian_leaves: Folhas de durião
+    block.yuanguo.durian_sapling: Muda de durião
+    block.yuanguo.fig_cauldron: Caldeirão de figos cozidos
+    liquid.yuanguo.fig_cauldron: Caldeirão de figos cozidos
+    block.yuanguo.fig_crate: Caixote de figos
+    block.yuanguo.fig_jello_block: Bloco de gelatina de figo
+    block.yuanguo.fig_jello_cauldron: Bloco de gelatina de figo
+    liquid.yuanguo.fig_jello_cauldron: Bloco de gelatina de figo
+    block.yuanguo.fig_jelly: Geleia de figo
+    block.yuanguo.fig_jelly_block: Bloco de geleia de figo
+    block.yuanguo.fig_jelly_cauldron: Caldeirão de geleia de figo
+    liquid.yuanguo.fig_jelly_cauldron: Caldeirão de geleia de figo
+    block.yuanguo.fig_leaves: Folhas de figueira
+    block.yuanguo.fig_pudding: Pudim de figo
+    block.yuanguo.fig_sapling: Muda de figueira
+    block.yuanguo.glowberry_cauldron: Caldeirão de bagas brilhantes cozidas
+    liquid.yuanguo.glowberry_cauldron: Caldeirão de bagas brilhantes cozidas
+    block.yuanguo.glowberry_jello_block: Bloco de gelatina de baga brilhante
+    block.yuanguo.glowberry_jello_cauldron: Caldeirão de gelatina de baga brilhante
+    liquid.yuanguo.glowberry_jello_cauldron: Caldeirão de gelatina de baga brilhante
+    block.yuanguo.glowberry_jelly: Geleia de baga brilhante
+    block.yuanguo.glowberry_jelly_block: Bloco de geleia de baga brilhante
+    block.yuanguo.glowberry_jelly_cauldron: Caldeirão de geleia de baga brilhante
+    liquid.yuanguo.glowberry_jelly_cauldron: Caldeirão de geleia de baga brilhante
+    block.yuanguo.hamimelon: Melão hami
+    block.yuanguo.hamimelon_cauldron: Caldeirão de melão hami
+    liquid.yuanguo.hamimelon_cauldron: Caldeirão de melão hami
+    block.yuanguo.hamimelon_jello_block: Bloco de gelatina de melão hami
+    block.yuanguo.hamimelon_jello_cauldron: Bloco de gelatina de melão hami
+    liquid.yuanguo.hamimelon_jello_cauldron: Bloco de gelatina de melão hami
+    block.yuanguo.hamimelon_jelly: Geleia de melão hami
+    block.yuanguo.hamimelon_jelly_block: Bloco de geleia de melão hami
+    block.yuanguo.hamimelon_jelly_cauldron: Caldeirão de geleia de melão hami
+    liquid.yuanguo.hamimelon_jelly_cauldron: Caldeirão de geleia de melão hami
+    block.yuanguo.hamimelon_stem: Caule de melão hami
+    block.yuanguo.hawberry_cauldron: Caldeirão de mirtilos cozidos
+    liquid.yuanguo.hawberry_cauldron: Caldeirão de mirtilos cozidos
+    block.yuanguo.hawberry_crate: Caixote de mirtilos
+    block.yuanguo.hawberry_jello_block: Bloco de gelatina de mirtilo
+    block.yuanguo.hawberry_jello_cauldron: Bloco de gelatina de mirtilo
+    liquid.yuanguo.hawberry_jello_cauldron: Bloco de gelatina de mirtilo
+    block.yuanguo.hawberry_jelly: Geleia de mirtilo
+    block.yuanguo.hawberry_jelly_block: Bloco de geleia de mirtilo
+    block.yuanguo.hawberry_jelly_cauldron: Caldeirão de geleia de mirtilo
+    liquid.yuanguo.hawberry_jelly_cauldron: Caldeirão de geleia de mirtilo
+    block.yuanguo.hawberry_leaves: Folhas de mirtileiro
+    block.yuanguo.hawberry_sapling: Muda de mirtileiro
+    block.yuanguo.kiwi_cauldron: Caldeirão de kiwis cozidos
+    liquid.yuanguo.kiwi_cauldron: Caldeirão de kiwis cozidos
+    block.yuanguo.kiwi_crate: Caixote de kiwis
+    block.yuanguo.kiwi_jello_block: Bloco de gelatina de kiwi
+    block.yuanguo.kiwi_jello_cauldron: Bloco de gelatina de kiwi
+    liquid.yuanguo.kiwi_jello_cauldron: Bloco de gelatina de kiwi
+    block.yuanguo.kiwi_jelly: Geleia de kiwi
+    block.yuanguo.kiwi_jelly_block: Bloco de geleia de kiwi
+    block.yuanguo.kiwi_jelly_cauldron: Caldeirão de geleia de kiwi
+    liquid.yuanguo.kiwi_jelly_cauldron: Caldeirão de geleia de kiwi
+    block.yuanguo.kiwi_leaves: Folhas de kiwi
+    block.yuanguo.kiwi_sapling: Muda de kiwi
+    block.yuanguo.lemon_cauldron: Caldeirão de limões cozidos
+    liquid.yuanguo.lemon_cauldron: Caldeirão de limões cozidos
+    block.yuanguo.lemon_crate: Caixote de limões
+    block.yuanguo.lemon_jello_block: Bloco de gelatina de limão
+    block.yuanguo.lemon_jello_cauldron: Bloco de gelatina de limão
+    liquid.yuanguo.lemon_jello_cauldron: Bloco de gelatina de limão
+    block.yuanguo.lemon_jelly: Geleia de limão
+    block.yuanguo.lemon_jelly_block: Bloco de geleia de limão
+    block.yuanguo.lemon_jelly_cauldron: Caldeirão de geleia de limão
+    liquid.yuanguo.lemon_jelly_cauldron: Caldeirão de geleia de limão
+    block.yuanguo.lemon_tree: Limoeiro
+    block.yuanguo.lemonade_cauldron: Caldeirão de limonada
+    liquid.yuanguo.lemonade_cauldron: Caldeirão de limonada
+    block.yuanguo.lychee_cauldron: Caldeirão de lichias cozidas
+    liquid.yuanguo.lychee_cauldron: Caldeirão de lichias cozidas
+    block.yuanguo.lychee_crate: Caixote de lichias
+    block.yuanguo.lychee_jello_block: Bloco de gelatina de lichia
+    block.yuanguo.lychee_jello_cauldron: Bloco de gelatina de lichia
+    liquid.yuanguo.lychee_jello_cauldron: Bloco de gelatina de lichia
+    block.yuanguo.lychee_jelly: Geleia de lichia
+    block.yuanguo.lychee_jelly_block: Bloco de geleia de lichia
+    block.yuanguo.lychee_jelly_cauldron: Caldeirão de geleia de lichia
+    liquid.yuanguo.lychee_jelly_cauldron: Caldeirão de geleia de lichia
+    block.yuanguo.lychee_leaves: Folhas de lichieira
+    block.yuanguo.lychee_sapling: Muda de lichieira
+    block.yuanguo.mango_cauldron: Caldeirão de mangas cozidos
+    liquid.yuanguo.mango_cauldron: Caldeirão de mangas cozidos
+    block.yuanguo.mango_crate: Caixote de mangas
+    block.yuanguo.mango_jello_block: Bloco de gelatina de manga
+    block.yuanguo.mango_jello_cauldron: Bloco de gelatina de manga
+    liquid.yuanguo.mango_jello_cauldron: Bloco de gelatina de manga
+    block.yuanguo.mango_jelly: Geleia de manga
+    block.yuanguo.mango_jelly_block: Bloco de geleia de manga
+    block.yuanguo.mango_jelly_cauldron: Caldeirão de geleia de mangas
+    liquid.yuanguo.mango_jelly_cauldron: Caldeirão de geleia de mangas
+    block.yuanguo.mango_leaves: Folhas de manga
+    block.yuanguo.mango_sapling: Muda de manga
+    block.yuanguo.mangosteen_cake: Bolo de mangostão
+    block.yuanguo.mangosteen_cauldron: Caldeirão de mangostões cozidos
+    liquid.yuanguo.mangosteen_cauldron: Caldeirão de mangostões cozidos
+    block.yuanguo.mangosteen_crate: Caixote de mangostões
+    block.yuanguo.mangosteen_jello_block: Bloco de gelatina de mangostão
+    block.yuanguo.mangosteen_jello_cauldron: Bloco de gelatina de mangostão
+    liquid.yuanguo.mangosteen_jello_cauldron: Bloco de gelatina de mangostão
+    block.yuanguo.mangosteen_jelly: Geleia de mangostão
+    block.yuanguo.mangosteen_jelly_block: Bloco de geleia de mangostão
+    block.yuanguo.mangosteen_jelly_cauldron: Caldeirão de geleia de mangostão
+    liquid.yuanguo.mangosteen_jelly_cauldron: Caldeirão de geleia de mangostão
+    block.yuanguo.mangosteen_leaves: Folhas de mangostão
+    block.yuanguo.mangosteen_sapling: Muda de mangostão
+    block.yuanguo.melon_cauldron: Caldeirão de melancias cozidas
+    liquid.yuanguo.melon_cauldron: Caldeirão de melancias cozidas
+    block.yuanguo.melon_jello_block: Bloco de gelatina de melancia
+    block.yuanguo.melon_jello_cauldron: Bloco de gelatina de melancia
+    liquid.yuanguo.melon_jello_cauldron: Bloco de gelatina de melancia
+    block.yuanguo.melon_jelly: Geleia de melancia
+    block.yuanguo.melon_jelly_block: Bloco de geleia de melancia
+    block.yuanguo.melon_jelly_cauldron: Caldeirão de geleia de melancia
+    liquid.yuanguo.melon_jelly_cauldron: Caldeirão de geleia de melancia
+    block.yuanguo.orange_cauldron: Caldeirão de laranjas cozidas
+    liquid.yuanguo.orange_cauldron: Caldeirão de laranjas cozidas
+    block.yuanguo.orange_crate: Caixote de laranjas
+    block.yuanguo.orange_jello_block: Bloco de gelatina de laranja
+    block.yuanguo.orange_jello_cauldron: Caldeirão de geleia de laranja
+    liquid.yuanguo.orange_jello_cauldron: Caldeirão de geleia de laranja
+    block.yuanguo.orange_jelly: Geleia de laranja
+    block.yuanguo.orange_jelly_block: Bloco de geleia de laranja
+    block.yuanguo.orange_jelly_cauldron: Caldeirão de geleia de laranja
+    liquid.yuanguo.orange_jelly_cauldron: Caldeirão de geleia de laranja
+    block.yuanguo.orange_leaves: Folhas de laranjeira
+    block.yuanguo.orange_sapling: Muda de laranjeira
+    block.yuanguo.peach_cauldron: Caldeirão de pêssegos cozidos
+    liquid.yuanguo.peach_cauldron: Caldeirão de pêssegos cozidos
+    block.yuanguo.peach_crate: Caixote de pêssegos
+    block.yuanguo.peach_jello_block: Bloco de gelatina de pêssego
+    block.yuanguo.peach_jello_cauldron: Bloco de gelatina de pêssego
+    liquid.yuanguo.peach_jello_cauldron: Bloco de gelatina de pêssego
+    block.yuanguo.peach_jelly: Geleia de pêssego
+    block.yuanguo.peach_jelly_block: Bloco de geleia de pêssego
+    block.yuanguo.peach_jelly_cauldron: Caldeirão de geleia de pêssego
+    liquid.yuanguo.peach_jelly_cauldron: Caldeirão de geleia de pêssego
+    block.yuanguo.peach_leaves: Folhas de pessegueiro
+    block.yuanguo.peach_sapling: Muda de pessegueiro
+    block.yuanguo.pear_cauldron: Caldeirão de peras cozidas
+    liquid.yuanguo.pear_cauldron: Caldeirão de peras cozidas
+    block.yuanguo.pear_crate: Caixote de peras
+    block.yuanguo.pear_jello_block: Bloco de gelatina de pera
+    block.yuanguo.pear_jello_cauldron: Bloco de gelatina de pera
+    liquid.yuanguo.pear_jello_cauldron: Bloco de gelatina de pera
+    block.yuanguo.pear_jelly: Geleia de pera
+    block.yuanguo.pear_jelly_block: Bloco de geleia de pera
+    block.yuanguo.pear_jelly_cauldron: Caldeirão de geleia de pera
+    liquid.yuanguo.pear_jelly_cauldron: Caldeirão de geleia de pera
+    block.yuanguo.pear_leaves: Folhas de pereira
+    block.yuanguo.pear_sapling: Muda de pereira
+    block.yuanguo.persimmon_cauldron: Caldeirão de caquis cozidos
+    liquid.yuanguo.persimmon_cauldron: Caldeirão de caquis cozidos
+    block.yuanguo.persimmon_crate: Caixote de caquis
+    block.yuanguo.persimmon_jello_block: Bloco de gelatina de caqui
+    block.yuanguo.persimmon_jello_cauldron: Bloco de gelatina de caqui
+    liquid.yuanguo.persimmon_jello_cauldron: Bloco de gelatina de caqui
+    block.yuanguo.persimmon_jelly: Geleia de caqui
+    block.yuanguo.persimmon_jelly_block: Bloco de geleia de caqui
+    block.yuanguo.persimmon_jelly_cauldron: Caldeirão de geleia de caqui
+    liquid.yuanguo.persimmon_jelly_cauldron: Caldeirão de geleia de caqui
+    block.yuanguo.persimmon_leaves: Folhas de caqui
+    block.yuanguo.persimmon_sapling: Muda de caqui
+    block.yuanguo.pineapple: Abacaxi
+    block.yuanguo.pineapple_cauldron: Caldeirão de abacaxis cozidos
+    liquid.yuanguo.pineapple_cauldron: Caldeirão de abacaxis cozidos
+    block.yuanguo.pineapple_crate: Caixote de abacaxis
+    block.yuanguo.pineapple_fried_rice: Arroz frito com abacaxi
+    block.yuanguo.pineapple_jello_block: Bloco de gelatina de abacaxi
+    block.yuanguo.pineapple_jello_cauldron: Caldeirão de gelatina de abacaxi
+    liquid.yuanguo.pineapple_jello_cauldron: Caldeirão de gelatina de abacaxi
+    block.yuanguo.pineapple_jelly: Geleia de abacaxi
+    block.yuanguo.pineapple_jelly_block: Bloco de geleia de abacaxi
+    block.yuanguo.pineapple_jelly_cauldron: Caldeirão de geleia de abacaxi
+    liquid.yuanguo.pineapple_jelly_cauldron: Caldeirão de geleia de abacaxi
+    block.yuanguo.potted_apple_sapling: Vaso com muda macieira
+    block.yuanguo.potted_bayberry_sapling: Vaso com muda de morango chinês
+    block.yuanguo.potted_durian_sapling: Vaso com muda de durião
+    block.yuanguo.potted_fig_sapling: Vaso com muda de figueira
+    block.yuanguo.potted_hawberry_sapling: Vaso com muda de mirtilo
+    block.yuanguo.potted_kiwi_sapling: Vaso com muda de kiwi
+    block.yuanguo.potted_lychee_sapling: Vaso com muda de lichia
+    block.yuanguo.potted_mango_sapling: Vaso com muda de manga
+    block.yuanguo.potted_mangosteen_sapling: Vaso com muda de mangostão
+    block.yuanguo.potted_orange_sapling: Vaso com muda de laranjeira
+    block.yuanguo.potted_peach_sapling: Vaso com muda de pessegueiro
+    block.yuanguo.potted_pear_sapling: Vaso com muda pera
+    block.yuanguo.potted_persimmon_sapling: Vaso com muda de caqui
+    block.yuanguo.sweetberry_cauldron: Caldeirão de bagas geleias cozidas
+    liquid.yuanguo.sweetberry_cauldron: Caldeirão de bagas geleias cozidas
+    block.yuanguo.sweetberry_jello_block: Bloco de gelatina de baga
+    block.yuanguo.sweetberry_jello_cauldron: Bloco de gelatina de baga
+    liquid.yuanguo.sweetberry_jello_cauldron: Bloco de gelatina de baga
+    block.yuanguo.sweetberry_jelly: Geleia de baga
+    block.yuanguo.sweetberry_jelly_block: Bloco de geleia de baga
+    block.yuanguo.sweetberry_jelly_cauldron: Caldeirão de geleia de baga
+    liquid.yuanguo.sweetberry_jelly_cauldron: Caldeirão de geleia de baga
+    block.yuanguo.wild_pineapple: Abacaxi silvestre
+lang#others:
+  pt_br:
+    effect.yuanguo.alienating: Repugnante
+    effect.yuanguo.alienating.description: Da enjoo e debilita às entidades próximas.
+    effect.yuanguo.appetizing: Grande apetite
+    effect.yuanguo.appetizing.description: Come e bebe mesmo estando farto.
+    effect.yuanguo.brightening: Clarear
+    effect.yuanguo.brightening.description: Imuniza contra a cegueira e escuridão.
+    effect.yuanguo.chorus: Coro
+    effect.yuanguo.chorus.description: Teletransporta-te ao azar!
+    effect.yuanguo.cycling: Perda de experiência
+    effect.yuanguo.cycling.description: Deixará cair-te o nivel de experiência cada secundo como esferas.
+    effect.yuanguo.digesting: Digestão
+    effect.yuanguo.digesting.description: O exceso de nutrição converter-se-á em saturação.
+    effect.yuanguo.disgusted: Enojado
+    effect.yuanguo.disgusted.description: Entidade com este efeito não vai reproduzir-se.
+    effect.yuanguo.heal_aura: Aura curativa
+    effect.yuanguo.heal_aura.description: Cura instantâneamente as entidades próximas.
+    effect.yuanguo.lozenge: Glutonaria
+    effect.yuanguo.lozenge.description: Come e bebe mais rápido.
+    effect.yuanguo.rage_aura: Aura da irá
+    effect.yuanguo.rage_aura.description: Entidades próximas estarão agressivas contra você.
+    effect.yuanguo.recovering: Recuperação
+    effect.yuanguo.recovering.description: Imuniza contra o veneno e a descomposição.
+    effect.yuanguo.refreshing: Refrescante
+    effect.yuanguo.refreshing.description: Imuniza contra a fatiga
+    effect.yuanguo.shrinking: Diminuição
+    effect.yuanguo.shrinking.description: Permite passar em espaços de um bloco de altura enquanto agachado.
+    effect.yuanguo.suspicious_smell: Olfato incrível
+    effect.yuanguo.suspicious_smell.description: Notas os efeitos dos estufados suspeitos e pode enxergar areia suspeita
+    effect.yuanguo.sweetening: Docinho
+    effect.yuanguo.sweetening.description: Imuniza contra a lentidão
+    fluid.yuanguo.apple_jam: Geleia de maçã
+    fluid.yuanguo.apple_jello: Gelatina líquida
+    fluid.yuanguo.bayberry_jam: Geleia de morango chinês
+    fluid.yuanguo.bayberry_jello: Gelatina líquida de morango chinês
+    fluid.yuanguo.bayberry_soup: Sopa de morango chinês
+    fluid.yuanguo.bellini_cocktail: Bellini
+    fluid.yuanguo.blueberry_jam: Geleia de mirtilo
+    fluid.yuanguo.blueberry_jello: Gelatina líquida de mirtilo
+    fluid.yuanguo.chorus_jam: Geleia de coro
+    fluid.yuanguo.chorus_jello: Gelatina líquida de coro
+    fluid.yuanguo.cranberry_jam: Geleia de oxicoco
+    fluid.yuanguo.cranberry_jello: Gelatina líquida de oxicoco
+    fluid.yuanguo.durian_jam: Geleia de durião
+    fluid.yuanguo.durian_jello: Gelatina líquida de durião
+    fluid.yuanguo.fig_jam: Geleia de figo
+    fluid.yuanguo.fig_jello: Gelatina líquida de figo
+    fluid.yuanguo.glowberry_jam: Geleia de bagas brilhantes
+    fluid.yuanguo.glowberry_jello: Gelatina líquida de bagas brilhantes
+    fluid.yuanguo.hamimelon_jam: Geleia de melão hami
+    fluid.yuanguo.hamimelon_jello: Gelatina de melão hami
+    fluid.yuanguo.hamimelon_juice: Suco de melão hami
+    fluid.yuanguo.hawberry_jam: Geleia de mirtilo
+    fluid.yuanguo.hawberry_jello: Gelatina líquidas de mirtilo
+    fluid.yuanguo.hawberry_tea: Chá de mirtilos
+    fluid.yuanguo.kiwi_jam: Geleia de kiwi
+    fluid.yuanguo.kiwi_jello: Gelatina líquida de kiwi
+    fluid.yuanguo.kiwi_juice: Suco de kiwi
+    fluid.yuanguo.lemon_jam: Geleia de limão
+    fluid.yuanguo.lemon_jello: Gelatina líquida de limão
+    fluid.yuanguo.lemon_juice: Suco de limão
+    fluid.yuanguo.lychee_cherry_tea: Chá de lichia e cereja
+    fluid.yuanguo.lychee_jam: Geleia de lichia
+    fluid.yuanguo.lychee_jello: Gelatina de lichia
+    fluid.yuanguo.mango_jam: Geleia de mango
+    fluid.yuanguo.mango_jello: Gelatina líquida de manga
+    fluid.yuanguo.mango_tea: Chá de manga
+    fluid.yuanguo.mangosteen_jam: Geleia de mangostão
+    fluid.yuanguo.mangosteen_jello: Gelatina líquida de mangostão
+    fluid.yuanguo.mangosteen_tea: Chá de mangostão
+    fluid.yuanguo.melon_jam: Geleia de melancia
+    fluid.yuanguo.melon_jello: Gelatina líquida de melancia
+    fluid.yuanguo.orange_jam: Geleia de laranja
+    fluid.yuanguo.orange_jello: Gelatina líquida de laranja
+    fluid.yuanguo.orange_juice: Suco de laranja
+    fluid.yuanguo.peach_jam: Geleia de pêssego
+    fluid.yuanguo.peach_jello: Gelatina líquida de pêssego
+    fluid.yuanguo.peach_tea: Chá com pêssego
+    fluid.yuanguo.pear_jam: Geleia de pera
+    fluid.yuanguo.pear_jello: Gelatina líquida de pera
+    fluid.yuanguo.pear_juice: Suco de pera
+    fluid.yuanguo.persimmon_jam: Geleia de caqui
+    fluid.yuanguo.persimmon_jello: Gelatina líquida de caqui
+    fluid.yuanguo.pineapple_jam: Geleia de abacaxi
+    fluid.yuanguo.pineapple_jello: Gelatina líquida de abacaxi
+    fluid.yuanguo.sweetberry_jam: Geleia de bagas
+    fluid.yuanguo.sweetberry_jello: Gelatina líquida de bagas geleias
+    yuanguo.jei.cauldron: Faz clique em caldeirão
+    yuanguo.jei.cauldron_heat: Faz clique em caldeirão aquecido
+    yuanguo.tooltip.allow_jelly: Obtem efeito de geleia usado
+    yuanguo.tooltip.chance: '%1$s com probabilidade de %2$s%%'
+    yuanguo.tooltip.durian_seed: Da de comer a farejador para animâ-lo a farejar
+    yuanguo.tooltip.jello_block: Escorregadio, aguarra-se em blocos pegajosos, blocos de gelatina ou geleia iguaís.
+    yuanguo.tooltip.jelly_block: Pegajoso, mas não aguarra-se aos blocos pegajosos.
+    yuanguo.tooltip.jelly_content: 'Contém:'
+    yuanguo.tooltip.place: Clique com shift esquerdo para colocar
+    itemGroup.yuanguo: Fruits Delight
+    category.yuanguo.fruits: Fruits
+    category.yuanguo.jam_blocks: Jam Blocks
+    category.yuanguo.feast: Feast
+    category.yuanguo.jellies: Jams & Jellies
+    category.yuanguo.foods: Foods
+    category.yuanguo.equipment: Equipment
+    category.yuanguo.crates: Crates
+    category.yuanguo.cauldrons: Cauldrons
+    category.yuanguo.crops: Seeds & Saplings
+    category.yuanguo.leaves: Fruit Leaves
+    category.yuanguo.drinks: Drinks
+    category.yuanguo.potted: Potted Plants
+    effect.farmersdelight.nourishment: Nourishment
+    potion.potency.2: II
+    block.minecraft.water_cauldron: Water Cauldron

@@ -1,0 +1,7 @@
+{
+  "parent": "yuanguo:block/bush_small",
+  "textures": {
+    "cross": "yuanguo:block/blueberry_bush_small_cross",
+    "face": "yuanguo:block/blueberry_bush_small_face"
+  }
+}

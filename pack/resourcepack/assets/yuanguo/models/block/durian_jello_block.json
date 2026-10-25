@@ -1,0 +1,7 @@
+{
+  "parent": "yuanguo:block/colored_cube",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "yuanguo:block/jello_durian"
+  }
+}

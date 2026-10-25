@@ -1,0 +1,500 @@
+# Generated from the Fruits Delight mod by the YuanGuoDelight build script.
+lang#items:
+  uk_ua:
+    item.yuanguo.apple_jello: Яблучне желе
+    item.yuanguo.baked_durian: Запечений дуріан
+    item.yuanguo.baked_pear: Запечена груша
+    item.yuanguo.bayberry: Восковиця
+    item.yuanguo.bayberry_cookie: Печево з восковиці
+    item.yuanguo.bayberry_jello: Восковицьке желе
+    item.yuanguo.bayberry_soup: Суп з восковиці
+    item.yuanguo.bellini_cocktail: Коктейль Белліні
+    item.yuanguo.blueberry: Чорниця
+    item.yuanguo.blueberry_custard: Чорничний заварний крем
+    item.yuanguo.blueberry_jello: Чорничне желе
+    item.yuanguo.blueberry_muffin: Чорничний кекс
+    item.yuanguo.bowl_of_pineapple_fried_rice: Миска смаженого рису з ананасами
+    item.yuanguo.chorus_jello: Хорусове желе
+    item.yuanguo.cranberry: Журавлина
+    item.yuanguo.cranberry_cookie: Печиво з журавлини
+    item.yuanguo.cranberry_jello: Журавлине желе
+    item.yuanguo.cranberry_muffin: Журавлиний кекс
+    item.yuanguo.dried_persimmon: Сушена хурма
+    item.yuanguo.dummy_cauldron: Казан з водою
+    item.yuanguo.durian_flesh: М'якоть дуріана
+    item.yuanguo.durian_helmet: Шолом дуріана
+    item.yuanguo.durian_jello: Дуріанове желе
+    item.yuanguo.durian_pie: Дуріановий пиріг
+    item.yuanguo.durian_sapling: Насіння дуріана
+    item.yuanguo.durian_shell: Шкарлупа дуріана
+    item.yuanguo.fig: Інжир
+    item.yuanguo.fig_chicken_stew: Куряче рагу з інжиром
+    item.yuanguo.fig_jello: Інжирове желе
+    item.yuanguo.fig_pudding_slice: Шматочок інжирного пудингу
+    item.yuanguo.fig_tart: Інжировий пиріг
+    item.yuanguo.glowberry_jello: Сяючо-ягідне желе
+    item.yuanguo.hamimelon_jello: Хамійське желе
+    item.yuanguo.hamimelon_juice: Хамійський сік
+    item.yuanguo.hamimelon_popsicle: Хамійське фруктове морозиво
+    item.yuanguo.hamimelon_seeds: Насіння хамі
+    item.yuanguo.hamimelon_shaved_ice: Хамійський струганий лід
+    item.yuanguo.hamimelon_slice: Скибка хамі
+    item.yuanguo.hawberry: Глід
+    item.yuanguo.hawberry_jello: Глідне желе
+    item.yuanguo.hawberry_roll: Глідні роли
+    item.yuanguo.hawberry_sheet: Глідний лист
+    item.yuanguo.hawberry_stick: Глідна гілка
+    item.yuanguo.hawberry_tea: Глідний чай
+    item.yuanguo.jelly_bread: Желейний хліб
+    item.yuanguo.apple_jelly_bread: Яблучне варення Bread
+    item.yuanguo.blueberry_jelly_bread: Чорничне варення Bread
+    item.yuanguo.glowberry_jelly_bread: Сяючо-ягідне варення Bread
+    item.yuanguo.hamimelon_jelly_bread: Хамійське варення Bread
+    item.yuanguo.melon_jelly_bread: Кавунове варення Bread
+    item.yuanguo.hawberry_jelly_bread: Глідне варення Bread
+    item.yuanguo.lychee_jelly_bread: Варення з лічі Bread
+    item.yuanguo.mango_jelly_bread: Мангове варення Bread
+    item.yuanguo.orange_jelly_bread: Апельсинове варення Bread
+    item.yuanguo.peach_jelly_bread: Персикове варення Bread
+    item.yuanguo.pear_jelly_bread: Грушеве варення Bread
+    item.yuanguo.persimmon_jelly_bread: Хурмове варення Bread
+    item.yuanguo.pineapple_jelly_bread: Ананасове варення Bread
+    item.yuanguo.lemon_jelly_bread: Лимонне варення Bread
+    item.yuanguo.cranberry_jelly_bread: Журавлине варення Bread
+    item.yuanguo.mangosteen_jelly_bread: Мангостанове варення Bread
+    item.yuanguo.sweetberry_jelly_bread: Солодко-ягідне варення Bread
+    item.yuanguo.chorus_jelly_bread: Хорусове варення Bread
+    item.yuanguo.bayberry_jelly_bread: Восковицьке варення Bread
+    item.yuanguo.kiwi_jelly_bread: Варення з ківі Bread
+    item.yuanguo.fig_jelly_bread: Інжирове варення Bread
+    item.yuanguo.durian_jelly_bread: Дуріанове варення Bread
+    item.yuanguo.kiwi: Ківі
+    item.yuanguo.kiwi_jello: Желе з ківі
+    item.yuanguo.kiwi_juice: Сік з ківі
+    item.yuanguo.kiwi_popsicle: Фруктове морозиво з ківі
+    item.yuanguo.lemon: Лимон
+    item.yuanguo.lemon_cookie: Печиво з лимону
+    item.yuanguo.lemon_jello: Лимонне желе
+    item.yuanguo.lemon_juice: Лимонний сік
+    item.yuanguo.lemon_seeds: Насіння лимону
+    item.yuanguo.lemon_slice: Скибка лимону
+    item.yuanguo.lemon_tart: Лимонний пиріг
+    item.yuanguo.lychee: Лічі
+    item.yuanguo.lychee_cherry_tea: Чай з лічі
+    item.yuanguo.lychee_chicken: Курка лічі
+    item.yuanguo.lychee_jello: Желе з лічі
+    item.yuanguo.mango: Манго
+    item.yuanguo.mango_jello: Мангове желе
+    item.yuanguo.mango_milkshake: Манго-молочний коктейль
+    item.yuanguo.mango_salad: Манговий салат
+    item.yuanguo.mango_tea: Манговий чай
+    item.yuanguo.mangosteen: Мангостан
+    item.yuanguo.mangosteen_jello: Мангостанове желе
+    item.yuanguo.mangosteen_tea: Мангостановий чай
+    item.yuanguo.melon_jello: Кавунове желе
+    item.yuanguo.orange: Апельсин
+    item.yuanguo.orange_chicken: Апельсинова курка
+    item.yuanguo.orange_jello: Апельсинове желе
+    item.yuanguo.orange_juice: Апельсиновий сік
+    item.yuanguo.orange_marinated_pork: Свинина, маринована в апельсинах
+    item.yuanguo.orange_slice: Скибочка апельсина
+    item.yuanguo.peach: Персик
+    item.yuanguo.peach_jello: Персикове желе
+    item.yuanguo.peach_tea: Персиковий чай
+    item.yuanguo.pear: Груша
+    item.yuanguo.pear_jello: Грушеве желе
+    item.yuanguo.pear_juice: Грушевий сік
+    item.yuanguo.pear_with_rock_sugar: Груша з кам'яним цукром
+    item.yuanguo.persimmon: Хурма
+    item.yuanguo.persimmon_cookie: Печиво з хурмою
+    item.yuanguo.persimmon_jello: Хурмове желе
+    item.yuanguo.pineapple: Ананас
+    item.yuanguo.pineapple_jello: Ананасове желе
+    item.yuanguo.pineapple_marinated_pork: Свинина в ананасовому маринаді
+    item.yuanguo.pineapple_pie: Ананасовий пиріг
+    item.yuanguo.pineapple_sapling: Паросток ананасу
+    item.yuanguo.pineapple_slice: Скибка ананасу
+    item.yuanguo.sweetberry_jello: Солодко-ягідне желе
+lang#blocks:
+  uk_ua:
+    block.yuanguo.apple_cauldron: Казан яблучного соку
+    liquid.yuanguo.apple_cauldron: Казан яблучного соку
+    block.yuanguo.apple_crate: Ящик яблук
+    block.yuanguo.apple_jello_block: Блок яблучного желе
+    block.yuanguo.apple_jello_cauldron: Казан яблучного желе
+    liquid.yuanguo.apple_jello_cauldron: Казан яблучного желе
+    block.yuanguo.apple_jelly: Яблучне варення
+    block.yuanguo.apple_jelly_block: Блок яблучного варення
+    block.yuanguo.apple_jelly_cauldron: Казан яблучного варення
+    liquid.yuanguo.apple_jelly_cauldron: Казан яблучного варення
+    block.yuanguo.apple_leaves: Яблучне листя
+    block.yuanguo.apple_sapling: Паросток яблуні
+    block.yuanguo.attached_hamimelon_stem: Прикріплене стебло xамі
+    block.yuanguo.bayberry_cauldron: Казан восковицького соку
+    liquid.yuanguo.bayberry_cauldron: Казан восковицького соку
+    block.yuanguo.bayberry_crate: Ящик восковиці
+    block.yuanguo.bayberry_jello_block: Блок восковицького желе
+    block.yuanguo.bayberry_jello_cauldron: Казан восковицького желе
+    liquid.yuanguo.bayberry_jello_cauldron: Казан восковицького желе
+    block.yuanguo.bayberry_jelly: Восковицьке варення
+    block.yuanguo.bayberry_jelly_block: Блок восковицького варення
+    block.yuanguo.bayberry_jelly_cauldron: Казан восковицького варення
+    liquid.yuanguo.bayberry_jelly_cauldron: Казан восковицького варення
+    block.yuanguo.bayberry_leaves: Восковницьке листя
+    block.yuanguo.bayberry_sapling: Паросток восковиці
+    block.yuanguo.blueberry_bush: Кущ чорниць
+    block.yuanguo.blueberry_cauldron: Казан чорничного соку
+    liquid.yuanguo.blueberry_cauldron: Казан чорничного соку
+    block.yuanguo.blueberry_crate: Ящик чорниць
+    block.yuanguo.blueberry_jello_block: Блок чорничного желе
+    block.yuanguo.blueberry_jello_cauldron: Казан чорничного желе
+    liquid.yuanguo.blueberry_jello_cauldron: Казан чорничного желе
+    block.yuanguo.blueberry_jelly: Чорничне варення
+    block.yuanguo.blueberry_jelly_block: Блок чорничного варення
+    block.yuanguo.blueberry_jelly_cauldron: Казан чорничного варення
+    liquid.yuanguo.blueberry_jelly_cauldron: Казан чорничного варення
+    block.yuanguo.chorus_cauldron: Казан хорусового соку
+    liquid.yuanguo.chorus_cauldron: Казан хорусового соку
+    block.yuanguo.chorus_jello_block: Блок хорусового желе
+    block.yuanguo.chorus_jello_cauldron: Казан хорусового желе
+    liquid.yuanguo.chorus_jello_cauldron: Казан хорусового желе
+    block.yuanguo.chorus_jelly: Хорусове варення
+    block.yuanguo.chorus_jelly_block: Блок хорусового варення
+    block.yuanguo.chorus_jelly_cauldron: Казан хорусового варення
+    liquid.yuanguo.chorus_jelly_cauldron: Казан хорусового варення
+    block.yuanguo.cranberry_bush: Кущ журавлини
+    block.yuanguo.cranberry_cauldron: Казан журавлиного соку
+    liquid.yuanguo.cranberry_cauldron: Казан журавлиного соку
+    block.yuanguo.cranberry_crate: Ящик журавлини
+    block.yuanguo.cranberry_jello_block: Блок журавлиного желе
+    block.yuanguo.cranberry_jello_cauldron: Казан журавлиного желе
+    liquid.yuanguo.cranberry_jello_cauldron: Казан журавлиного желе
+    block.yuanguo.cranberry_jelly: Журавлине варення
+    block.yuanguo.cranberry_jelly_block: Блок журавлиного варення
+    block.yuanguo.cranberry_jelly_cauldron: Казан журавлиного варення
+    liquid.yuanguo.cranberry_jelly_cauldron: Казан журавлиного варення
+    block.yuanguo.durian: Дуріан
+    block.yuanguo.hanging_durian: Durian
+    block.yuanguo.durian_cauldron: Казан дуріанового соку
+    liquid.yuanguo.durian_cauldron: Казан дуріанового соку
+    block.yuanguo.durian_jello_block: Блок дуріанового желе
+    block.yuanguo.durian_jello_cauldron: Казан дуріанового желе
+    liquid.yuanguo.durian_jello_cauldron: Казан дуріанового желе
+    block.yuanguo.durian_jelly: Дуріанове варення
+    block.yuanguo.durian_jelly_block: Блок дуріанового варення
+    block.yuanguo.durian_jelly_cauldron: Казан дуріанового варення
+    liquid.yuanguo.durian_jelly_cauldron: Казан дуріанового варення
+    block.yuanguo.durian_leaves: Дуріанове листя
+    block.yuanguo.durian_sapling: Паросток дуріану
+    block.yuanguo.fig_cauldron: Казан інжирового соку
+    liquid.yuanguo.fig_cauldron: Казан інжирового соку
+    block.yuanguo.fig_crate: Ящик інжиру
+    block.yuanguo.fig_jello_block: Блок інжирового желе
+    block.yuanguo.fig_jello_cauldron: Казан інжирового желе
+    liquid.yuanguo.fig_jello_cauldron: Казан інжирового желе
+    block.yuanguo.fig_jelly: Інжирове варення
+    block.yuanguo.fig_jelly_block: Блок інжирового варення
+    block.yuanguo.fig_jelly_cauldron: Казан інжирового варення
+    liquid.yuanguo.fig_jelly_cauldron: Казан інжирового варення
+    block.yuanguo.fig_leaves: Інжирове листя
+    block.yuanguo.fig_pudding: Інжировий пудинг
+    block.yuanguo.fig_sapling: Паросток інжиру
+    block.yuanguo.glowberry_cauldron: Казан сяючо-ягідного соку
+    liquid.yuanguo.glowberry_cauldron: Казан сяючо-ягідного соку
+    block.yuanguo.glowberry_jello_block: Блок сяючо-ягідного желе
+    block.yuanguo.glowberry_jello_cauldron: Казан сяючо-ягідного желе
+    liquid.yuanguo.glowberry_jello_cauldron: Казан сяючо-ягідного желе
+    block.yuanguo.glowberry_jelly: Сяючо-ягідне варення
+    block.yuanguo.glowberry_jelly_block: Блок сяючо-ягідного варення
+    block.yuanguo.glowberry_jelly_cauldron: Казан сяючо-ягідного варення
+    liquid.yuanguo.glowberry_jelly_cauldron: Казан сяючо-ягідного варення
+    block.yuanguo.hamimelon: Хамі
+    block.yuanguo.hamimelon_cauldron: Казан хамійського соку
+    liquid.yuanguo.hamimelon_cauldron: Казан хамійського соку
+    block.yuanguo.hamimelon_jello_block: Блок хамійського желе
+    block.yuanguo.hamimelon_jello_cauldron: Казан хамійського желе
+    liquid.yuanguo.hamimelon_jello_cauldron: Казан хамійського желе
+    block.yuanguo.hamimelon_jelly: Хамійське варення
+    block.yuanguo.hamimelon_jelly_block: Блок хамійського варення
+    block.yuanguo.hamimelon_jelly_cauldron: Казан хамійського варення
+    liquid.yuanguo.hamimelon_jelly_cauldron: Казан хамійського варення
+    block.yuanguo.hamimelon_stem: Стебло хамі
+    block.yuanguo.hawberry_cauldron: Казан глідного соку
+    liquid.yuanguo.hawberry_cauldron: Казан глідного соку
+    block.yuanguo.hawberry_crate: Ящик глід
+    block.yuanguo.hawberry_jello_block: Блок глідного желе
+    block.yuanguo.hawberry_jello_cauldron: Казан глідного желе
+    liquid.yuanguo.hawberry_jello_cauldron: Казан глідного желе
+    block.yuanguo.hawberry_jelly: Глідне варення
+    block.yuanguo.hawberry_jelly_block: Блок глідного варення
+    block.yuanguo.hawberry_jelly_cauldron: Казан глідного варення
+    liquid.yuanguo.hawberry_jelly_cauldron: Казан глідного варення
+    block.yuanguo.hawberry_leaves: Глідне листя
+    block.yuanguo.hawberry_sapling: Паросток гліду
+    block.yuanguo.kiwi_cauldron: Казан соку з ківі
+    liquid.yuanguo.kiwi_cauldron: Казан соку з ківі
+    block.yuanguo.kiwi_crate: Ящик ківі
+    block.yuanguo.kiwi_jello_block: Блок желе з ківі
+    block.yuanguo.kiwi_jello_cauldron: Казан желе з ківі
+    liquid.yuanguo.kiwi_jello_cauldron: Казан желе з ківі
+    block.yuanguo.kiwi_jelly: Варення з ківі
+    block.yuanguo.kiwi_jelly_block: Блок варення з ківі
+    block.yuanguo.kiwi_jelly_cauldron: Казан варення з ківі
+    liquid.yuanguo.kiwi_jelly_cauldron: Казан варення з ківі
+    block.yuanguo.kiwi_leaves: Листя ківі
+    block.yuanguo.kiwi_sapling: Паросток ківі
+    block.yuanguo.lemon_cauldron: Казан лимоного соку
+    liquid.yuanguo.lemon_cauldron: Казан лимоного соку
+    block.yuanguo.lemon_crate: Ящик лимонів
+    block.yuanguo.lemon_jello_block: Блок лимоного желе
+    block.yuanguo.lemon_jello_cauldron: Казан лимоного желе
+    liquid.yuanguo.lemon_jello_cauldron: Казан лимоного желе
+    block.yuanguo.lemon_jelly: Лимонне варення
+    block.yuanguo.lemon_jelly_block: Блок лимоного варення
+    block.yuanguo.lemon_jelly_cauldron: Казан лимоного варення
+    liquid.yuanguo.lemon_jelly_cauldron: Казан лимоного варення
+    block.yuanguo.lemon_tree: Лимонне дерево
+    block.yuanguo.lemonade_cauldron: Казан лимонаду
+    liquid.yuanguo.lemonade_cauldron: Казан лимонаду
+    block.yuanguo.lychee_cauldron: Казан соку з лічі
+    liquid.yuanguo.lychee_cauldron: Казан соку з лічі
+    block.yuanguo.lychee_crate: Ящик лічі
+    block.yuanguo.lychee_jello_block: Блок желе з лічі
+    block.yuanguo.lychee_jello_cauldron: Казан желе з лічі
+    liquid.yuanguo.lychee_jello_cauldron: Казан желе з лічі
+    block.yuanguo.lychee_jelly: Варення з лічі
+    block.yuanguo.lychee_jelly_block: Блок варення з лічі
+    block.yuanguo.lychee_jelly_cauldron: Казан варення з лічі
+    liquid.yuanguo.lychee_jelly_cauldron: Казан варення з лічі
+    block.yuanguo.lychee_leaves: Листя лічі
+    block.yuanguo.lychee_sapling: Паросток лічі
+    block.yuanguo.mango_cauldron: Казан мангового соку
+    liquid.yuanguo.mango_cauldron: Казан мангового соку
+    block.yuanguo.mango_crate: Ящик манго
+    block.yuanguo.mango_jello_block: Блок мангового желе
+    block.yuanguo.mango_jello_cauldron: Казан мангового желе
+    liquid.yuanguo.mango_jello_cauldron: Казан мангового желе
+    block.yuanguo.mango_jelly: Мангове варення
+    block.yuanguo.mango_jelly_block: Блок мангового варення
+    block.yuanguo.mango_jelly_cauldron: Казан мангового варення
+    liquid.yuanguo.mango_jelly_cauldron: Казан мангового варення
+    block.yuanguo.mango_leaves: Мангове листя
+    block.yuanguo.mango_sapling: Паросток манго
+    block.yuanguo.mangosteen_cake: Мангостановий торт
+    block.yuanguo.mangosteen_cauldron: Казан мангостанового соку
+    liquid.yuanguo.mangosteen_cauldron: Казан мангостанового соку
+    block.yuanguo.mangosteen_crate: Ящик мангостану
+    block.yuanguo.mangosteen_jello_block: Блок мангостанового желе
+    block.yuanguo.mangosteen_jello_cauldron: Казан мангостанового желе
+    liquid.yuanguo.mangosteen_jello_cauldron: Казан мангостанового желе
+    block.yuanguo.mangosteen_jelly: Мангостанове варення
+    block.yuanguo.mangosteen_jelly_block: Блок мангостанового варення
+    block.yuanguo.mangosteen_jelly_cauldron: Казан мангостанового варення
+    liquid.yuanguo.mangosteen_jelly_cauldron: Казан мангостанового варення
+    block.yuanguo.mangosteen_leaves: Мангостанове листя
+    block.yuanguo.mangosteen_sapling: Паросток мангостану
+    block.yuanguo.melon_cauldron: Казан кавунового соку
+    liquid.yuanguo.melon_cauldron: Казан кавунового соку
+    block.yuanguo.melon_jello_block: Блок кавунового желе
+    block.yuanguo.melon_jello_cauldron: Казан кавунового желе
+    liquid.yuanguo.melon_jello_cauldron: Казан кавунового желе
+    block.yuanguo.melon_jelly: Кавунове варення
+    block.yuanguo.melon_jelly_block: Блок кавунового варення
+    block.yuanguo.melon_jelly_cauldron: Казан кавунового варення
+    liquid.yuanguo.melon_jelly_cauldron: Казан кавунового варення
+    block.yuanguo.orange_cauldron: Казан апельсинового соку
+    liquid.yuanguo.orange_cauldron: Казан апельсинового соку
+    block.yuanguo.orange_crate: Ящик апельсинів
+    block.yuanguo.orange_jello_block: Блок апельсинового желе
+    block.yuanguo.orange_jello_cauldron: Казан апельсинового желе
+    liquid.yuanguo.orange_jello_cauldron: Казан апельсинового желе
+    block.yuanguo.orange_jelly: Апельсинове варення
+    block.yuanguo.orange_jelly_block: Блок апельсинового варення
+    block.yuanguo.orange_jelly_cauldron: Казан апельсинового варення
+    liquid.yuanguo.orange_jelly_cauldron: Казан апельсинового варення
+    block.yuanguo.orange_leaves: Апельсинове листя
+    block.yuanguo.orange_sapling: Паросток апельсина
+    block.yuanguo.peach_cauldron: Казан персикового соку
+    liquid.yuanguo.peach_cauldron: Казан персикового соку
+    block.yuanguo.peach_crate: Ящик персиків
+    block.yuanguo.peach_jello_block: Блок персикового желе
+    block.yuanguo.peach_jello_cauldron: Казан персикового желе
+    liquid.yuanguo.peach_jello_cauldron: Казан персикового желе
+    block.yuanguo.peach_jelly: Персикове варення
+    block.yuanguo.peach_jelly_block: Блок персикового варення
+    block.yuanguo.peach_jelly_cauldron: Казан персикового варення
+    liquid.yuanguo.peach_jelly_cauldron: Казан персикового варення
+    block.yuanguo.peach_leaves: Персикове листя
+    block.yuanguo.peach_sapling: Паросток персика
+    block.yuanguo.pear_cauldron: Казан грушевого соку
+    liquid.yuanguo.pear_cauldron: Казан грушевого соку
+    block.yuanguo.pear_crate: Ящик груш
+    block.yuanguo.pear_jello_block: Блок грушевого желе
+    block.yuanguo.pear_jello_cauldron: Казан грушевого желе
+    liquid.yuanguo.pear_jello_cauldron: Казан грушевого желе
+    block.yuanguo.pear_jelly: Грушеве варення
+    block.yuanguo.pear_jelly_block: Блок грушевого варення
+    block.yuanguo.pear_jelly_cauldron: Казан грушевого варення
+    liquid.yuanguo.pear_jelly_cauldron: Казан грушевого варення
+    block.yuanguo.pear_leaves: Грушеве листя
+    block.yuanguo.pear_sapling: Паросток груші
+    block.yuanguo.persimmon_cauldron: Казан хурмового соку
+    liquid.yuanguo.persimmon_cauldron: Казан хурмового соку
+    block.yuanguo.persimmon_crate: Ящик хурми
+    block.yuanguo.persimmon_jello_block: Блок хурмового желе
+    block.yuanguo.persimmon_jello_cauldron: Казан хурмового желе
+    liquid.yuanguo.persimmon_jello_cauldron: Казан хурмового желе
+    block.yuanguo.persimmon_jelly: Хурмове варення
+    block.yuanguo.persimmon_jelly_block: Блок хурмового варення
+    block.yuanguo.persimmon_jelly_cauldron: Казан хурмового варення
+    liquid.yuanguo.persimmon_jelly_cauldron: Казан хурмового варення
+    block.yuanguo.persimmon_leaves: Хурмове листя
+    block.yuanguo.persimmon_sapling: Паросток хурми
+    block.yuanguo.pineapple: Ананас
+    block.yuanguo.pineapple_cauldron: Казан ананасового соку
+    liquid.yuanguo.pineapple_cauldron: Казан ананасового соку
+    block.yuanguo.pineapple_crate: Ящик ананасів
+    block.yuanguo.pineapple_fried_rice: Смажений рис з ананасами
+    block.yuanguo.pineapple_jello_block: Блок ананасового желе
+    block.yuanguo.pineapple_jello_cauldron: Казан ананасового желе
+    liquid.yuanguo.pineapple_jello_cauldron: Казан ананасового желе
+    block.yuanguo.pineapple_jelly: Ананасове варення
+    block.yuanguo.pineapple_jelly_block: Блок ананасового варення
+    block.yuanguo.pineapple_jelly_cauldron: Казан ананасового варення
+    liquid.yuanguo.pineapple_jelly_cauldron: Казан ананасового варення
+    block.yuanguo.potted_apple_sapling: Паросток яблуні у горщику
+    block.yuanguo.potted_bayberry_sapling: Паросток восковиці у горщику
+    block.yuanguo.potted_durian_sapling: Паросток дуріану у горщику
+    block.yuanguo.potted_fig_sapling: Паросток інжиру у горшику
+    block.yuanguo.potted_hawberry_sapling: Паросток гліду у горшику
+    block.yuanguo.potted_kiwi_sapling: Паросток ківі у горшику
+    block.yuanguo.potted_lychee_sapling: Паросток лічі у горшику
+    block.yuanguo.potted_mango_sapling: Паросток манго у горшику
+    block.yuanguo.potted_mangosteen_sapling: Паросток мангостану у горшику
+    block.yuanguo.potted_orange_sapling: Паросток апельсину у горшику
+    block.yuanguo.potted_peach_sapling: Паросток персику у горшику
+    block.yuanguo.potted_pear_sapling: Паросток груші у горшику
+    block.yuanguo.potted_persimmon_sapling: Паросток хурми у горшику
+    block.yuanguo.sweetberry_cauldron: Казан солодко-ягідного соку
+    liquid.yuanguo.sweetberry_cauldron: Казан солодко-ягідного соку
+    block.yuanguo.sweetberry_jello_block: Блок солодко-ягідного желе
+    block.yuanguo.sweetberry_jello_cauldron: Казан солодко-ягідного желе
+    liquid.yuanguo.sweetberry_jello_cauldron: Казан солодко-ягідного желе
+    block.yuanguo.sweetberry_jelly: Солодко-ягідне варення
+    block.yuanguo.sweetberry_jelly_block: Блок солодко-ягідного варення
+    block.yuanguo.sweetberry_jelly_cauldron: Казан солодко-ягідного варення
+    liquid.yuanguo.sweetberry_jelly_cauldron: Казан солодко-ягідного варення
+    block.yuanguo.wild_pineapple: Дикий ананас
+lang#others:
+  uk_ua:
+    effect.yuanguo.alienating: Відчуження
+    effect.yuanguo.alienating.description: Застосовувати ефект огиди та слабкості до оточуючих істот без цього ефекту
+    effect.yuanguo.appetizing: Апетитно
+    effect.yuanguo.appetizing.description: Їжте і пийте, навіть коли ви ситі.
+    effect.yuanguo.brightening: Освітлення
+    effect.yuanguo.brightening.description: Зробить гравця несприйнятливим до сліпоти та темряви
+    effect.yuanguo.chorus: Хорус
+    effect.yuanguo.chorus.description: Рандомно телепортує гравця
+    effect.yuanguo.cycling: Циклічність
+    effect.yuanguo.cycling.description: Гравець щосекунди буде скидати 1 рівень досвіду як орби
+    effect.yuanguo.digesting: Перетравлення
+    effect.yuanguo.digesting.description: Переповнене харчування стає насиченістю.
+    effect.yuanguo.disgusted: Огидний
+    effect.yuanguo.disgusted.description: Сутність з таким ефектом не буде розмножуватися
+    effect.yuanguo.heal_aura: Аура зцілення
+    effect.yuanguo.heal_aura.description: Миттєве відновлення здоров'я мобів навколо вас
+    effect.yuanguo.lozenge: Пастилка
+    effect.yuanguo.lozenge.description: Їжте і пийте швидше.
+    effect.yuanguo.rage_aura: Аура люті
+    effect.yuanguo.rage_aura.description: Моби навколо вас будуть вороже ставитися до вас
+    effect.yuanguo.recovering: Відновлення
+    effect.yuanguo.recovering.description: Зробить гравця несприйнятливим до отрути та висушування
+    effect.yuanguo.refreshing: Оновлення
+    effect.yuanguo.refreshing.description: Зробить гравця несприйнятливим до втоми
+    effect.yuanguo.shrinking: Зменшення
+    effect.yuanguo.shrinking.description: Ви можете заповзти в 1-блоковий простір під час підкрадення.
+    effect.yuanguo.suspicious_smell: Підозрілий запах
+    effect.yuanguo.suspicious_smell.description: Ви можете побачити ефекти в підозрілому рагу і легко знайти підозрілий пісок
+    effect.yuanguo.sweetening: Підсолоджування
+    effect.yuanguo.sweetening.description: Зробить гравця несприйнятливим до повільності
+    fluid.yuanguo.apple_jam: Яблучне варення
+    fluid.yuanguo.apple_jello: Розтоплене яблучне желе
+    fluid.yuanguo.bayberry_jam: Восковицьке варення
+    fluid.yuanguo.bayberry_jello: Розтоплене восковицьке желе
+    fluid.yuanguo.bayberry_soup: Суп з восковиці
+    fluid.yuanguo.bellini_cocktail: Коктейль Белліні
+    fluid.yuanguo.blueberry_jam: Чорничне варення
+    fluid.yuanguo.blueberry_jello: Розтоплене чорничне желе
+    fluid.yuanguo.chorus_jam: Хорусове варення
+    fluid.yuanguo.chorus_jello: Розтоплене хорусове желе
+    fluid.yuanguo.cranberry_jam: Журавлине варення
+    fluid.yuanguo.cranberry_jello: Розтоплене журавлине желе
+    fluid.yuanguo.durian_jam: Дуріанове варення
+    fluid.yuanguo.durian_jello: Розтоплене дуріанове желе
+    fluid.yuanguo.fig_jam: Інжирове варення
+    fluid.yuanguo.fig_jello: Розтоплене інжирове желе
+    fluid.yuanguo.glowberry_jam: Сяючо-ягідне варення
+    fluid.yuanguo.glowberry_jello: Розтоплене cяючо-ягідне желе
+    fluid.yuanguo.hamimelon_jam: Хамійське варення
+    fluid.yuanguo.hamimelon_jello: Розтоплене хамійське желе
+    fluid.yuanguo.hamimelon_juice: Хамійський сік
+    fluid.yuanguo.hawberry_jam: Глідне варення
+    fluid.yuanguo.hawberry_jello: Розтоплене глідне желе
+    fluid.yuanguo.hawberry_tea: Глідний чай
+    fluid.yuanguo.kiwi_jam: Варення з ківі
+    fluid.yuanguo.kiwi_jello: Розтоплене желе з ківі
+    fluid.yuanguo.kiwi_juice: Сік з ківі
+    fluid.yuanguo.lemon_jam: Лимонне варення
+    fluid.yuanguo.lemon_jello: Розтоплене лимонне желе
+    fluid.yuanguo.lemon_juice: Лимонний сік
+    fluid.yuanguo.lychee_cherry_tea: Чай з лічі
+    fluid.yuanguo.lychee_jam: Варення з лічі
+    fluid.yuanguo.lychee_jello: Розтоплене желе з лічі
+    fluid.yuanguo.mango_jam: Мангове варення
+    fluid.yuanguo.mango_jello: Розтоплене мангове желе
+    fluid.yuanguo.mango_tea: Манговий чай
+    fluid.yuanguo.mangosteen_jam: Мангостанове варення
+    fluid.yuanguo.mangosteen_jello: Розтоплене мангостанове желе
+    fluid.yuanguo.mangosteen_tea: Мангостановий чай
+    fluid.yuanguo.melon_jam: Кавунове варення
+    fluid.yuanguo.melon_jello: Розтоплене кавунове желе
+    fluid.yuanguo.orange_jam: Апельсинове варення
+    fluid.yuanguo.orange_jello: Розтоплене апельсинове желе
+    fluid.yuanguo.orange_juice: Апельсиновий сік
+    fluid.yuanguo.peach_jam: Персикове варення
+    fluid.yuanguo.peach_jello: Розтоплене персикове желе
+    fluid.yuanguo.peach_tea: Персиковий чай
+    fluid.yuanguo.pear_jam: Грушеве варення
+    fluid.yuanguo.pear_jello: Розтоплене грушове желе
+    fluid.yuanguo.pear_juice: Грушевий сік
+    fluid.yuanguo.persimmon_jam: Хурмове варення
+    fluid.yuanguo.persimmon_jello: Розтоплене хурмове желе
+    fluid.yuanguo.pineapple_jam: Ананасове варення
+    fluid.yuanguo.pineapple_jello: Розтоплене ананасове желе
+    fluid.yuanguo.sweetberry_jam: Солодко-ягідне варення
+    fluid.yuanguo.sweetberry_jello: Розтоплене солодко-ягідне желе
+    yuanguo.jei.cauldron: Натисніть Казан
+    yuanguo.jei.cauldron_heat: Натисніть нагрітий Казан
+    yuanguo.tooltip.allow_jelly: Отримує ефекти від інгредієнтів желе
+    yuanguo.tooltip.chance: '%1$s з %2$s%% шансом'
+    yuanguo.tooltip.durian_seed: Скорміть нюхачу, щоб скинути кулдаун
+    yuanguo.tooltip.jello_block: Слизький. Прилипає до липких блоків і тих же желейних блоків.
+    yuanguo.tooltip.jelly_block: Липкий, але не з'єднується з іншими липкими блоками.
+    yuanguo.tooltip.jelly_content: 'Містить:'
+    yuanguo.tooltip.place: Клацніть правою кнопкою миші, утримуючи клавішу Shift, щоб розмістити вниз
+    itemGroup.yuanguo: Fruits Delight
+    category.yuanguo.fruits: Fruits
+    category.yuanguo.jam_blocks: Jam Blocks
+    category.yuanguo.feast: Feast
+    category.yuanguo.jellies: Jams & Jellies
+    category.yuanguo.foods: Foods
+    category.yuanguo.equipment: Equipment
+    category.yuanguo.crates: Crates
+    category.yuanguo.cauldrons: Cauldrons
+    category.yuanguo.crops: Seeds & Saplings
+    category.yuanguo.leaves: Fruit Leaves
+    category.yuanguo.drinks: Drinks
+    category.yuanguo.potted: Potted Plants
+    effect.farmersdelight.nourishment: Nourishment
+    potion.potency.2: II
+    block.minecraft.water_cauldron: Water Cauldron

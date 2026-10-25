@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "yuanguo:block/lemon_tree_flowers_top",
+    "particle": "yuanguo:block/lemon_tree_flowers_upper",
+    "side": "yuanguo:block/lemon_tree_flowers_upper"
+  }
+}

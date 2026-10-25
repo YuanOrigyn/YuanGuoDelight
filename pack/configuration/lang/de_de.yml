@@ -1,0 +1,500 @@
+# Generated from the Fruits Delight mod by the YuanGuoDelight build script.
+lang#items:
+  de_de:
+    item.yuanguo.apple_jello: Apple Jello
+    item.yuanguo.baked_durian: Baked Durian
+    item.yuanguo.baked_pear: Baked Pear
+    item.yuanguo.bayberry: Bayberry
+    item.yuanguo.bayberry_cookie: Bayberry Cookie
+    item.yuanguo.bayberry_jello: Bayberry Jello
+    item.yuanguo.bayberry_soup: Bayberry Soup
+    item.yuanguo.bellini_cocktail: Bellini Cocktail
+    item.yuanguo.blueberry: Blueberry
+    item.yuanguo.blueberry_custard: Blueberry Custard
+    item.yuanguo.blueberry_jello: Blueberry Jello
+    item.yuanguo.blueberry_muffin: Blueberry Muffin
+    item.yuanguo.bowl_of_pineapple_fried_rice: Bowl of Pineapple Fried Rice
+    item.yuanguo.chorus_jello: Chorus Jello
+    item.yuanguo.cranberry: Cranberry
+    item.yuanguo.cranberry_cookie: Cranberry Cookie
+    item.yuanguo.cranberry_jello: Cranberry Jello
+    item.yuanguo.cranberry_muffin: Cranberry Muffin
+    item.yuanguo.dried_persimmon: Dried Persimmon
+    item.yuanguo.dummy_cauldron: Water Cauldron
+    item.yuanguo.durian_flesh: Durian Flesh
+    item.yuanguo.durian_helmet: Durian Helmet
+    item.yuanguo.durian_jello: Durian Jello
+    item.yuanguo.durian_pie: Durian Pie
+    item.yuanguo.durian_sapling: Durian Seed
+    item.yuanguo.durian_shell: Durian Shell
+    item.yuanguo.fig: Fig
+    item.yuanguo.fig_chicken_stew: Fig Chicken Stew
+    item.yuanguo.fig_jello: Fig Jello
+    item.yuanguo.fig_pudding_slice: Fig Pudding Slice
+    item.yuanguo.fig_tart: Fig Tart
+    item.yuanguo.glowberry_jello: Glowberry Jello
+    item.yuanguo.hamimelon_jello: Hamimelon Jello
+    item.yuanguo.hamimelon_juice: Hamimelon Juice
+    item.yuanguo.hamimelon_popsicle: Hamimelon Popsicle
+    item.yuanguo.hamimelon_seeds: Hamimelon Seeds
+    item.yuanguo.hamimelon_shaved_ice: Hamimelon Shaved Ice
+    item.yuanguo.hamimelon_slice: Hamimelon Slice
+    item.yuanguo.hawberry: Hawberry
+    item.yuanguo.hawberry_jello: Hawberry Jello
+    item.yuanguo.hawberry_roll: Hawberry Roll
+    item.yuanguo.hawberry_sheet: Hawberry Sheet
+    item.yuanguo.hawberry_stick: Hawberry Stick
+    item.yuanguo.hawberry_tea: Hawberry Tea
+    item.yuanguo.jelly_bread: Jelly Bread
+    item.yuanguo.apple_jelly_bread: Apple Jam Bread
+    item.yuanguo.blueberry_jelly_bread: Blueberry Jam Bread
+    item.yuanguo.glowberry_jelly_bread: Glowberry Jam Bread
+    item.yuanguo.hamimelon_jelly_bread: Hamimelon Jam Bread
+    item.yuanguo.melon_jelly_bread: Melon Jam Bread
+    item.yuanguo.hawberry_jelly_bread: Hawberry Jam Bread
+    item.yuanguo.lychee_jelly_bread: Lychee Jam Bread
+    item.yuanguo.mango_jelly_bread: Mango Jam Bread
+    item.yuanguo.orange_jelly_bread: Orange Jam Bread
+    item.yuanguo.peach_jelly_bread: Peach Jam Bread
+    item.yuanguo.pear_jelly_bread: Pear Jam Bread
+    item.yuanguo.persimmon_jelly_bread: Persimmon Jam Bread
+    item.yuanguo.pineapple_jelly_bread: Pineapple Jam Bread
+    item.yuanguo.lemon_jelly_bread: Lemon Jam Bread
+    item.yuanguo.cranberry_jelly_bread: Cranberry Jam Bread
+    item.yuanguo.mangosteen_jelly_bread: Mangosteen Jam Bread
+    item.yuanguo.sweetberry_jelly_bread: Sweetberry Jam Bread
+    item.yuanguo.chorus_jelly_bread: Chorus Jam Bread
+    item.yuanguo.bayberry_jelly_bread: Bayberry Jam Bread
+    item.yuanguo.kiwi_jelly_bread: Kiwi Jam Bread
+    item.yuanguo.fig_jelly_bread: Fig Jam Bread
+    item.yuanguo.durian_jelly_bread: Durian Jam Bread
+    item.yuanguo.kiwi: Kiwi
+    item.yuanguo.kiwi_jello: Kiwi Jello
+    item.yuanguo.kiwi_juice: Kiwi Juice
+    item.yuanguo.kiwi_popsicle: Kiwi Popsicle
+    item.yuanguo.lemon: Lemon
+    item.yuanguo.lemon_cookie: Lemon Cookie
+    item.yuanguo.lemon_jello: Lemon Jello
+    item.yuanguo.lemon_juice: Lemon Juice
+    item.yuanguo.lemon_seeds: Lemon Seeds
+    item.yuanguo.lemon_slice: Lemon Slice
+    item.yuanguo.lemon_tart: Lemon Tart
+    item.yuanguo.lychee: Lychee
+    item.yuanguo.lychee_cherry_tea: Lychee Cherry Tea
+    item.yuanguo.lychee_chicken: Lychee Chicken
+    item.yuanguo.lychee_jello: Lychee Jello
+    item.yuanguo.mango: Mango
+    item.yuanguo.mango_jello: Mango Jello
+    item.yuanguo.mango_milkshake: Mango Milkshake
+    item.yuanguo.mango_salad: Mango Salad
+    item.yuanguo.mango_tea: Mango Tea
+    item.yuanguo.mangosteen: Mangosteen
+    item.yuanguo.mangosteen_jello: Mangosteen Jello
+    item.yuanguo.mangosteen_tea: Mangosteen Tea
+    item.yuanguo.melon_jello: Melon Jello
+    item.yuanguo.orange: Orange
+    item.yuanguo.orange_chicken: Orange Chicken
+    item.yuanguo.orange_jello: Orange Jello
+    item.yuanguo.orange_juice: Orange Juice
+    item.yuanguo.orange_marinated_pork: Orange Marinated Pork
+    item.yuanguo.orange_slice: Orange Slice
+    item.yuanguo.peach: Peach
+    item.yuanguo.peach_jello: Peach Jello
+    item.yuanguo.peach_tea: Peach Tea
+    item.yuanguo.pear: Pear
+    item.yuanguo.pear_jello: Pear Jello
+    item.yuanguo.pear_juice: Pear Juice
+    item.yuanguo.pear_with_rock_sugar: Pear with Rock Sugar
+    item.yuanguo.persimmon: Persimmon
+    item.yuanguo.persimmon_cookie: Persimmon Cookie
+    item.yuanguo.persimmon_jello: Persimmon Jello
+    item.yuanguo.pineapple: Pineapple
+    item.yuanguo.pineapple_jello: Pineapple Jello
+    item.yuanguo.pineapple_marinated_pork: Pineapple Marinated Pork
+    item.yuanguo.pineapple_pie: Pineapple Pie
+    item.yuanguo.pineapple_sapling: Pineapple Sapling
+    item.yuanguo.pineapple_slice: Pineapple Slice
+    item.yuanguo.sweetberry_jello: Sweetberry Jello
+lang#blocks:
+  de_de:
+    block.yuanguo.apple_cauldron: Apple Cauldron
+    liquid.yuanguo.apple_cauldron: Apple
+    block.yuanguo.apple_crate: Apple Crate
+    block.yuanguo.apple_jello_block: Apple Jello Block
+    block.yuanguo.apple_jello_cauldron: Apple Jello Cauldron
+    liquid.yuanguo.apple_jello_cauldron: Apple Jello
+    block.yuanguo.apple_jelly: Apple Jam
+    block.yuanguo.apple_jelly_block: Apple Jam Block
+    block.yuanguo.apple_jelly_cauldron: Apple Jam Cauldron
+    liquid.yuanguo.apple_jelly_cauldron: Apple Jam
+    block.yuanguo.apple_leaves: Apple Leaves
+    block.yuanguo.apple_sapling: Apple Sapling
+    block.yuanguo.attached_hamimelon_stem: Attached Hamimelon Stem
+    block.yuanguo.bayberry_cauldron: Bayberry Cauldron
+    liquid.yuanguo.bayberry_cauldron: Bayberry
+    block.yuanguo.bayberry_crate: Bayberry Crate
+    block.yuanguo.bayberry_jello_block: Bayberry Jello Block
+    block.yuanguo.bayberry_jello_cauldron: Bayberry Jello Cauldron
+    liquid.yuanguo.bayberry_jello_cauldron: Bayberry Jello
+    block.yuanguo.bayberry_jelly: Bayberry Jam
+    block.yuanguo.bayberry_jelly_block: Bayberry Jam Block
+    block.yuanguo.bayberry_jelly_cauldron: Bayberry Jam Cauldron
+    liquid.yuanguo.bayberry_jelly_cauldron: Bayberry Jam
+    block.yuanguo.bayberry_leaves: Bayberry Leaves
+    block.yuanguo.bayberry_sapling: Bayberry Sapling
+    block.yuanguo.blueberry_bush: Blueberry Bush
+    block.yuanguo.blueberry_cauldron: Blueberry Cauldron
+    liquid.yuanguo.blueberry_cauldron: Blueberry
+    block.yuanguo.blueberry_crate: Blueberry Crate
+    block.yuanguo.blueberry_jello_block: Blueberry Jello Block
+    block.yuanguo.blueberry_jello_cauldron: Blueberry Jello Cauldron
+    liquid.yuanguo.blueberry_jello_cauldron: Blueberry Jello
+    block.yuanguo.blueberry_jelly: Blueberry Jam
+    block.yuanguo.blueberry_jelly_block: Blueberry Jam Block
+    block.yuanguo.blueberry_jelly_cauldron: Blueberry Jam Cauldron
+    liquid.yuanguo.blueberry_jelly_cauldron: Blueberry Jam
+    block.yuanguo.chorus_cauldron: Chorus Cauldron
+    liquid.yuanguo.chorus_cauldron: Chorus
+    block.yuanguo.chorus_jello_block: Chorus Jello Block
+    block.yuanguo.chorus_jello_cauldron: Chorus Jello Cauldron
+    liquid.yuanguo.chorus_jello_cauldron: Chorus Jello
+    block.yuanguo.chorus_jelly: Chorus Jam
+    block.yuanguo.chorus_jelly_block: Chorus Jam Block
+    block.yuanguo.chorus_jelly_cauldron: Chorus Jam Cauldron
+    liquid.yuanguo.chorus_jelly_cauldron: Chorus Jam
+    block.yuanguo.cranberry_bush: Cranberry Bush
+    block.yuanguo.cranberry_cauldron: Cranberry Cauldron
+    liquid.yuanguo.cranberry_cauldron: Cranberry
+    block.yuanguo.cranberry_crate: Cranberry Crate
+    block.yuanguo.cranberry_jello_block: Cranberry Jello Block
+    block.yuanguo.cranberry_jello_cauldron: Cranberry Jello Cauldron
+    liquid.yuanguo.cranberry_jello_cauldron: Cranberry Jello
+    block.yuanguo.cranberry_jelly: Cranberry Jam
+    block.yuanguo.cranberry_jelly_block: Cranberry Jam Block
+    block.yuanguo.cranberry_jelly_cauldron: Cranberry Jam Cauldron
+    liquid.yuanguo.cranberry_jelly_cauldron: Cranberry Jam
+    block.yuanguo.durian: Durian
+    block.yuanguo.hanging_durian: Durian
+    block.yuanguo.durian_cauldron: Durian Cauldron
+    liquid.yuanguo.durian_cauldron: Durian
+    block.yuanguo.durian_jello_block: Durian Jello Block
+    block.yuanguo.durian_jello_cauldron: Durian Jello Cauldron
+    liquid.yuanguo.durian_jello_cauldron: Durian Jello
+    block.yuanguo.durian_jelly: Durian Jam
+    block.yuanguo.durian_jelly_block: Durian Jam Block
+    block.yuanguo.durian_jelly_cauldron: Durian Jam Cauldron
+    liquid.yuanguo.durian_jelly_cauldron: Durian Jam
+    block.yuanguo.durian_leaves: Durian Leaves
+    block.yuanguo.durian_sapling: Durian Sapling
+    block.yuanguo.fig_cauldron: Fig Cauldron
+    liquid.yuanguo.fig_cauldron: Fig
+    block.yuanguo.fig_crate: Fig Crate
+    block.yuanguo.fig_jello_block: Fig Jello Block
+    block.yuanguo.fig_jello_cauldron: Fig Jello Cauldron
+    liquid.yuanguo.fig_jello_cauldron: Fig Jello
+    block.yuanguo.fig_jelly: Fig Jam
+    block.yuanguo.fig_jelly_block: Fig Jam Block
+    block.yuanguo.fig_jelly_cauldron: Fig Jam Cauldron
+    liquid.yuanguo.fig_jelly_cauldron: Fig Jam
+    block.yuanguo.fig_leaves: Fig Leaves
+    block.yuanguo.fig_pudding: Fig Pudding
+    block.yuanguo.fig_sapling: Fig Sapling
+    block.yuanguo.glowberry_cauldron: Glowberry Cauldron
+    liquid.yuanguo.glowberry_cauldron: Glowberry
+    block.yuanguo.glowberry_jello_block: Glowberry Jello Block
+    block.yuanguo.glowberry_jello_cauldron: Glowberry Jello Cauldron
+    liquid.yuanguo.glowberry_jello_cauldron: Glowberry Jello
+    block.yuanguo.glowberry_jelly: Glowberry Jam
+    block.yuanguo.glowberry_jelly_block: Glowberry Jam Block
+    block.yuanguo.glowberry_jelly_cauldron: Glowberry Jam Cauldron
+    liquid.yuanguo.glowberry_jelly_cauldron: Glowberry Jam
+    block.yuanguo.hamimelon: Hamimelon
+    block.yuanguo.hamimelon_cauldron: Hamimelon Cauldron
+    liquid.yuanguo.hamimelon_cauldron: Hamimelon
+    block.yuanguo.hamimelon_jello_block: Hamimelon Jello Block
+    block.yuanguo.hamimelon_jello_cauldron: Hamimelon Jello Cauldron
+    liquid.yuanguo.hamimelon_jello_cauldron: Hamimelon Jello
+    block.yuanguo.hamimelon_jelly: Hamimelon Jam
+    block.yuanguo.hamimelon_jelly_block: Hamimelon Jam Block
+    block.yuanguo.hamimelon_jelly_cauldron: Hamimelon Jam Cauldron
+    liquid.yuanguo.hamimelon_jelly_cauldron: Hamimelon Jam
+    block.yuanguo.hamimelon_stem: Hamimelon Stem
+    block.yuanguo.hawberry_cauldron: Hawberry Cauldron
+    liquid.yuanguo.hawberry_cauldron: Hawberry
+    block.yuanguo.hawberry_crate: Hawberry Crate
+    block.yuanguo.hawberry_jello_block: Hawberry Jello Block
+    block.yuanguo.hawberry_jello_cauldron: Hawberry Jello Cauldron
+    liquid.yuanguo.hawberry_jello_cauldron: Hawberry Jello
+    block.yuanguo.hawberry_jelly: Hawberry Jam
+    block.yuanguo.hawberry_jelly_block: Hawberry Jam Block
+    block.yuanguo.hawberry_jelly_cauldron: Hawberry Jam Cauldron
+    liquid.yuanguo.hawberry_jelly_cauldron: Hawberry Jam
+    block.yuanguo.hawberry_leaves: Hawberry Leaves
+    block.yuanguo.hawberry_sapling: Hawberry Sapling
+    block.yuanguo.kiwi_cauldron: Kiwi Cauldron
+    liquid.yuanguo.kiwi_cauldron: Kiwi
+    block.yuanguo.kiwi_crate: Kiwi Crate
+    block.yuanguo.kiwi_jello_block: Kiwi Jello Block
+    block.yuanguo.kiwi_jello_cauldron: Kiwi Jello Cauldron
+    liquid.yuanguo.kiwi_jello_cauldron: Kiwi Jello
+    block.yuanguo.kiwi_jelly: Kiwi Jam
+    block.yuanguo.kiwi_jelly_block: Kiwi Jam Block
+    block.yuanguo.kiwi_jelly_cauldron: Kiwi Jam Cauldron
+    liquid.yuanguo.kiwi_jelly_cauldron: Kiwi Jam
+    block.yuanguo.kiwi_leaves: Kiwi Leaves
+    block.yuanguo.kiwi_sapling: Kiwi Sapling
+    block.yuanguo.lemon_cauldron: Lemon Cauldron
+    liquid.yuanguo.lemon_cauldron: Lemon
+    block.yuanguo.lemon_crate: Lemon Crate
+    block.yuanguo.lemon_jello_block: Lemon Jello Block
+    block.yuanguo.lemon_jello_cauldron: Lemon Jello Cauldron
+    liquid.yuanguo.lemon_jello_cauldron: Lemon Jello
+    block.yuanguo.lemon_jelly: Lemon Jam
+    block.yuanguo.lemon_jelly_block: Lemon Jam Block
+    block.yuanguo.lemon_jelly_cauldron: Lemon Jam Cauldron
+    liquid.yuanguo.lemon_jelly_cauldron: Lemon Jam
+    block.yuanguo.lemon_tree: Lemon Tree
+    block.yuanguo.lemonade_cauldron: Lemonade Cauldron
+    liquid.yuanguo.lemonade_cauldron: Lemonade
+    block.yuanguo.lychee_cauldron: Lychee Cauldron
+    liquid.yuanguo.lychee_cauldron: Lychee
+    block.yuanguo.lychee_crate: Lychee Crate
+    block.yuanguo.lychee_jello_block: Lychee Jello Block
+    block.yuanguo.lychee_jello_cauldron: Lychee Jello Cauldron
+    liquid.yuanguo.lychee_jello_cauldron: Lychee Jello
+    block.yuanguo.lychee_jelly: Lychee Jam
+    block.yuanguo.lychee_jelly_block: Lychee Jam Block
+    block.yuanguo.lychee_jelly_cauldron: Lychee Jam Cauldron
+    liquid.yuanguo.lychee_jelly_cauldron: Lychee Jam
+    block.yuanguo.lychee_leaves: Lychee Leaves
+    block.yuanguo.lychee_sapling: Lychee Sapling
+    block.yuanguo.mango_cauldron: Mango Cauldron
+    liquid.yuanguo.mango_cauldron: Mango
+    block.yuanguo.mango_crate: Mango Crate
+    block.yuanguo.mango_jello_block: Mango Jello Block
+    block.yuanguo.mango_jello_cauldron: Mango Jello Cauldron
+    liquid.yuanguo.mango_jello_cauldron: Mango Jello
+    block.yuanguo.mango_jelly: Mango Jam
+    block.yuanguo.mango_jelly_block: Mango Jam Block
+    block.yuanguo.mango_jelly_cauldron: Mango Jam Cauldron
+    liquid.yuanguo.mango_jelly_cauldron: Mango Jam
+    block.yuanguo.mango_leaves: Mango Leaves
+    block.yuanguo.mango_sapling: Mango Sapling
+    block.yuanguo.mangosteen_cake: Mangosteen Cake
+    block.yuanguo.mangosteen_cauldron: Mangosteen Cauldron
+    liquid.yuanguo.mangosteen_cauldron: Mangosteen
+    block.yuanguo.mangosteen_crate: Mangosteen Crate
+    block.yuanguo.mangosteen_jello_block: Mangosteen Jello Block
+    block.yuanguo.mangosteen_jello_cauldron: Mangosteen Jello Cauldron
+    liquid.yuanguo.mangosteen_jello_cauldron: Mangosteen Jello
+    block.yuanguo.mangosteen_jelly: Mangosteen Jam
+    block.yuanguo.mangosteen_jelly_block: Mangosteen Jam Block
+    block.yuanguo.mangosteen_jelly_cauldron: Mangosteen Jam Cauldron
+    liquid.yuanguo.mangosteen_jelly_cauldron: Mangosteen Jam
+    block.yuanguo.mangosteen_leaves: Mangosteen Leaves
+    block.yuanguo.mangosteen_sapling: Mangosteen Sapling
+    block.yuanguo.melon_cauldron: Melon Cauldron
+    liquid.yuanguo.melon_cauldron: Melon
+    block.yuanguo.melon_jello_block: Melon Jello Block
+    block.yuanguo.melon_jello_cauldron: Melon Jello Cauldron
+    liquid.yuanguo.melon_jello_cauldron: Melon Jello
+    block.yuanguo.melon_jelly: Melon Jam
+    block.yuanguo.melon_jelly_block: Melon Jam Block
+    block.yuanguo.melon_jelly_cauldron: Melon Jam Cauldron
+    liquid.yuanguo.melon_jelly_cauldron: Melon Jam
+    block.yuanguo.orange_cauldron: Orange Cauldron
+    liquid.yuanguo.orange_cauldron: Orange
+    block.yuanguo.orange_crate: Orange Crate
+    block.yuanguo.orange_jello_block: Orange Jello Block
+    block.yuanguo.orange_jello_cauldron: Orange Jello Cauldron
+    liquid.yuanguo.orange_jello_cauldron: Orange Jello
+    block.yuanguo.orange_jelly: Orange Jam
+    block.yuanguo.orange_jelly_block: Orange Jam Block
+    block.yuanguo.orange_jelly_cauldron: Orange Jam Cauldron
+    liquid.yuanguo.orange_jelly_cauldron: Orange Jam
+    block.yuanguo.orange_leaves: Orange Leaves
+    block.yuanguo.orange_sapling: Orange Sapling
+    block.yuanguo.peach_cauldron: Peach Cauldron
+    liquid.yuanguo.peach_cauldron: Peach
+    block.yuanguo.peach_crate: Peach Crate
+    block.yuanguo.peach_jello_block: Peach Jello Block
+    block.yuanguo.peach_jello_cauldron: Peach Jello Cauldron
+    liquid.yuanguo.peach_jello_cauldron: Peach Jello
+    block.yuanguo.peach_jelly: Peach Jam
+    block.yuanguo.peach_jelly_block: Peach Jam Block
+    block.yuanguo.peach_jelly_cauldron: Peach Jam Cauldron
+    liquid.yuanguo.peach_jelly_cauldron: Peach Jam
+    block.yuanguo.peach_leaves: Peach Leaves
+    block.yuanguo.peach_sapling: Peach Sapling
+    block.yuanguo.pear_cauldron: Pear Cauldron
+    liquid.yuanguo.pear_cauldron: Pear
+    block.yuanguo.pear_crate: Pear Crate
+    block.yuanguo.pear_jello_block: Pear Jello Block
+    block.yuanguo.pear_jello_cauldron: Pear Jello Cauldron
+    liquid.yuanguo.pear_jello_cauldron: Pear Jello
+    block.yuanguo.pear_jelly: Pear Jam
+    block.yuanguo.pear_jelly_block: Pear Jam Block
+    block.yuanguo.pear_jelly_cauldron: Pear Jam Cauldron
+    liquid.yuanguo.pear_jelly_cauldron: Pear Jam
+    block.yuanguo.pear_leaves: Pear Leaves
+    block.yuanguo.pear_sapling: Pear Sapling
+    block.yuanguo.persimmon_cauldron: Persimmon Cauldron
+    liquid.yuanguo.persimmon_cauldron: Persimmon
+    block.yuanguo.persimmon_crate: Persimmon Crate
+    block.yuanguo.persimmon_jello_block: Persimmon Jello Block
+    block.yuanguo.persimmon_jello_cauldron: Persimmon Jello Cauldron
+    liquid.yuanguo.persimmon_jello_cauldron: Persimmon Jello
+    block.yuanguo.persimmon_jelly: Persimmon Jam
+    block.yuanguo.persimmon_jelly_block: Persimmon Jam Block
+    block.yuanguo.persimmon_jelly_cauldron: Persimmon Jam Cauldron
+    liquid.yuanguo.persimmon_jelly_cauldron: Persimmon Jam
+    block.yuanguo.persimmon_leaves: Persimmon Leaves
+    block.yuanguo.persimmon_sapling: Persimmon Sapling
+    block.yuanguo.pineapple: Pineapple
+    block.yuanguo.pineapple_cauldron: Pineapple Cauldron
+    liquid.yuanguo.pineapple_cauldron: Pineapple
+    block.yuanguo.pineapple_crate: Pineapple Crate
+    block.yuanguo.pineapple_fried_rice: Pineapple Fried Rice
+    block.yuanguo.pineapple_jello_block: Pineapple Jello Block
+    block.yuanguo.pineapple_jello_cauldron: Pineapple Jello Cauldron
+    liquid.yuanguo.pineapple_jello_cauldron: Pineapple Jello
+    block.yuanguo.pineapple_jelly: Pineapple Jam
+    block.yuanguo.pineapple_jelly_block: Pineapple Jam Block
+    block.yuanguo.pineapple_jelly_cauldron: Pineapple Jam Cauldron
+    liquid.yuanguo.pineapple_jelly_cauldron: Pineapple Jam
+    block.yuanguo.potted_apple_sapling: Potted Apple Sapling
+    block.yuanguo.potted_bayberry_sapling: Potted Bayberry Sapling
+    block.yuanguo.potted_durian_sapling: Potted Durian Sapling
+    block.yuanguo.potted_fig_sapling: Potted Fig Sapling
+    block.yuanguo.potted_hawberry_sapling: Potted Hawberry Sapling
+    block.yuanguo.potted_kiwi_sapling: Potted Kiwi Sapling
+    block.yuanguo.potted_lychee_sapling: Potted Lychee Sapling
+    block.yuanguo.potted_mango_sapling: Potted Mango Sapling
+    block.yuanguo.potted_mangosteen_sapling: Potted Mangosteen Sapling
+    block.yuanguo.potted_orange_sapling: Potted Orange Sapling
+    block.yuanguo.potted_peach_sapling: Potted Peach Sapling
+    block.yuanguo.potted_pear_sapling: Potted Pear Sapling
+    block.yuanguo.potted_persimmon_sapling: Potted Persimmon Sapling
+    block.yuanguo.sweetberry_cauldron: Sweetberry Cauldron
+    liquid.yuanguo.sweetberry_cauldron: Sweetberry
+    block.yuanguo.sweetberry_jello_block: Sweetberry Jello Block
+    block.yuanguo.sweetberry_jello_cauldron: Sweetberry Jello Cauldron
+    liquid.yuanguo.sweetberry_jello_cauldron: Sweetberry Jello
+    block.yuanguo.sweetberry_jelly: Sweetberry Jam
+    block.yuanguo.sweetberry_jelly_block: Sweetberry Jam Block
+    block.yuanguo.sweetberry_jelly_cauldron: Sweetberry Jam Cauldron
+    liquid.yuanguo.sweetberry_jelly_cauldron: Sweetberry Jam
+    block.yuanguo.wild_pineapple: Wild Pineapple
+lang#others:
+  de_de:
+    effect.yuanguo.alienating: Alienating
+    effect.yuanguo.alienating.description: Apply disgusted and weakness effect to surrounding entities without this effect
+    effect.yuanguo.appetizing: Appetizing
+    effect.yuanguo.appetizing.description: Eat and drink even when you are full.
+    effect.yuanguo.brightening: Brightening
+    effect.yuanguo.brightening.description: Make player immune to blindness and darkness
+    effect.yuanguo.chorus: Chorus
+    effect.yuanguo.chorus.description: Teleport player randomly
+    effect.yuanguo.cycling: Cycling
+    effect.yuanguo.cycling.description: Player will drop 1 level of experience as orbs every second
+    effect.yuanguo.digesting: Digesting
+    effect.yuanguo.digesting.description: Overflowing nutrition becomes saturation.
+    effect.yuanguo.disgusted: Disgusted
+    effect.yuanguo.disgusted.description: Entity with this effect will not breed
+    effect.yuanguo.heal_aura: Heal Aura
+    effect.yuanguo.heal_aura.description: Apply instant health to mobs around you
+    effect.yuanguo.lozenge: Lozenge
+    effect.yuanguo.lozenge.description: Eat and drink faster.
+    effect.yuanguo.rage_aura: Rage Aura
+    effect.yuanguo.rage_aura.description: Mobs around you will be hostile to you
+    effect.yuanguo.recovering: Recovering
+    effect.yuanguo.recovering.description: Make player immune to poison and wither
+    effect.yuanguo.refreshing: Refreshing
+    effect.yuanguo.refreshing.description: Make player immune to mining fatigue
+    effect.yuanguo.shrinking: Shrinking
+    effect.yuanguo.shrinking.description: You can crawl into 1-block space when sneaking.
+    effect.yuanguo.suspicious_smell: Suspicious Smell
+    effect.yuanguo.suspicious_smell.description: You can see effects in suspicious stew and find suspicious sand easily
+    effect.yuanguo.sweetening: Sweetening
+    effect.yuanguo.sweetening.description: Make player immune to slowness
+    fluid.yuanguo.apple_jam: Apple Jam
+    fluid.yuanguo.apple_jello: Melted Apple Jello
+    fluid.yuanguo.bayberry_jam: Bayberry Jam
+    fluid.yuanguo.bayberry_jello: Melted Bayberry Jello
+    fluid.yuanguo.bayberry_soup: Bayberry Soup
+    fluid.yuanguo.bellini_cocktail: Bellini Cocktail
+    fluid.yuanguo.blueberry_jam: Blueberry Jam
+    fluid.yuanguo.blueberry_jello: Melted Blueberry Jello
+    fluid.yuanguo.chorus_jam: Chorus Jam
+    fluid.yuanguo.chorus_jello: Melted Chorus Jello
+    fluid.yuanguo.cranberry_jam: Cranberry Jam
+    fluid.yuanguo.cranberry_jello: Melted Cranberry Jello
+    fluid.yuanguo.durian_jam: Durian Jam
+    fluid.yuanguo.durian_jello: Melted Durian Jello
+    fluid.yuanguo.fig_jam: Fig Jam
+    fluid.yuanguo.fig_jello: Melted Fig Jello
+    fluid.yuanguo.glowberry_jam: Glowberry Jam
+    fluid.yuanguo.glowberry_jello: Melted Glowberry Jello
+    fluid.yuanguo.hamimelon_jam: Hamimelon Jam
+    fluid.yuanguo.hamimelon_jello: Melted Hamimelon Jello
+    fluid.yuanguo.hamimelon_juice: Hamimelon Juice
+    fluid.yuanguo.hawberry_jam: Hawberry Jam
+    fluid.yuanguo.hawberry_jello: Melted Hawberry Jello
+    fluid.yuanguo.hawberry_tea: Hawberry Tea
+    fluid.yuanguo.kiwi_jam: Kiwi Jam
+    fluid.yuanguo.kiwi_jello: Melted Kiwi Jello
+    fluid.yuanguo.kiwi_juice: Kiwi Juice
+    fluid.yuanguo.lemon_jam: Lemon Jam
+    fluid.yuanguo.lemon_jello: Melted Lemon Jello
+    fluid.yuanguo.lemon_juice: Lemon Juice
+    fluid.yuanguo.lychee_cherry_tea: Lychee Cherry Tea
+    fluid.yuanguo.lychee_jam: Lychee Jam
+    fluid.yuanguo.lychee_jello: Melted Lychee Jello
+    fluid.yuanguo.mango_jam: Mango Jam
+    fluid.yuanguo.mango_jello: Melted Mango Jello
+    fluid.yuanguo.mango_tea: Mango Tea
+    fluid.yuanguo.mangosteen_jam: Mangosteen Jam
+    fluid.yuanguo.mangosteen_jello: Melted Mangosteen Jello
+    fluid.yuanguo.mangosteen_tea: Mangosteen Tea
+    fluid.yuanguo.melon_jam: Melon Jam
+    fluid.yuanguo.melon_jello: Melted Melon Jello
+    fluid.yuanguo.orange_jam: Orange Jam
+    fluid.yuanguo.orange_jello: Melted Orange Jello
+    fluid.yuanguo.orange_juice: Orange Juice
+    fluid.yuanguo.peach_jam: Peach Jam
+    fluid.yuanguo.peach_jello: Melted Peach Jello
+    fluid.yuanguo.peach_tea: Peach Tea
+    fluid.yuanguo.pear_jam: Pear Jam
+    fluid.yuanguo.pear_jello: Melted Pear Jello
+    fluid.yuanguo.pear_juice: Pear Juice
+    fluid.yuanguo.persimmon_jam: Persimmon Jam
+    fluid.yuanguo.persimmon_jello: Melted Persimmon Jello
+    fluid.yuanguo.pineapple_jam: Pineapple Jam
+    fluid.yuanguo.pineapple_jello: Melted Pineapple Jello
+    fluid.yuanguo.sweetberry_jam: Sweetberry Jam
+    fluid.yuanguo.sweetberry_jello: Melted Sweetberry Jello
+    yuanguo.jei.cauldron: Click Cauldron
+    yuanguo.jei.cauldron_heat: Click Heated Cauldron
+    yuanguo.tooltip.allow_jelly: Gain effects from jelly ingredients
+    yuanguo.tooltip.chance: '%1$s with %2$s%% chance'
+    yuanguo.tooltip.durian_seed: Feed sniffer to reset sniffing cool down
+    yuanguo.tooltip.jello_block: Slippery. Sticks to sticky blocks and same jello/jelly blocks.
+    yuanguo.tooltip.jelly_block: Sticky, but not connecting to other sticky blocks.
+    yuanguo.tooltip.jelly_content: 'Contains:'
+    yuanguo.tooltip.place: Shift right click to place down
+    itemGroup.yuanguo: Fruits Delight
+    category.yuanguo.fruits: Fruits
+    category.yuanguo.jam_blocks: Jam Blocks
+    category.yuanguo.feast: Feast
+    category.yuanguo.jellies: Jams & Jellies
+    category.yuanguo.foods: Foods
+    category.yuanguo.equipment: Equipment
+    category.yuanguo.crates: Crates
+    category.yuanguo.cauldrons: Cauldrons
+    category.yuanguo.crops: Seeds & Saplings
+    category.yuanguo.leaves: Fruit Leaves
+    category.yuanguo.drinks: Drinks
+    category.yuanguo.potted: Potted Plants
+    effect.farmersdelight.nourishment: Nourishment
+    potion.potency.2: II
+    block.minecraft.water_cauldron: Water Cauldron

@@ -1,0 +1,6 @@
+{
+  "parent": "yuanguo:block/fried_rice_base_1",
+  "textures": {
+    "food": "yuanguo:block/pineapple_fried_rice"
+  }
+}

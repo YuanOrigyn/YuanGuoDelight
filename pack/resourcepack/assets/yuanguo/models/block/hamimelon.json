@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "yuanguo:block/hamimelon_top",
+    "side": "yuanguo:block/hamimelon_side"
+  }
+}

@@ -1,0 +1,126 @@
+# Widens the pools this pack borrows from.
+#
+# Chorus plant: the Farmer's Delight pack maps its jug's state to the empty model,
+# so every chorus state can carry a jam bottle. Only the single state the bottles
+# share is declared here; the rest are left to the other packs.
+#
+# Spruce and birch leaves ship commented out in CraftEngine's own mappings, so their
+# states belong to no group. Declaring the dry ones adds them to the non-tintable
+# leaf pool, exactly like the Farmer's Delight pack does for campfires and farmland.
+block_state_mappings:
+  #### Chorus Plant ####
+  chorus_plant[down=true,east=false,north=false,south=false,up=true,west=false]: chorus_plant[down=true,east=false,north=false,south=false,up=true,west=false]
+
+  spruce_leaves[distance=1,persistent=true,waterlogged=false]: spruce_leaves[distance=7,persistent=true,waterlogged=false]
+  spruce_leaves[distance=1,persistent=false,waterlogged=false]: spruce_leaves[distance=7,persistent=true,waterlogged=false]
+  spruce_leaves[distance=2,persistent=true,waterlogged=false]: spruce_leaves[distance=7,persistent=true,waterlogged=false]
+  spruce_leaves[distance=2,persistent=false,waterlogged=false]: spruce_leaves[distance=7,persistent=true,waterlogged=false]
+  spruce_leaves[distance=3,persistent=true,waterlogged=false]: spruce_leaves[distance=7,persistent=true,waterlogged=false]
+  spruce_leaves[distance=3,persistent=false,waterlogged=false]: spruce_leaves[distance=7,persistent=true,waterlogged=false]
+  spruce_leaves[distance=4,persistent=true,waterlogged=false]: spruce_leaves[distance=7,persistent=true,waterlogged=false]
+  spruce_leaves[distance=4,persistent=false,waterlogged=false]: spruce_leaves[distance=7,persistent=true,waterlogged=false]
+  spruce_leaves[distance=5,persistent=true,waterlogged=false]: spruce_leaves[distance=7,persistent=true,waterlogged=false]
+  spruce_leaves[distance=5,persistent=false,waterlogged=false]: spruce_leaves[distance=7,persistent=true,waterlogged=false]
+  spruce_leaves[distance=6,persistent=true,waterlogged=false]: spruce_leaves[distance=7,persistent=true,waterlogged=false]
+  spruce_leaves[distance=6,persistent=false,waterlogged=false]: spruce_leaves[distance=7,persistent=true,waterlogged=false]
+  spruce_leaves[distance=7,persistent=false,waterlogged=false]: spruce_leaves[distance=7,persistent=true,waterlogged=false]
+  birch_leaves[distance=1,persistent=true,waterlogged=false]: birch_leaves[distance=7,persistent=true,waterlogged=false]
+  birch_leaves[distance=1,persistent=false,waterlogged=false]: birch_leaves[distance=7,persistent=true,waterlogged=false]
+  birch_leaves[distance=2,persistent=true,waterlogged=false]: birch_leaves[distance=7,persistent=true,waterlogged=false]
+  birch_leaves[distance=2,persistent=false,waterlogged=false]: birch_leaves[distance=7,persistent=true,waterlogged=false]
+  birch_leaves[distance=3,persistent=true,waterlogged=false]: birch_leaves[distance=7,persistent=true,waterlogged=false]
+  birch_leaves[distance=3,persistent=false,waterlogged=false]: birch_leaves[distance=7,persistent=true,waterlogged=false]
+  birch_leaves[distance=4,persistent=true,waterlogged=false]: birch_leaves[distance=7,persistent=true,waterlogged=false]
+  birch_leaves[distance=4,persistent=false,waterlogged=false]: birch_leaves[distance=7,persistent=true,waterlogged=false]
+  birch_leaves[distance=5,persistent=true,waterlogged=false]: birch_leaves[distance=7,persistent=true,waterlogged=false]
+  birch_leaves[distance=5,persistent=false,waterlogged=false]: birch_leaves[distance=7,persistent=true,waterlogged=false]
+  birch_leaves[distance=6,persistent=true,waterlogged=false]: birch_leaves[distance=7,persistent=true,waterlogged=false]
+  birch_leaves[distance=6,persistent=false,waterlogged=false]: birch_leaves[distance=7,persistent=true,waterlogged=false]
+  birch_leaves[distance=7,persistent=false,waterlogged=false]: birch_leaves[distance=7,persistent=true,waterlogged=false]
+
+  #### Collision shapes borrowed by YuanGuoDelight ####
+  # CraftEngine derives a custom block's collision box from its *visual* vanilla state, and there
+  # is no per-block collision setting. The states below are declared here so they enter the pool
+  # that "state:" may borrow from. Each one is a state a player can no longer reach in survival
+  # (a planted sapling can only exist at stage=0, a dead bush cannot be placed back into a pot,
+  # a head cannot be "powered", a pot cannot be uncracked, etc.), so sacrificing its vanilla
+  # appearance costs nothing.
+  #
+
+  #   piglin heads (0.1875..0.8125 x 0..0.5) -> the small cross-shaped crops
+  #   A head is only "powered" while sitting on a powered note block, so every powered=true state
+  #   is unreachable by hand.
+  piglin_head[powered=true,rotation=0]: piglin_head[powered=false,rotation=0]
+  piglin_head[powered=true,rotation=1]: piglin_head[powered=false,rotation=1]
+  piglin_head[powered=true,rotation=2]: piglin_head[powered=false,rotation=2]
+  piglin_head[powered=true,rotation=3]: piglin_head[powered=false,rotation=3]
+  piglin_head[powered=true,rotation=4]: piglin_head[powered=false,rotation=4]
+  piglin_head[powered=true,rotation=5]: piglin_head[powered=false,rotation=5]
+  piglin_head[powered=true,rotation=6]: piglin_head[powered=false,rotation=6]
+  piglin_head[powered=true,rotation=7]: piglin_head[powered=false,rotation=7]
+  piglin_head[powered=true,rotation=8]: piglin_head[powered=false,rotation=8]
+  piglin_head[powered=true,rotation=9]: piglin_head[powered=false,rotation=9]
+  piglin_head[powered=true,rotation=10]: piglin_head[powered=false,rotation=10]
+  piglin_head[powered=true,rotation=11]: piglin_head[powered=false,rotation=11]
+  piglin_head[powered=true,rotation=12]: piglin_head[powered=false,rotation=12]
+  piglin_head[powered=true,rotation=13]: piglin_head[powered=false,rotation=13]
+  piglin_head[powered=true,rotation=14]: piglin_head[powered=false,rotation=14]
+  piglin_head[powered=true,rotation=15]: piglin_head[powered=false,rotation=15]
+
+  #   sea pickles (0.1875..0.8125 x 0..0.375) -> the pudding bowl
+  #   A pickle only reaches pickles=2..4 by natural growth, and it must be waterlogged while it
+  #   does; the dry variants are therefore unreachable.
+  sea_pickle[pickles=2,waterlogged=false]: sea_pickle[pickles=2,waterlogged=true]
+
+  #### YuanGuoDelight - plant collision shapes ####
+  # CraftEngine derives a custom block's collision box from its *visual* vanilla state and there is
+  # no per-block collision setting. The states below are declared so the bush/tree/pineapple blocks
+  # can borrow them. Each is a state that cannot be reached in survival (frosted ice cannot be placed,
+  # a big dripleaf stem only grows through worldgen, ...), so
+  # sacrificing the vanilla look of that one state costs nothing.
+  #
+
+  #   small dripleaf (EMPTY collision, 0.125..0.875 x 0..0.8125 outline)
+  #   Dripleaf only generates through worldgen, so these states are unreachable by hand.
+  small_dripleaf[facing=north,half=lower,waterlogged=false]: small_dripleaf[facing=north,half=lower,waterlogged=false]
+  small_dripleaf[facing=north,half=upper,waterlogged=false]: small_dripleaf[facing=north,half=upper,waterlogged=false]
+  small_dripleaf[facing=east,half=lower,waterlogged=false]: small_dripleaf[facing=east,half=lower,waterlogged=false]
+  small_dripleaf[facing=east,half=upper,waterlogged=false]: small_dripleaf[facing=east,half=upper,waterlogged=false]
+  small_dripleaf[facing=south,half=lower,waterlogged=false]: small_dripleaf[facing=south,half=lower,waterlogged=false]
+  small_dripleaf[facing=south,half=upper,waterlogged=false]: small_dripleaf[facing=south,half=upper,waterlogged=false]
+  small_dripleaf[facing=west,half=lower,waterlogged=false]: small_dripleaf[facing=west,half=lower,waterlogged=false]
+  small_dripleaf[facing=west,half=upper,waterlogged=false]: small_dripleaf[facing=west,half=upper,waterlogged=false]
+
+  #   live corals (EMPTY collision, 0.125..0.875 outline)  -> the sapling hitbox
+  #   Corals only keep their live look while waterlogged; the dry variants are the ones
+  #   unreachable without a silk-touch free placement, so those are declared here.
+  brain_coral[waterlogged=false]: brain_coral[waterlogged=false]
+  bubble_coral[waterlogged=false]: bubble_coral[waterlogged=false]
+  fire_coral[waterlogged=false]: fire_coral[waterlogged=false]
+  horn_coral[waterlogged=false]: horn_coral[waterlogged=false]
+  tube_coral[waterlogged=false]: tube_coral[waterlogged=false]
+
+
+  #   turtle eggs (0.1875..0.8125 x 0..0.4375)  -> blueberry / cranberry bushes
+  turtle_egg[eggs=1,hatch=0]: turtle_egg[eggs=1,hatch=0]
+  turtle_egg[eggs=1,hatch=1]: turtle_egg[eggs=1,hatch=1]
+  turtle_egg[eggs=1,hatch=2]: turtle_egg[eggs=1,hatch=2]
+  turtle_egg[eggs=2,hatch=0]: turtle_egg[eggs=2,hatch=0]
+  turtle_egg[eggs=2,hatch=1]: turtle_egg[eggs=2,hatch=1]
+  turtle_egg[eggs=3,hatch=0]: turtle_egg[eggs=3,hatch=0]
+  turtle_egg[eggs=3,hatch=1]: turtle_egg[eggs=3,hatch=1]
+  turtle_egg[eggs=3,hatch=2]: turtle_egg[eggs=3,hatch=2]
+  turtle_egg[eggs=4,hatch=0]: turtle_egg[eggs=4,hatch=0]
+
+
+  #   chorus flower (full cube, occ=0)  -> the mature cranberry bush and the pineapple plant
+  chorus_flower[age=0]: chorus_flower[age=0]
+  chorus_flower[age=1]: chorus_flower[age=1]
+  chorus_flower[age=2]: chorus_flower[age=2]
+  chorus_flower[age=3]: chorus_flower[age=3]
+  chorus_flower[age=4]: chorus_flower[age=4]
+  chorus_flower[age=5]: chorus_flower[age=5]
+
+  #   frosted ice (full cube, occ=0)  -> the wild pineapple
+  frosted_ice[age=0]: frosted_ice[age=0]
+  frosted_ice[age=1]: frosted_ice[age=1]

@@ -1,0 +1,8 @@
+{
+  "parent": "yuanguo:block/fig_pudding_base_0",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "yuanguo:block/fig_pudding_bottom",
+    "top": "yuanguo:block/fig_pudding_top"
+  }
+}

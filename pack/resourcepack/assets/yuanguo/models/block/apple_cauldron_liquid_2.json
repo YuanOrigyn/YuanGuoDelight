@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "yuanguo:block/apple_cauldron_content_2",
+    "content": "yuanguo:block/apple_cauldron_content_2"
+  },
+  "elements": [
+    {
+      "from": [2, 4, 2],
+      "to": [14, 15, 14],
+      "faces": {
+        "up": { "texture": "#content" }
+      }
+    }
+  ]
+}

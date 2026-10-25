@@ -1,0 +1,29 @@
+# Generated from the Fruits Delight mod by the YuanGuoDelight build script.
+advanced_tags:
+  c:drinks/milk:
+    values:
+    - minecraft:milk_bucket
+    - farmersdelight:milk_bottle
+  c:eggs:
+    values:
+    - minecraft:egg
+    - minecraft:brown_egg
+    - minecraft:blue_egg
+  c:foods/dough:
+    values:
+    - farmersdelight:wheat_dough
+  c:foods/raw_chicken:
+    values:
+    - minecraft:chicken
+    - farmersdelight:chicken_cuts
+  c:crops/cabbage:
+    values:
+    - farmersdelight:cabbage
+    - farmersdelight:cabbage_leaf
+  c:foods/raw_pork:
+    values:
+    - minecraft:porkchop
+    - farmersdelight:bacon
+  c:crops/rice:
+    values:
+    - farmersdelight:rice

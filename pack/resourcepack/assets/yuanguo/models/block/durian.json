@@ -1,0 +1,8 @@
+{
+  "parent": "yuanguo:block/durian_base",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "side": "yuanguo:block/durian_side",
+    "top": "yuanguo:block/durian_top"
+  }
+}

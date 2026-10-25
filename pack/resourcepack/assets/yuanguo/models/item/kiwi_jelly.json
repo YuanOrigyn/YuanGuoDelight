@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "yuanguo:item/jam_bottle",
+    "layer1": "yuanguo:item/kiwi_jam"
+  }
+}

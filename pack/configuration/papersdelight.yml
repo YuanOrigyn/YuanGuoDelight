@@ -1,0 +1,785 @@
+# Generated from the Fruits Delight mod by the YuanGuoDelight build script.
+papersdelight_recipes:
+  yuanguo:jug/jam_bread/apple:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:apple_jam
+    amount: 125
+    result: yuanguo:apple_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/blueberry:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:blueberry_jam
+    amount: 125
+    result: yuanguo:blueberry_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/glowberry:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:glowberry_jam
+    amount: 125
+    result: yuanguo:glowberry_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/hamimelon:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:hamimelon_jam
+    amount: 125
+    result: yuanguo:hamimelon_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/melon:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:melon_jam
+    amount: 125
+    result: yuanguo:melon_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/hawberry:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:hawberry_jam
+    amount: 125
+    result: yuanguo:hawberry_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/lychee:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:lychee_jam
+    amount: 125
+    result: yuanguo:lychee_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/mango:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:mango_jam
+    amount: 125
+    result: yuanguo:mango_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/orange:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:orange_jam
+    amount: 125
+    result: yuanguo:orange_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/peach:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:peach_jam
+    amount: 125
+    result: yuanguo:peach_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/pear:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:pear_jam
+    amount: 125
+    result: yuanguo:pear_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/persimmon:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:persimmon_jam
+    amount: 125
+    result: yuanguo:persimmon_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/pineapple:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:pineapple_jam
+    amount: 125
+    result: yuanguo:pineapple_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/lemon:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:lemon_jam
+    amount: 125
+    result: yuanguo:lemon_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/cranberry:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:cranberry_jam
+    amount: 125
+    result: yuanguo:cranberry_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/mangosteen:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:mangosteen_jam
+    amount: 125
+    result: yuanguo:mangosteen_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/sweetberry:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:sweetberry_jam
+    amount: 125
+    result: yuanguo:sweetberry_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/chorus:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:chorus_jam
+    amount: 125
+    result: yuanguo:chorus_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/bayberry:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:bayberry_jam
+    amount: 125
+    result: yuanguo:bayberry_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/kiwi:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:kiwi_jam
+    amount: 125
+    result: yuanguo:kiwi_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/fig:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:fig_jam
+    amount: 125
+    result: yuanguo:fig_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:jug/jam_bread/durian:
+    type: soaking
+    ingredient: minecraft:bread
+    fluid: yuanguo:durian_jam
+    amount: 125
+    result: yuanguo:durian_jelly_bread
+    time: 40
+    consume_fluid: true
+  yuanguo:cooking/apple_jelly:
+    type: cooking
+    result: yuanguo:apple_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - minecraft:apple
+    - minecraft:apple
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/bayberry_jelly:
+    type: cooking
+    result: yuanguo:bayberry_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/bayberry'
+    - '#c:fruits/bayberry'
+    - '#c:fruits/bayberry'
+    - '#c:fruits/bayberry'
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/bayberry_soup:
+    type: cooking
+    result: yuanguo:bayberry_soup
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/bayberry'
+    - '#c:fruits/bayberry'
+    - '#c:fruits/bayberry'
+    - '#c:fruits/bayberry'
+  yuanguo:cooking/bellini_cocktail:
+    type: cooking
+    result: yuanguo:bellini_cocktail
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - minecraft:sugar
+    - minecraft:ice
+    - '#c:fruits/peach'
+    - '#c:fruits/peach'
+  yuanguo:cooking/blueberry_custard:
+    type: cooking
+    result: yuanguo:blueberry_custard
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/blueberry'
+    - '#c:fruits/blueberry'
+    - advtag:c:drinks/milk
+    - advtag:c:eggs
+    - minecraft:sugar
+  yuanguo:cooking/blueberry_jelly:
+    type: cooking
+    result: yuanguo:blueberry_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/blueberry'
+    - '#c:fruits/blueberry'
+    - '#c:fruits/blueberry'
+    - '#c:fruits/blueberry'
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/blueberry_muffin:
+    type: cooking
+    result:
+      id: yuanguo:blueberry_muffin
+      count: 2
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/blueberry'
+    - '#c:fruits/blueberry'
+    - advtag:c:foods/dough
+    - advtag:c:drinks/milk
+    - advtag:c:eggs
+    - minecraft:sugar
+  yuanguo:cooking/chorus_jelly:
+    type: cooking
+    result: yuanguo:chorus_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - minecraft:chorus_fruit
+    - minecraft:chorus_fruit
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/cranberry_jelly:
+    type: cooking
+    result: yuanguo:cranberry_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/cranberry'
+    - '#c:fruits/cranberry'
+    - '#c:fruits/cranberry'
+    - '#c:fruits/cranberry'
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/cranberry_muffin:
+    type: cooking
+    result:
+      id: yuanguo:cranberry_muffin
+      count: 2
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/cranberry'
+    - '#c:fruits/cranberry'
+    - advtag:c:foods/dough
+    - advtag:c:drinks/milk
+    - advtag:c:eggs
+    - minecraft:sugar
+  yuanguo:cooking/durian_jelly:
+    type: cooking
+    result: yuanguo:durian_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - yuanguo:durian_flesh
+    - yuanguo:durian_flesh
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/durian_pie:
+    type: cooking
+    result:
+      id: yuanguo:durian_pie
+      count: 2
+    time: 200
+    experience: 0.1
+    ingredients:
+    - yuanguo:durian_flesh
+    - yuanguo:durian_flesh
+    - farmersdelight:pie_crust
+    - advtag:c:eggs
+    - minecraft:sugar
+  yuanguo:cooking/fig_chicken_stew:
+    type: cooking
+    result: yuanguo:fig_chicken_stew
+    container: minecraft:bowl
+    time: 200
+    experience: 0.1
+    ingredients:
+    - advtag:c:foods/raw_chicken
+    - '#c:fruits/fig'
+    - '#c:fruits/fig'
+  yuanguo:cooking/fig_jelly:
+    type: cooking
+    result: yuanguo:fig_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/fig'
+    - '#c:fruits/fig'
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/fig_tart:
+    type: cooking
+    result:
+      id: yuanguo:fig_tart
+      count: 2
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/fig'
+    - farmersdelight:pie_crust
+    - advtag:c:eggs
+    - minecraft:sugar
+    - advtag:c:drinks/milk
+  yuanguo:cooking/glowberry_jelly:
+    type: cooking
+    result: yuanguo:glowberry_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - minecraft:glow_berries
+    - minecraft:glow_berries
+    - minecraft:glow_berries
+    - minecraft:glow_berries
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/hamimelon_jelly:
+    type: cooking
+    result: yuanguo:hamimelon_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - yuanguo:hamimelon_slice
+    - yuanguo:hamimelon_slice
+    - yuanguo:hamimelon_slice
+    - yuanguo:hamimelon_slice
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/hawberry_jelly:
+    type: cooking
+    result: yuanguo:hawberry_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/hawberry'
+    - '#c:fruits/hawberry'
+    - '#c:fruits/hawberry'
+    - '#c:fruits/hawberry'
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/hawberry_tea:
+    type: cooking
+    result: yuanguo:hawberry_tea
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - minecraft:sugar
+    - '#minecraft:leaves'
+    - '#c:fruits/hawberry'
+    - '#c:fruits/hawberry'
+    - '#c:fruits/hawberry'
+    - '#c:fruits/hawberry'
+  yuanguo:cooking/kiwi_jelly:
+    type: cooking
+    result: yuanguo:kiwi_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/kiwi'
+    - '#c:fruits/kiwi'
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/lemon_jelly:
+    type: cooking
+    result: yuanguo:lemon_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/lemon'
+    - '#c:fruits/lemon'
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/lemon_tart:
+    type: cooking
+    result:
+      id: yuanguo:lemon_tart
+      count: 2
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/lemon'
+    - farmersdelight:pie_crust
+    - advtag:c:eggs
+    - minecraft:sugar
+    - advtag:c:drinks/milk
+  yuanguo:cooking/lychee_cherry_tea:
+    type: cooking
+    result: yuanguo:lychee_cherry_tea
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - minecraft:sugar
+    - minecraft:cherry_leaves
+    - '#c:fruits/lychee'
+    - '#c:fruits/lychee'
+    - '#c:fruits/lychee'
+    - '#c:fruits/lychee'
+  yuanguo:cooking/lychee_chicken:
+    type: cooking
+    result: yuanguo:lychee_chicken
+    container: minecraft:bowl
+    time: 200
+    experience: 0.1
+    ingredients:
+    - advtag:c:foods/raw_chicken
+    - '#c:fruits/lychee'
+    - '#c:fruits/lychee'
+    - '#c:fruits/lychee'
+    - '#c:fruits/lychee'
+    - advtag:c:crops/cabbage
+  yuanguo:cooking/lychee_jelly:
+    type: cooking
+    result: yuanguo:lychee_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/lychee'
+    - '#c:fruits/lychee'
+    - '#c:fruits/lychee'
+    - '#c:fruits/lychee'
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/mangosteen_cake:
+    type: cooking
+    result: yuanguo:mangosteen_cake
+    container: minecraft:bowl
+    time: 200
+    experience: 0.1
+    ingredients:
+    - minecraft:wheat
+    - minecraft:wheat
+    - minecraft:sugar
+    - minecraft:sugar
+    - '#c:fruits/mangosteen'
+    - '#c:fruits/mangosteen'
+  yuanguo:cooking/mangosteen_jelly:
+    type: cooking
+    result: yuanguo:mangosteen_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/mangosteen'
+    - '#c:fruits/mangosteen'
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/mangosteen_tea:
+    type: cooking
+    result: yuanguo:mangosteen_tea
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - minecraft:sugar
+    - '#minecraft:leaves'
+    - '#c:fruits/mangosteen'
+    - '#c:fruits/mangosteen'
+  yuanguo:cooking/mango_jelly:
+    type: cooking
+    result: yuanguo:mango_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/mango'
+    - '#c:fruits/mango'
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/mango_milkshake:
+    type: cooking
+    result: yuanguo:mango_milkshake
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/mango'
+    - advtag:c:drinks/milk
+    - minecraft:sugar
+  yuanguo:cooking/mango_tea:
+    type: cooking
+    result: yuanguo:mango_tea
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - minecraft:sugar
+    - '#minecraft:leaves'
+    - '#c:fruits/mango'
+    - '#c:fruits/mango'
+  yuanguo:cooking/melon_jelly:
+    type: cooking
+    result: yuanguo:melon_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - minecraft:melon_slice
+    - minecraft:melon_slice
+    - minecraft:melon_slice
+    - minecraft:melon_slice
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/orange_chicken:
+    type: cooking
+    result: yuanguo:orange_chicken
+    container: minecraft:bowl
+    time: 200
+    experience: 0.1
+    ingredients:
+    - advtag:c:foods/raw_chicken
+    - yuanguo:orange_slice
+    - yuanguo:orange_slice
+    - yuanguo:orange_slice
+    - yuanguo:orange_slice
+    - minecraft:sugar
+  yuanguo:cooking/orange_jelly:
+    type: cooking
+    result: yuanguo:orange_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/orange'
+    - '#c:fruits/orange'
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/orange_marinated_pork:
+    type: cooking
+    result: yuanguo:orange_marinated_pork
+    container: minecraft:bowl
+    time: 200
+    experience: 0.1
+    ingredients:
+    - advtag:c:foods/raw_pork
+    - yuanguo:orange_slice
+    - yuanguo:orange_slice
+    - yuanguo:orange_slice
+    - yuanguo:orange_slice
+    - advtag:c:crops/cabbage
+  yuanguo:cooking/peach_jelly:
+    type: cooking
+    result: yuanguo:peach_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/peach'
+    - '#c:fruits/peach'
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/peach_tea:
+    type: cooking
+    result: yuanguo:peach_tea
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - minecraft:sugar
+    - '#minecraft:leaves'
+    - '#c:fruits/peach'
+    - '#c:fruits/peach'
+  yuanguo:cooking/pear_jelly:
+    type: cooking
+    result: yuanguo:pear_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/pear'
+    - '#c:fruits/pear'
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/pear_with_rock_sugar:
+    type: cooking
+    result: yuanguo:pear_with_rock_sugar
+    container: minecraft:bowl
+    time: 200
+    experience: 0.1
+    ingredients:
+    - minecraft:sugar
+    - minecraft:sugar
+    - minecraft:sugar
+    - minecraft:sugar
+    - '#c:fruits/pear'
+    - '#c:fruits/pear'
+  yuanguo:cooking/persimmon_jelly:
+    type: cooking
+    result: yuanguo:persimmon_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - '#c:fruits/persimmon'
+    - '#c:fruits/persimmon'
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/pineapple_fried_rice:
+    type: cooking
+    result: yuanguo:pineapple_fried_rice
+    container: minecraft:bowl
+    time: 200
+    experience: 0.1
+    ingredients:
+    - yuanguo:pineapple
+    - advtag:c:crops/rice
+    - advtag:c:crops/rice
+    - advtag:c:crops/rice
+    - advtag:c:crops/cabbage
+    - advtag:c:eggs
+  yuanguo:cooking/pineapple_jelly:
+    type: cooking
+    result: yuanguo:pineapple_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - yuanguo:pineapple_slice
+    - yuanguo:pineapple_slice
+    - yuanguo:pineapple_slice
+    - yuanguo:pineapple_slice
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cooking/pineapple_marinated_pork:
+    type: cooking
+    result: yuanguo:pineapple_marinated_pork
+    container: minecraft:bowl
+    time: 200
+    experience: 0.1
+    ingredients:
+    - advtag:c:foods/raw_pork
+    - yuanguo:pineapple_slice
+    - yuanguo:pineapple_slice
+    - yuanguo:pineapple_slice
+    - yuanguo:pineapple_slice
+    - minecraft:carrot
+  yuanguo:cooking/pineapple_pie:
+    type: cooking
+    result:
+      id: yuanguo:pineapple_pie
+      count: 2
+    time: 200
+    experience: 0.1
+    ingredients:
+    - yuanguo:pineapple_slice
+    - yuanguo:pineapple_slice
+    - farmersdelight:pie_crust
+    - advtag:c:eggs
+    - minecraft:sugar
+  yuanguo:cooking/sweetberry_jelly:
+    type: cooking
+    result: yuanguo:sweetberry_jelly
+    container: minecraft:glass_bottle
+    time: 200
+    experience: 0.1
+    ingredients:
+    - minecraft:sweet_berries
+    - minecraft:sweet_berries
+    - minecraft:sweet_berries
+    - minecraft:sweet_berries
+    - minecraft:sugar
+    - yuanguo:lemon_slice
+  yuanguo:cutting/durian:
+    type: cutting
+    ingredient: yuanguo:durian
+    tools:
+    - '#minecraft:axes'
+    results:
+    - id: yuanguo:durian_flesh
+      count: 6
+    - id: yuanguo:durian_helmet
+      count: 1
+    - id: yuanguo:durian_shell
+      count: 1
+    - id: yuanguo:durian_sapling
+      count: 1
+  yuanguo:cutting/fig_pudding:
+    type: cutting
+    ingredient: yuanguo:fig_pudding
+    tools:
+    - '#farmersdelight:tools/knives'
+    results:
+    - id: yuanguo:fig_pudding_slice
+      count: 4
+  yuanguo:cutting/hamimelon:
+    type: cutting
+    ingredient: yuanguo:hamimelon
+    tools:
+    - '#farmersdelight:tools/knives'
+    results:
+    - id: yuanguo:hamimelon_slice
+      count: 9
+  yuanguo:cutting/lemon:
+    type: cutting
+    ingredient: '#c:fruits/lemon'
+    tools:
+    - '#farmersdelight:tools/knives'
+    results:
+    - id: yuanguo:lemon_slice
+      count: 4
+    - id: yuanguo:lemon_seeds
+      count: 1
+  yuanguo:cutting/orange:
+    type: cutting
+    ingredient: '#c:fruits/orange'
+    tools:
+    - '#farmersdelight:tools/knives'
+    results:
+    - id: yuanguo:orange_slice
+      count: 4
+  yuanguo:cutting/pineapple:
+    type: cutting
+    ingredient: yuanguo:pineapple
+    tools:
+    - '#farmersdelight:tools/knives'
+    results:
+    - id: yuanguo:pineapple_slice
+      count: 6
+    - id: yuanguo:pineapple_sapling
+      count: 1
+    - id: yuanguo:pineapple_sapling
+      count: 1
+      chance: 0.5

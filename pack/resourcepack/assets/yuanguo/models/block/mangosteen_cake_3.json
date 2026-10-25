@@ -1,0 +1,7 @@
+{
+  "parent": "yuanguo:block/mangosteen_cake_base_3",
+  "textures": {
+    "base": "yuanguo:block/mangosteen_cake_base",
+    "cake": "yuanguo:block/mangosteen_cake_cake"
+  }
+}

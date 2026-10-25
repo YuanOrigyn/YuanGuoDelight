@@ -1,0 +1,472 @@
+# Generated from the Fruits Delight mod by the YuanGuoDelight build script.
+effects:
+  yuanguo:apple_jelly:
+  - effect: minecraft:absorption
+    duration: 400
+    amplifier: 0
+  yuanguo:apple_jello:
+  - effect: minecraft:absorption
+    duration: 400
+    amplifier: 0
+  yuanguo:apple_jelly_bread:
+  - effect: minecraft:absorption
+    duration: 400
+    amplifier: 0
+  yuanguo:blueberry_jelly:
+  - effect: minecraft:night_vision
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:brightening
+    duration: 400
+    amplifier: 0
+  yuanguo:blueberry_jello:
+  - effect: minecraft:night_vision
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:brightening
+    duration: 400
+    amplifier: 0
+  yuanguo:blueberry_jelly_bread:
+  - effect: minecraft:night_vision
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:brightening
+    duration: 400
+    amplifier: 0
+  yuanguo:glowberry_jelly:
+  - effect: minecraft:glowing
+    duration: 1600
+    amplifier: 0
+  yuanguo:glowberry_jello:
+  - effect: minecraft:glowing
+    duration: 1600
+    amplifier: 0
+  yuanguo:glowberry_jelly_bread:
+  - effect: minecraft:glowing
+    duration: 1600
+    amplifier: 0
+  yuanguo:hamimelon_jelly:
+  - effect: minecraft:health_boost
+    duration: 400
+    amplifier: 0
+  yuanguo:hamimelon_jello:
+  - effect: minecraft:health_boost
+    duration: 400
+    amplifier: 0
+  yuanguo:hamimelon_jelly_bread:
+  - effect: minecraft:health_boost
+    duration: 400
+    amplifier: 0
+  yuanguo:melon_jelly:
+  - effect: minecraft:regeneration
+    duration: 800
+    amplifier: 0
+  yuanguo:melon_jello:
+  - effect: minecraft:regeneration
+    duration: 800
+    amplifier: 0
+  yuanguo:melon_jelly_bread:
+  - effect: minecraft:regeneration
+    duration: 800
+    amplifier: 0
+  yuanguo:hawberry_jelly:
+  - effect: yuanguo:appetizing
+    duration: 400
+    amplifier: 0
+  yuanguo:hawberry_jello:
+  - effect: yuanguo:appetizing
+    duration: 400
+    amplifier: 0
+  yuanguo:hawberry_jelly_bread:
+  - effect: yuanguo:appetizing
+    duration: 400
+    amplifier: 0
+  yuanguo:lychee_jelly:
+  - effect: minecraft:strength
+    duration: 200
+    amplifier: 2
+  yuanguo:lychee_jello:
+  - effect: minecraft:strength
+    duration: 200
+    amplifier: 2
+  yuanguo:lychee_jelly_bread:
+  - effect: minecraft:strength
+    duration: 200
+    amplifier: 2
+  yuanguo:mango_jelly:
+  - effect: minecraft:strength
+    duration: 400
+    amplifier: 2
+  - effect: yuanguo:rage_aura
+    duration: 400
+    amplifier: 0
+  yuanguo:mango_jello:
+  - effect: minecraft:strength
+    duration: 400
+    amplifier: 2
+  - effect: yuanguo:rage_aura
+    duration: 400
+    amplifier: 0
+  yuanguo:mango_jelly_bread:
+  - effect: minecraft:strength
+    duration: 400
+    amplifier: 2
+  - effect: yuanguo:rage_aura
+    duration: 400
+    amplifier: 0
+  yuanguo:orange_jelly:
+  - effect: minecraft:regeneration
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:recovering
+    duration: 400
+    amplifier: 0
+  yuanguo:orange_jello:
+  - effect: minecraft:regeneration
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:recovering
+    duration: 400
+    amplifier: 0
+  yuanguo:orange_jelly_bread:
+  - effect: minecraft:regeneration
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:recovering
+    duration: 400
+    amplifier: 0
+  yuanguo:peach_jelly:
+  - effect: yuanguo:heal_aura
+    duration: 200
+    amplifier: 0
+  yuanguo:peach_jello:
+  - effect: yuanguo:heal_aura
+    duration: 200
+    amplifier: 0
+  yuanguo:peach_jelly_bread:
+  - effect: yuanguo:heal_aura
+    duration: 200
+    amplifier: 0
+  yuanguo:pear_jelly:
+  - effect: yuanguo:lozenge
+    duration: 400
+    amplifier: 0
+  yuanguo:pear_jello:
+  - effect: yuanguo:lozenge
+    duration: 400
+    amplifier: 0
+  yuanguo:pear_jelly_bread:
+  - effect: yuanguo:lozenge
+    duration: 400
+    amplifier: 0
+  yuanguo:pineapple_jelly:
+  - effect: minecraft:speed
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:sweetening
+    duration: 400
+    amplifier: 0
+  yuanguo:pineapple_jello:
+  - effect: minecraft:speed
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:sweetening
+    duration: 400
+    amplifier: 0
+  yuanguo:pineapple_jelly_bread:
+  - effect: minecraft:speed
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:sweetening
+    duration: 400
+    amplifier: 0
+  yuanguo:lemon_jelly:
+  - effect: minecraft:haste
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:refreshing
+    duration: 400
+    amplifier: 0
+  yuanguo:lemon_jello:
+  - effect: minecraft:haste
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:refreshing
+    duration: 400
+    amplifier: 0
+  yuanguo:lemon_jelly_bread:
+  - effect: minecraft:haste
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:refreshing
+    duration: 400
+    amplifier: 0
+  yuanguo:cranberry_jelly:
+  - effect: yuanguo:shrinking
+    duration: 1600
+    amplifier: 0
+  yuanguo:cranberry_jello:
+  - effect: yuanguo:shrinking
+    duration: 1600
+    amplifier: 0
+  yuanguo:cranberry_jelly_bread:
+  - effect: yuanguo:shrinking
+    duration: 1600
+    amplifier: 0
+  yuanguo:chorus_jelly:
+  - effect: yuanguo:chorus
+    duration: 1
+    amplifier: 0
+  yuanguo:chorus_jello:
+  - effect: yuanguo:chorus
+    duration: 1
+    amplifier: 0
+  yuanguo:chorus_jelly_bread:
+  - effect: yuanguo:chorus
+    duration: 1
+    amplifier: 0
+  yuanguo:kiwi_jelly:
+  - effect: yuanguo:cycling
+    duration: 80
+    amplifier: 0
+  yuanguo:kiwi_jello:
+  - effect: yuanguo:cycling
+    duration: 80
+    amplifier: 0
+  yuanguo:kiwi_jelly_bread:
+  - effect: yuanguo:cycling
+    duration: 80
+    amplifier: 0
+  yuanguo:fig_jelly:
+  - effect: yuanguo:digesting
+    duration: 1600
+    amplifier: 0
+  yuanguo:fig_jello:
+  - effect: yuanguo:digesting
+    duration: 1600
+    amplifier: 0
+  yuanguo:fig_jelly_bread:
+  - effect: yuanguo:digesting
+    duration: 1600
+    amplifier: 0
+  yuanguo:durian_jelly:
+  - effect: yuanguo:alienating
+    duration: 800
+    amplifier: 0
+  - effect: yuanguo:suspicious_smell
+    duration: 1600
+    amplifier: 0
+  yuanguo:durian_jello:
+  - effect: yuanguo:alienating
+    duration: 800
+    amplifier: 0
+  - effect: yuanguo:suspicious_smell
+    duration: 1600
+    amplifier: 0
+  yuanguo:durian_jelly_bread:
+  - effect: yuanguo:alienating
+    duration: 800
+    amplifier: 0
+  - effect: yuanguo:suspicious_smell
+    duration: 1600
+    amplifier: 0
+  yuanguo:blueberry_custard:
+  - effect: minecraft:night_vision
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:brightening
+    duration: 400
+    amplifier: 0
+  yuanguo:blueberry_muffin:
+  - effect: minecraft:night_vision
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:brightening
+    duration: 400
+    amplifier: 0
+  yuanguo:cranberry_muffin:
+  - effect: yuanguo:shrinking
+    duration: 1600
+    amplifier: 0
+  yuanguo:fig_pudding_slice:
+  - effect: yuanguo:digesting
+    duration: 800
+    amplifier: 0
+  yuanguo:hamimelon_popsicle:
+  - effect: minecraft:health_boost
+    duration: 200
+    amplifier: 0
+  yuanguo:kiwi_popsicle:
+  - effect: yuanguo:cycling
+    duration: 40
+    amplifier: 0
+  yuanguo:hamimelon_shaved_ice:
+  - effect: minecraft:health_boost
+    duration: 200
+    amplifier: 0
+  yuanguo:hawberry_roll:
+  - effect: yuanguo:appetizing
+    duration: 200
+    amplifier: 0
+  yuanguo:hawberry_sheet:
+  - effect: yuanguo:appetizing
+    duration: 200
+    amplifier: 0
+  yuanguo:hawberry_stick:
+  - effect: yuanguo:appetizing
+    duration: 200
+    amplifier: 0
+  yuanguo:baked_pear:
+  - effect: yuanguo:lozenge
+    duration: 100
+    amplifier: 0
+  yuanguo:baked_durian:
+  - effect: yuanguo:alienating
+    duration: 200
+    amplifier: 0
+  - effect: yuanguo:suspicious_smell
+    duration: 400
+    amplifier: 0
+  yuanguo:pineapple_pie:
+  - effect: minecraft:speed
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:sweetening
+    duration: 400
+    amplifier: 0
+  yuanguo:durian_pie:
+  - effect: yuanguo:alienating
+    duration: 800
+    amplifier: 0
+  - effect: yuanguo:suspicious_smell
+    duration: 1600
+    amplifier: 0
+  yuanguo:lemon_tart:
+  - effect: minecraft:haste
+    duration: 400
+    amplifier: 0
+  - effect: yuanguo:refreshing
+    duration: 400
+    amplifier: 0
+  yuanguo:fig_tart:
+  - effect: yuanguo:digesting
+    duration: 1600
+    amplifier: 0
+  yuanguo:mango_milkshake:
+  - effect: minecraft:strength
+    duration: 200
+    amplifier: 2
+  - effect: yuanguo:rage_aura
+    duration: 200
+    amplifier: 0
+  yuanguo:mango_salad:
+  - effect: minecraft:strength
+    duration: 600
+    amplifier: 2
+  - effect: yuanguo:rage_aura
+    duration: 600
+    amplifier: 0
+  yuanguo:lemon_cookie:
+  - effect: minecraft:haste
+    duration: 100
+    amplifier: 0
+  - effect: yuanguo:refreshing
+    duration: 100
+    amplifier: 0
+  yuanguo:cranberry_cookie:
+  - effect: yuanguo:shrinking
+    duration: 400
+    amplifier: 0
+  yuanguo:pear_with_rock_sugar:
+  - effect: yuanguo:lozenge
+    duration: 600
+    amplifier: 0
+  yuanguo:orange_chicken:
+  - effect: minecraft:regeneration
+    duration: 800
+    amplifier: 0
+  - effect: yuanguo:recovering
+    duration: 800
+    amplifier: 0
+  yuanguo:fig_chicken_stew:
+  - effect: yuanguo:digesting
+    duration: 3200
+    amplifier: 0
+  yuanguo:orange_marinated_pork:
+  - effect: minecraft:regeneration
+    duration: 800
+    amplifier: 0
+  - effect: yuanguo:recovering
+    duration: 800
+    amplifier: 0
+  yuanguo:bowl_of_pineapple_fried_rice:
+  - effect: minecraft:speed
+    duration: 800
+    amplifier: 0
+  - effect: yuanguo:sweetening
+    duration: 800
+    amplifier: 0
+  yuanguo:pineapple_marinated_pork:
+  - effect: minecraft:speed
+    duration: 800
+    amplifier: 0
+  - effect: yuanguo:sweetening
+    duration: 800
+    amplifier: 0
+  yuanguo:lychee_chicken:
+  - effect: minecraft:strength
+    duration: 400
+    amplifier: 2
+  yuanguo:hamimelon_juice:
+  - effect: minecraft:health_boost
+    duration: 200
+    amplifier: 0
+  yuanguo:hawberry_tea:
+  - effect: yuanguo:appetizing
+    duration: 200
+    amplifier: 0
+  yuanguo:orange_juice:
+  - effect: minecraft:regeneration
+    duration: 200
+    amplifier: 0
+  - effect: yuanguo:recovering
+    duration: 200
+    amplifier: 0
+  yuanguo:lemon_juice:
+  - effect: minecraft:haste
+    duration: 200
+    amplifier: 0
+  - effect: yuanguo:refreshing
+    duration: 200
+    amplifier: 0
+  yuanguo:pear_juice:
+  - effect: yuanguo:lozenge
+    duration: 200
+    amplifier: 0
+  yuanguo:mango_tea:
+  - effect: minecraft:strength
+    duration: 200
+    amplifier: 2
+  - effect: yuanguo:rage_aura
+    duration: 200
+    amplifier: 0
+  yuanguo:peach_tea:
+  - effect: yuanguo:heal_aura
+    duration: 100
+    amplifier: 0
+  yuanguo:lychee_cherry_tea:
+  - effect: minecraft:strength
+    duration: 100
+    amplifier: 2
+  yuanguo:kiwi_juice:
+  - effect: yuanguo:cycling
+    duration: 40
+    amplifier: 0
+  yuanguo:bellini_cocktail:
+  - effect: yuanguo:heal_aura
+    duration: 100
+    amplifier: 0
+aura-ranges:
+  rage: 24
+  heal: 6
+  alienating: 12

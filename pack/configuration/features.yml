@@ -1,0 +1,1793 @@
+# Generated from the Fruits Delight mod by the YuanGuoDelight build script.
+configured_feature:
+  yuanguo:tree/apple_tree:
+    type: minecraft:tree
+    config:
+      decorators: []
+      dirt_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:dirt
+      foliage_placer:
+        type: minecraft:blob_foliage_placer
+        height: 3
+        offset: 0
+        radius: 2
+      foliage_provider:
+        type: minecraft:weighted_state_provider
+        entries:
+        - data:
+            Name: yuanguo:apple_leaves
+            Properties:
+              type: leaves
+          weight: 70
+        - data:
+            Name: yuanguo:apple_leaves
+            Properties:
+              type: flowers
+          weight: 30
+      force_dirt: false
+      ignore_vines: true
+      minimum_size:
+        type: minecraft:two_layers_feature_size
+        limit: 0
+        lower_size: 0
+        min_clipped_height: 4
+        upper_size: 0
+      trunk_placer:
+        type: minecraft:straight_trunk_placer
+        base_height: 5
+        height_rand_a: 2
+        height_rand_b: 0
+      trunk_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:oak_log
+          Properties:
+            axis: y
+  yuanguo:tree/bayberry_tree:
+    type: minecraft:tree
+    config:
+      decorators: []
+      dirt_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:dirt
+      foliage_placer:
+        type: minecraft:fancy_foliage_placer
+        height: 4
+        offset: 2
+        radius: 2
+      foliage_provider:
+        type: minecraft:weighted_state_provider
+        entries:
+        - data:
+            Name: yuanguo:bayberry_leaves
+            Properties:
+              type: leaves
+          weight: 79
+        - data:
+            Name: yuanguo:bayberry_leaves
+            Properties:
+              type: flowers
+          weight: 21
+      force_dirt: false
+      ignore_vines: true
+      minimum_size:
+        type: minecraft:two_layers_feature_size
+        limit: 0
+        lower_size: 0
+        min_clipped_height: 4
+        upper_size: 0
+      trunk_placer:
+        type: minecraft:straight_trunk_placer
+        base_height: 5
+        height_rand_a: 2
+        height_rand_b: 0
+      trunk_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:spruce_log
+          Properties:
+            axis: y
+  yuanguo:tree/durian_tree:
+    type: minecraft:tree
+    config:
+      decorators: []
+      dirt_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:dirt
+      foliage_placer:
+        type: minecraft:fancy_foliage_placer
+        height: 4
+        offset: 4
+        radius: 2
+      foliage_provider:
+        type: minecraft:weighted_state_provider
+        entries:
+        - data:
+            Name: yuanguo:durian_leaves
+            Properties:
+              type: leaves
+          weight: 94
+        - data:
+            Name: yuanguo:durian_leaves
+            Properties:
+              type: budding
+          weight: 6
+      force_dirt: false
+      ignore_vines: true
+      minimum_size:
+        type: minecraft:two_layers_feature_size
+        limit: 0
+        lower_size: 0
+        min_clipped_height: 4
+        upper_size: 0
+      trunk_placer:
+        type: minecraft:fancy_trunk_placer
+        base_height: 6
+        height_rand_a: 11
+        height_rand_b: 3
+      trunk_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:jungle_log
+          Properties:
+            axis: y
+  yuanguo:tree/fig_tree:
+    type: minecraft:tree
+    config:
+      decorators: []
+      dirt_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:dirt
+      foliage_placer:
+        type: minecraft:blob_foliage_placer
+        height: 3
+        offset: 0
+        radius: 2
+      foliage_provider:
+        type: minecraft:weighted_state_provider
+        entries:
+        - data:
+            Name: yuanguo:fig_leaves
+            Properties:
+              type: leaves
+          weight: 70
+        - data:
+            Name: yuanguo:fig_leaves
+            Properties:
+              type: flowers
+          weight: 30
+      force_dirt: false
+      ignore_vines: true
+      minimum_size:
+        type: minecraft:two_layers_feature_size
+        limit: 0
+        lower_size: 0
+        min_clipped_height: 4
+        upper_size: 0
+      trunk_placer:
+        type: minecraft:straight_trunk_placer
+        base_height: 5
+        height_rand_a: 2
+        height_rand_b: 0
+      trunk_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:oak_log
+          Properties:
+            axis: y
+  yuanguo:tree/hawberry_tree:
+    type: minecraft:tree
+    config:
+      decorators: []
+      dirt_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:dirt
+      foliage_placer:
+        type: minecraft:fancy_foliage_placer
+        height: 4
+        offset: 2
+        radius: 2
+      foliage_provider:
+        type: minecraft:weighted_state_provider
+        entries:
+        - data:
+            Name: yuanguo:hawberry_leaves
+            Properties:
+              type: leaves
+          weight: 79
+        - data:
+            Name: yuanguo:hawberry_leaves
+            Properties:
+              type: flowers
+          weight: 21
+      force_dirt: false
+      ignore_vines: true
+      minimum_size:
+        type: minecraft:two_layers_feature_size
+        limit: 0
+        lower_size: 0
+        min_clipped_height: 4
+        upper_size: 0
+      trunk_placer:
+        type: minecraft:straight_trunk_placer
+        base_height: 5
+        height_rand_a: 2
+        height_rand_b: 0
+      trunk_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:spruce_log
+          Properties:
+            axis: y
+  yuanguo:tree/kiwi_tree:
+    type: minecraft:tree
+    config:
+      decorators: []
+      dirt_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:dirt
+      foliage_placer:
+        type: minecraft:blob_foliage_placer
+        height: 3
+        offset: 0
+        radius: 2
+      foliage_provider:
+        type: minecraft:weighted_state_provider
+        entries:
+        - data:
+            Name: yuanguo:kiwi_leaves
+            Properties:
+              type: leaves
+          weight: 70
+        - data:
+            Name: yuanguo:kiwi_leaves
+            Properties:
+              type: flowers
+          weight: 30
+      force_dirt: false
+      ignore_vines: true
+      minimum_size:
+        type: minecraft:two_layers_feature_size
+        limit: 0
+        lower_size: 0
+        min_clipped_height: 4
+        upper_size: 0
+      trunk_placer:
+        type: minecraft:straight_trunk_placer
+        base_height: 5
+        height_rand_a: 2
+        height_rand_b: 0
+      trunk_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:jungle_log
+          Properties:
+            axis: y
+  yuanguo:tree/lychee_tree:
+    type: minecraft:tree
+    config:
+      decorators: []
+      dirt_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:dirt
+      foliage_placer:
+        type: minecraft:fancy_foliage_placer
+        height: 4
+        offset: 2
+        radius: 2
+      foliage_provider:
+        type: minecraft:weighted_state_provider
+        entries:
+        - data:
+            Name: yuanguo:lychee_leaves
+            Properties:
+              type: leaves
+          weight: 79
+        - data:
+            Name: yuanguo:lychee_leaves
+            Properties:
+              type: flowers
+          weight: 21
+      force_dirt: false
+      ignore_vines: true
+      minimum_size:
+        type: minecraft:two_layers_feature_size
+        limit: 0
+        lower_size: 0
+        min_clipped_height: 4
+        upper_size: 0
+      trunk_placer:
+        type: minecraft:straight_trunk_placer
+        base_height: 5
+        height_rand_a: 2
+        height_rand_b: 0
+      trunk_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:jungle_log
+          Properties:
+            axis: y
+  yuanguo:tree/mangosteen_tree:
+    type: minecraft:tree
+    config:
+      decorators: []
+      dirt_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:dirt
+      foliage_placer:
+        type: minecraft:fancy_foliage_placer
+        height: 4
+        offset: 4
+        radius: 2
+      foliage_provider:
+        type: minecraft:weighted_state_provider
+        entries:
+        - data:
+            Name: yuanguo:mangosteen_leaves
+            Properties:
+              type: leaves
+          weight: 94
+        - data:
+            Name: yuanguo:mangosteen_leaves
+            Properties:
+              type: flowers
+          weight: 6
+      force_dirt: false
+      ignore_vines: true
+      minimum_size:
+        type: minecraft:two_layers_feature_size
+        limit: 0
+        lower_size: 0
+        min_clipped_height: 4
+        upper_size: 0
+      trunk_placer:
+        type: minecraft:fancy_trunk_placer
+        base_height: 6
+        height_rand_a: 11
+        height_rand_b: 3
+      trunk_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:oak_log
+          Properties:
+            axis: y
+  yuanguo:tree/mango_tree:
+    type: minecraft:tree
+    config:
+      decorators: []
+      dirt_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:dirt
+      foliage_placer:
+        type: minecraft:blob_foliage_placer
+        height: 3
+        offset: 0
+        radius: 2
+      foliage_provider:
+        type: minecraft:weighted_state_provider
+        entries:
+        - data:
+            Name: yuanguo:mango_leaves
+            Properties:
+              type: leaves
+          weight: 70
+        - data:
+            Name: yuanguo:mango_leaves
+            Properties:
+              type: flowers
+          weight: 30
+      force_dirt: false
+      ignore_vines: true
+      minimum_size:
+        type: minecraft:two_layers_feature_size
+        limit: 0
+        lower_size: 0
+        min_clipped_height: 4
+        upper_size: 0
+      trunk_placer:
+        type: minecraft:straight_trunk_placer
+        base_height: 5
+        height_rand_a: 2
+        height_rand_b: 0
+      trunk_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:jungle_log
+          Properties:
+            axis: y
+  yuanguo:tree/orange_tree:
+    type: minecraft:tree
+    config:
+      decorators: []
+      dirt_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:dirt
+      foliage_placer:
+        type: minecraft:blob_foliage_placer
+        height: 3
+        offset: 0
+        radius: 2
+      foliage_provider:
+        type: minecraft:weighted_state_provider
+        entries:
+        - data:
+            Name: yuanguo:orange_leaves
+            Properties:
+              type: leaves
+          weight: 70
+        - data:
+            Name: yuanguo:orange_leaves
+            Properties:
+              type: flowers
+          weight: 30
+      force_dirt: false
+      ignore_vines: true
+      minimum_size:
+        type: minecraft:two_layers_feature_size
+        limit: 0
+        lower_size: 0
+        min_clipped_height: 4
+        upper_size: 0
+      trunk_placer:
+        type: minecraft:straight_trunk_placer
+        base_height: 5
+        height_rand_a: 2
+        height_rand_b: 0
+      trunk_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:oak_log
+          Properties:
+            axis: y
+  yuanguo:tree/peach_tree:
+    type: minecraft:tree
+    config:
+      decorators: []
+      dirt_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:dirt
+      foliage_placer:
+        type: minecraft:blob_foliage_placer
+        height: 3
+        offset: 0
+        radius: 2
+      foliage_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: yuanguo:peach_leaves
+          Properties:
+            type: leaves
+      force_dirt: false
+      ignore_vines: true
+      minimum_size:
+        type: minecraft:two_layers_feature_size
+        limit: 0
+        lower_size: 0
+        min_clipped_height: 4
+        upper_size: 0
+      trunk_placer:
+        type: minecraft:straight_trunk_placer
+        base_height: 5
+        height_rand_a: 2
+        height_rand_b: 0
+      trunk_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:jungle_log
+          Properties:
+            axis: y
+  yuanguo:tree/pear_tree:
+    type: minecraft:tree
+    config:
+      decorators: []
+      dirt_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:dirt
+      foliage_placer:
+        type: minecraft:fancy_foliage_placer
+        height: 4
+        offset: 2
+        radius: 2
+      foliage_provider:
+        type: minecraft:weighted_state_provider
+        entries:
+        - data:
+            Name: yuanguo:pear_leaves
+            Properties:
+              type: leaves
+          weight: 79
+        - data:
+            Name: yuanguo:pear_leaves
+            Properties:
+              type: flowers
+          weight: 21
+      force_dirt: false
+      ignore_vines: true
+      minimum_size:
+        type: minecraft:two_layers_feature_size
+        limit: 0
+        lower_size: 0
+        min_clipped_height: 4
+        upper_size: 0
+      trunk_placer:
+        type: minecraft:straight_trunk_placer
+        base_height: 5
+        height_rand_a: 2
+        height_rand_b: 0
+      trunk_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:birch_log
+          Properties:
+            axis: y
+  yuanguo:tree/persimmon_tree:
+    type: minecraft:tree
+    config:
+      decorators: []
+      dirt_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:dirt
+      foliage_placer:
+        type: minecraft:fancy_foliage_placer
+        height: 4
+        offset: 4
+        radius: 2
+      foliage_provider:
+        type: minecraft:weighted_state_provider
+        entries:
+        - data:
+            Name: yuanguo:persimmon_leaves
+            Properties:
+              type: leaves
+          weight: 94
+        - data:
+            Name: yuanguo:persimmon_leaves
+            Properties:
+              type: flowers
+          weight: 6
+      force_dirt: false
+      ignore_vines: true
+      minimum_size:
+        type: minecraft:two_layers_feature_size
+        limit: 0
+        lower_size: 0
+        min_clipped_height: 4
+        upper_size: 0
+      trunk_placer:
+        type: minecraft:fancy_trunk_placer
+        base_height: 6
+        height_rand_a: 11
+        height_rand_b: 3
+      trunk_provider:
+        type: craftengine:simple_state_provider
+        state:
+          Name: minecraft:spruce_log
+          Properties:
+            axis: y
+placed_features:
+  yuanguo:blueberry_bush:
+    biome:
+    - minecraft:taiga
+    - minecraft:old_growth_spruce_taiga
+    - minecraft:old_growth_pine_taiga
+    - minecraft:snowy_taiga
+    - minecraft:grove
+    - minecraft:snowy_plains
+    - minecraft:swamp
+    - minecraft:mangrove_swamp
+    - minecraft:windswept_hills
+    - minecraft:windswept_forest
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:simple_block
+      config:
+        to_place:
+          type: craftengine:simple_state_provider
+          state:
+            Name: yuanguo:blueberry_bush
+            Properties:
+              age: '4'
+    placement:
+    - type: minecraft:rarity_filter
+      chance: 32
+    - type: minecraft:in_square
+    - type: minecraft:heightmap
+      heightmap: WORLD_SURFACE_WG
+    - type: minecraft:count
+      count: 20
+    - type: minecraft:random_offset
+      xz_spread:
+        type: minecraft:trapezoid
+        max: 7
+        min: -7
+        plateau: 0
+      y_spread:
+        type: minecraft:trapezoid
+        max: 3
+        min: -3
+        plateau: 0
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:all_of
+        predicates:
+        - type: minecraft:matching_blocks
+          blocks: minecraft:air
+        - type: minecraft:matching_blocks
+          blocks: minecraft:grass_block
+          offset:
+          - 0
+          - -1
+          - 0
+  yuanguo:cranberry_bush:
+    biome:
+    - minecraft:swamp
+    - minecraft:mangrove_swamp
+    - minecraft:jungle
+    - minecraft:bamboo_jungle
+    - minecraft:dark_forest
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:simple_block
+      config:
+        to_place:
+          type: craftengine:simple_state_provider
+          state:
+            Name: yuanguo:cranberry_bush
+            Properties:
+              age: '4'
+    placement:
+    - type: minecraft:rarity_filter
+      chance: 32
+    - type: minecraft:in_square
+    - type: minecraft:heightmap
+      heightmap: WORLD_SURFACE_WG
+    - type: minecraft:count
+      count: 20
+    - type: minecraft:random_offset
+      xz_spread:
+        type: minecraft:trapezoid
+        max: 7
+        min: -7
+        plateau: 0
+      y_spread:
+        type: minecraft:trapezoid
+        max: 3
+        min: -3
+        plateau: 0
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:all_of
+        predicates:
+        - type: minecraft:matching_blocks
+          blocks: minecraft:air
+        - type: minecraft:matching_blocks
+          blocks: minecraft:grass_block
+          offset:
+          - 0
+          - -1
+          - 0
+  yuanguo:hamimelon:
+    biome:
+    - minecraft:desert
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:simple_block
+      config:
+        to_place:
+          type: craftengine:simple_state_provider
+          state:
+            Name: yuanguo:hamimelon
+    placement:
+    - type: minecraft:rarity_filter
+      chance: 64
+    - type: minecraft:in_square
+    - type: minecraft:heightmap
+      heightmap: MOTION_BLOCKING
+    - type: minecraft:count
+      count: 24
+    - type: minecraft:random_offset
+      xz_spread:
+        type: minecraft:trapezoid
+        max: 5
+        min: -5
+        plateau: 0
+      y_spread:
+        type: minecraft:trapezoid
+        max: 3
+        min: -3
+        plateau: 0
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:all_of
+        predicates:
+        - type: minecraft:replaceable
+        - type: minecraft:matching_fluids
+          fluids: minecraft:empty
+        - type: minecraft:matching_blocks
+          blocks: minecraft:sand
+          offset:
+          - 0
+          - -1
+          - 0
+  yuanguo:lemon_tree:
+    biome:
+    - minecraft:plains
+    - minecraft:sunflower_plains
+    - minecraft:meadow
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:block_column
+      config:
+        allowed_placement:
+          type: minecraft:replaceable
+        direction: up
+        prioritize_tip: false
+        layers:
+        - height: 1
+          provider:
+            type: craftengine:simple_state_provider
+            state:
+              Name: yuanguo:lemon_tree
+              Properties:
+                age: '4'
+                half: lower
+        - height: 1
+          provider:
+            type: craftengine:simple_state_provider
+            state:
+              Name: yuanguo:lemon_tree
+              Properties:
+                age: '4'
+                half: upper
+    placement:
+    - type: minecraft:rarity_filter
+      chance: 32
+    - type: minecraft:in_square
+    - type: minecraft:heightmap
+      heightmap: WORLD_SURFACE_WG
+    - type: minecraft:count
+      count: 20
+    - type: minecraft:random_offset
+      xz_spread:
+        type: minecraft:trapezoid
+        max: 7
+        min: -7
+        plateau: 0
+      y_spread:
+        type: minecraft:trapezoid
+        max: 3
+        min: -3
+        plateau: 0
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:all_of
+        predicates:
+        - type: minecraft:matching_blocks
+          blocks: minecraft:air
+        - type: minecraft:matching_blocks
+          blocks: minecraft:air
+          offset:
+          - 0
+          - 1
+          - 0
+        - type: minecraft:matching_blocks
+          blocks: minecraft:grass_block
+          offset:
+          - 0
+          - -1
+          - 0
+  yuanguo:pineapple:
+    biome:
+    - minecraft:beach
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:simple_block
+      config:
+        to_place:
+          type: craftengine:simple_state_provider
+          state:
+            Name: yuanguo:wild_pineapple
+    placement:
+    - type: minecraft:rarity_filter
+      chance: 32
+    - type: minecraft:in_square
+    - type: minecraft:heightmap
+      heightmap: MOTION_BLOCKING
+    - type: minecraft:count
+      count: 24
+    - type: minecraft:random_offset
+      xz_spread:
+        type: minecraft:trapezoid
+        max: 5
+        min: -5
+        plateau: 0
+      y_spread:
+        type: minecraft:trapezoid
+        max: 3
+        min: -3
+        plateau: 0
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:all_of
+        predicates:
+        - type: minecraft:replaceable
+        - type: minecraft:matching_fluids
+          fluids: minecraft:empty
+        - type: minecraft:matching_blocks
+          blocks: minecraft:sand
+          offset:
+          - 0
+          - -1
+          - 0
+  yuanguo:tree/apple_tree:
+    biome:
+    - minecraft:forest
+    - minecraft:flower_forest
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:tree
+      config:
+        decorators: []
+        dirt_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:dirt
+        foliage_placer:
+          type: minecraft:blob_foliage_placer
+          height: 3
+          offset: 0
+          radius: 2
+        foliage_provider:
+          type: minecraft:weighted_state_provider
+          entries:
+          - data:
+              Name: yuanguo:apple_leaves
+              Properties:
+                type: leaves
+            weight: 90
+          - data:
+              Name: yuanguo:apple_leaves
+              Properties:
+                type: flowers
+            weight: 10
+        force_dirt: false
+        ignore_vines: true
+        minimum_size:
+          type: minecraft:two_layers_feature_size
+          limit: 0
+          lower_size: 0
+          min_clipped_height: 4
+          upper_size: 0
+        trunk_placer:
+          type: minecraft:straight_trunk_placer
+          base_height: 5
+          height_rand_a: 2
+          height_rand_b: 0
+        trunk_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:oak_log
+            Properties:
+              axis: y
+    placement:
+    - type: minecraft:count
+      count:
+        type: minecraft:weighted_list
+        distribution:
+        - data: 0
+          weight: 19
+        - data: 1
+          weight: 1
+    - type: minecraft:in_square
+    - type: minecraft:surface_water_depth_filter
+      max_water_depth: 0
+    - type: minecraft:heightmap
+      heightmap: OCEAN_FLOOR
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:would_survive
+        state:
+          Name: yuanguo:apple_sapling
+          Properties:
+            stage: '0'
+  yuanguo:tree/bayberry_tree:
+    biome:
+    - minecraft:swamp
+    - minecraft:mangrove_swamp
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:tree
+      config:
+        decorators: []
+        dirt_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:dirt
+        foliage_placer:
+          type: minecraft:fancy_foliage_placer
+          height: 4
+          offset: 2
+          radius: 2
+        foliage_provider:
+          type: minecraft:weighted_state_provider
+          entries:
+          - data:
+              Name: yuanguo:bayberry_leaves
+              Properties:
+                type: leaves
+            weight: 93
+          - data:
+              Name: yuanguo:bayberry_leaves
+              Properties:
+                type: flowers
+            weight: 7
+        force_dirt: false
+        ignore_vines: true
+        minimum_size:
+          type: minecraft:two_layers_feature_size
+          limit: 0
+          lower_size: 0
+          min_clipped_height: 4
+          upper_size: 0
+        trunk_placer:
+          type: minecraft:straight_trunk_placer
+          base_height: 5
+          height_rand_a: 2
+          height_rand_b: 0
+        trunk_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:spruce_log
+            Properties:
+              axis: y
+    placement:
+    - type: minecraft:count
+      count:
+        type: minecraft:weighted_list
+        distribution:
+        - data: 0
+          weight: 14
+        - data: 1
+          weight: 1
+    - type: minecraft:in_square
+    - type: minecraft:surface_water_depth_filter
+      max_water_depth: 0
+    - type: minecraft:heightmap
+      heightmap: OCEAN_FLOOR
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:would_survive
+        state:
+          Name: yuanguo:bayberry_sapling
+          Properties:
+            stage: '0'
+  yuanguo:tree/durian_tree:
+    biome:
+    - minecraft:swamp
+    - minecraft:mangrove_swamp
+    - minecraft:jungle
+    - minecraft:bamboo_jungle
+    - minecraft:sparse_jungle
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:tree
+      config:
+        decorators: []
+        dirt_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:dirt
+        foliage_placer:
+          type: minecraft:fancy_foliage_placer
+          height: 4
+          offset: 4
+          radius: 2
+        foliage_provider:
+          type: minecraft:weighted_state_provider
+          entries:
+          - data:
+              Name: yuanguo:durian_leaves
+              Properties:
+                type: leaves
+            weight: 98
+          - data:
+              Name: yuanguo:durian_leaves
+              Properties:
+                type: budding
+            weight: 2
+        force_dirt: false
+        ignore_vines: true
+        minimum_size:
+          type: minecraft:two_layers_feature_size
+          limit: 0
+          lower_size: 0
+          min_clipped_height: 4
+          upper_size: 0
+        trunk_placer:
+          type: minecraft:fancy_trunk_placer
+          base_height: 6
+          height_rand_a: 11
+          height_rand_b: 3
+        trunk_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:jungle_log
+            Properties:
+              axis: y
+    placement:
+    - type: minecraft:count
+      count:
+        type: minecraft:weighted_list
+        distribution:
+        - data: 0
+          weight: 199
+        - data: 1
+          weight: 1
+    - type: minecraft:in_square
+    - type: minecraft:surface_water_depth_filter
+      max_water_depth: 0
+    - type: minecraft:heightmap
+      heightmap: OCEAN_FLOOR
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:would_survive
+        state:
+          Name: yuanguo:durian_sapling
+          Properties:
+            stage: '0'
+  yuanguo:tree/fig_tree:
+    biome:
+    - minecraft:forest
+    - minecraft:flower_forest
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:tree
+      config:
+        decorators: []
+        dirt_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:dirt
+        foliage_placer:
+          type: minecraft:blob_foliage_placer
+          height: 3
+          offset: 0
+          radius: 2
+        foliage_provider:
+          type: minecraft:weighted_state_provider
+          entries:
+          - data:
+              Name: yuanguo:fig_leaves
+              Properties:
+                type: leaves
+            weight: 90
+          - data:
+              Name: yuanguo:fig_leaves
+              Properties:
+                type: flowers
+            weight: 10
+        force_dirt: false
+        ignore_vines: true
+        minimum_size:
+          type: minecraft:two_layers_feature_size
+          limit: 0
+          lower_size: 0
+          min_clipped_height: 4
+          upper_size: 0
+        trunk_placer:
+          type: minecraft:straight_trunk_placer
+          base_height: 5
+          height_rand_a: 2
+          height_rand_b: 0
+        trunk_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:oak_log
+            Properties:
+              axis: y
+    placement:
+    - type: minecraft:count
+      count:
+        type: minecraft:weighted_list
+        distribution:
+        - data: 0
+          weight: 19
+        - data: 1
+          weight: 1
+    - type: minecraft:in_square
+    - type: minecraft:surface_water_depth_filter
+      max_water_depth: 0
+    - type: minecraft:heightmap
+      heightmap: OCEAN_FLOOR
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:would_survive
+        state:
+          Name: yuanguo:fig_sapling
+          Properties:
+            stage: '0'
+  yuanguo:tree/hawberry_tree:
+    biome:
+    - minecraft:taiga
+    - minecraft:old_growth_spruce_taiga
+    - minecraft:old_growth_pine_taiga
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:tree
+      config:
+        decorators: []
+        dirt_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:dirt
+        foliage_placer:
+          type: minecraft:fancy_foliage_placer
+          height: 4
+          offset: 2
+          radius: 2
+        foliage_provider:
+          type: minecraft:weighted_state_provider
+          entries:
+          - data:
+              Name: yuanguo:hawberry_leaves
+              Properties:
+                type: leaves
+            weight: 93
+          - data:
+              Name: yuanguo:hawberry_leaves
+              Properties:
+                type: flowers
+            weight: 7
+        force_dirt: false
+        ignore_vines: true
+        minimum_size:
+          type: minecraft:two_layers_feature_size
+          limit: 0
+          lower_size: 0
+          min_clipped_height: 4
+          upper_size: 0
+        trunk_placer:
+          type: minecraft:straight_trunk_placer
+          base_height: 5
+          height_rand_a: 2
+          height_rand_b: 0
+        trunk_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:spruce_log
+            Properties:
+              axis: y
+    placement:
+    - type: minecraft:count
+      count:
+        type: minecraft:weighted_list
+        distribution:
+        - data: 0
+          weight: 19
+        - data: 1
+          weight: 1
+    - type: minecraft:in_square
+    - type: minecraft:surface_water_depth_filter
+      max_water_depth: 0
+    - type: minecraft:heightmap
+      heightmap: OCEAN_FLOOR
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:would_survive
+        state:
+          Name: yuanguo:hawberry_sapling
+          Properties:
+            stage: '0'
+  yuanguo:tree/kiwi_tree:
+    biome:
+    - minecraft:forest
+    - minecraft:flower_forest
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:tree
+      config:
+        decorators: []
+        dirt_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:dirt
+        foliage_placer:
+          type: minecraft:blob_foliage_placer
+          height: 3
+          offset: 0
+          radius: 2
+        foliage_provider:
+          type: minecraft:weighted_state_provider
+          entries:
+          - data:
+              Name: yuanguo:kiwi_leaves
+              Properties:
+                type: leaves
+            weight: 90
+          - data:
+              Name: yuanguo:kiwi_leaves
+              Properties:
+                type: flowers
+            weight: 10
+        force_dirt: false
+        ignore_vines: true
+        minimum_size:
+          type: minecraft:two_layers_feature_size
+          limit: 0
+          lower_size: 0
+          min_clipped_height: 4
+          upper_size: 0
+        trunk_placer:
+          type: minecraft:straight_trunk_placer
+          base_height: 5
+          height_rand_a: 2
+          height_rand_b: 0
+        trunk_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:jungle_log
+            Properties:
+              axis: y
+    placement:
+    - type: minecraft:count
+      count:
+        type: minecraft:weighted_list
+        distribution:
+        - data: 0
+          weight: 19
+        - data: 1
+          weight: 1
+    - type: minecraft:in_square
+    - type: minecraft:surface_water_depth_filter
+      max_water_depth: 0
+    - type: minecraft:heightmap
+      heightmap: OCEAN_FLOOR
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:would_survive
+        state:
+          Name: yuanguo:kiwi_sapling
+          Properties:
+            stage: '0'
+  yuanguo:tree/lychee_tree:
+    biome:
+    - minecraft:jungle
+    - minecraft:bamboo_jungle
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:tree
+      config:
+        decorators: []
+        dirt_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:dirt
+        foliage_placer:
+          type: minecraft:fancy_foliage_placer
+          height: 4
+          offset: 2
+          radius: 2
+        foliage_provider:
+          type: minecraft:weighted_state_provider
+          entries:
+          - data:
+              Name: yuanguo:lychee_leaves
+              Properties:
+                type: leaves
+            weight: 93
+          - data:
+              Name: yuanguo:lychee_leaves
+              Properties:
+                type: flowers
+            weight: 7
+        force_dirt: false
+        ignore_vines: true
+        minimum_size:
+          type: minecraft:two_layers_feature_size
+          limit: 0
+          lower_size: 0
+          min_clipped_height: 4
+          upper_size: 0
+        trunk_placer:
+          type: minecraft:straight_trunk_placer
+          base_height: 5
+          height_rand_a: 2
+          height_rand_b: 0
+        trunk_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:jungle_log
+            Properties:
+              axis: y
+    placement:
+    - type: minecraft:count
+      count:
+        type: minecraft:weighted_list
+        distribution:
+        - data: 0
+          weight: 3
+        - data: 1
+          weight: 1
+    - type: minecraft:in_square
+    - type: minecraft:surface_water_depth_filter
+      max_water_depth: 0
+    - type: minecraft:heightmap
+      heightmap: OCEAN_FLOOR
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:would_survive
+        state:
+          Name: yuanguo:lychee_sapling
+          Properties:
+            stage: '0'
+  yuanguo:tree/mangosteen_tree:
+    biome:
+    - minecraft:swamp
+    - minecraft:mangrove_swamp
+    - minecraft:jungle
+    - minecraft:bamboo_jungle
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:tree
+      config:
+        decorators: []
+        dirt_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:dirt
+        foliage_placer:
+          type: minecraft:fancy_foliage_placer
+          height: 4
+          offset: 4
+          radius: 2
+        foliage_provider:
+          type: minecraft:weighted_state_provider
+          entries:
+          - data:
+              Name: yuanguo:mangosteen_leaves
+              Properties:
+                type: leaves
+            weight: 98
+          - data:
+              Name: yuanguo:mangosteen_leaves
+              Properties:
+                type: flowers
+            weight: 2
+        force_dirt: false
+        ignore_vines: true
+        minimum_size:
+          type: minecraft:two_layers_feature_size
+          limit: 0
+          lower_size: 0
+          min_clipped_height: 4
+          upper_size: 0
+        trunk_placer:
+          type: minecraft:fancy_trunk_placer
+          base_height: 6
+          height_rand_a: 11
+          height_rand_b: 3
+        trunk_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:oak_log
+            Properties:
+              axis: y
+    placement:
+    - type: minecraft:count
+      count:
+        type: minecraft:weighted_list
+        distribution:
+        - data: 0
+          weight: 39
+        - data: 1
+          weight: 1
+    - type: minecraft:in_square
+    - type: minecraft:surface_water_depth_filter
+      max_water_depth: 0
+    - type: minecraft:heightmap
+      heightmap: OCEAN_FLOOR
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:would_survive
+        state:
+          Name: yuanguo:mangosteen_sapling
+          Properties:
+            stage: '0'
+  yuanguo:tree/mango_tree:
+    biome:
+    - minecraft:jungle
+    - minecraft:bamboo_jungle
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:tree
+      config:
+        decorators: []
+        dirt_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:dirt
+        foliage_placer:
+          type: minecraft:blob_foliage_placer
+          height: 3
+          offset: 0
+          radius: 2
+        foliage_provider:
+          type: minecraft:weighted_state_provider
+          entries:
+          - data:
+              Name: yuanguo:mango_leaves
+              Properties:
+                type: leaves
+            weight: 90
+          - data:
+              Name: yuanguo:mango_leaves
+              Properties:
+                type: flowers
+            weight: 10
+        force_dirt: false
+        ignore_vines: true
+        minimum_size:
+          type: minecraft:two_layers_feature_size
+          limit: 0
+          lower_size: 0
+          min_clipped_height: 4
+          upper_size: 0
+        trunk_placer:
+          type: minecraft:straight_trunk_placer
+          base_height: 5
+          height_rand_a: 2
+          height_rand_b: 0
+        trunk_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:jungle_log
+            Properties:
+              axis: y
+    placement:
+    - type: minecraft:count
+      count:
+        type: minecraft:weighted_list
+        distribution:
+        - data: 0
+          weight: 3
+        - data: 1
+          weight: 1
+    - type: minecraft:in_square
+    - type: minecraft:surface_water_depth_filter
+      max_water_depth: 0
+    - type: minecraft:heightmap
+      heightmap: OCEAN_FLOOR
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:would_survive
+        state:
+          Name: yuanguo:mango_sapling
+          Properties:
+            stage: '0'
+  yuanguo:tree/orange_tree:
+    biome:
+    - minecraft:forest
+    - minecraft:flower_forest
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:tree
+      config:
+        decorators: []
+        dirt_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:dirt
+        foliage_placer:
+          type: minecraft:blob_foliage_placer
+          height: 3
+          offset: 0
+          radius: 2
+        foliage_provider:
+          type: minecraft:weighted_state_provider
+          entries:
+          - data:
+              Name: yuanguo:orange_leaves
+              Properties:
+                type: leaves
+            weight: 90
+          - data:
+              Name: yuanguo:orange_leaves
+              Properties:
+                type: flowers
+            weight: 10
+        force_dirt: false
+        ignore_vines: true
+        minimum_size:
+          type: minecraft:two_layers_feature_size
+          limit: 0
+          lower_size: 0
+          min_clipped_height: 4
+          upper_size: 0
+        trunk_placer:
+          type: minecraft:straight_trunk_placer
+          base_height: 5
+          height_rand_a: 2
+          height_rand_b: 0
+        trunk_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:oak_log
+            Properties:
+              axis: y
+    placement:
+    - type: minecraft:count
+      count:
+        type: minecraft:weighted_list
+        distribution:
+        - data: 0
+          weight: 19
+        - data: 1
+          weight: 1
+    - type: minecraft:in_square
+    - type: minecraft:surface_water_depth_filter
+      max_water_depth: 0
+    - type: minecraft:heightmap
+      heightmap: OCEAN_FLOOR
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:would_survive
+        state:
+          Name: yuanguo:orange_sapling
+          Properties:
+            stage: '0'
+  yuanguo:tree/peach_tree:
+    biome:
+    - minecraft:sparse_jungle
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:tree
+      config:
+        decorators: []
+        dirt_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:dirt
+        foliage_placer:
+          type: minecraft:blob_foliage_placer
+          height: 3
+          offset: 0
+          radius: 2
+        foliage_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: yuanguo:peach_leaves
+            Properties:
+              type: flowers
+        force_dirt: false
+        ignore_vines: true
+        minimum_size:
+          type: minecraft:two_layers_feature_size
+          limit: 0
+          lower_size: 0
+          min_clipped_height: 4
+          upper_size: 0
+        trunk_placer:
+          type: minecraft:straight_trunk_placer
+          base_height: 5
+          height_rand_a: 2
+          height_rand_b: 0
+        trunk_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:jungle_log
+            Properties:
+              axis: y
+    placement:
+    - type: minecraft:count
+      count:
+        type: minecraft:weighted_list
+        distribution:
+        - data: 0
+          weight: 7
+        - data: 1
+          weight: 1
+    - type: minecraft:in_square
+    - type: minecraft:surface_water_depth_filter
+      max_water_depth: 0
+    - type: minecraft:heightmap
+      heightmap: OCEAN_FLOOR
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:would_survive
+        state:
+          Name: yuanguo:peach_sapling
+          Properties:
+            stage: '0'
+  yuanguo:tree/pear_tree:
+    biome:
+    - minecraft:birch_forest
+    - minecraft:old_growth_birch_forest
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:tree
+      config:
+        decorators: []
+        dirt_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:dirt
+        foliage_placer:
+          type: minecraft:fancy_foliage_placer
+          height: 4
+          offset: 2
+          radius: 2
+        foliage_provider:
+          type: minecraft:weighted_state_provider
+          entries:
+          - data:
+              Name: yuanguo:pear_leaves
+              Properties:
+                type: leaves
+            weight: 93
+          - data:
+              Name: yuanguo:pear_leaves
+              Properties:
+                type: flowers
+            weight: 7
+        force_dirt: false
+        ignore_vines: true
+        minimum_size:
+          type: minecraft:two_layers_feature_size
+          limit: 0
+          lower_size: 0
+          min_clipped_height: 4
+          upper_size: 0
+        trunk_placer:
+          type: minecraft:straight_trunk_placer
+          base_height: 5
+          height_rand_a: 2
+          height_rand_b: 0
+        trunk_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:birch_log
+            Properties:
+              axis: y
+    placement:
+    - type: minecraft:count
+      count:
+        type: minecraft:weighted_list
+        distribution:
+        - data: 0
+          weight: 14
+        - data: 1
+          weight: 1
+    - type: minecraft:in_square
+    - type: minecraft:surface_water_depth_filter
+      max_water_depth: 0
+    - type: minecraft:heightmap
+      heightmap: OCEAN_FLOOR
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:would_survive
+        state:
+          Name: yuanguo:pear_sapling
+          Properties:
+            stage: '0'
+  yuanguo:tree/persimmon_tree:
+    biome:
+    - minecraft:snowy_taiga
+    - minecraft:grove
+    - minecraft:snowy_plains
+    dimension_type:
+    - minecraft:overworld
+    feature:
+      type: minecraft:tree
+      config:
+        decorators: []
+        dirt_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:dirt
+        foliage_placer:
+          type: minecraft:fancy_foliage_placer
+          height: 4
+          offset: 4
+          radius: 2
+        foliage_provider:
+          type: minecraft:weighted_state_provider
+          entries:
+          - data:
+              Name: yuanguo:persimmon_leaves
+              Properties:
+                type: leaves
+            weight: 98
+          - data:
+              Name: yuanguo:persimmon_leaves
+              Properties:
+                type: flowers
+            weight: 2
+        force_dirt: false
+        ignore_vines: true
+        minimum_size:
+          type: minecraft:two_layers_feature_size
+          limit: 0
+          lower_size: 0
+          min_clipped_height: 4
+          upper_size: 0
+        trunk_placer:
+          type: minecraft:fancy_trunk_placer
+          base_height: 6
+          height_rand_a: 11
+          height_rand_b: 3
+        trunk_provider:
+          type: craftengine:simple_state_provider
+          state:
+            Name: minecraft:spruce_log
+            Properties:
+              axis: y
+    placement:
+    - type: minecraft:count
+      count:
+        type: minecraft:weighted_list
+        distribution:
+        - data: 0
+          weight: 49
+        - data: 1
+          weight: 1
+    - type: minecraft:in_square
+    - type: minecraft:surface_water_depth_filter
+      max_water_depth: 0
+    - type: minecraft:heightmap
+      heightmap: OCEAN_FLOOR
+    - type: minecraft:biome
+    - type: minecraft:block_predicate_filter
+      predicate:
+        type: minecraft:would_survive
+        state:
+          Name: yuanguo:persimmon_sapling
+          Properties:
+            stage: '0'

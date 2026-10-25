@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "yuanguo:block/crate_bottom",
+    "side": "yuanguo:block/kiwi_crate_side",
+    "top": "yuanguo:block/kiwi_crate_top"
+  }
+}

@@ -1,0 +1,1559 @@
+# Generated from the Fruits Delight mod by the YuanGuoDelight build script.
+blocks:
+  yuanguo:pear_sapling:
+    loot:
+      template: default:loot_table/self
+    settings:
+      template:
+      - default:settings/sapling
+      overrides:
+        item: yuanguo:pear_sapling
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:saplings
+        - minecraft:sword_efficient
+    behavior:
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:dirt
+      - minecraft:grass_block
+      - minecraft:podzol
+      - minecraft:coarse_dirt
+      - minecraft:rooted_dirt
+      - minecraft:moss_block
+      - minecraft:mud
+      - minecraft:farmland
+      - minecraft:mycelium
+    - type: yuanguo:seasonal_sapling
+      season: SPRING
+      feature: yuanguo:tree/pear_tree
+      bone_meal_success_chance: 0.45
+      grow_speed: 0.1
+    states:
+      properties:
+        stage:
+          type: int
+          default: 0
+          min: 0
+          max: 1
+      appearances:
+        sapling:
+          auto_state: cave_vines
+          model:
+            path: yuanguo:block/pear_sapling
+      variants:
+        stage=0:
+          appearance: sapling
+        stage=1:
+          appearance: sapling
+  yuanguo:potted_pear_sapling:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          item: yuanguo:pear_sapling
+          functions:
+          - type: set_count
+            count: 1
+      - rolls: 1
+        entries:
+        - type: item
+          item: minecraft:flower_pot
+          functions:
+          - type: set_count
+            count: 1
+    settings:
+      template:
+      - default:sound/stone
+      - default:hardness/none
+      overrides:
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        push_reaction: destroy
+    behavior:
+    - type: yuanguo:potted_sapling
+    state:
+      state: minecraft:flower_pot
+      entity_renderer:
+        type: item_display
+        item: yuanguo:entity_renderer/potted_pear
+  yuanguo:hawberry_sapling:
+    loot:
+      template: default:loot_table/self
+    settings:
+      template:
+      - default:settings/sapling
+      overrides:
+        item: yuanguo:hawberry_sapling
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:saplings
+        - minecraft:sword_efficient
+    behavior:
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:dirt
+      - minecraft:grass_block
+      - minecraft:podzol
+      - minecraft:coarse_dirt
+      - minecraft:rooted_dirt
+      - minecraft:moss_block
+      - minecraft:mud
+      - minecraft:farmland
+      - minecraft:mycelium
+    - type: yuanguo:seasonal_sapling
+      season: WINTER
+      feature: yuanguo:tree/hawberry_tree
+      bone_meal_success_chance: 0.45
+      grow_speed: 0.1
+    states:
+      properties:
+        stage:
+          type: int
+          default: 0
+          min: 0
+          max: 1
+      appearances:
+        sapling:
+          auto_state: cave_vines
+          model:
+            path: yuanguo:block/hawberry_sapling
+      variants:
+        stage=0:
+          appearance: sapling
+        stage=1:
+          appearance: sapling
+  yuanguo:potted_hawberry_sapling:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          item: yuanguo:hawberry_sapling
+          functions:
+          - type: set_count
+            count: 1
+      - rolls: 1
+        entries:
+        - type: item
+          item: minecraft:flower_pot
+          functions:
+          - type: set_count
+            count: 1
+    settings:
+      template:
+      - default:sound/stone
+      - default:hardness/none
+      overrides:
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        push_reaction: destroy
+    behavior:
+    - type: yuanguo:potted_sapling
+    state:
+      state: minecraft:flower_pot
+      entity_renderer:
+        type: item_display
+        item: yuanguo:entity_renderer/potted_hawberry
+  yuanguo:lychee_sapling:
+    loot:
+      template: default:loot_table/self
+    settings:
+      template:
+      - default:settings/sapling
+      overrides:
+        item: yuanguo:lychee_sapling
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:saplings
+        - minecraft:sword_efficient
+    behavior:
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:dirt
+      - minecraft:grass_block
+      - minecraft:podzol
+      - minecraft:coarse_dirt
+      - minecraft:rooted_dirt
+      - minecraft:moss_block
+      - minecraft:mud
+      - minecraft:farmland
+      - minecraft:mycelium
+    - type: yuanguo:seasonal_sapling
+      season: SUMMER
+      feature: yuanguo:tree/lychee_tree
+      bone_meal_success_chance: 0.45
+      grow_speed: 0.1
+    states:
+      properties:
+        stage:
+          type: int
+          default: 0
+          min: 0
+          max: 1
+      appearances:
+        sapling:
+          auto_state: cave_vines
+          model:
+            path: yuanguo:block/lychee_sapling
+      variants:
+        stage=0:
+          appearance: sapling
+        stage=1:
+          appearance: sapling
+  yuanguo:potted_lychee_sapling:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          item: yuanguo:lychee_sapling
+          functions:
+          - type: set_count
+            count: 1
+      - rolls: 1
+        entries:
+        - type: item
+          item: minecraft:flower_pot
+          functions:
+          - type: set_count
+            count: 1
+    settings:
+      template:
+      - default:sound/stone
+      - default:hardness/none
+      overrides:
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        push_reaction: destroy
+    behavior:
+    - type: yuanguo:potted_sapling
+    state:
+      state: minecraft:flower_pot
+      entity_renderer:
+        type: item_display
+        item: yuanguo:entity_renderer/potted_lychee
+  yuanguo:mango_sapling:
+    loot:
+      template: default:loot_table/self
+    settings:
+      template:
+      - default:settings/sapling
+      overrides:
+        item: yuanguo:mango_sapling
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:saplings
+        - minecraft:sword_efficient
+    behavior:
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:dirt
+      - minecraft:grass_block
+      - minecraft:podzol
+      - minecraft:coarse_dirt
+      - minecraft:rooted_dirt
+      - minecraft:moss_block
+      - minecraft:mud
+      - minecraft:farmland
+      - minecraft:mycelium
+    - type: yuanguo:seasonal_sapling
+      season: SUMMER
+      feature: yuanguo:tree/mango_tree
+      bone_meal_success_chance: 0.45
+      grow_speed: 0.1
+    states:
+      properties:
+        stage:
+          type: int
+          default: 0
+          min: 0
+          max: 1
+      appearances:
+        sapling:
+          auto_state: cave_vines
+          model:
+            path: yuanguo:block/mango_sapling
+      variants:
+        stage=0:
+          appearance: sapling
+        stage=1:
+          appearance: sapling
+  yuanguo:potted_mango_sapling:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          item: yuanguo:mango_sapling
+          functions:
+          - type: set_count
+            count: 1
+      - rolls: 1
+        entries:
+        - type: item
+          item: minecraft:flower_pot
+          functions:
+          - type: set_count
+            count: 1
+    settings:
+      template:
+      - default:sound/stone
+      - default:hardness/none
+      overrides:
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        push_reaction: destroy
+    behavior:
+    - type: yuanguo:potted_sapling
+    state:
+      state: minecraft:flower_pot
+      entity_renderer:
+        type: item_display
+        item: yuanguo:entity_renderer/potted_mango
+  yuanguo:persimmon_sapling:
+    loot:
+      template: default:loot_table/self
+    settings:
+      template:
+      - default:settings/sapling
+      overrides:
+        item: yuanguo:persimmon_sapling
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:saplings
+        - minecraft:sword_efficient
+    behavior:
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:dirt
+      - minecraft:grass_block
+      - minecraft:podzol
+      - minecraft:coarse_dirt
+      - minecraft:rooted_dirt
+      - minecraft:moss_block
+      - minecraft:mud
+      - minecraft:farmland
+      - minecraft:mycelium
+    - type: yuanguo:seasonal_sapling
+      season: WINTER
+      feature: yuanguo:tree/persimmon_tree
+      bone_meal_success_chance: 0.45
+      grow_speed: 0.1
+    states:
+      properties:
+        stage:
+          type: int
+          default: 0
+          min: 0
+          max: 1
+      appearances:
+        sapling:
+          auto_state: cave_vines
+          model:
+            path: yuanguo:block/persimmon_sapling
+      variants:
+        stage=0:
+          appearance: sapling
+        stage=1:
+          appearance: sapling
+  yuanguo:potted_persimmon_sapling:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          item: yuanguo:persimmon_sapling
+          functions:
+          - type: set_count
+            count: 1
+      - rolls: 1
+        entries:
+        - type: item
+          item: minecraft:flower_pot
+          functions:
+          - type: set_count
+            count: 1
+    settings:
+      template:
+      - default:sound/stone
+      - default:hardness/none
+      overrides:
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        push_reaction: destroy
+    behavior:
+    - type: yuanguo:potted_sapling
+    state:
+      state: minecraft:flower_pot
+      entity_renderer:
+        type: item_display
+        item: yuanguo:entity_renderer/potted_persimmon
+  yuanguo:peach_sapling:
+    loot:
+      template: default:loot_table/self
+    settings:
+      template:
+      - default:settings/sapling
+      overrides:
+        item: yuanguo:peach_sapling
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:saplings
+        - minecraft:sword_efficient
+    behavior:
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:dirt
+      - minecraft:grass_block
+      - minecraft:podzol
+      - minecraft:coarse_dirt
+      - minecraft:rooted_dirt
+      - minecraft:moss_block
+      - minecraft:mud
+      - minecraft:farmland
+      - minecraft:mycelium
+    - type: yuanguo:seasonal_sapling
+      season: SPRING
+      feature: yuanguo:tree/peach_tree
+      bone_meal_success_chance: 0.45
+      grow_speed: 0.1
+    states:
+      properties:
+        stage:
+          type: int
+          default: 0
+          min: 0
+          max: 1
+      appearances:
+        sapling:
+          auto_state: cave_vines
+          model:
+            path: yuanguo:block/peach_sapling
+      variants:
+        stage=0:
+          appearance: sapling
+        stage=1:
+          appearance: sapling
+  yuanguo:potted_peach_sapling:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          item: yuanguo:peach_sapling
+          functions:
+          - type: set_count
+            count: 1
+      - rolls: 1
+        entries:
+        - type: item
+          item: minecraft:flower_pot
+          functions:
+          - type: set_count
+            count: 1
+    settings:
+      template:
+      - default:sound/stone
+      - default:hardness/none
+      overrides:
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        push_reaction: destroy
+    behavior:
+    - type: yuanguo:potted_sapling
+    state:
+      state: minecraft:flower_pot
+      entity_renderer:
+        type: item_display
+        item: yuanguo:entity_renderer/potted_peach
+  yuanguo:orange_sapling:
+    loot:
+      template: default:loot_table/self
+    settings:
+      template:
+      - default:settings/sapling
+      overrides:
+        item: yuanguo:orange_sapling
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:saplings
+        - minecraft:sword_efficient
+    behavior:
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:dirt
+      - minecraft:grass_block
+      - minecraft:podzol
+      - minecraft:coarse_dirt
+      - minecraft:rooted_dirt
+      - minecraft:moss_block
+      - minecraft:mud
+      - minecraft:farmland
+      - minecraft:mycelium
+    - type: yuanguo:seasonal_sapling
+      season: FALL
+      feature: yuanguo:tree/orange_tree
+      bone_meal_success_chance: 0.45
+      grow_speed: 0.1
+    states:
+      properties:
+        stage:
+          type: int
+          default: 0
+          min: 0
+          max: 1
+      appearances:
+        sapling:
+          auto_state: cave_vines
+          model:
+            path: yuanguo:block/orange_sapling
+      variants:
+        stage=0:
+          appearance: sapling
+        stage=1:
+          appearance: sapling
+  yuanguo:potted_orange_sapling:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          item: yuanguo:orange_sapling
+          functions:
+          - type: set_count
+            count: 1
+      - rolls: 1
+        entries:
+        - type: item
+          item: minecraft:flower_pot
+          functions:
+          - type: set_count
+            count: 1
+    settings:
+      template:
+      - default:sound/stone
+      - default:hardness/none
+      overrides:
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        push_reaction: destroy
+    behavior:
+    - type: yuanguo:potted_sapling
+    state:
+      state: minecraft:flower_pot
+      entity_renderer:
+        type: item_display
+        item: yuanguo:entity_renderer/potted_orange
+  yuanguo:apple_sapling:
+    loot:
+      template: default:loot_table/self
+    settings:
+      template:
+      - default:settings/sapling
+      overrides:
+        item: yuanguo:apple_sapling
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:saplings
+        - minecraft:sword_efficient
+    behavior:
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:dirt
+      - minecraft:grass_block
+      - minecraft:podzol
+      - minecraft:coarse_dirt
+      - minecraft:rooted_dirt
+      - minecraft:moss_block
+      - minecraft:mud
+      - minecraft:farmland
+      - minecraft:mycelium
+    - type: yuanguo:seasonal_sapling
+      season: FALL
+      feature: yuanguo:tree/apple_tree
+      bone_meal_success_chance: 0.45
+      grow_speed: 0.1
+    states:
+      properties:
+        stage:
+          type: int
+          default: 0
+          min: 0
+          max: 1
+      appearances:
+        sapling:
+          auto_state: cave_vines
+          model:
+            path: yuanguo:block/apple_sapling
+      variants:
+        stage=0:
+          appearance: sapling
+        stage=1:
+          appearance: sapling
+  yuanguo:potted_apple_sapling:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          item: yuanguo:apple_sapling
+          functions:
+          - type: set_count
+            count: 1
+      - rolls: 1
+        entries:
+        - type: item
+          item: minecraft:flower_pot
+          functions:
+          - type: set_count
+            count: 1
+    settings:
+      template:
+      - default:sound/stone
+      - default:hardness/none
+      overrides:
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        push_reaction: destroy
+    behavior:
+    - type: yuanguo:potted_sapling
+    state:
+      state: minecraft:flower_pot
+      entity_renderer:
+        type: item_display
+        item: yuanguo:entity_renderer/potted_apple
+  yuanguo:mangosteen_sapling:
+    loot:
+      template: default:loot_table/self
+    settings:
+      template:
+      - default:settings/sapling
+      overrides:
+        item: yuanguo:mangosteen_sapling
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:saplings
+        - minecraft:sword_efficient
+    behavior:
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:dirt
+      - minecraft:grass_block
+      - minecraft:podzol
+      - minecraft:coarse_dirt
+      - minecraft:rooted_dirt
+      - minecraft:moss_block
+      - minecraft:mud
+      - minecraft:farmland
+      - minecraft:mycelium
+    - type: yuanguo:seasonal_sapling
+      season: SUMMER
+      feature: yuanguo:tree/mangosteen_tree
+      bone_meal_success_chance: 0.45
+      grow_speed: 0.1
+    states:
+      properties:
+        stage:
+          type: int
+          default: 0
+          min: 0
+          max: 1
+      appearances:
+        sapling:
+          auto_state: cave_vines
+          model:
+            path: yuanguo:block/mangosteen_sapling
+      variants:
+        stage=0:
+          appearance: sapling
+        stage=1:
+          appearance: sapling
+  yuanguo:potted_mangosteen_sapling:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          item: yuanguo:mangosteen_sapling
+          functions:
+          - type: set_count
+            count: 1
+      - rolls: 1
+        entries:
+        - type: item
+          item: minecraft:flower_pot
+          functions:
+          - type: set_count
+            count: 1
+    settings:
+      template:
+      - default:sound/stone
+      - default:hardness/none
+      overrides:
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        push_reaction: destroy
+    behavior:
+    - type: yuanguo:potted_sapling
+    state:
+      state: minecraft:flower_pot
+      entity_renderer:
+        type: item_display
+        item: yuanguo:entity_renderer/potted_mangosteen
+  yuanguo:bayberry_sapling:
+    loot:
+      template: default:loot_table/self
+    settings:
+      template:
+      - default:settings/sapling
+      overrides:
+        item: yuanguo:bayberry_sapling
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:saplings
+        - minecraft:sword_efficient
+    behavior:
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:dirt
+      - minecraft:grass_block
+      - minecraft:podzol
+      - minecraft:coarse_dirt
+      - minecraft:rooted_dirt
+      - minecraft:moss_block
+      - minecraft:mud
+      - minecraft:farmland
+      - minecraft:mycelium
+    - type: yuanguo:seasonal_sapling
+      season: SUMMER
+      feature: yuanguo:tree/bayberry_tree
+      bone_meal_success_chance: 0.45
+      grow_speed: 0.1
+    states:
+      properties:
+        stage:
+          type: int
+          default: 0
+          min: 0
+          max: 1
+      appearances:
+        sapling:
+          auto_state: cave_vines
+          model:
+            path: yuanguo:block/bayberry_sapling
+      variants:
+        stage=0:
+          appearance: sapling
+        stage=1:
+          appearance: sapling
+  yuanguo:potted_bayberry_sapling:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          item: yuanguo:bayberry_sapling
+          functions:
+          - type: set_count
+            count: 1
+      - rolls: 1
+        entries:
+        - type: item
+          item: minecraft:flower_pot
+          functions:
+          - type: set_count
+            count: 1
+    settings:
+      template:
+      - default:sound/stone
+      - default:hardness/none
+      overrides:
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        push_reaction: destroy
+    behavior:
+    - type: yuanguo:potted_sapling
+    state:
+      state: minecraft:flower_pot
+      entity_renderer:
+        type: item_display
+        item: yuanguo:entity_renderer/potted_bayberry
+  yuanguo:kiwi_sapling:
+    loot:
+      template: default:loot_table/self
+    settings:
+      template:
+      - default:settings/sapling
+      overrides:
+        item: yuanguo:kiwi_sapling
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:saplings
+        - minecraft:sword_efficient
+    behavior:
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:dirt
+      - minecraft:grass_block
+      - minecraft:podzol
+      - minecraft:coarse_dirt
+      - minecraft:rooted_dirt
+      - minecraft:moss_block
+      - minecraft:mud
+      - minecraft:farmland
+      - minecraft:mycelium
+    - type: yuanguo:seasonal_sapling
+      season: FALL
+      feature: yuanguo:tree/kiwi_tree
+      bone_meal_success_chance: 0.45
+      grow_speed: 0.1
+    states:
+      properties:
+        stage:
+          type: int
+          default: 0
+          min: 0
+          max: 1
+      appearances:
+        sapling:
+          auto_state: cave_vines
+          model:
+            path: yuanguo:block/kiwi_sapling
+      variants:
+        stage=0:
+          appearance: sapling
+        stage=1:
+          appearance: sapling
+  yuanguo:potted_kiwi_sapling:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          item: yuanguo:kiwi_sapling
+          functions:
+          - type: set_count
+            count: 1
+      - rolls: 1
+        entries:
+        - type: item
+          item: minecraft:flower_pot
+          functions:
+          - type: set_count
+            count: 1
+    settings:
+      template:
+      - default:sound/stone
+      - default:hardness/none
+      overrides:
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        push_reaction: destroy
+    behavior:
+    - type: yuanguo:potted_sapling
+    state:
+      state: minecraft:flower_pot
+      entity_renderer:
+        type: item_display
+        item: yuanguo:entity_renderer/potted_kiwi
+  yuanguo:fig_sapling:
+    loot:
+      template: default:loot_table/self
+    settings:
+      template:
+      - default:settings/sapling
+      overrides:
+        item: yuanguo:fig_sapling
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:saplings
+        - minecraft:sword_efficient
+    behavior:
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:dirt
+      - minecraft:grass_block
+      - minecraft:podzol
+      - minecraft:coarse_dirt
+      - minecraft:rooted_dirt
+      - minecraft:moss_block
+      - minecraft:mud
+      - minecraft:farmland
+      - minecraft:mycelium
+    - type: yuanguo:seasonal_sapling
+      season: FALL
+      feature: yuanguo:tree/fig_tree
+      bone_meal_success_chance: 0.45
+      grow_speed: 0.1
+    states:
+      properties:
+        stage:
+          type: int
+          default: 0
+          min: 0
+          max: 1
+      appearances:
+        sapling:
+          auto_state: cave_vines
+          model:
+            path: yuanguo:block/fig_sapling
+      variants:
+        stage=0:
+          appearance: sapling
+        stage=1:
+          appearance: sapling
+  yuanguo:potted_fig_sapling:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          item: yuanguo:fig_sapling
+          functions:
+          - type: set_count
+            count: 1
+      - rolls: 1
+        entries:
+        - type: item
+          item: minecraft:flower_pot
+          functions:
+          - type: set_count
+            count: 1
+    settings:
+      template:
+      - default:sound/stone
+      - default:hardness/none
+      overrides:
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        push_reaction: destroy
+    behavior:
+    - type: yuanguo:potted_sapling
+    state:
+      state: minecraft:flower_pot
+      entity_renderer:
+        type: item_display
+        item: yuanguo:entity_renderer/potted_fig
+  yuanguo:durian_sapling:
+    loot:
+      template: default:loot_table/self
+    settings:
+      template:
+      - default:settings/sapling
+      overrides:
+        item: yuanguo:durian_sapling
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:saplings
+        - minecraft:sword_efficient
+    behavior:
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:dirt
+      - minecraft:grass_block
+      - minecraft:podzol
+      - minecraft:coarse_dirt
+      - minecraft:rooted_dirt
+      - minecraft:moss_block
+      - minecraft:mud
+      - minecraft:farmland
+      - minecraft:mycelium
+    - type: yuanguo:seasonal_sapling
+      season: SUMMER
+      feature: yuanguo:tree/durian_tree
+      bone_meal_success_chance: 0.45
+      grow_speed: 0.1
+    states:
+      properties:
+        stage:
+          type: int
+          default: 0
+          min: 0
+          max: 1
+      appearances:
+        sapling:
+          auto_state: cave_vines
+          model:
+            path: yuanguo:block/durian_sapling
+      variants:
+        stage=0:
+          appearance: sapling
+        stage=1:
+          appearance: sapling
+  yuanguo:potted_durian_sapling:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          item: yuanguo:durian_sapling
+          functions:
+          - type: set_count
+            count: 1
+      - rolls: 1
+        entries:
+        - type: item
+          item: minecraft:flower_pot
+          functions:
+          - type: set_count
+            count: 1
+    settings:
+      template:
+      - default:sound/stone
+      - default:hardness/none
+      overrides:
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        push_reaction: destroy
+    behavior:
+    - type: yuanguo:potted_sapling
+    state:
+      state: minecraft:flower_pot
+      entity_renderer:
+        type: item_display
+        item: yuanguo:entity_renderer/potted_durian
+  yuanguo:blueberry_bush:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        - type: enchantment
+          predicate: minecraft:silk_touch>=1
+        - type: '!match_block_property'
+          properties:
+            age: 0
+        - type: '!match_block_property'
+          properties:
+            age: 1
+        entries:
+        - type: item
+          item: blueberry_bush
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        - type: match_block_property
+          properties:
+            age: 4
+        entries:
+        - type: item
+          item: yuanguo:blueberry
+          functions:
+          - type: apply_bonus
+            enchantment: minecraft:fortune
+            formula:
+              type: binomial_with_bonus_count
+              extra: 1
+              probability: 0.5
+    settings:
+      template:
+      - default:hardness/none
+      overrides:
+        item: yuanguo:blueberry
+        push_reaction: destroy
+        map_color: plant
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        sounds:
+          break: minecraft:block.azalea.break
+          step: minecraft:block.azalea.step
+          place: minecraft:block.azalea.place
+          hit: minecraft:block.azalea.hit
+          fall: minecraft:block.azalea.fall
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:sword_efficient
+        - minecraft:crops
+    behavior:
+    - type: yuanguo:seasonal_crop
+      season: SPRING
+      grow_speed: 0.2
+      light_requirement: 9
+      harvest_item: yuanguo:blueberry
+      harvest_min: 1
+      harvest_max: 2
+      harvest_reset_age: 2
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:grass_block
+      - minecraft:dirt
+      - minecraft:coarse_dirt
+      - minecraft:podzol
+      - minecraft:moss_block
+      - minecraft:farmland
+    states:
+      properties:
+        age:
+          type: int
+          default: 0
+          min: 0
+          max: 4
+      appearances:
+        age=0:
+          state: minecraft:cactus[age=11]
+          model:
+            path: yuanguo:block/blueberry_bush_small
+        age=1:
+          state: minecraft:cactus[age=11]
+          model:
+            path: yuanguo:block/blueberry_bush_small
+        age=2:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/blueberry_bush
+        age=3:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/blueberry_bush_flowers
+        age=4:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/blueberry_bush_fruits
+      variants:
+        age=0:
+          appearance: age=0
+        age=1:
+          appearance: age=1
+        age=2:
+          appearance: age=2
+        age=3:
+          appearance: age=3
+        age=4:
+          appearance: age=4
+  yuanguo:lemon_tree:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        - type: match_block_property
+          properties:
+            half: lower
+        entries:
+        - type: item
+          item: yuanguo:lemon
+          conditions:
+          - type: match_block_property
+            properties:
+              age: 4
+          functions:
+          - type: apply_bonus
+            enchantment: minecraft:fortune
+            formula:
+              type: binomial_with_bonus_count
+              extra: 1
+              probability: 0.5
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        - type: enchantment
+          predicate: minecraft:silk_touch>=1
+        - type: '!match_block_property'
+          properties:
+            age: 0
+        - type: '!match_block_property'
+          properties:
+            age: 1
+        entries:
+        - type: item
+          item: yuanguo:lemon_seeds
+    settings:
+      template:
+      - default:hardness/none
+      overrides:
+        item: yuanguo:lemon_seeds
+        push_reaction: destroy
+        map_color: plant
+        is_suffocating: false
+        is_view_blocking: false
+        can_occlude: false
+        is_redstone_conductor: false
+        sounds:
+          break: minecraft:block.azalea.break
+          step: minecraft:block.azalea.step
+          place: minecraft:block.azalea.place
+          hit: minecraft:block.azalea.hit
+          fall: minecraft:block.azalea.fall
+        tags:
+        - minecraft:mineable/axe
+        - minecraft:sword_efficient
+        - minecraft:crops
+    behavior:
+    - type: yuanguo:seasonal_crop
+      season: SUMMER
+      grow_speed: 0.2
+      light_requirement: 9
+      harvest_item: yuanguo:lemon
+      harvest_min: 1
+      harvest_max: 2
+      harvest_reset_age: 2
+      double_high_from: 2
+    - type: bush_block
+      stackable: true
+      max_height: 2
+      bottom_blocks:
+      - minecraft:grass_block
+      - minecraft:dirt
+      - minecraft:coarse_dirt
+      - minecraft:podzol
+      - minecraft:moss_block
+      - minecraft:farmland
+    states:
+      properties:
+        age:
+          type: int
+          default: 0
+          min: 0
+          max: 4
+        half:
+          type: double_block_half
+          default: lower
+      appearances:
+        age=0:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/lemon_tree_small
+        age=1:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/lemon_tree_mid
+        age=2:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/lemon_tree
+        age=3:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/lemon_tree_flowers
+        age=4:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/lemon_tree_fruits
+        upper_age=0:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/lemon_tree_small_upper
+        upper_age=1:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/lemon_tree_mid_upper
+        upper_age=2:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/lemon_tree_upper
+        upper_age=3:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/lemon_tree_flowers_upper
+        upper_age=4:
+          auto_state: non_tintable_leaves
+          model:
+            path: yuanguo:block/lemon_tree_fruits_upper
+      variants:
+        age=0,half=lower:
+          appearance: age=0
+        age=1,half=lower:
+          appearance: age=1
+        age=2,half=lower:
+          appearance: age=2
+        age=3,half=lower:
+          appearance: age=3
+        age=4,half=lower:
+          appearance: age=4
+        age=0,half=upper:
+          appearance: upper_age=0
+        age=1,half=upper:
+          appearance: upper_age=1
+        age=2,half=upper:
+          appearance: upper_age=2
+        age=3,half=upper:
+          appearance: upper_age=3
+        age=4,half=upper:
+          appearance: upper_age=4
+  yuanguo:cranberry_bush:
+    loot:
+      pools:
+      - rolls: 1
+        conditions:
+        - type: survives_explosion
+        - type: match_block_property
+          properties:
+            age: 4
+        entries:
+        - type: item
+          item: yuanguo:cranberry
+          functions:
+          - type: apply_bonus
+            enchantment: minecraft:fortune
+            formula:
+              type: binomial_with_bonus_count
+              extra: 1
+              probability: 0.5
+    settings:
+      template:
+      - default:hardness/none
+      overrides:
+        item: yuanguo:cranberry
+        push_reaction: destroy
+        map_color: plant
+        sounds:
+          break: minecraft:block.sweet_berry_bush.break
+          step: minecraft:block.grass.step
+          place: minecraft:block.sweet_berry_bush.place
+          hit: minecraft:block.grass.hit
+          fall: minecraft:block.grass.fall
+        tags:
+        - minecraft:sword_efficient
+        - minecraft:crops
+    behavior:
+    - type: yuanguo:seasonal_crop
+      season: FALL
+      grow_speed: 0.2
+      light_requirement: 9
+      harvest_item: yuanguo:cranberry
+      harvest_min: 1
+      harvest_max: 2
+      harvest_reset_age: 2
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:grass_block
+      - minecraft:dirt
+      - minecraft:coarse_dirt
+      - minecraft:podzol
+      - minecraft:moss_block
+      - minecraft:farmland
+    states:
+      properties:
+        age:
+          type: int
+          default: 0
+          min: 0
+          max: 4
+      appearances:
+        age=0:
+          auto_state: lower_tripwire
+          model:
+            path: yuanguo:block/cranberry_bush_0
+        age=1:
+          auto_state: lower_tripwire
+          model:
+            path: yuanguo:block/cranberry_bush_0
+        age=2:
+          auto_state: higher_tripwire
+          model:
+            path: yuanguo:block/cranberry_bush_1
+        age=3:
+          auto_state: higher_tripwire
+          model:
+            path: yuanguo:block/cranberry_bush_2
+        age=4:
+          auto_state: sapling
+          model:
+            path: yuanguo:block/cranberry_bush_3
+      variants:
+        age=0:
+          appearance: age=0
+        age=1:
+          appearance: age=1
+        age=2:
+          appearance: age=2
+        age=3:
+          appearance: age=3
+        age=4:
+          appearance: age=4
+
+  yuanguo:pineapple:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:pineapple
+            conditions:
+            - type: match_block_property
+              properties:
+                age: 4
+          - type: item
+            item: yuanguo:pineapple_sapling
+            functions:
+            - type: explosion_decay
+    settings:
+      template:
+      - default:sound/crop
+      - default:hardness/none
+      overrides:
+        item: yuanguo:pineapple_sapling
+        push_reaction: destroy
+        map_color: plant
+        tags:
+        - minecraft:crops
+    behavior:
+    - type: yuanguo:seasonal_crop
+      season: SUMMER
+      grow_speed: 0.2
+      light_requirement: 9
+      harvest_on_right_click: false
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:sand
+      - minecraft:red_sand
+      - minecraft:coarse_dirt
+    states:
+      properties:
+        age:
+          type: int
+          default: 0
+          min: 0
+          max: 4
+      appearances:
+        age=0:
+          auto_state: lower_tripwire
+          model:
+            path: yuanguo:block/pineapple_stage_0
+        age=1:
+          auto_state: lower_tripwire
+          model:
+            path: yuanguo:block/pineapple_stage_1
+        age=2:
+          auto_state: higher_tripwire
+          model:
+            path: yuanguo:block/pineapple_stage_2
+        age=3:
+          auto_state: higher_tripwire
+          model:
+            path: yuanguo:block/pineapple_stage_3
+        age=4:
+          auto_state: sugar_cane
+          model:
+            path: yuanguo:block/pineapple_stage_4
+      variants:
+        age=0:
+          appearance: age=0
+        age=1:
+          appearance: age=1
+        age=2:
+          appearance: age=2
+        age=3:
+          appearance: age=3
+        age=4:
+          appearance: age=4
+  yuanguo:wild_pineapple:
+    loot:
+      pools:
+      - rolls: 1
+        entries:
+        - type: alternatives
+          children:
+          - type: item
+            item: yuanguo:wild_pineapple
+            conditions:
+            - type: enchantment
+              predicate: minecraft:silk_touch>=1
+          - type: item
+            item: yuanguo:pineapple
+            functions:
+            - type: explosion_decay
+    settings:
+      template:
+      - default:sound/grass
+      - default:hardness/none
+      overrides:
+        item: yuanguo:wild_pineapple
+        push_reaction: destroy
+        map_color: plant
+        tags:
+        - minecraft:sword_efficient
+    behavior:
+      type: bush_block
+      bottom_blocks:
+      - minecraft:sand
+      - minecraft:red_sand
+      - minecraft:coarse_dirt
+    state:
+      auto_state: sugar_cane
+      model:
+        path: yuanguo:block/pineapple_wild

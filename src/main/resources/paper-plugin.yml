@@ -1,0 +1,27 @@
+name: YuanGuoDelight
+version: '${version}'
+description: Adds the Fruits Delight content to your Paper/Folia server, powered by CraftEngine.
+authors:
+  - Yuan
+  - Fruits Delight port
+main: dev.yuan.yuanguo.YuanGuoDelight
+api-version: '1.21'
+load: POSTWORLD
+folia-supported: true
+website: 'https://github.com/Paperized-Modding'
+dependencies:
+  # PapersDelight is declared so it loads before this plugin, but it is deliberately not required:
+  # it is detected by capability instead of by name, so a renamed or obfuscated build must not be
+  # blocked here. A missing PapersDelight is reported and the plugin disables itself in onEnable().
+  server:
+    CraftEngine: { load: BEFORE, required: true, join-classpath: true }
+    PapersDelight: { load: BEFORE, required: false, join-classpath: false }
+    RealisticSeasons: { load: BEFORE, required: false, join-classpath: false }
+    # NyanaFluid is Farmer's Delight's fluid library. It carries the jam fluids and the jug
+    # containers and is optional: the cauldron chain falls back to plain item handling without it.
+    NyanaFluid: { load: BEFORE, required: false, join-classpath: false }
+permissions:
+  yuanguo.admin:
+    description: Allows reloading YuanGuoDelight and viewing its status.
+    default: op
+# Paper plugins cannot declare commands in this file; /yuanguo is registered in code.
