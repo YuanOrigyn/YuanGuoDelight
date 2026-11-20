@@ -13,7 +13,7 @@
 $ErrorActionPreference = "Stop"
 
 $D       = Split-Path -Parent $MyInvocation.MyCommand.Path
-$VERSION = "1.0.0"
+$VERSION = "1.0.1"
 
 # ---------------------------------------------------------------------------
 # Locate a JDK (21 or newer). JAVA_HOME wins, then common install locations,

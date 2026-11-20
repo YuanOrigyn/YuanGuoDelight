@@ -1,7 +1,7 @@
 # YuanGuoDelight 进度记录
 
 ## 当前任务
-无。果冻块弹跳、CraftEngine 26.9.1 升级与 2026-11-20 的问题清单修复均已完成，等待进游戏验证（见文末记录）。
+无。果冻块弹跳、CraftEngine 26.9.1 升级、问题清单修复、效果差异核对与 1.0.1 发布均已完成，等待进游戏验证（见文末记录）。
 
 ## 已完成（2026-10-18）
 ### 1. 方块名与液体名拆分
@@ -527,8 +527,8 @@
 - `build.ps1` 重建 jar，`pack.zip` 与磁盘 `pack/` 完全一致。
 
 ### 9. 未做 / 待进游戏验证
-- 与原 mod 的效果差异（山竹糕无效果、贝里尼少反胃、8 道菜缺 Nourishment）按要求只记录在
-  README 已知限制，未改 items.yml。
+- 效果差异已在文末「效果差异核对、补反胃、版本 1.0.1」一节修正：Nourishment 原本就通过物品事件实现，
+  贝里尼反胃已补。
 - Folia 未实测（已声明不支持）。
 - 果冻块手感、发射器炼药锅、副手锅交互需要进游戏验证。
 
@@ -553,3 +553,32 @@
 ### 4. 测试建议
 - `jello-bounce: false` + `/yuanguo reload`：从高处落下应正常落地、不弹起。
 - 再改回 `true` + `/yuanguo reload`：应恢复弹起（不必重启）。
+
+## 已完成（2026-11-20）：效果差异核对、补反胃、版本 1.0.1
+
+### 1. 核对结论（修正上一轮 README 的错误说法）
+- 8 道带 Nourishment 的菜**其实早就实现了**：`pack/configuration/items.yml` 里每个物品都有
+  `events: on: consume → papersdelight:nourishment_effect`，时长与 mod 一致
+  （山竹糕/冰糖雪梨 1200、炒饭 6000、其余 3600）。上一轮只看了 `effects.yml`，漏掉了物品事件。
+- 测试服日志确认 `[PapersDelight] 已注册 CraftEngine 函数: papersdelight:nourishment_effect`，
+  1.2.4 上该函数可用，不需要额外适配。
+- 山竹糕在 `effects.yml` 没有条目是正常的：山竹本身的效果是「滑行」，已按不可实现移除；
+  它只剩 Nourishment，走物品事件。
+
+### 2. 本次补的内容
+- **贝里尼鸡尾酒**：补上 mod 的 5 秒反胃 —— `effects.yml` 增加
+  `minecraft:nausea`（100 tick），物品 lore 同步增加一行。
+- `work/gen/Effects.java`：新增 `appendEffect(...)`，在生成器里也补这条反胃，重跑生成器不会丢失。
+- README 已知限制改为实际状态（Nourishment 已实现、山竹滑行已移除、反胃已补）。
+
+### 3. 版本 1.0.1
+- `build.gradle.kts`、`build.ps1` → `1.0.1`；产物名 `YuanGuoDelight-1.0.1.jar`。
+- `pack/pack.yml` 与 `work/gen/Gen.java` 的内容包版本同步到 `1.0.1`。
+- README 中的 jar 文件名同步更新。
+
+### 4. 校验
+- 全量 yml 解析 + 引用校验通过；`effects.yml` 的 bellini 条目包含 heal_aura + nausea。
+- `build.ps1` 构建 1.0.1 jar，`pack.zip` 与磁盘 `pack/` 一致。
+
+### 5. 发布
+- 提交并推送 `main`；创建 `v1.0.1` tag / GitHub Release，附上 1.0.1 jar。

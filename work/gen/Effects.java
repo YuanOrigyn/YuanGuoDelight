@@ -133,6 +133,9 @@ public final class Effects {
         // Items the food table does not cover.
         put("jelly_bread", "sweetberry", "SWEET");
         put("mangosteen_cake", "mangosteen", "MANGOSTEEN_CAKE");
+        // FDJuice.BELLINI_COCKTAIL adds five seconds of nausea on top of the peach effect, which the
+        // fruit effect table cannot express.
+        appendEffect("bellini_cocktail", "minecraft:nausea", 100, 0);
     }
 
     static void gen() throws IOException {
@@ -190,6 +193,21 @@ public final class Effects {
 
     private static void put(String item, String fruit, String foodType) {
         put(BY_ITEM, item, fruit, foodType);
+    }
+
+    /**
+     * Adds one effect on top of the ones the fruit table produced, for entries the mod defines
+     * directly on a food (for example the nausea of the bellini cocktail).
+     */
+    @SuppressWarnings("unchecked")
+    private static void appendEffect(String item, String effect, int duration, int amplifier) {
+        String key = Gen.id(item);
+        List<Object> entries = (List<Object>) BY_ITEM.get(key);
+        if (entries == null) {
+            entries = new ArrayList<>();
+            BY_ITEM.put(key, entries);
+        }
+        entries.add(Gen.map("effect", effect, "duration", duration, "amplifier", amplifier));
     }
 
     // ------------------------------------------------------------------ lore

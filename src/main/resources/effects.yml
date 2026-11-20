@@ -466,6 +466,9 @@ effects:
   - effect: yuanguo:heal_aura
     duration: 100
     amplifier: 0
+  - effect: minecraft:nausea
+    duration: 100
+    amplifier: 0
 aura-ranges:
   rage: 24
   heal: 6

@@ -51,7 +51,7 @@ public final class Gen {
 
         write("pack.yml", """
                 author: Yuan
-                version: 1.0.0
+                version: 1.0.1
                 description: Yuan来是果 - Fruits Delight for CraftEngine
                 namespace: yuanguo
                 enable: true

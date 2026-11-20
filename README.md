@@ -106,7 +106,7 @@ CraftEngine 首次启动会在 `plugins/CraftEngine/resources/` 下生成三个�
 
 1. 把 **CraftEngine** 放进 `plugins/`，启动一次服务器让它生成目录结构。
 2. 把 **PapersDelight**（插件 + 农夫乐事内容包）和 **NyanaFluid** 安装好（农夫乐事 1.2.4 起液罐依赖 NyanaFluid）。
-3. 把 `YuanGuoDelight-1.0.0.jar` 放进 `plugins/`。
+3. 把 `YuanGuoDelight-1.0.1.jar` 放进 `plugins/`。
 4. 启动服务器。插件会自动把内置内容包释放到：
    ```text
    plugins/CraftEngine/resources/YuanGuoDelight/
@@ -227,7 +227,7 @@ pack/                               CraftEngine 内容包（生成物）
 libs/                               编译用依赖（离线构建）
 work/gen/                           内容包生成器（从模组数据生成）
 build.ps1                           编译 + 打包脚本
-YuanGuoDelight-1.0.0.jar            构建产物（未随仓库提交）
+YuanGuoDelight-1.0.1.jar            构建产物（未随仓库提交）
 ```
 
 ## 🔨 构建
@@ -238,7 +238,7 @@ YuanGuoDelight-1.0.0.jar            构建产物（未随仓库提交）
 .\gradlew.bat clean jar
 ```
 
-产物在 `build/libs/YuanGuoDelight-1.0.0.jar`。
+产物在 `build/libs/YuanGuoDelight-1.0.1.jar`。
 
 也可以不装 Gradle，用纯 JDK 脚本构建：
 
@@ -309,12 +309,13 @@ java -cp "snakeyaml.jar;gson.jar;work/gen/classes" Gen work/gen/mod-1.1.3 pack
 - 每个自定义效果单独一条 Boss 血条，同时带多个效果时会叠好几条。
 - **仅支持 Paper**：不支持 Folia。效果 tick 循环和光环会对不属于当前 region 的实体进行操作，
   在 Folia 上会跨线程；`paper-plugin.yml` 已声明 `folia-supported: false`，Folia 会拒绝加载。
-- 和原模组相比，食物效果表还有几处已知差异（暂未补）：
-  - 山竹糕（`mangosteen_cake`）在 mod 里给 Nourishment 1200，本包目前没有任何效果；
-  - 贝里尼鸡尾酒少了 mod 的 5 秒反胃；
+- 食物效果与原模组基本对齐，几点说明：
   - 8 道带 Nourishment 的菜（山竹糕、冰糖雪梨、橙香鸡、无花果炖鸡、橙香猪肉、菠萝炒饭、
-    菠萝猪肉、荔枝鸡）都没有 Nourishment。PapersDelight 提供 `papersdelight:nourishment_effect`
-    函数，后续可以补上，但需要在 1.2.4 上实测。
+    菠萝猪肉、荔枝鸡）通过 PapersDelight 的 `papersdelight:nourishment_effect` 函数授予，
+    时长与 mod 一致（山竹糕、冰糖雪梨 1200，炒饭 6000，其余 3600）。
+  - 山竹本身的效果是「滑行」，已随其他滑行效果一起移除，所以山竹糕在 `effects.yml` 里没有额外条目；
+    它的 Nourishment 走上面的物品事件。
+  - 贝里尼鸡尾酒的 5 秒反胃已补上（`minecraft:nausea`，100 tick）。
 - 少数依赖模组内部机制的效果在 Paper 上无法等价实现，已从内容中移除，不参与食物效果表：
   - **穿扬**（piercing）：依赖模组弹射物穿透判定
   - **涩味**（astringent）：依赖模组冰面移动手感，无法在不干扰视角的前提下还原
