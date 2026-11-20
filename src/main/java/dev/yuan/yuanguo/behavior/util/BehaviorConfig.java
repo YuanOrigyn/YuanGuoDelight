@@ -1,16 +1,42 @@
 package dev.yuan.yuanguo.behavior.util;
 
+import net.momirealms.craftengine.core.plugin.CraftEngine;
 import net.momirealms.craftengine.core.plugin.config.ConfigSection;
+
+import java.util.Locale;
+import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 
 /** Small helpers for reading optional behavior options from a CraftEngine section. */
 public final class BehaviorConfig {
+
+    /** Values {@link dev.yuan.yuanguo.season.Season#parse(String)} understands. */
+    private static final Set<String> KNOWN_SEASONS = Set.of(
+            "SPRING", "SUMMER", "FALL", "AUTUMN", "WINTER", "ALL", "NONE", "ANY", "DISABLED");
+    private static final Set<String> WARNED_SEASONS = ConcurrentHashMap.newKeySet();
 
     private BehaviorConfig() {
     }
 
     public static String season(ConfigSection section) {
         String value = firstString(section, "season", "seasons", "grow_season");
-        return value == null ? "ALL" : value.trim();
+        if (value == null) {
+            return "ALL";
+        }
+        String trimmed = value.trim();
+        String normalised = trimmed.toUpperCase(Locale.ROOT);
+        // A typo used to turn into "grow all year round" silently, which is very hard to notice in
+        // game. Warn once per distinct value instead.
+        if (!KNOWN_SEASONS.contains(normalised) && WARNED_SEASONS.add(normalised)) {
+            try {
+                CraftEngine.instance().logger().warn("Unknown season '" + trimmed
+                        + "' on a block behavior; it will grow all year round."
+                        + " Valid values: SPRING, SUMMER, FALL, WINTER, ALL");
+            } catch (Throwable ignored) {
+                // CraftEngine is not ready; the fallback below still applies.
+            }
+        }
+        return trimmed;
     }
 
     public static double optionalDouble(ConfigSection section, double fallback, String... keys) {

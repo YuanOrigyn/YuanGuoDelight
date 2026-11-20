@@ -17,6 +17,7 @@ public final class PluginSettings {
     private final boolean autoInstallPack;
     private final boolean packOverwrite;
     private final boolean cauldron;
+    private final boolean jelloBounce;
     private final boolean effectsEnabled;
     private final boolean effectBossBar;
 
@@ -30,6 +31,7 @@ public final class PluginSettings {
                            boolean autoInstallPack,
                            boolean packOverwrite,
                            boolean cauldron,
+                           boolean jelloBounce,
                            boolean effectsEnabled,
                            boolean effectBossBar) {
         this.seasonEnabled = seasonEnabled;
@@ -42,6 +44,7 @@ public final class PluginSettings {
         this.autoInstallPack = autoInstallPack;
         this.packOverwrite = packOverwrite;
         this.cauldron = cauldron;
+        this.jelloBounce = jelloBounce;
         this.effectsEnabled = effectsEnabled;
         this.effectBossBar = effectBossBar;
     }
@@ -62,6 +65,7 @@ public final class PluginSettings {
                 config.getBoolean("pack.auto-install", true),
                 config.getBoolean("pack.overwrite", false),
                 config.getBoolean("pack.cauldron", true),
+                config.getBoolean("pack.jello-bounce", true),
                 config.getBoolean("effects.enabled", true),
                 config.getBoolean("effects.boss-bar", true));
     }
@@ -112,6 +116,11 @@ public final class PluginSettings {
     /** Whether the jelly cauldron chain is active. */
     public boolean cauldron() {
         return this.cauldron;
+    }
+
+    /** Whether jello blocks bounce entities that land on them. */
+    public boolean jelloBounce() {
+        return this.jelloBounce;
     }
 
     /** Whether the food status effects are granted at all. */

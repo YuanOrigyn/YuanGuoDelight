@@ -119,9 +119,9 @@ function Invoke-Download([string]$Url, [string]$Destination) {
 # build.gradle.kts; keep the two lists in sync.
 $DEPENDENCIES = @(
     @{ File = "paper-api-1.21.11.jar";                    PaperSnapshot = $true },
-    @{ File = "craft-engine-core-26.8.2.jar";             Url = "https://repo.momirealms.net/releases/net/momirealms/craft-engine-core/26.8.2/craft-engine-core-26.8.2.jar" },
-    @{ File = "craft-engine-bukkit-26.8.2.jar";           Url = "https://repo.momirealms.net/releases/net/momirealms/craft-engine-bukkit/26.8.2/craft-engine-bukkit-26.8.2.jar" },
-    @{ File = "craft-engine-bukkit-proxy-26.8.2.jar";     Url = "https://repo.momirealms.net/releases/net/momirealms/craft-engine-bukkit-proxy/26.8.2/craft-engine-bukkit-proxy-26.8.2.jar" },
+    @{ File = "craft-engine-core-26.9.1.jar";             Url = "https://repo.momirealms.net/releases/net/momirealms/craft-engine-core/26.9.1/craft-engine-core-26.9.1.jar" },
+    @{ File = "craft-engine-bukkit-26.9.1.jar";           Url = "https://repo.momirealms.net/releases/net/momirealms/craft-engine-bukkit/26.9.1/craft-engine-bukkit-26.9.1.jar" },
+    @{ File = "craft-engine-bukkit-proxy-26.9.1.jar";     Url = "https://repo.momirealms.net/releases/net/momirealms/craft-engine-bukkit-proxy/26.9.1/craft-engine-bukkit-proxy-26.9.1.jar" },
     @{ File = "papersdelight-api-4.0.0.jar";              Url = "https://mvn.hezhongkj.top/releases/dev/tako/papersdelight-api/4.0.0/papersdelight-api-4.0.0.jar" },
     @{ File = "guava-33.4.0-jre.jar";                     Url = "https://repo1.maven.org/maven2/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar" },
     @{ File = "adventure-api-4.26.1.jar";                 Url = "https://repo1.maven.org/maven2/net/kyori/adventure-api/4.26.1/adventure-api-4.26.1.jar" },

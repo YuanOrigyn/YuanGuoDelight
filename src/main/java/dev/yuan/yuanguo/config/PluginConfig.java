@@ -3,7 +3,6 @@ package dev.yuan.yuanguo.config;
 import dev.yuan.yuanguo.YuanGuoDelight;
 import org.bukkit.configuration.file.FileConfiguration;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
@@ -32,6 +31,10 @@ public final class PluginConfig {
      * Bukkit's {@code saveDefaultConfig} keeps the previously generated file, so new options added by an
      * update would silently stay missing. Re-applying the packaged defaults fills those gaps in memory
      * without overwriting values the administrator already edited.
+     *
+     * <p>The file is deliberately not written back: Bukkit's YAML writer does not preserve comments,
+     * so saving here would strip every explanatory comment out of the administrator's config.yml on
+     * the next reload.</p>
      */
     private void applyBundledDefaults(FileConfiguration configuration) {
         try (InputStream stream = this.plugin.getResource("config.yml")) {
@@ -42,11 +45,10 @@ public final class PluginConfig {
             defaults.load(new InputStreamReader(stream, StandardCharsets.UTF_8));
             configuration.setDefaults(defaults);
             configuration.options().copyDefaults(true);
-            try {
-                configuration.save(new java.io.File(this.plugin.getDataFolder(), "config.yml"));
-            } catch (IOException ignored) {
-            }
-        } catch (Exception ignored) {
+        } catch (Exception exception) {
+            this.plugin.getLogger().log(java.util.logging.Level.WARNING,
+                    "Could not merge the bundled config.yml defaults; missing options fall back to their code defaults",
+                    exception);
         }
     }
 

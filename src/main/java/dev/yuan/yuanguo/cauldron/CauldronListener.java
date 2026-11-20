@@ -46,7 +46,8 @@ public final class CauldronListener implements Listener {
                 || levelled.getLevel() != levelled.getMaximumLevel()) {
             return;
         }
-        if (CauldronInteractions.apply(event.getPlayer(), block, null, hand)) {
+        if (CauldronInteractions.apply(event.getPlayer(), block, null, hand,
+                event.getHand() == org.bukkit.inventory.EquipmentSlot.OFF_HAND)) {
             event.setCancelled(true);
             // The client predicted a block placement for the jam in hand; resync so it is not
             // left rendering a ghost block.
@@ -86,9 +87,19 @@ public final class CauldronListener implements Listener {
         if (state == null) {
             return;
         }
-        if (CauldronInteractions.applyToItem(target, state, event.getItem())) {
-            event.setCancelled(true);
+        // The event item is a snapshot: shrinking it does not touch the dispenser. Keep a copy of
+        // the single item to consume, run the recipe on another copy, then take the item out of the
+        // container - otherwise one bottle of jam could be poured forever.
+        ItemStack consumed = event.getItem().clone();
+        consumed.setAmount(1);
+        ItemStack input = event.getItem().clone();
+        if (!CauldronInteractions.applyToItem(target, state, input)) {
+            return;
         }
+        if (event.getBlock().getState() instanceof org.bukkit.block.Container container) {
+            container.getInventory().removeItem(consumed);
+        }
+        event.setCancelled(true);
     }
 
     private static ImmutableBlockState customState(Block block) {

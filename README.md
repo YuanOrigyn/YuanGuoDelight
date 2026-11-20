@@ -5,13 +5,13 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Minecraft-1.21.x-3fb950" alt="Minecraft 1.21.x">
-  <img src="https://img.shields.io/badge/CraftEngine-26.8.2%2B-5865F2" alt="CraftEngine 26.8.2+">
+  <img src="https://img.shields.io/badge/CraftEngine-26.9.1%2B-5865F2" alt="CraftEngine 26.9.1+">
   <img src="https://img.shields.io/badge/Java-21-orange" alt="Java 21">
-  <img src="https://img.shields.io/badge/Folia-supported-blueviolet" alt="Folia 支持">
+  <img src="https://img.shields.io/badge/Paper-1.21.x-5865F2" alt="Paper 1.21.x">
   <img src="https://img.shields.io/badge/PapersDelight-1.2.4%2B-blue" alt="PapersDelight 1.2.4+">
 </p>
 
-<p align="center"><i>在 Paper / Folia 服务端上还原《果园乐事》的主要内容，无需安装模组。</i></p>
+<p align="center"><i>在 Paper 服务端上还原《果园乐事》的主要内容，无需安装模组。</i></p>
 
 ---
 
@@ -45,8 +45,8 @@ Yuan来是果把 *Fruits Delight（果园乐事）* 的主要内容搬到了现�
 
 | 组件 | 版本 | 说明 |
 | --- | --- | --- |
-| Paper **或** Folia | 1.21.x | `api-version: 1.21` |
-| **CraftEngine** | **26.8.2+** | **必需**，承载全部内容 |
+| Paper | 1.21.x | `api-version: 1.21`（仅 Paper，不支持 Folia） |
+| **CraftEngine** | **26.9.1+** | **必需**，承载全部内容 |
 | **PapersDelight** | **1.2.4-CE+** | **必需**，提供厨锅、砧板、液罐 |
 | Java | 21 | 服务端运行时 |
 | NyanaFluid | 1.0.0+ | 可选，启用液罐流体（农夫乐事 1.2.4 起的前置） |
@@ -111,7 +111,8 @@ CraftEngine 首次启动会在 `plugins/CraftEngine/resources/` 下生成三个�
    ```text
    plugins/CraftEngine/resources/YuanGuoDelight/
    ```
-5. 执行 `/ce reload` 或重启服务器，让内容包生效。
+5. 重启服务器后内容包即生效；服务器已在运行时执行 `/ce reload`。
+   CraftEngine 26.9 起资源包改由 workflow 负责发送，如果客户端仍显示旧资源包，执行 `/ce workflow default`。
 
 如果想自己改内容包，把 `config.yml` 里的 `pack.auto-install` 设为 `false`，
 再手动把 `pack/` 的内容放到上面那个目录即可。
@@ -155,6 +156,7 @@ CraftEngine 首次启动会在 `plugins/CraftEngine/resources/` 下生成三个�
 | `season.growth.out-of-season-multiplier` | `0.25` | 非当季生长倍率（仅在 `restrict-growth: false` 时生效） |
 | `pack.auto-install` | `true` | 启动时自动释放内置内容 |
 | `pack.cauldron` | `true` | 炼药锅交互总开关 |
+| `pack.jello-bounce` | `true` | 果冻块落地是否弹起（测试服/生产环境手感不一致时可关掉） |
 | `pack.overwrite` | `false` | `true` = 每次启动都覆盖服务器上的内容包 |
 | `effects.enabled` | `true` | 食物状态效果总开关 |
 | `effects.boss-bar` | `true` | 用 Boss 血条显示自定义效果剩余时间 |
@@ -304,6 +306,15 @@ java -cp "snakeyaml.jar;gson.jar;work/gen/classes" Gen work/gen/mod-1.1.3 pack
 - 液罐里的果酱使用 `minecraft:block/water_still` 贴图加 `color` 染色，不是模组的 `jelly` 贴图
   （NyanaFluid 默认用水的流动贴图，颜色由流体的 `color` 决定）。
 - 食物效果用原版药水效果加 Boss 血条模拟，自定义效果没有原版图标。
+- 每个自定义效果单独一条 Boss 血条，同时带多个效果时会叠好几条。
+- **仅支持 Paper**：不支持 Folia。效果 tick 循环和光环会对不属于当前 region 的实体进行操作，
+  在 Folia 上会跨线程；`paper-plugin.yml` 已声明 `folia-supported: false`，Folia 会拒绝加载。
+- 和原模组相比，食物效果表还有几处已知差异（暂未补）：
+  - 山竹糕（`mangosteen_cake`）在 mod 里给 Nourishment 1200，本包目前没有任何效果；
+  - 贝里尼鸡尾酒少了 mod 的 5 秒反胃；
+  - 8 道带 Nourishment 的菜（山竹糕、冰糖雪梨、橙香鸡、无花果炖鸡、橙香猪肉、菠萝炒饭、
+    菠萝猪肉、荔枝鸡）都没有 Nourishment。PapersDelight 提供 `papersdelight:nourishment_effect`
+    函数，后续可以补上，但需要在 1.2.4 上实测。
 - 少数依赖模组内部机制的效果在 Paper 上无法等价实现，已从内容中移除，不参与食物效果表：
   - **穿扬**（piercing）：依赖模组弹射物穿透判定
   - **涩味**（astringent）：依赖模组冰面移动手感，无法在不干扰视角的前提下还原

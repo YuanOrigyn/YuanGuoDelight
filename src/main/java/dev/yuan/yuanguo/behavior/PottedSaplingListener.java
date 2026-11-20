@@ -81,7 +81,14 @@ public final class PottedSaplingListener implements Listener {
         }
         event.setCancelled(true);
         if (player.getGameMode() != org.bukkit.GameMode.CREATIVE) {
-            hand.setAmount(hand.getAmount() - 1);
+            if (hand.getAmount() <= 1) {
+                // setAmount(0) leaves an "empty" stack in the slot; clear the slot instead.
+                player.getInventory().setItemInMainHand(null);
+            } else {
+                ItemStack remaining = hand.clone();
+                remaining.setAmount(hand.getAmount() - 1);
+                player.getInventory().setItemInMainHand(remaining);
+            }
         }
         clicked.getWorld().playSound(clicked.getLocation().add(0.5D, 0.5D, 0.5D),
                 Sound.BLOCK_GRASS_PLACE, 1.0F, 1.0F);

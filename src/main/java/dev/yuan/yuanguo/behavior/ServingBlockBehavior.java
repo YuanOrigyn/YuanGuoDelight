@@ -190,7 +190,14 @@ public final class ServingBlockBehavior extends BukkitBlockBehavior {
         if (hand.getType() != Material.BOWL) {
             return false;
         }
-        hand.setAmount(hand.getAmount() - 1);
+        if (hand.getAmount() <= 1) {
+            // setAmount(0) leaves an "empty" stack behind; clear the slot instead.
+            player.getInventory().setItemInMainHand(null);
+        } else {
+            ItemStack remaining = hand.clone();
+            remaining.setAmount(hand.getAmount() - 1);
+            player.getInventory().setItemInMainHand(remaining);
+        }
         return true;
     }
 

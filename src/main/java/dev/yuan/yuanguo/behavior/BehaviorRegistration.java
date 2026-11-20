@@ -4,7 +4,6 @@ import org.bukkit.plugin.Plugin;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.function.Consumer;
 import java.util.logging.Level;
 
 /** Registers every CraftEngine block behavior provided by this plugin. */
@@ -38,9 +37,5 @@ public final class BehaviorRegistration {
                 plugin.getLogger().log(Level.SEVERE, "Failed to register block behavior " + id, throwable);
             }
         });
-    }
-
-    public static void forEach(Consumer<String> consumer) {
-        entries().keySet().forEach(consumer);
     }
 }

@@ -54,12 +54,21 @@ public final class CauldronInteractions {
      */
     public static boolean apply(Player player, Block block, @Nullable ImmutableBlockState current,
                                 ItemStack hand) {
+        return apply(player, block, current, hand, false);
+    }
+
+    /**
+     * @param offHand whether the item came from the off hand, so the leftover goes back to the same
+     *                slot instead of the main hand
+     */
+    public static boolean apply(Player player, Block block, @Nullable ImmutableBlockState current,
+                                ItemStack hand, boolean offHand) {
         Result result = recipe(player, block, current, hand);
         if (!result.handled()) {
             return false;
         }
         if (player != null) {
-            setHand(player, result.hand());
+            setHand(player, result.hand(), offHand);
             for (ItemStack output : result.outputs()) {
                 give(player, output);
             }
@@ -341,11 +350,15 @@ public final class CauldronInteractions {
         }
     }
 
-    static void setHand(Player player, ItemStack stack) {
+    static void setHand(Player player, ItemStack stack, boolean offHand) {
         if (player.getGameMode() == GameMode.CREATIVE) {
             return;
         }
-        player.getInventory().setItemInMainHand(stack);
+        if (offHand) {
+            player.getInventory().setItemInOffHand(stack);
+        } else {
+            player.getInventory().setItemInMainHand(stack);
+        }
     }
 
     static void give(Player player, ItemStack stack) {

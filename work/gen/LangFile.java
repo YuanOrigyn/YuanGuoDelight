@@ -137,6 +137,5 @@ public final class LangFile {
         others.putIfAbsent("effect.farmersdelight.nourishment", zh ? "\u6ecb\u517b" : "Nourishment");
         others.putIfAbsent("potion.potency.2", "II");
         others.putIfAbsent("block.minecraft.water_cauldron", zh ? "\u6c34\u70bc\u836f\u9505" : "Water Cauldron");
-        others.putIfAbsent("item.yuanguo.attached_hamimelon_stem", zh ? "\u54c8\u5bc6\u74dc\u830e" : "Hamimelon Stem");
     }
 }

@@ -1,13 +1,16 @@
 name: YuanGuoDelight
 version: '${version}'
-description: Adds the Fruits Delight content to your Paper/Folia server, powered by CraftEngine.
+description: Adds the Fruits Delight content to your Paper server, powered by CraftEngine.
 authors:
   - Yuan
   - Fruits Delight port
 main: dev.yuan.yuanguo.YuanGuoDelight
 api-version: '1.21'
 load: POSTWORLD
-folia-supported: true
+# Paper only. The ten tick effect loop scans every player from one task and the aura effects touch
+# entities that may belong to another region, which is not Folia-safe. Folia refuses to load plugins
+# without this flag, so keeping it false is the honest state until the loop is split per region.
+folia-supported: false
 website: 'https://github.com/Paperized-Modding'
 dependencies:
   # PapersDelight is declared so it loads before this plugin, but it is deliberately not required:

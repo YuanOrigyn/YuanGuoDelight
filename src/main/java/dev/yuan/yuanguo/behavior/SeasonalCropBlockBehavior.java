@@ -66,6 +66,7 @@ public final class SeasonalCropBlockBehavior extends BukkitBlockBehavior
     private final Integer doubleHighFrom;
     private final Property<DoubleBlockHalf> halfProperty;
 
+    @SuppressWarnings("unchecked")
     private SeasonalCropBlockBehavior(BlockDefinition block, ConfigSection section) {
         super(block);
         this.season = BehaviorConfig.season(section);
@@ -242,12 +243,18 @@ public final class SeasonalCropBlockBehavior extends BukkitBlockBehavior
             return;
         }
         ImmutableBlockState next = state.with(this.ageProperty, after);
+        boolean grown;
         if (VersionHelper.isOrAbove1_21_5) {
-            CraftEventFactoryProxy.INSTANCE.handleBlockGrowEvent(level, blockPos,
+            grown = CraftEventFactoryProxy.INSTANCE.handleBlockGrowEvent(level, blockPos,
                     next.customBlockState().minecraftState(), UpdateFlags.UPDATE_CLIENTS);
         } else {
-            CraftEventFactoryProxy.INSTANCE.handleBlockGrowEvent(level, blockPos,
+            grown = CraftEventFactoryProxy.INSTANCE.handleBlockGrowEvent(level, blockPos,
                     next.customBlockState().minecraftState());
+        }
+        // handleBlockGrowEvent places the new state itself unless another plugin cancelled the
+        // event. Writing the upper half anyway would leave a plant whose halves disagree.
+        if (!grown) {
+            return;
         }
         updateUpperHalf(level, blockPos, next, after);
     }

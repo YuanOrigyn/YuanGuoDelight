@@ -267,7 +267,7 @@ items:
   yuanguo:attached_hamimelon_stem:
     material: melon_seeds
     data:
-      item_name: <!i><lang:item.yuanguo.attached_hamimelon_stem>
+      item_name: <!i><lang:block.yuanguo.attached_hamimelon_stem>
     model: yuanguo:item/attached_hamimelon_stem
     behavior:
     - type: block_item

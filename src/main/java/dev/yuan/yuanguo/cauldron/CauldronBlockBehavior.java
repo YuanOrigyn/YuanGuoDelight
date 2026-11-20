@@ -1,5 +1,6 @@
 package dev.yuan.yuanguo.cauldron;
 
+import dev.yuan.yuanguo.YuanGuoDelight;
 import net.momirealms.craftengine.bukkit.block.behavior.BukkitBlockBehavior;
 import net.momirealms.craftengine.core.block.BlockDefinition;
 import net.momirealms.craftengine.core.block.ImmutableBlockState;
@@ -8,6 +9,7 @@ import net.momirealms.craftengine.core.block.behavior.BlockBehaviorFactory;
 import net.momirealms.craftengine.core.block.behavior.BlockBehaviors;
 import net.momirealms.craftengine.core.block.property.IntegerProperty;
 import net.momirealms.craftengine.core.block.property.StringProperty;
+import net.momirealms.craftengine.core.entity.player.InteractionHand;
 import net.momirealms.craftengine.core.entity.player.InteractionResult;
 import net.momirealms.craftengine.core.entity.player.Player;
 import net.momirealms.craftengine.core.plugin.config.ConfigSection;
@@ -30,7 +32,6 @@ public final class CauldronBlockBehavior extends BukkitBlockBehavior {
     public static final Key KEY = Key.of("yuanguo", "cauldron");
     public static final BlockBehaviorFactory<CauldronBlockBehavior> FACTORY = CauldronBlockBehavior::new;
 
-    private final String liquid;
     private final CauldronKind kind;
     private final String fruit;
     private final int fruitIndex;
@@ -39,9 +40,9 @@ public final class CauldronBlockBehavior extends BukkitBlockBehavior {
 
     private CauldronBlockBehavior(BlockDefinition block, ConfigSection section) {
         super(block);
-        this.liquid = section.getString("liquid", "lemonade");
-        this.kind = "lemonade".equals(this.liquid) ? CauldronKind.LEMONADE : CauldronKind.FRUIT;
-        this.fruit = this.kind == CauldronKind.LEMONADE ? null : this.liquid;
+        String liquid = section.getString("liquid", "lemonade");
+        this.kind = "lemonade".equals(liquid) ? CauldronKind.LEMONADE : CauldronKind.FRUIT;
+        this.fruit = this.kind == CauldronKind.LEMONADE ? null : liquid;
         this.fruitIndex = this.fruit == null ? -1 : CauldronFruits.indexOf(this.fruit);
         this.kindProperty = block.hasProperty("kind")
                 ? (StringProperty) block.getProperty("kind") : null;
@@ -63,14 +64,6 @@ public final class CauldronBlockBehavior extends BukkitBlockBehavior {
         return behavior.getFirst(CauldronBlockBehavior.class);
     }
 
-    public String liquid() {
-        return this.liquid;
-    }
-
-    public CauldronKind kind() {
-        return this.kind;
-    }
-
     /** The shape this particular state holds, read from the {@code kind} property. */
     public CauldronKind kind(ImmutableBlockState state) {
         if (this.kind == CauldronKind.LEMONADE) {
@@ -89,11 +82,6 @@ public final class CauldronBlockBehavior extends BukkitBlockBehavior {
     }
 
     @Nullable
-    public StringProperty kindProperty() {
-        return this.kindProperty;
-    }
-
-    @Nullable
     public IntegerProperty levelProperty() {
         return this.levelProperty;
     }
@@ -109,7 +97,8 @@ public final class CauldronBlockBehavior extends BukkitBlockBehavior {
     }
 
     private InteractionResult interact(UseOnContext context, ImmutableBlockState state) {
-        if (!dev.yuan.yuanguo.YuanGuoDelight.instance().settings().cauldron()) {
+        YuanGuoDelight plugin = YuanGuoDelight.instance();
+        if (plugin == null || !plugin.settings().cauldron()) {
             return InteractionResult.PASS;
         }
         Player cePlayer = context.getPlayer();
@@ -123,11 +112,33 @@ public final class CauldronBlockBehavior extends BukkitBlockBehavior {
         }
         BlockPos position = context.getClickedPos();
         Block block = world.getBlockAt(position.x(), position.y(), position.z());
-        ItemStack hand = player.getInventory().getItemInMainHand();
-        if (CauldronInteractions.apply(player, block, state, hand)) {
+        boolean offHand = context.getHand() == InteractionHand.OFF_HAND;
+        ItemStack hand = handOf(context, player, offHand);
+        if (CauldronInteractions.apply(player, block, state, hand, offHand)) {
             return InteractionResult.SUCCESS_AND_CANCEL;
         }
-        // Not a recipe, but the block still must not fall through to vanilla placement.
+        // Not a recipe: let CraftEngine continue with the normal interaction (placing a block
+        // against the cauldron, using the held item, ...).
         return InteractionResult.PASS;
+    }
+
+    /**
+     * The stack the click was made with. The context carries the item the server used, which is not
+     * necessarily the main hand (off-hand clicks would otherwise consume the wrong item).
+     */
+    private static ItemStack handOf(UseOnContext context, org.bukkit.entity.Player player, boolean offHand) {
+        try {
+            net.momirealms.craftengine.core.item.Item item = context.getItem();
+            if (item != null) {
+                Object platform = item.platformItem();
+                if (platform instanceof ItemStack stack) {
+                    return stack;
+                }
+            }
+        } catch (Throwable ignored) {
+            // Fall back to the Bukkit inventory below.
+        }
+        return offHand ? player.getInventory().getItemInOffHand()
+                : player.getInventory().getItemInMainHand();
     }
 }

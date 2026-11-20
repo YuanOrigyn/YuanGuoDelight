@@ -101,7 +101,8 @@ public final class YuanGuoCommand implements BasicCommand {
         send(sender, field("配方章节", flag(PapersDelightSupport.hasRecipeSection())));
         send(sender, field("状态效果", flag(this.plugin.settings().effectsEnabled())));
         send(sender, field("计时条", flag(this.plugin.settings().effectBossBar())));
-        send(sender, field("季节联动", flag(this.plugin.settings().seasonEnabled())));
+        send(sender, field("果冻弹跳", flag(this.plugin.settings().jelloBounce())));
+        send(sender, field("季节联动", flag(seasons != null && seasons.isEnabled())));
         send(sender, field("自动检测", flag(this.plugin.settings().autoDetect())));
         send(sender, field("限制生长", flag(this.plugin.settings().restrictGrowth())));
         send(sender, field("季节插件", flag(seasons != null && seasons.isDetected())));

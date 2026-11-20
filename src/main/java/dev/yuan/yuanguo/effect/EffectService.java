@@ -7,6 +7,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
 import org.bukkit.Particle;
 import org.bukkit.Sound;
 import org.bukkit.World;
@@ -43,9 +44,7 @@ import org.bukkit.scheduler.BukkitTask;
 import io.papermc.paper.threadedregions.scheduler.ScheduledTask;
 
 import java.util.ArrayList;
-import java.util.EnumSet;
 import java.util.List;
-import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
@@ -63,8 +62,12 @@ public final class EffectService implements Listener {
 
     private static final int SUSPICIOUS_RADIUS = 8;
     private static final int SUSPICIOUS_VERTICAL_RADIUS = 6;
-    private static final UUID SHRINKING_SCALE_ID =
-            UUID.fromString("8a3b4f70-5e22-4bc6-a1d9-4d7d8db7a1c2");
+    /** The suspicious smell scan touches 3757 blocks, so it runs every fourth pass (two seconds). */
+    private static final int SUSPICIOUS_PERIOD = 3;
+    private static final NamespacedKey SHRINKING_SCALE =
+            new NamespacedKey("yuanguo", "shrinking_scale");
+    /** Folia is not supported; the detection is kept so a forced load still uses region threads. */
+    private static final boolean FOLIA = detectFolia();
 
     private final YuanGuoDelight plugin;
     private final EffectRegistry registry;
@@ -80,15 +83,19 @@ public final class EffectService implements Listener {
     /** Disgusted entities and the real-time expiry of their breeding lock. */
     private final Map<UUID, Long> disgustedUntil = new ConcurrentHashMap<>();
     private final Map<UUID, Integer> auraPulse = new ConcurrentHashMap<>();
+    /** Ticks until the next suspicious smell scan, per player. */
+    private final Map<UUID, Integer> smellCooldown = new ConcurrentHashMap<>();
     private BukkitTask ticker;
     /** The Folia equivalent of {@link #ticker}; only one of the two is ever set. */
     private ScheduledTask regionTicker;
     private boolean running;
+    /** Counts tick passes so the expired disgusted entries are pruned regularly. */
+    private int cleanupPasses;
 
     public EffectService(YuanGuoDelight plugin, EffectRegistry registry) {
         this.plugin = plugin;
         this.registry = registry;
-        this.state = new EffectState(plugin);
+        this.state = new EffectState();
         this.bars = new EffectTimerBar(registry, plugin.settings().effectBossBar());
     }
 
@@ -143,6 +150,7 @@ public final class EffectService implements Listener {
         this.milkSuppressedDurian.clear();
         this.disgustedUntil.clear();
         this.auraPulse.clear();
+        this.smellCooldown.clear();
     }
 
     // ------------------------------------------------------------------ eating
@@ -174,6 +182,7 @@ public final class EffectService implements Listener {
         this.bars.removeAll(player);
         this.auraPulse.remove(player.getUniqueId());
         this.cycledThisSecond.remove(player.getUniqueId());
+        this.smellCooldown.remove(player.getUniqueId());
         if (hasDurianHelmet(player)) {
             this.milkSuppressedDurian.add(player.getUniqueId());
         }
@@ -202,7 +211,7 @@ public final class EffectService implements Listener {
 
     private void apply(Player player, List<FoodEffect> effects) {
         for (FoodEffect effect : effects) {
-            if (effect.chance() < 1.0D && plugin.random().nextDouble() >= effect.chance()) {
+            if (effect.chance() < 1.0D && YuanGuoDelight.random().nextDouble() >= effect.chance()) {
                 continue;
             }
             if (effect.isVanilla()) {
@@ -260,6 +269,17 @@ public final class EffectService implements Listener {
             }
             this.bars.update(player, this.state.of(player));
         }
+        // The disgusted map is keyed by entity and only written while an aura runs, so entries that
+        // expire while the animal is never queried again would otherwise stay forever.
+        if (++this.cleanupPasses >= 200) {
+            this.cleanupPasses = 0;
+            pruneDisgusted();
+        }
+    }
+
+    private void pruneDisgusted() {
+        long now = System.currentTimeMillis();
+        this.disgustedUntil.values().removeIf(until -> until <= now);
     }
 
     /** The durian helmet refreshes alienating while it is equipped, like the mod's armor tick. */
@@ -424,9 +444,17 @@ public final class EffectService implements Listener {
 
     /** Suspicious smell highlights nearby brushable blocks, matching the mod's client particles. */
     private void applySuspiciousSmell(Player player) {
+        UUID id = player.getUniqueId();
         if (!this.state.has(player, CustomEffect.SUSPICIOUS_SMELL)) {
+            this.smellCooldown.remove(id);
             return;
         }
+        int cooldown = this.smellCooldown.getOrDefault(id, 0);
+        if (cooldown > 0) {
+            this.smellCooldown.put(id, cooldown - 1);
+            return;
+        }
+        this.smellCooldown.put(id, SUSPICIOUS_PERIOD);
         int baseX = player.getLocation().getBlockX();
         int baseY = player.getLocation().getBlockY();
         int baseZ = player.getLocation().getBlockZ();
@@ -708,10 +736,9 @@ public final class EffectService implements Listener {
             return;
         }
         if (this.state.has(player, CustomEffect.SHRINKING) && player.isSneaking()) {
-            if (scale.getModifier(SHRINKING_SCALE_ID) == null) {
+            if (scale.getModifier(SHRINKING_SCALE) == null) {
                 scale.addTransientModifier(new AttributeModifier(
-                        SHRINKING_SCALE_ID,
-                        "YuanGuoDelight shrinking",
+                        SHRINKING_SCALE,
                         -0.5D,
                         AttributeModifier.Operation.MULTIPLY_SCALAR_1));
             }
@@ -724,7 +751,7 @@ public final class EffectService implements Listener {
     private void removeShrinkingScale(Player player) {
         AttributeInstance scale = player.getAttribute(Attribute.SCALE);
         if (scale != null) {
-            scale.removeModifier(SHRINKING_SCALE_ID);
+            scale.removeModifier(SHRINKING_SCALE);
         }
     }
 
@@ -744,9 +771,9 @@ public final class EffectService implements Listener {
         }
         Location origin = player.getLocation();
         for (int attempt = 0; attempt < 16; attempt++) {
-            double x = origin.getX() + (plugin.random().nextDouble() - 0.5D) * 16.0D;
-            double z = origin.getZ() + (plugin.random().nextDouble() - 0.5D) * 16.0D;
-            int y = origin.getBlockY() + plugin.random().nextInt(16) - 8;
+            double x = origin.getX() + (YuanGuoDelight.random().nextDouble() - 0.5D) * 16.0D;
+            double z = origin.getZ() + (YuanGuoDelight.random().nextDouble() - 0.5D) * 16.0D;
+            int y = origin.getBlockY() + YuanGuoDelight.random().nextInt(16) - 8;
             y = Math.max(world.getMinHeight(), Math.min(world.getMaxHeight() - 2, y));
             Location target = findSafeSpot(world, x, y, z);
             if (target == null) {
@@ -796,6 +823,7 @@ public final class EffectService implements Listener {
         this.state.forget(player.getUniqueId());
         this.bars.removeAll(player);
         this.auraPulse.remove(player.getUniqueId());
+        this.smellCooldown.remove(player.getUniqueId());
         restoreHunger(player);
         removeShrinkingScale(player);
         restorePose(player);
@@ -816,9 +844,10 @@ public final class EffectService implements Listener {
     /**
      * Folia has no global Bukkit scheduler: the server refuses {@code Bukkit.getScheduler()} with
      * an {@link UnsupportedOperationException}. The class is only referenced here, so Paper builds
-     * keep working.
+     * keep working. The plugin does not declare Folia support, but the branch is kept so a forced
+     * load still schedules on region threads.
      */
-    private static boolean isFolia() {
+    private static boolean detectFolia() {
         try {
             Class.forName("io.papermc.paper.threadedregions.RegionizedServer", false,
                     EffectService.class.getClassLoader());
@@ -828,21 +857,16 @@ public final class EffectService implements Listener {
         }
     }
 
+    private static boolean isFolia() {
+        return FOLIA;
+    }
+
     /** Runs {@code action} on the entity's own region thread, now or after {@code delayTicks}. */
     private void runLater(LivingEntity entity, Runnable action, long delayTicks) {
         if (isFolia()) {
             entity.getScheduler().runDelayed(this.plugin, task -> action.run(), null, delayTicks);
         } else {
             Bukkit.getScheduler().runTaskLater(this.plugin, action, delayTicks);
-        }
-    }
-
-    /** Runs {@code action} on the player's region thread as soon as possible. */
-    private void runNow(Player player, Runnable action) {
-        if (isFolia()) {
-            player.getScheduler().run(this.plugin, task -> action.run(), null);
-        } else {
-            Bukkit.getScheduler().runTask(this.plugin, action);
         }
     }
 
@@ -865,21 +889,6 @@ public final class EffectService implements Listener {
         this.state.of(player).forEach((effect, active) ->
                 out.add(effect.id() + " x" + (active.amplifier() + 1)
                         + " (" + active.remainingTicks() + "t)"));
-        return out;
-    }
-
-    /** The set of effects the plugin knows, for diagnostics. */
-    public static Set<CustomEffect> all() {
-        return EnumSet.allOf(CustomEffect.class);
-    }
-
-    /** Reports the effects a food grants, for the {@code /yuanguo} command. */
-    public List<String> describeItem(ItemStack item) {
-        List<String> out = new ArrayList<>();
-        for (FoodEffect effect : effectsOf(item)) {
-            out.add(String.format(Locale.ROOT, "%s %dt x%d %d%%", effect.id(), effect.duration(),
-                    effect.amplifier() + 1, Math.round(effect.chance() * 100.0D)));
-        }
         return out;
     }
 }

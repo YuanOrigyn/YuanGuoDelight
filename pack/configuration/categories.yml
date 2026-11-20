@@ -8,12 +8,14 @@ categories:
     - '#yuanguo:fruits'
     - '#yuanguo:crops'
     - '#yuanguo:leaves'
+    - '#yuanguo:potted'
     - '#yuanguo:foods'
     - '#yuanguo:drinks'
     - '#yuanguo:jellies'
     - '#yuanguo:feast'
     - '#yuanguo:jam_blocks'
     - '#yuanguo:crates'
+    - '#yuanguo:cauldrons'
     - '#yuanguo:equipment'
   yuanguo:fruits:
     name: <!i><gray><lang:category.yuanguo.fruits></gray>
@@ -58,6 +60,8 @@ categories:
     - yuanguo:pineapple_sapling
     - yuanguo:hamimelon_seeds
     - yuanguo:lemon_seeds
+    - yuanguo:wild_pineapple
+    - yuanguo:blueberry_bush
   yuanguo:leaves:
     name: <!i><gray><lang:category.yuanguo.leaves></gray>
     hidden: true
@@ -76,6 +80,24 @@ categories:
     - yuanguo:kiwi_leaves
     - yuanguo:fig_leaves
     - yuanguo:durian_leaves
+  yuanguo:potted:
+    name: <!i><gray><lang:category.yuanguo.potted></gray>
+    hidden: true
+    icon: yuanguo:potted_apple_sapling
+    list:
+    - yuanguo:potted_apple_sapling
+    - yuanguo:potted_bayberry_sapling
+    - yuanguo:potted_durian_sapling
+    - yuanguo:potted_fig_sapling
+    - yuanguo:potted_hawberry_sapling
+    - yuanguo:potted_kiwi_sapling
+    - yuanguo:potted_lychee_sapling
+    - yuanguo:potted_mango_sapling
+    - yuanguo:potted_mangosteen_sapling
+    - yuanguo:potted_orange_sapling
+    - yuanguo:potted_peach_sapling
+    - yuanguo:potted_pear_sapling
+    - yuanguo:potted_persimmon_sapling
   yuanguo:foods:
     name: <!i><gray><lang:category.yuanguo.foods></gray>
     hidden: true
@@ -283,6 +305,34 @@ categories:
     - yuanguo:lemon_crate
     - yuanguo:cranberry_crate
     - yuanguo:pineapple_crate
+  yuanguo:cauldrons:
+    name: <!i><gray><lang:category.yuanguo.cauldrons></gray>
+    hidden: true
+    icon: yuanguo:apple_cauldron
+    list:
+    - yuanguo:lemonade_cauldron
+    - yuanguo:apple_cauldron
+    - yuanguo:blueberry_cauldron
+    - yuanguo:glowberry_cauldron
+    - yuanguo:hamimelon_cauldron
+    - yuanguo:melon_cauldron
+    - yuanguo:hawberry_cauldron
+    - yuanguo:lychee_cauldron
+    - yuanguo:mango_cauldron
+    - yuanguo:orange_cauldron
+    - yuanguo:peach_cauldron
+    - yuanguo:pear_cauldron
+    - yuanguo:persimmon_cauldron
+    - yuanguo:pineapple_cauldron
+    - yuanguo:lemon_cauldron
+    - yuanguo:cranberry_cauldron
+    - yuanguo:mangosteen_cauldron
+    - yuanguo:sweetberry_cauldron
+    - yuanguo:chorus_cauldron
+    - yuanguo:bayberry_cauldron
+    - yuanguo:kiwi_cauldron
+    - yuanguo:fig_cauldron
+    - yuanguo:durian_cauldron
   yuanguo:equipment:
     name: <!i><gray><lang:category.yuanguo.equipment></gray>
     hidden: true

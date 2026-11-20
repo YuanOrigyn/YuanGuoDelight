@@ -81,13 +81,22 @@ public final class SeasonService implements Listener {
         boolean present = seasonPlugin != null && seasonPlugin.isEnabled();
         boolean shouldUse = this.enabled && present;
         if (settings.autoDetect() && present) {
+            if (!this.enabled) {
+                this.plugin.getLogger().info("season.auto-detect enabled the season integration"
+                        + " (season.enabled is false but RealisticSeasons is installed).");
+            }
             shouldUse = true;
             this.enabled = true;
         }
         if (!shouldUse) {
             this.detected = false;
             active = null;
-            this.plugin.getLogger().info("RealisticSeasons not detected - fruits grow all year round.");
+            if (present) {
+                this.plugin.getLogger().info("RealisticSeasons is installed but the season integration is"
+                        + " disabled in config.yml - fruits grow all year round.");
+            } else {
+                this.plugin.getLogger().info("RealisticSeasons not detected - fruits grow all year round.");
+            }
             return;
         }
         ClassLoader loader = seasonPlugin.getClass().getClassLoader();

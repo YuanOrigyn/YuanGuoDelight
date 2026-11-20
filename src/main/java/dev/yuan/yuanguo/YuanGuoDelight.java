@@ -46,10 +46,11 @@ public final class YuanGuoDelight extends JavaPlugin {
         this.papersDelight = PapersDelightSupport.detect();
         if (this.papersDelight == null) {
             // Farmer's Delight is a hard requirement. Nothing is deployed and no behavior is
-            // registered, so a server without it keeps a clean CraftEngine installation.
+            // registered here; the enable phase re-detects (the CraftEngine config sections are only
+            // complete then) and disables the plugin when it is still missing. Disabling a plugin
+            // during its own load is not a supported lifecycle moment, so it is done in onEnable.
             getLogger().severe("PapersDelight (Farmer's Delight) is required by YuanGuoDelight, but it was not found.");
             getLogger().severe("Install PapersDelight, then restart the server. YuanGuoDelight will stay disabled.");
-            getServer().getPluginManager().disablePlugin(this);
             return;
         }
         getLogger().info("Detected PapersDelight through " + this.papersDelight.signal() + ".");
@@ -102,7 +103,8 @@ public final class YuanGuoDelight extends JavaPlugin {
         // Saplings are planted into vanilla flower pots by hand; see the listener javadoc.
         getServer().getPluginManager().registerEvents(
                 new dev.yuan.yuanguo.behavior.PottedSaplingListener(), this);
-        // Paper plugins must register commands in code; paper-plugin.yml has no commands block.
+        // The cauldron chain also runs for a vanilla water cauldron, for dropped items and for a
+        // dispenser; that part cannot live in the block behavior.
         if (settings().cauldron()) {
             getServer().getPluginManager().registerEvents(
                     new dev.yuan.yuanguo.cauldron.CauldronListener(), this);
@@ -113,7 +115,7 @@ public final class YuanGuoDelight extends JavaPlugin {
 
         PluginSettings settings = settings();
         getLogger().info("YuanGuoDelight enabled (season integration: "
-                + (settings.seasonEnabled() ? "enabled" : "disabled")
+                + (this.seasonService.isEnabled() ? "enabled" : "disabled")
                 + ", auto-detect: " + settings.autoDetect() + ").");
     }
 
@@ -125,6 +127,10 @@ public final class YuanGuoDelight extends JavaPlugin {
         if (this.seasonService != null) {
             this.seasonService.stop();
         }
+        // The block behaviors and the two interaction listeners are static and resolve the plugin
+        // through instance(), so a stale instance would keep serving a disabled plugin after a
+        // runtime reload (PlugMan and friends).
+        instance = null;
         getLogger().info("YuanGuoDelight disabled.");
     }
 

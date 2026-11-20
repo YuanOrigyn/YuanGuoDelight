@@ -1,7 +1,7 @@
 # YuanGuoDelight 进度记录
 
 ## 当前任务
-炼药锅（实体展示版）Jade 显示收尾。
+无。果冻块弹跳、CraftEngine 26.9.1 升级与 2026-11-20 的问题清单修复均已完成，等待进游戏验证（见文末记录）。
 
 ## 已完成（2026-10-18）
 ### 1. 方块名与液体名拆分
@@ -379,3 +379,177 @@
 - 空玻璃瓶右键果酱液罐：装回对应 `<fruit>_jelly`。
 - 液罐 GUI 输入槽放面包：40 tick 后产出对应果酱面包，消耗 125 mB；不足 125 mB 不产出。
 - 控制台启动日志应出现 `NyanaFluid found`；缺库时为 `NyanaFluid was not found`，炼药锅玩法不受影响。
+
+## 进行中（2026-10-25）：果冻块弹跳延迟 / 站上自弹
+
+### 1. 现象
+- 果冻块（`*_jello_block`）落地能弹，但**明显延迟**（大约 1 tick 的“先落地再弹”）。
+- 玩家**站上去/踩上去**也会被弹起，不是原版粘液块的手感。
+- 果酱块（`*_jelly_block`）行为正常，本次不动。
+
+### 2. 术语对应（避免再次搞混）
+- `yuanguo:<fruit>_jelly_block` = **果酱块**，行为 `yuanguo:jelly_surface`（蜂蜜块手感 + 减速），**不弹**。
+- `yuanguo:<fruit>_jello_block` = **果冻块**，行为 `bouncing_block`（CE 内置），**会弹** ← 用户报的是这个。
+- 两类各 22 个，配置都在 `pack/configuration/blocks/misc.yml`。
+
+### 3. 已查明的根因（本轮已反编译核对）
+- 测试服：Leaf 26.1.2（`version.json` id = 26.1.2），CE `craft-engine-paper-plugin-26.9.1.jar`。
+- CE 26.9.1 的 `BouncingBlockBehavior` 只重写两个钩子：
+  - `fallOn`：仅在 `fall_damage_multiplier > 0` 时结算摔落伤害（当前为 0，直接 return）。
+  - `updateEntityMovementAfterFallOn`：`delta.y < 0` 时把 y 取反乘 `bounce_height`，生物 ×1.0、其他 ×0.8。
+  - **没有 `stepOn` / `entityInside`**，所以“站上自弹”不可能来自该行为本身。
+- 延迟来源：`bounceUp` 之后调用 `syncBounceUp`，用 `runLater(..., 1L, ...)` **延迟 1 tick** 才 `setHurtMarked(true)`；
+  原版 `SlimeBlock.bounceUp` 不设置 hurtMarked。CE 需要它来给客户端补发速度包（自定义方块客户端没有本地物理），
+  但延迟 1 tick 就表现为“先落地、再弹”。
+- `settings.overrides.bounce_restitution: 1.0` 在 26.1.2 上**完全不生效**：
+  `BukkitBlockManager` 只在 `VersionHelper.isOrAbove26_2` 为真时调用 `BlockBehaviourProxy.setBounceRestitution`，
+  该常量判定的是 CE/游戏版本号 `version >= 260200`，26.1.2 → `260102` → false。
+  因此这个字段是死配置（保留也无害，但容易误导，建议删除）。
+
+### 4. 原版粘液块对照（26.1.2 反编译）
+- `SlimeBlock.stepOn`：站立且 `|delta.y| < 0.1` 且非潜行时，水平速度 ×(0.4 + 0.2×|delta.y|)，y 不变。
+  → 这是“站立减速”，**不会把人弹起来**。
+- `SlimeBlock.fallOn`：`isSuppressingBounce()` 为假时 `causeFallDamage(distance, 0.0F, fall)`（即不掉血）。
+- `SlimeBlock.bounceUp`：`delta.y < 0` 时 y 取反（生物 ×1.0 / 其他 ×0.8），**不调用 hurtMarked**。
+- 结论：要让果冻块“完全按粘液块逻辑”，需要自定义行为，而不是继续依赖 CE 的 `bouncing_block`。
+
+### 5. 明天的修复方案（未实施）
+1. `src/main/java/dev/yuan/yuanguo/behavior/JelloBlockBehavior.java`
+   - 删除现有 `stepOn` 里的水平减速（那是上一版“果酱块手感”的残留，会导致站上去被减速/异常）。
+   - 改为原版粘液块语义：
+     - `stepOn`：`|delta.y| < 0.1` 且非潜行 → 水平 ×(0.4 + 0.2×|delta.y|)，y 不变。
+     - `fallOn`：`fall_damage_multiplier` 默认 0，不掉血（可读配置）。
+     - `updateEntityMovementAfterFallOn`：`delta.y < 0` → `newY = -delta.y × bounce_height × (living ? 1.0 : 0.8)`。
+   - 关键：**不要** `runLater(1 tick)`，在反弹时**同 tick** `setHurtMarked(true)`；
+     若同 tick 仍不生效，再尝试 `getBukkitEntity().setVelocity(...)`（CraftEntity 内部会 setDeltaMovement + hurtMarked）。
+   - 潜行抑制反弹：`EntityProxy.getSharedFlag(entity, 1)`（原版 `isSuppressingBounce`）。
+2. `work/gen/Blocks.java` 的 `jellyBlock()`：
+   - `type: bouncing_block` → `type: yuanguo:jello_bounce`
+   - 去掉 `overrides.bounce_restitution`
+   - 行为参数改为 `bounce_height: 1.0`、`fall_damage_multiplier: 0.0`
+3. `pack/configuration/blocks/misc.yml`：22 处 `_jello_block` 同步改（批量替换 `type: bouncing_block` → `type: yuanguo:jello_bounce`，并删除 `bounce_restitution: 1.0`）。
+   - 注意 `sync_player_position` 参数在自定义行为里不再使用，可删。
+4. 用 SnakeYAML 校验 `misc.yml`（`libraries/org/yaml/snakeyaml/2.6/snakeyaml-2.6.jar`）。
+5. `.\gradlew.bat clean jar --no-daemon --console=plain`，确认 jar 内 `pack.zip` 的 `misc.yml` 正确。
+6. 部署到测试服，验证：
+   - 从高处落下：落地同 tick 弹起，无“先停顿”感；不摔伤。
+   - 站在块上不动：不弹、不被减速。
+   - 潜行落下：不弹。
+   - 生物 ×1.0、掉落物/箭等 ×0.8。
+7. 通过后重新构建并更新 GitHub Release `v1.0.0` 的附件（旧附件 SHA256 `DD458C44...B840`）。
+
+### 6. 本轮未改动
+- 工作区干净（`git status` 无输出），没有半成品代码。
+- 只做了反编译排查，未改 `pack/` 与 `src/`。
+
+## 已完成（2026-11-20）：CraftEngine 依赖升级 26.8.2 → 26.9.1
+
+### 1. 选版依据
+- Maven（repo.momirealms.net）最新 API 为 `26.10`，但 GitHub 最新 tag 是 `26.9`，Modrinth 公开运行时最新是 `26.9.2`；
+  `26.9.2` 没有发布 API（`craft-engine-core-26.9.2.jar` 为 404），`26.10` 也没有公开运行时。
+- 测试服实际运行 `26.9.1`，因此编译依赖对齐到 **26.9.1**（与运行时一致，避免编译到运行时不存在的新 API）。
+- `26.9` 起 CE 引入资源包 workflow，测试时仍需 `/ce workflow default` 让客户端拿到新包。
+
+### 2. 改动
+- `build.gradle.kts`：`craft-engine-core` / `-bukkit` / `-bukkit-proxy` 三处 `26.8.2` → `26.9.1`。
+- `build.ps1`：`$DEPENDENCIES` 三个文件名与下载 URL 同步改为 `26.9.1`。
+- `libs/`：新增 `craft-engine-*-26.9.1.jar`（本地缓存，`libs/` 已被 .gitignore）。
+- `README.md`：徽章与依赖表 `26.8.2+` → `26.9.1+`。
+
+### 3. 兼容性核对
+- `javac --release 21 -Xlint:all` 与 `.\gradlew.bat compileJava` 均通过（仅原有 10 条过时 API 警告，与升级前一致）。
+- 源码用到的 `CraftEngineBlocks` / `BlockBehavior` / `ItemBehaviors` / proxy 类签名在 26.9.1 下不需要改代码。
+- `PapersDelightSupport` 反射的 `AbstractPackManager#sectionParsers` 字段在 26.9.1 中仍然存在，PD 章节探测不受影响。
+
+### 4. 构建与产物
+- `build.ps1` 重新构建：`YuanGuoDelight-1.0.0.jar`（1,565,525 字节）。
+- 产物内 `pack.zip` 与磁盘 `pack/` 完全一致（2377 个文件，无缺失/无多余/大小一致），
+  顺带把此前未进 jar 的 blueberry loot 修复（`item: yuanguo:blueberry_bush`）带进了产物。
+- `libs/` 中旧的 `craft-engine-*-26.8.2.jar` 已不再被任何构建脚本引用，可随时删除。
+
+## 已完成（2026-11-20）：问题清单修复
+
+### 1. 果冻块
+- `JelloBlockBehavior` 重写为原 mod 语义：不再实现 `stepOn`（原 `JelloBlock` 把它覆写成空）；
+  `updateEntityMovementAfterFallOn` 反转 y，生物 ×1.0、其他 ×0.8；**同 tick** 调
+  `EntityProxy.setHurtMarked(entity, true)` 让客户端立刻拿到速度包；`fallOn` 默认不掉血（可配）。
+- 22 个 `*_jello_block` 从 CE `bouncing_block` 改为 `yuanguo:jello_bounce`，
+  删除 `sync_player_position` 与 `settings.overrides.bounce_restitution`（26.1.2 上无效）。
+- `work/gen/Blocks.java` 同步，重跑生成器不会回退。
+
+### 2. Folia
+- `paper-plugin.yml` 改为 `folia-supported: false`；README 徽章、简介、依赖表改为仅 Paper，
+  已知限制里写明原因（效果循环与光环会跨 region 操作实体）。
+
+### 3. 炼药锅 / 发射器
+- `CauldronListener.onDispense`：先克隆 1 个输入，配方成立后从容器 `removeItem` 再取消事件，
+  修复“发射器里的瓶子/糖永远不消耗、可无限灌果酱”。
+- `CauldronBlockBehavior`：按 `context.getHand()` 取主手或副手物品，并把剩余物品写回同一只手；
+  `YuanGuoDelight.instance()` 判空，插件被运行时禁用时不再 NPE。
+
+### 4. 内容部署 / 配置
+- `PackInstaller` 新增 `ce-pack.files` 清单：更新时删除“上次部署过、新包已不含”的文件，
+  同时清理空目录；管理员手工新增的文件不会被动。
+- `PluginConfig` 不再把合并默认值后的配置 `save()` 回磁盘（原先每次加载/重载都会丢掉
+  config.yml 的全部注释）；合并失败改为 WARNING 日志。
+
+### 5. 效果系统
+- `EffectState` 持久化新增 total（`remaining:amplifier:total`），重登后 Boss 条从正确进度开始，
+  旧的两段格式仍可读。
+- 每 200 次 tick 清理过期 `disgustedUntil`，不再长期累积。
+- 可疑气味扫描从每 10 tick 一次改为每 40 tick（2 秒）一次，并清理冷却表。
+- 属性修饰符改用 `NamespacedKey` 重载；`PotionEffectType` 改用 `Registry.MOB_EFFECT`；
+  `isFolia()` 结果静态缓存（不再每次 `Class.forName`）。
+- “每个效果一条 Boss 条”未改，写入 README 已知限制。
+
+### 6. 其它代码
+- `SeasonalCropBlockBehavior` 尊重 `handleBlockGrowEvent` 返回值：事件被别的插件取消时
+  不再补上半格。
+- 盆栽树苗、碗装盛取在数量为 1 时改为清空对应手，避免留下 amount=0 的空物品。
+- `onDisable` 清空静态 `instance`，运行时重载不会留下指向已停止插件的引用。
+- `BehaviorConfig.season` 对无法识别的季节值告警一次（原先静默当成全年生长）。
+- 删除未使用代码：`EffectRegistry.style/all`、`EffectService.runNow/describeItem`、
+  `BehaviorRegistration.forEach`、`EffectState.plugin`、`EffectTimerBar.remove`、
+  锅行为的 `liquid/kind/kindProperty` getter；修正 `YuanGuoDelight` 里重复/错误的注释。
+- 启用日志与 `/yuanguo status` 的“季节联动”改为读取服务实际状态，不再与“联动生效”自相矛盾。
+
+### 7. 内容包
+- `categories.yml` 补齐 `yuanguo:potted`、`yuanguo:cauldrons` 两个分类与根列表项，
+  `crops` 补 `wild_pineapple`、`blueberry_bush`。现在除 3 个技术性物品
+  （`attached_hamimelon_stem`、`hanging_durian`、`dummy_cauldron`）外全部进创造菜单。
+- `attached_hamimelon_stem` 的物品名改用 `block.yuanguo.attached_hamimelon_stem`
+  （100 个语言都有这个 key），并删掉生成器里只写 en/zh 的 item key。
+
+### 8. 校验
+- `javac --release 21 -Xlint:all`：0 错误、0 警告（原来 10 条过时 API 警告已清）。
+- pack 校验：157 方块、710 物品、13 分类引用全部成立；22 个 jello 块全部使用
+  `yuanguo:jello_bounce`；`bounce_restitution` 0 处；未分类的非技术物品 0 个。
+- `build.ps1` 重建 jar，`pack.zip` 与磁盘 `pack/` 完全一致。
+
+### 9. 未做 / 待进游戏验证
+- 与原 mod 的效果差异（山竹糕无效果、贝里尼少反胃、8 道菜缺 Nourishment）按要求只记录在
+  README 已知限制，未改 items.yml。
+- Folia 未实测（已声明不支持）。
+- 果冻块手感、发射器炼药锅、副手锅交互需要进游戏验证。
+
+## 已完成（2026-11-20）：果冻块弹跳开关
+
+### 1. 背景
+- 果冻块弹跳在测试服和生产环境表现不一致（服务端核心/版本差异），需要一个不重编译的开关。
+
+### 2. 实现
+- `config.yml`：新增 `pack.jello-bounce`（默认 `true`），带注释说明关掉后方块/模型/配方不受影响。
+- `PluginSettings`：新增 `jelloBounce` 字段，读取 `pack.jello-bounce`，默认 `true`。
+- `JelloBlockBehavior.updateEntityMovementAfterFallOn`：每次落地先读开关，关闭时直接返回
+  （不弹、不 `setHurtMarked`）；`fallOn` 的摔伤仍由内容包 `fall_damage_multiplier` 决定（默认 0）。
+  开关是实时读取的，`/yuanguo reload` 后立即生效，不需要重启。
+- `/yuanguo status` 增加“果冻弹跳”一行，方便确认当前生效值。
+- `README.md`：配置表补 `pack.jello-bounce`。
+
+### 3. 校验
+- `javac --release 21 -Xlint:all`：0 错误、0 警告。
+- `build.ps1` 重建 jar，`pack.zip` 与磁盘 `pack/` 一致。
+
+### 4. 测试建议
+- `jello-bounce: false` + `/yuanguo reload`：从高处落下应正常落地、不弹起。
+- 再改回 `true` + `/yuanguo reload`：应恢复弹起（不必重启）。

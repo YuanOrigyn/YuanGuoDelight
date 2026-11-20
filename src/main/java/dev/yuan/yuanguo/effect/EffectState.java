@@ -4,7 +4,6 @@ import org.bukkit.NamespacedKey;
 import org.bukkit.entity.Player;
 import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
-import org.bukkit.plugin.Plugin;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.EnumMap;
@@ -23,7 +22,6 @@ public final class EffectState {
 
     private static final String KEY_NAMESPACE = "yuanguo";
     private static final String KEY_PREFIX = "effect_";
-
     /** A single active custom effect. */
     public static final class Active {
         private int remainingTicks;
@@ -50,11 +48,9 @@ public final class EffectState {
         }
     }
 
-    private final Plugin plugin;
     private final Map<UUID, Map<CustomEffect, Active>> active = new LinkedHashMap<>();
 
-    public EffectState(Plugin plugin) {
-        this.plugin = plugin;
+    public EffectState() {
     }
 
     /** Grants (or refreshes) a custom effect. */
@@ -135,7 +131,7 @@ public final class EffectState {
                 container.remove(key(effect));
             } else {
                 container.set(key(effect), PersistentDataType.STRING,
-                        value.remainingTicks + ":" + value.amplifier);
+                        value.remainingTicks + ":" + value.amplifier + ":" + value.totalTicks);
             }
         }
     }
@@ -149,15 +145,15 @@ public final class EffectState {
             if (raw == null) {
                 continue;
             }
-            int colon = raw.indexOf(':');
-            if (colon <= 0) {
-                continue;
-            }
             try {
-                int remaining = Integer.parseInt(raw.substring(0, colon));
-                int amplifier = Integer.parseInt(raw.substring(colon + 1));
+                String[] parts = raw.split(":");
+                int remaining = Integer.parseInt(parts[0]);
+                int amplifier = parts.length > 1 ? Integer.parseInt(parts[1]) : 0;
+                // Older entries only stored "remaining:amplifier"; keep the whole effect as the
+                // total in that case so the timer bar simply shows a full bar.
+                int total = parts.length > 2 ? Integer.parseInt(parts[2]) : remaining;
                 if (remaining > 0) {
-                    effects.put(effect, new Active(remaining, remaining, amplifier));
+                    effects.put(effect, new Active(remaining, Math.max(remaining, total), amplifier));
                 }
             } catch (NumberFormatException ignored) {
                 // A corrupt entry is simply dropped.
@@ -172,10 +168,5 @@ public final class EffectState {
 
     private NamespacedKey key(CustomEffect effect) {
         return new NamespacedKey(KEY_NAMESPACE, KEY_PREFIX + effect.id());
-    }
-
-    /** The plugin the keys belong to, used by {@code /yuanguo} to report state. */
-    public Plugin plugin() {
-        return this.plugin;
     }
 }

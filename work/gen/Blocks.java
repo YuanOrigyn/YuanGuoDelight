@@ -569,9 +569,6 @@ public final class Blocks {
                 "is_redstone_conductor", false,
                 "push_reaction", "destroy",
                 "map_color", mapColor);
-        if (suffix.equals("_jello_block")) {
-            overrides.put("bounce_restitution", 1.0);
-        }
         if (suffix.equals("_jelly_block")) {
             overrides.put("sounds", blockSounds("honey_block"));
         } else if (suffix.equals("_jello_block")) {
@@ -586,10 +583,12 @@ public final class Blocks {
                                 : Gen.list(sound, hardness),
                         "overrides", overrides));
         if (suffix.equals("_jello_block")) {
+            // Custom behaviour: CraftEngine's bouncing_block syncs the bounce one tick late and its
+            // bounce_restitution override does nothing below 26.2, so the block runs its own
+            // slime-block logic instead (no stepOn, same-tick hurtMarked).
             block.put("behavior", Gen.map(
-                    "type", "bouncing_block",
+                    "type", "yuanguo:jello_bounce",
                     "bounce_height", 1.0,
-                    "sync_player_position", true,
                     "fall_damage_multiplier", 0.0));
         } else if (suffix.equals("_jelly_block")) {
             block.put("behavior", Gen.map(

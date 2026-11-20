@@ -2,6 +2,7 @@ package dev.yuan.yuanguo.effect;
 
 import dev.yuan.yuanguo.YuanGuoDelight;
 import org.bukkit.NamespacedKey;
+import org.bukkit.Registry;
 import net.kyori.adventure.bossbar.BossBar;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -12,7 +13,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.EnumMap;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -24,9 +24,10 @@ import java.util.logging.Level;
  * The table of effects a food applies, read from the bundled {@code effects.yml}.
  *
  * <p>The file is generated from the mod alongside the CraftEngine pack, so the plugin and the pack
- * cannot drift apart: one build writes both. The same file carries the presentation of the plugin's
- * own effects, so an administrator can retune a colour or turn a single effect off without touching
- * code.</p>
+ * cannot drift apart: one build writes both. It also carries the aura radii ({@code aura-ranges}),
+ * so an administrator can retune a range without touching code. The presentation of the plugin's own
+ * effects (colour, bar style, on/off) is compiled in and can be overridden per effect in
+ * {@code config.yml} through {@code effects.disabled} and {@code effects.bar-disabled}.</p>
  */
 public final class EffectRegistry {
 
@@ -41,10 +42,6 @@ public final class EffectRegistry {
     /** @return the effects for a {@code yuanguo:} item id, or an empty list. */
     public List<FoodEffect> effectsOf(String itemId) {
         return this.byItem.getOrDefault(itemId, List.of());
-    }
-
-    public Map<String, List<FoodEffect>> all() {
-        return Collections.unmodifiableMap(this.byItem);
     }
 
     public Presentation presentation(CustomEffect effect) {
@@ -161,30 +158,6 @@ public final class EffectRegistry {
         }
     }
 
-    private static BossBar.Overlay style(@Nullable String name, BossBar.Overlay fallback) {
-        if (name == null) {
-            return fallback;
-        }
-        String normalised = name.toUpperCase(Locale.ROOT);
-        if (normalised.equals("SOLID") || normalised.equals("PROGRESS")) {
-            return BossBar.Overlay.PROGRESS;
-        }
-        if (normalised.equals("SEGMENTED_6")) {
-            normalised = "NOTCHED_6";
-        } else if (normalised.equals("SEGMENTED_10")) {
-            normalised = "NOTCHED_10";
-        } else if (normalised.equals("SEGMENTED_12")) {
-            normalised = "NOTCHED_12";
-        } else if (normalised.equals("SEGMENTED_20")) {
-            normalised = "NOTCHED_20";
-        }
-        try {
-            return BossBar.Overlay.valueOf(normalised);
-        } catch (IllegalArgumentException exception) {
-            return fallback;
-        }
-    }
-
     /** The item key holds a plain sequence of effect maps. */
     private static List<Map<?, ?>> entriesOf(Object value) {
         if (!(value instanceof List<?> list)) {
@@ -232,14 +205,10 @@ public final class EffectRegistry {
 
     @Nullable
     private static PotionEffectType resolve(String id) {
+        // NamespacedKey.fromString fills in "minecraft" for a bare id, which covers both the
+        // "speed" and "minecraft:speed" spellings effects.yml can contain.
         NamespacedKey key = NamespacedKey.fromString(id);
-        if (key != null) {
-            PotionEffectType byKey = PotionEffectType.getByKey(key);
-            if (byKey != null) {
-                return byKey;
-            }
-        }
-        return PotionEffectType.getByName(id);
+        return key == null ? null : Registry.MOB_EFFECT.get(key);
     }
 
     private static int number(Object value, int fallback) {

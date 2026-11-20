@@ -57,20 +57,6 @@ final class EffectTimerBar {
         }
     }
 
-    void remove(Player player, CustomEffect effect) {
-        Map<CustomEffect, BossBar> owned = this.bars.get(player.getUniqueId());
-        if (owned == null) {
-            return;
-        }
-        BossBar bar = owned.remove(effect);
-        if (bar != null) {
-            player.hideBossBar(bar);
-        }
-        if (owned.isEmpty()) {
-            this.bars.remove(player.getUniqueId());
-        }
-    }
-
     void removeAll(Player player) {
         Map<CustomEffect, BossBar> owned = this.bars.remove(player.getUniqueId());
         if (owned == null) {

@@ -14,9 +14,9 @@ java {
 // needs no local jars. build.ps1 uses the same coordinates and downloads into libs/.
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
-    compileOnly("net.momirealms:craft-engine-core:26.8.2")
-    compileOnly("net.momirealms:craft-engine-bukkit:26.8.2")
-    compileOnly("net.momirealms:craft-engine-bukkit-proxy:26.8.2")
+    compileOnly("net.momirealms:craft-engine-core:26.9.1")
+    compileOnly("net.momirealms:craft-engine-bukkit:26.9.1")
+    compileOnly("net.momirealms:craft-engine-bukkit-proxy:26.9.1")
     compileOnly("dev.tako:papersdelight-api:4.0.0")
     compileOnly("com.google.guava:guava:33.4.0-jre")
     compileOnly("net.kyori:adventure-api:4.26.1")
